@@ -3,1666 +3,8352 @@
 # underlying `firmware/update.bash` script directly.
 
 {
-  "0.33.5" = "sha256-UijXLKIIpWV51F/UW6SQ1/yPzvT5ndWTzzym0VnuBQE=";
-  "0.33.4" = "sha256-JPazevmDHBP1WyvJdQ/dLTPRAl4VEqjjCrnlscNa5s0=";
-  "0.33.3" = "sha256-3otHYlL7IYS3VFd5/S/mBFUcZkT3Fvxo87l3VTDxbL0=";
-  "0.33.2" = "sha256-a4BHtrI9il42WzSPWFaG5uH0iz6tjmdVKtbUhZacrOw=";
-  "0.33.1" = "sha256-DddJ4geeIwEhsyCYXrYfu/SDA0V/X32RMAnSiRm/xKc=";
-  "0.33.0" = "sha256-Lkj5E0dklPwqJ3itXU1PQ1gkTfldK4LwD6P1d2CXgww=";
-  "0.32.16" = "sha256-reZB2yG+zmMziUUTWCAZtzltVW1ZwxmF2TrK5NcDBnk=";
-  "0.32.15" = "sha256-BYx3wgJe4dQh2MqUaAS90/b+O9pHs7SVjaa14VY2q54=";
-  "0.32.14" = "sha256-QkFZc6nCrcT8wL2GnE6wCV31C9T+bS3dyGbGvbsMVzk=";
-  "0.32.13" = "sha256-qim7VYSfJJVBCgEo0MN71I5GB7UuemVducZOuqwL3qE=";
-  "0.32.12" = "sha256-rcUxgboZugByBtLKGWTZrqWw1RIZio4316MYCFGFci0=";
-  "0.32.11" = "sha256-qZToDpe/3P4v00DFlLOHI3JrXxQJxlcYid9O+0VrQC4=";
-  "0.32.10" = "sha256-MRn6YaqqGyhVod7iOwG2/C2dQo2QurroqyrNIrRXPjg=";
-  "0.32.9" = "sha256-xuJbhqyrO8+DGWzzG1qLzByXQyHU7oB/6HW/sg7ZiZ4=";
-  "0.32.8" = "sha256-h1bJjB1kea7ZqKZ38gPHSrK8n7Q3NARN6QJEm5eL4Zw=";
-  "0.32.7" = "sha256-kpsYkcHAAcYeEHdjABakfXjwP4azPBi4pEkkI9q9jHo=";
-  "0.32.6" = "sha256-8BIo+UUeGXqLbV3s1UBB2SwcPLhJGCvHB/eU5GmQpCg=";
-  "0.32.5" = "sha256-3pd5AF+l3yJp7UenK6yEq8Os71D5LZUx43qIsL7/FBw=";
-  "0.32.4" = "sha256-U+1YaNXVCHQTFLS9YsPol6qDzw3hzaMTrpazHTB+7qk=";
-  "0.32.3" = "sha256-WmvoHXHkMuHosLvGHEhFD/ruG5MEkZepgyIMUDTq4Xc=";
-  "0.32.2" = "sha256-v/EPqMJQJ8y0GEcSjrvGeEwSYGFWuRI56P4wBdFvOfk=";
-  "0.32.1" = "sha256-UOn2g4OjkDZDY26RpoVB67PxWwf8yhjTFe7dYXrqCNo=";
-  "0.32.0" = "sha256-HPF/IrsTGZL+NweaacjldS4N9Bsy4UhDOBQppZiGPEU=";
-  "0.31.12" = "sha256-QAU/BPqfKQiMawjzOuxM4iwMlkWleADrJJNoCWPgejw=";
-  "0.31.11" = "sha256-S+XhWcWT6xNAGaJOCGnkBpVHnVYXa/b/gyZWHIJOn1s=";
-  "0.31.10" = "sha256-2Wx+QaonWz/6/BfMIGekxqik8EBrrmloZta5LLzuAtU=";
-  "0.31.9" = "sha256-MMTLYhdYr/Xf+EunEV7V54mfAqS9l6ojdfogO8tKjnI=";
-  "0.31.8" = "sha256-ufRJPVIppEAVj43UJtze6t1RJl9xq/U43eJ3FLYnMCc=";
-  "0.31.7" = "sha256-yRMh3XLOZrCV5P5nniNHcbqaK+BR2XFxQG+Ngb7Vnyw=";
-  "0.31.6" = "sha256-bhdKPMU/DdAPnASSp1yNJxf6D6MSXNcJXp5AykBSXlk=";
-  "0.31.5" = "sha256-iL0nJL8xcNmWIhZKbBW1Jf82dQhBKbcqG1oyg7pH98I=";
-  "0.31.4" = "sha256-Hny0zVetAN99aBp/1Dujx5HcsnVU1nnkYfCufugjEi4=";
-  "0.31.3" = "sha256-mF5FLW2Z7i8FS9+6zlrincruofqPwdL1AIK+hToTino=";
-  "0.31.2" = "sha256-3OoC+oebnlyQINwHQLSWt36gqsTGrGBNV3OKvEG2fho=";
-  "0.31.1" = "sha256-jibfaqh4uTx2sWyQ9V5qiUoe9B+8jK3g1WXNfs2xArg=";
-  "0.31.0" = "sha256-AldP6CbwDmoYh9vmRktm5NyXL9Ux3qKZRC/yKmioq5c=";
-  "0.30.15" = "sha256-BoUnqjRNLyFjyprQyC+D/9nsOe+6DsM6KMWOLFMxv2g=";
-  "0.30.14" = "sha256-QCGnOvahbM29bQz9K+uZ3JlfbQy7S7y0F2ODfu1EeYE=";
-  "0.30.13" = "sha256-qVIBcgjE8C0jeH2s/AIUh7SVRQzqo/SUYCN75V7Niyc=";
-  "0.30.12" = "sha256-awFWWNN8N/zFQSd0tCRjLyhC1SZj8dnhKDrNQAwqJyQ=";
-  "0.30.11" = "sha256-g9/gPfLHS1Pt6Jq9S9pa7/65b1tM4XyPRLrDlrgs9B4=";
-  "0.30.10" = "sha256-v2cjnwhyNBfPCY+UaG9F5VE2fQ5Vvtjrxm1/gVhKbnk=";
-  "0.30.9" = "sha256-pnDprDYZC8qq4SLCpDHhQz90Hg7QtZGu1/Byu0izwFo=";
-  "0.30.8" = "sha256-0UtX3V+vPDdQMp1ZxqwITltaoHuqJYqXt3Jx72OzAnY=";
-  "0.30.7" = "sha256-+6UBaqmIefs4UIAKvjkdJqZnqJ/AFckoN1GqvBDnrmM=";
-  "0.30.6" = "sha256-SsRHL4je3V1kg4dalnV3/+EwXt45vKkiiqr/yA6NBlc=";
-  "0.30.5" = "sha256-TdStj8Hf5seH/5SMDqG7B3JLXHCvlL58AJlRqydaNJ0=";
-  "0.30.4" = "sha256-UJm8zKUOsAUaEZTiC1+EVPJxcFqdTzRO+M8NO5JdBTA=";
-  "0.30.3" = "sha256-lM5B9xl7sSxGhI/fbS0ys22t5oVUp8aMLI4pzICEKHk=";
-  "0.30.2" = "sha256-Xhq5yfIzGZ8DJC5UD6+bMnJvRpX2gJuOMwwQYbVE0JY=";
-  "0.30.1" = "sha256-wxg2VO3Eq5NkyroJAJO251BYQaWxz2LzsrM4wrXK2Ig=";
-  "0.30.0" = "sha256-eLx4lKBwkABevHZYSf4P/rHg5+FLm7G/m3eW/dUWnKc=";
-  "0.29.12" = "sha256-1Ocu//oLEn/mZDvmiF45ZA40abHSwpXXYL+wBfxYs84=";
-  "0.29.11" = "sha256-R1WVPcsySmqwDAR6Ru3Hge2w9iRU7Hd5d+5NLJz4Icc=";
-  "0.29.10" = "sha256-qKiESjPkL6aiussjuPi7TxAr0v8AMEIjmpAqF0JlmPA=";
-  "0.29.9" = "sha256-ZLUDfExc7GwYS7CH37EENxruSPnmX8o041HTY41bZk4=";
-  "0.29.8" = "sha256-B/sssgr/U3h5Ti7wM7xUdHR5Co12JrlVmj/9VV2iWwQ=";
-  "0.29.7" = "sha256-WY8e3MeVSAlbckOxP/9CGF6Ez8sgEfFEkbzAH+oyrJ0=";
-  "0.29.6" = "sha256-QwRix2t6JyQJeDW9rgOG0JL241eDQAYMDtUrF1CN3nE=";
-  "0.29.5" = "sha256-suPdqV5p8NKwrituAsxFyC8RMnhSUl7YULZaUHWekl4=";
-  "0.29.4" = "sha256-21EhqwaweGy3wwTR3BoMN3IXYpogvltR25X4UtGN0SA=";
-  "0.29.3" = "sha256-13zLe5ON9vZYE/EZ1Pto86Isko0moL3ushwmHW9F6Ic=";
-  "0.29.2" = "sha256-PSfiAfdiljRIm9xfLg4g936RMK18adUeHsM2ywj+RlI=";
-  "0.29.1" = "sha256-N2JgQUTYgoBPSJzzuj2wlXjsV7T0VAJZrKoHfLQnmEY=";
-  "0.29.0" = "sha256-a4cI6jjoKz8fRR3egkso6xC+4wJDpyI6bCeNHvUzsIw=";
-  "0.28.10" = "sha256-JMvdyxqJNk+l9quEtQFz3kczi/hnJSy/a/fSkPG4WLQ=";
-  "0.28.9" = "sha256-MolMcMKSRWkwZXL9Zwp0/uQ7Wa8ROXDM5t43vmO1Hm0=";
-  "0.28.8" = "sha256-MfzrnbAxjlPQN+ANMJ3LSIXv6kMzu1SLcEpHSDfjlTw=";
-  "0.28.7" = "sha256-n1+jcG7woYmB8Gm5nxgfPtha130KJ1d/qYHSakA8nf8=";
-  "0.28.6" = "sha256-aADmfqspGYXaXZ4F6/c/l2hgoE2SgaAAz/zOfoFh+vQ=";
-  "0.28.5" = "sha256-pY8WFXGihltJrakjaQgePlDUlpJBsibjmxOhKLmFIbY=";
-  "0.28.4" = "sha256-Tf64Y7MI9678vJGU7B7pTj/IPklJXgViJd/UkPRAZK4=";
-  "0.28.3" = "sha256-LOL+DV+PGrG8SVmLvnNtfWvrJ8MPG4B0weIlN1y/9Eg=";
-  "0.28.2" = "sha256-Rwul37fGeK5F+VXNb+Bsa7kbTmbdOopoqV24bIXaZsg=";
-  "0.28.1" = "sha256-42PTAF8/scV+/luHKBHyOnY/2BbQnIbCUp2VtyPolfE=";
-  "0.28.0" = "sha256-ThFBLA1YlRmSVkOV3NW1YWF5NCsbWJRLfHQYIejiYGA=";
-  "0.27.13" = "sha256-rBQtn63ZOkn+UQJ8gB+6WE7O7J2EJpnyR2u4T2k9L+o=";
-  "0.27.12" = "sha256-Y5+EvgwqngyJ4tBMfX/3qWP3X3dfolpXBiRUAFJZ4sw=";
-  "0.27.11" = "sha256-Nqng/y6YVT5gbQ+q767klppCtTX8fgFCLvJAqXkQkpA=";
-  "0.27.10" = "sha256-CKcRWlOrXiLyosuSlE+snSTecU4KosZGMWY6FEFo050=";
-  "0.27.9" = "sha256-bxzjcUYvDMoY6WZSpOpq2dJKHW/KgdUhPmkLoBvvbVg=";
-  "0.27.8" = "sha256-XAnqH0Ja8uxDyx7PV2xtJa4KV0MMJo+PybySahoz1Xc=";
-  "0.27.7" = "sha256-67dGA8IDDRWi+F9m2BeeJZKqxLZKBnQcVuK/5AT6L7w=";
-  "0.27.6" = "sha256-jg9kXeCAX1kjFVOxx2Cv43674OGa2pE+czpL6C3QKNo=";
-  "0.27.5" = "sha256-fElJHNCuZd3ojtpSAY/BunW4Jq8A6M9d73bQagb6oD0=";
-  "0.27.4" = "sha256-P1EVHY/nIp0+m9AhwKMFnQ1n/5BOmNv9CUdkwNpKQx0=";
-  "0.27.3" = "sha256-ifiv5vd3ZyMidWMMIvCDOh4vM9AsnnHR29rj9D64PVk=";
-  "0.27.2" = "sha256-pIFyoPk4G3GBQWMEtoxVwTpe2BzDX8pQhi02LSyGI5g=";
-  "0.27.1" = "sha256-hM9aMVpyeTlgutYNM+o6ZwmoCRNK9fCDjsVvGjojN6k=";
-  "0.27.0" = "sha256-5Ok13U2H9Xu+PWx6dVKCPLa5/s7RY6NvwVLsLaqkxho=";
-  "0.26.11" = "sha256-RJ/ktMeDOuosJVPWiXVENfZAKgOJYIrSSTOLXBI4QdQ=";
-  "0.26.10" = "sha256-4DuP/zljO8LQRGId69NNvobyOuQ15PcgwQH7C3GDQo0=";
-  "0.26.9" = "sha256-BNvGF73L+nKk19PZcnb27IivxCYaSiUKX5xg+PbLE1s=";
-  "0.26.8" = "sha256-rZLZOsuidmNTUwwXXAVdKAgkRPdXlDy2DXFPJE8BXBs=";
-  "0.26.7" = "sha256-2a40vRHy2IkVoRbgaXfCLRcHd5Y+IszQ0xfunGovfmk=";
-  "0.26.6" = "sha256-mzkX1YF7MLrBpDhQV/0IlEyjcgaCkq8EaRDoBT97o8I=";
-  "0.26.5" = "sha256-9Gyjf0b5xNPrRKsn4m7z3tm5eA78dCM8kd2gWh2MhMM=";
-  "0.26.4" = "sha256-vfDX4c+eIwqFubdslGpUk0+/m4zdlMRu98DNetOtAmc=";
-  "0.26.3" = "sha256-pZWB6TD035gxf0hSYsgmdAYPsmy8b8JoKSPoqs0bOns=";
-  "0.26.2" = "sha256-PvlhOP+M5cw23J2otmv288DEucDybzR3pZcOI2jyq28=";
-  "0.26.1" = "sha256-Tk8m/rnlLns04R/+IZ8KmkmQEzfTyP8AIwW5a5gZrCc=";
-  "0.26.0" = "sha256-TfsLZ/xMUfL/B457YqXfVDhbixJoxnkIFoH6bpqam94=";
-  "0.25.22" = "sha256-btjuOReSobvV+KDuQldFzNKPYryp1+QeOGljHD0lFW0=";
-  "0.25.21" = "sha256-aw3aN0hkgnb5J0bQgqx2vH3IlLaEqpWv5HK2kfL6+A8=";
-  "0.25.20" = "sha256-iEFTueWYvE86j9gTiKARvk6dNVAEb1XIQ5DcZQTxYtY=";
-  "0.25.19" = "sha256-DRUH5RwMYVZaW47mpoD6die9UiS+v+5HuXvu0r+wLdM=";
-  "0.25.18" = "sha256-+YCXvlke/wIBQdlXPSMuSKFrpgigfIfDgcAre+JYVIQ=";
-  "0.25.17" = "sha256-MY2vmMQKfqIQubC2QeAPIxS41e6dN4Gt8kyEIrY8SI0=";
-  "0.25.16" = "sha256-sRRoF2D8wGMzlwjacOnQy7BOdl6+EZlTGZU+aVLyrDk=";
-  "0.25.15" = "sha256-aRkNRTOF0FKKl8RHkcCBGuL43MWlJbv0SgDSwG4qoCo=";
-  "0.25.14" = "sha256-9DTsydnnbPqGOJof5sNs5LufqD4Io9fYmbxPeCiUv2w=";
-  "0.25.13" = "sha256-Nen6vR0NrX8EFyEGXSgHWZmqiZx7kRaeJoOw6JZaepM=";
-  "0.25.12" = "sha256-Yak3bsoeJ6mrNVtWM2owYVv/1edJsQ4stslck+PVQlk=";
-  "0.25.11" = "sha256-Z6w9pi0amXwfHbPLjstBTu6UoKz6JV/ZEEJYa4VVGfw=";
-  "0.25.10" = "sha256-h0WVEQjXsap+vs5s9ufeJ9fbg86aIspgUvY6EnjSumM=";
-  "0.25.9" = "sha256-M0kLGbte1wq5teD56IFd8uWCIvpra8dz2b0bjxlTzx0=";
-  "0.25.8" = "sha256-sb69476GT09CEVB7hpU/eaUBOi8rvq6l1nZUIOX6IFs=";
-  "0.25.7" = "sha256-vQxFs3f4jAzmr+LwrGEOsDC0LLuPpkVuDQwZPwORTHU=";
-  "0.25.6" = "sha256-N/sGC1WJBKVKwTNqZ0UvkTzJCBjgr8cZwc2xI71JSl8=";
-  "0.25.5" = "sha256-oG6FJWqpyH8kKLyW242fW5AxuDCORrWF5MBNo9dpRJI=";
-  "0.25.4" = "sha256-NHUzTP/R12/SNworWsFsnkvc0MVvnj2k+Kj3vSudyKw=";
-  "0.25.3" = "sha256-3cx/UNWgGvG1yVXJt62qx4zD4ZYXhMTu472iWjApw8o=";
-  "0.25.2" = "sha256-Iiem93jLcCmI71IRiU3ZjJYAGFXv/cSfg458JscpdHU=";
-  "0.25.1" = "sha256-sMhdhULZVvgiMpI933vgRCqtrj9fnedzb8/LRwN8RjE=";
-  "0.25.0" = "sha256-1NZDZTZA7ccjksuPVGylmEZW4ynVV0iN0yuR5PLEhdY=";
-  "0.24.11" = "sha256-6GfwVnHkUARwUXdWAY1ZhI+e3joSLirnVfrCJbHveZg=";
-  "0.24.10" = "sha256-D7WMAjgQq2ZjPYo4dYBLfhPXzR7uyqXHEx3UZb8IzDg=";
-  "0.24.9" = "sha256-Aw+PLmU2Fc9w7HlmZIrUkkI4BHQx+Dbs6LxrOA695ZA=";
-  "0.24.8" = "sha256-DRHPfJXF1KF1+EwkbeGhqhVrpfp21JY2spOZxesZFbA=";
-  "0.24.7" = "sha256-Kq75bzyefx+WyTJkxn7tejhWezp8TUus8QFSnXAbxwo=";
-  "0.24.6" = "sha256-eGiO0ckGfaguwOw/B8YOO2iPeS2+xC1MDGFLuvblLPw=";
-  "0.24.5" = "sha256-CzsuaWnLhMy4j6rV9nJ1+mZy7NX2j0rxbx4A6npCjcs=";
-  "0.24.4" = "sha256-xnmVkXd3wrGDv0ZUQas1dmS07hFSPSHA5vymaPebGVc=";
-  "0.24.3" = "sha256-QBUCwZ9romHW0v1+Ysc7E7zxU2V8B30qhqNnvjCQxvA=";
-  "0.24.2" = "sha256-hkZ5hj/W32si0kRAe0zkSsGAJMVrgjf/Fu/ikPPwa8I=";
-  "0.24.1" = "sha256-tnGVE9zcruBcjmN1XL3Spn8ief7Ym4QgU7/DFk7Irfs=";
-  "0.24.0" = "sha256-R7ThQepgZtmhMYfP0tYghVen2EYaTdOH6fRwf+Wp/So=";
-  "0.23.9" = "sha256-I1Hw+Lw7fRByDiiA+SWXGZHiuNBe9ohe2Y8EfkxsYus=";
-  "0.23.8" = "sha256-y1V2DMIcMrAdWgpZ/6duVPb9FEkY4+kPalkApAzTrJQ=";
-  "0.23.7" = "sha256-KwVQVxNC8dTTeRmycWfENGZtnqt0n8sY0O2LGLlwFsk=";
-  "0.23.6" = "sha256-TTFD3S7o9XDvajDjtVTxl4C5CShiGB1S36f2tP0YL9A=";
-  "0.23.5" = "sha256-w2u2+S+1+RVM0ygF65UOX+JP+BmomkC7tcDx0cebVKY=";
-  "0.23.4" = "sha256-soAYGoGG4gJ6UpdA3ORP6z3pNvKwJG3nEm8Z97xysJc=";
-  "0.23.3" = "sha256-V7FxFj+t7QmjUCn4J+hhgtGGQ3+URw68pQ9Caj+wH/k=";
-  "0.23.2" = "sha256-fFPStF4ck+0eFc1vi7jimzpZrhJk0VCj82I5u+vjaME=";
-  "0.23.1" = "sha256-qIC87D2YdI2TV5rDRc22a3M7sJMP+qs4QFMHhJXGs2M=";
-  "0.23.0" = "sha256-+aJg3CkZERTDNIr+Qk11uttQTgvqOpk7veRfwd3gD94=";
-  "0.22.14" = "sha256-0xezGGrzu6UlKFLsAIBBCzkXehKTPsAtymcZa0y6u2Y=";
-  "0.22.13" = "sha256-Ox+0/50i/3zdTqkjAdFW/9YqE1ygJBGovPG7IGf8kFg=";
-  "0.22.12" = "sha256-DuvAekRMkDTxwqTrfXD+AEUyVnXnvtm+urS6iNZYM1M=";
-  "0.22.11" = "sha256-onjWUIwQ2knXxUBdDxUdBrEWxjzrDG94IBHWaOPzdkI=";
-  "0.22.10" = "sha256-GHkcOulb0jM2y5DkOU4izEdQvzyv9uFa93kPWfxVUvc=";
-  "0.22.9" = "sha256-Jx7P2nU2losdWjvYrtvU8im+e9h6rjAED3wkHLnPJpE=";
-  "0.22.8" = "sha256-rU0MvIE4VTVS8HE+vsWS7VeK/briO4g7aX86OCV/pIA=";
-  "0.22.7" = "sha256-ptP1oQj9/eXmv9KWs5ptIRdYJj9T68ClmxrF1hC0pvo=";
-  "0.22.6" = "sha256-bHVbNWpw/qREcSB9GHhoH3BvtKJJbz5Zx+UMyeRq4WE=";
-  "0.22.5" = "sha256-X9d2OSeK09RVHZbjxvfFfrd1N2TxXogFUcDn2ORX888=";
-  "0.22.4" = "sha256-0Qr4G93UUVDpPXXhz47izRPw1tluHinVVheYMvbRRkU=";
-  "0.22.3" = "sha256-wFTmGBGr49M6iHKnJYX7DTA42Yu0KGOJR/Hz47D0I2A=";
-  "0.22.2" = "sha256-gXUWp8VUeZaWKUMm1tHn01aLQlkVBvZLPYPgZtxfPXM=";
-  "0.22.1" = "sha256-K7AV8LSZ+wwPz2QQcL1BZs7lrl+5Fb3oqIFaQNqt3D0=";
-  "0.22.0" = "sha256-E2JcU5kntz5EgN2TeVwECxA6HFn2qh7SdQavWzXZcVI=";
-  "0.21.7" = "sha256-ERztAcjD1QiuD6m7L89JoD8MjR7JaaVs80ZTDp4rZw8=";
-  "0.21.6" = "sha256-AXkssn617lPHbuVccqJBbjZY8iQ6NoM/EFHfhPch308=";
-  "0.21.5" = "sha256-sRyD2brDL4IwV7dEq++MzMcvbiczKCtLsd3tR/la4t8=";
-  "0.21.4" = "sha256-Y39TYsiV4CwaA1xyqm9His5OdBcHFmDY1Q0e47qEobM=";
-  "0.21.3" = "sha256-jSNgGg84BRhedYscJlmUtNTSFT21/Gv4ZUrknqhm96A=";
-  "0.21.2" = "sha256-teJeBddPav58gAVXtwkvTCbttOrFCL9Aeg/2Q4JHyNM=";
-  "0.21.1" = "sha256-flR3sjynN25pkGGlxY7pCjYzSP/+civbXNiQtuZi7xM=";
-  "0.21.0" = "sha256-FjYOtJq4VUpmZlW39JH962q/5IQz4njN9uLlPmOUvaw=";
-  "0.20.8" = "sha256-bFG05uJqesMGQ/xOJkbfwOHvgWJIMLGdnlzm4Wy/tQo=";
-  "0.20.7" = "sha256-S6EuLiMbJp7sgAVGV0M9DuinuVLwQ9hStjlA5w9VxOo=";
-  "0.20.6" = "sha256-7cablEU1fDrzjJ2qPzgcdwRuB3AwD5hbJrUlPALmvqE=";
-  "0.20.5" = "sha256-RMWNStAmi/++GGwQOGNzKj4u0bYCCZQ2Lc+ismox0FE=";
-  "0.20.4" = "sha256-xqRiZo8xxQGu7jlqnvvOm+IWIbJ7FvTmdMof9vEVut0=";
-  "0.20.3" = "sha256-Iy44QYmtvEdniiei2e8DrlLg+8GqfR59T4Xn8/JW3NA=";
-  "0.20.2" = "sha256-uI4qCqcvTsSLkEs4IgkgiNyRLUzCs7MYjgZDOM5ceZU=";
-  "0.20.1" = "sha256-jqxFg3SRqtNMlQ8b4JefMurWUvHyNh0eOLrAQtrBeqQ=";
-  "0.20.0" = "sha256-6lb+E5RHsvVsSKzuFp3KZ4Dk8k3dNoACHd7iVpXChEY=";
-  "0.19.12" = "sha256-ZRzUPu50SSMUiYWz9nEaiizvFn/x0rMkTLJBeubWdwY=";
-  "0.19.11" = "sha256-ODFE0dtB0sDVxb6JWKS7IdXxk+f1Nb515YBnUB/FvlM=";
-  "0.19.10" = "sha256-BoeBX00JHX+Vf7d0PtA0G2cilh57Mg3um2PbBSmdUic=";
-  "0.19.9" = "sha256-VsyBcx4GT3G/k42A1hzInXYGfAkVOV2Ph6N7jchuGag=";
-  "0.19.8" = "sha256-PJ0wPFI8Th6U/8uVqZuTsxDY8ll/0mvGEdb2ntuW9CA=";
-  "0.19.7" = "sha256-kdY1H0KSzu+QAoiFv6CrTGqvFMgMjN1lFLxQQGfZ1pg=";
-  "0.19.6" = "sha256-6kkMmjDIxiJSFg9lzWESC7Y8g1/zhGjBQQ+MIE0jeP4=";
-  "0.19.5" = "sha256-L4H5Q12FXHeQ+7voJZQReF9yljDm6y5dii35LhDYHgA=";
-  "0.19.4" = "sha256-lLUADA+/+9NUDfFQthJq2SvXu8/kF0ArqjOrKH/ucz0=";
-  "0.19.3" = "sha256-5e+qYOgU5xWduEeEGsGC15M0GgEtjNHjbM3UmO36S6g=";
-  "0.19.2" = "sha256-YLiUV47kDr9uHrIhnNopj67TG2ws41x64lXIkZXtBtM=";
-  "0.19.1" = "sha256-fCnXX1cTweIGC6I+Z/v63hGGhOPGGSeKtItYf1bHo/E=";
-  "0.19.0" = "sha256-RBMCT10jHlJk7lADuyYwvmwMxAUWK4SsJoLrdaS/Lzk=";
-  "0.18.17" = "sha256-VyifdLwBT337HgRlU7wba7+a5m0HalutWDhVF4zL6dM=";
-  "0.18.16" = "sha256-f+IHgUQANDMK0CykfgQ6E2QCB3ZB80RMrlQwhZjwr18=";
-  "0.18.15" = "sha256-QGCXih94W5ijawtMC5Wy74b82Y0Mad6d61AhRMrfJLo=";
-  "0.18.14" = "sha256-IXL2cicQmlk4WRoxXI0x0zJdlKVFXfibxQ5d38Wtge4=";
-  "0.18.13" = "sha256-eK+IV2TDalcbzN5kHThunwBqRZXecGBrg3Je5TAoKEs=";
-  "0.18.12" = "sha256-COzORoCk18+o9Lo+vD+0S2BY8/t+MzlISGppT2yH9Mo=";
-  "0.18.11" = "sha256-+/rzzJ28G1oYBoTB7HhFEqGUIooq7GfU/sTm/iJmvR8=";
-  "0.18.10" = "sha256-IVobzEVkiUgNxaGVYKW8MRap/ZmewYh+9/AOCNFtkKg=";
-  "0.18.9" = "sha256-BgpUPSb/xUnR1g1c9q3df79bb2v6DfEqVi4Hr2pM3iI=";
-  "0.18.8" = "sha256-o/4JCJszWsavj5YpvyNaBIKPWxJZjD+lEJ25u1NO9w8=";
-  "0.18.7" = "sha256-m2rAuDNP6VQW3RBSPKZkuXSAV0+gb5MyFvqkge8adEM=";
-  "0.18.6" = "sha256-EeLVz+2LPDvq6w86DFvDb6K0o1hiRzrtHqTQnKNMf6k=";
-  "0.18.5" = "sha256-SOmy86uRuMqgNrrEcokE6Xw8fsnlDlcatejIpmRfaiI=";
-  "0.18.4" = "sha256-bXlLRqG1b8LWXfAk1Wsk4Qj7Dn7GlBOCjEHEtxR38pw=";
-  "0.18.3" = "sha256-xJOTNJmUeETHlX+NmYB3qZ1GIDOfFNHHIbdSJfsKgwA=";
-  "0.18.2" = "sha256-tqdtQJyoiVQvqTqHlx9p/XSpuCuTAp3rHYyZVbeKAxo=";
-  "0.18.1" = "sha256-Oukq9mzdJ7Gx/wDmh5kP5z3+VPld+pmP/YmAijLhN6s=";
-  "0.18.0" = "sha256-XGgeyVDz+3DWM80R6yadYjkYBu0MWFY+J5ieeNznpjg=";
-  "0.17.9" = "sha256-Xcl4j34LVPtYnL+MY075daYWaFiuvzo/McN1uRb3ZLo=";
-  "0.17.8" = "sha256-gUU2DMEqeC998OLvAEqibQmMR5s8EbDVTSlGkBk8kZ8=";
-  "0.17.7" = "sha256-++xxbkPMKk4MIkiO1HUuDQyy2xZRYiGgynCoW0gCTaE=";
-  "0.17.6" = "sha256-Xq3IkLOb43egYGdo3T502wBMezOnGqHTwGOAG1vVURk=";
-  "0.17.5" = "sha256-eHbNCdKSyfKwoJ/AmfgLKKPCi8093feO75qCkDP1/YA=";
-  "0.17.4" = "sha256-4Uk65KZyCouT9ECw7W7eRIgGN1Af3v2SQS/hPtNpQUk=";
-  "0.17.3" = "sha256-78Xe/Q3J9ovT5/WvxnTzZXxuBWTtDnUmu6hbcTiHS3c=";
-  "0.17.2" = "sha256-i3fFQnmWn5lfKTrBOH2DIOBAqsCrxXqltivyNrnrm7w=";
-  "0.17.1" = "sha256-7VBGzpr5l8OCf7E68PJXHAu4QOcq6zIB7vGznbwbddk=";
-  "0.17.0" = "sha256-Koatn3uEFNp5wnoF7HqyUTyItH2gsHfu3hropOB8z9g=";
-  "0.16.9" = "sha256-gnQ/hehxPiYujakJWZynAJ7plJiDciAG3NAy0Xl18/A=";
-  "0.16.8" = "sha256-iqtt0dU0eXnn/ZCVbPmiZnvJ6J0OmzluFJ5wDVrwy/k=";
-  "0.16.7" = "sha256-+DDdt9fUgmnWfH7g/gbdyPJ2+12BZo8Yry4uS6aSR3M=";
-  "0.16.6" = "sha256-lN1R0X6B5adeFZK0UE6KB2duGADvALF35StjjAbLoDU=";
-  "0.16.5" = "sha256-TfIrImk67VqqSqjv+4w7Q609Xeu/6PRaiu7zq6lQEcQ=";
-  "0.16.4" = "sha256-RI7SciX5GzvBDBUd5GJU2I+zF6SzazXRDfL1C6nJoSQ=";
-  "0.16.3" = "sha256-96Ja5UL0GXo8GVzZwHaGjtED7MCxT5ddyHvehjJ043w=";
-  "0.16.2" = "sha256-4s9ytFfIXIKl+W563VUX+QeHtAnQzFxFc2Ir6lm2J+E=";
-  "0.16.1" = "sha256-utD32ErTXtvl5zf737K0zrwMGFHeLLu7MJt6MKLQQoY=";
-  "0.16.0" = "sha256-BRATcOSCfE1SRYdHYK4+EqfgvXJiqVVOj1IhAfjorNU=";
-  "0.15.25" = "sha256-NtI/tyyXZR6C5a9X5QY0YtzQuzLjhXgbzPItVtwQsTM=";
-  "0.15.24" = "sha256-ZlzsmEi7t/ip9fVPRw6ZAnpd05uau5Y1xom7FLBUWQ4=";
-  "0.15.23" = "sha256-A+x5+XOMsz/Q0V7vYMosnjUpTtSl6s9E1A88uZITcrM=";
-  "0.15.22" = "sha256-8A6mE/rOIHqJzikzS+tZwlbpMcCAstLxB9iOSbPVESs=";
-  "0.15.21" = "sha256-4PDCX/poMOdOE09T5YiWndJs7eDJrYXwnNnJ68rAzng=";
-  "0.15.20" = "sha256-RZYfYSIq5fxPC9CIlXRrPbRkXre0kR5hTLZMhS29dXM=";
-  "0.15.19" = "sha256-Fui+bdX0P+vsxFJJvMfV6yXRecdV+znU2Exw9WZRzXk=";
-  "0.15.18" = "sha256-Z31Z76pJ+X2kEGjqm/MFeQkejvNZivNrl0dXwmgwbFw=";
-  "0.15.17" = "sha256-pV2huKyjtYi3QFxCHac0OC4nf83kvD0WnJ5QY9XG/eQ=";
-  "0.15.16" = "sha256-mX3EDEQp7e7pKoRPLKwejCMHXS0tdvc+zL6Oa47vph0=";
-  "0.15.15" = "sha256-bPmTCeBfg9nAxFRM87nZoEQoYqiumwj2DjocHG6Q+JI=";
-  "0.15.14" = "sha256-bSXdB7J0XvmetRNZVpe298vR0q2KF8uzGQxyCqa4XIg=";
-  "0.15.13" = "sha256-992AUDZq32KzGCOD2QwJsh+yxlgez3jrLp+oGW7RfeY=";
-  "0.15.12" = "sha256-au93MgJ6KkowjpSbfVarbjfQJIHzIbaJac3JqPeM5PE=";
-  "0.15.11" = "sha256-us+/2pq9opSsm5/Rab/1sSCxzYJvrJRVjQoIzL4/W+8=";
-  "0.15.10" = "sha256-5loCMS7v9FsjKijwN7pDLx0Ge4mV3H1eeUVJDNX24P4=";
-  "0.15.9" = "sha256-LSmX2xPSjK/vU1aRMuhRjSdfbGd4H0CXaEnSvUMKfkg=";
-  "0.15.8" = "sha256-QhjJa3imPERY2tMdu5v4UjE0O/NUEwxhrAsz1GJcHDY=";
-  "0.15.7" = "sha256-SxNPSDXaVa93F62FX1cQr6l2zbBhzC/c89VDtWg0stc=";
-  "0.15.6" = "sha256-R0gSJkH1PNDwu1r7gYnQaWrY2FRGs3H9+NCQs3xGS6M=";
-  "0.15.5" = "sha256-BGukp/GGkGb1xBq/s5FJ0VpsOe45gwu8MeAOfKWurFw=";
-  "0.15.4" = "sha256-4E1bBO1RO+iGgDVrUPcWUMgztrDq3aVOqS3Nt/+R6CI=";
-  "0.15.3" = "sha256-AQfndphvMDE983ynPe5iNyuwNx6de9Y8HHzwu+t10Rw=";
-  "0.15.2" = "sha256-9ktqpDSJNgwJNeZDT0auUzM3VjLaS4UJSNop6dwsfEI=";
-  "0.15.1" = "sha256-MvqXVr3Fdu+evknPQyruDrQ2xWlogLccqxnS5yJidos=";
-  "0.15.0" = "sha256-RRT2hSOrgWjzVDb5or/HRfF7FOkQOK7ISKfuxFsKPzU=";
-  "0.14.33" = "sha256-RRT2hSOrgWjzVDb5or/HRfF7FOkQOK7ISKfuxFsKPzU=";
-  "0.14.32" = "sha256-RXHShIYGe/PwBMQkdMcDKX1bBknuPKB0SbcNrFw19pc=";
-  "0.14.31" = "sha256-k7d4Oal0Sh2gB8RyUiowf9YR45xzlgAzS+lk2P/92dQ=";
-  "0.14.30" = "sha256-Zvb80TmfGRKoYVdaZClHgHv402hBDCHrPG6lpgwVuRY=";
-  "0.14.29" = "sha256-jz6iNGc872EOpRdplk7H+Qavi8kZdjyMidKUrUw9fVg=";
-  "0.14.28" = "sha256-3bqhgZbhRkXKQp7vQWJ7RUF+lurM7kcwSXvFFb3vDK8=";
-  "0.14.27" = "sha256-/R170hjpculiLWRdueuqYliXzfg2ryanOvJYz592UPw=";
-  "0.14.26" = "sha256-mkAsBR5CnPejtEEPFsXgXRSIulOBDAarrZtlDSFvuPw=";
-  "0.14.25" = "sha256-N/gJG8xSp2uwB1qwh+RG4r69k4T5BufuAZzM9yJoUyk=";
-  "0.14.24" = "sha256-Zy/W07uNehfN0hF1rn1hryz7BjZhWVbBDvmbpZsBrwE=";
-  "0.14.23" = "sha256-RjwBTjhuBnp6ZAU50ZU3xOOBo1vhHAgTwEnsaaJXFBE=";
-  "0.14.22" = "sha256-d76VLSNSLEPHJSdi0j6kjuJS9CN7o0y2hPFmUfXVhlg=";
-  "0.14.21" = "sha256-iLLNf7rwp+LDw6bdBF0xxsJcD5ud9INGX3o85PJd23g=";
-  "0.14.20" = "sha256-FMH0TMISNheqVMzsw67NEBEmfpBK6qKCoxeQYOICIpA=";
-  "0.14.19" = "sha256-1Tri6wZ4MPZ96aRb1SAkHAEoU4ZvfZQZphmpEZU/7HI=";
-  "0.14.18" = "sha256-CgPmsIOXQvpDzRc61H78/7onG18NOk0oddVrJeqCbqs=";
-  "0.14.17" = "sha256-HViIiCx+5eYLP0A9vZfbGXue175cC28q9jpjSCwLjDM=";
-  "0.14.16" = "sha256-DE6CNaG5w/CRFOnIFJUaWX+bHd3I9ebwNpFjxoT8UvA=";
-  "0.14.15" = "sha256-qyirWKxmEqxBAhCgmn4G76MeIDgZUD2iQpUCwUrHYBc=";
-  "0.14.14" = "sha256-2PreKluvfdhQQ8wEe8+8S02PGlJQbhJ8TUWgZpkRun4=";
-  "0.14.13" = "sha256-Z3HnveDH/QkmDhshx3MDmdYMzI1k/2wbz+Zl4jRPMfg=";
-  "0.14.12" = "sha256-tO+g9AwCujoy2+t2YnYKe/jq0R2l/yrvUlVtDzrsvZI=";
-  "0.14.11" = "sha256-JsjjzHdSVt6hSUnGqIGOBvbiVz6I2cYBgE4/EUf3ZD0=";
-  "0.14.10" = "sha256-pKe6ACgocyXJBL+a1Vte4qZ2iZgwDZW4w3/yYcxi6iI=";
-  "0.14.9" = "sha256-W25Odt7JcMsv48tZpASU9Iuu7hTiyr0p3bYjUqkq1UA=";
-  "0.14.8" = "sha256-jsvcUK+OPfhisN2AShDH5Tlnx874EUk4TfWmo+dzDAM=";
-  "0.14.7" = "sha256-/0mzQPma0Hu/pDFDY+rLVv/PwJQ1WgbsIk7UEQ0k40Q=";
-  "0.14.6" = "sha256-zXlbwruGO4LbWNKaTQOg72WVZNNj93yvS/KPUjfTIAg=";
-  "0.14.5" = "sha256-VvnZbepvz6dcRtSwCfPVRzxMI6m2UCB+UjDO7GPiKMQ=";
-  "0.14.4" = "sha256-rZHAHcP7vrCCNYX71w4dNZVMorP5bytVdk/tB5VBDrM=";
-  "0.14.3" = "sha256-mOkib9KkJwQQFQ46vthSgJpxKi4X+dUtI1DDj4Scon8=";
-  "0.14.2" = "sha256-A0DjDaBOg7UmTKP1C/xP5ZB3xuWTPGVVWI/+YKHtza8=";
-  "0.14.1" = "sha256-LEGIUEoQWX7ULLn+qrADESxKLJIsXBIl/YX9USoIaOo=";
-  "0.14.0" = "sha256-+ArZgW5fECveagF38Yls8zz/grrY9zlLly5pjhAW44M=";
-  "0.13.38" = "sha256-us+W8+7NcGFsxY/4CTNHSbub8is2Rg3okls6eldJY/g=";
-  "0.13.37" = "sha256-oUKhmnemVcQAXP2lapc2FpJP6jDVjIqJljUWkmuk/xw=";
-  "0.13.36" = "sha256-lPLgA5j2NN6hovPtKtYgkonYMrDD7LZO9b7gwNhJHbc=";
-  "0.13.35" = "sha256-nfh5J0DfjpAQybKPGaF40sU/5hgk6tq0UR+yXhLzpRw=";
-  "0.13.34" = "sha256-Bqu+m32/EbTgDqcAmyBv1GF3MgTUWaqz3gaIQAobOD4=";
-  "0.13.33" = "sha256-yaQJ1M9m5mNexX3mpaQm93COZm5Xm5X79D1YKcjEaTc=";
-  "0.13.32" = "sha256-/DUplacN6encJGTqgGiQszKcGnsVp5Yi8ADv6fQZ6+w=";
-  "0.13.31" = "sha256-pqOlmmr98bZ1y6gBX7oQyutKPEJRpFoPSiZVN/mQCEY=";
-  "0.13.30" = "sha256-tgJCBZBxt3GM9B7XInWn/KBGIzYYN0MFGcbCy8lPBpU=";
-  "0.13.29" = "sha256-L9e7Sr6sBhSvhIcuemzfmQ30u6056vfJTOs5+KGFhyk=";
-  "0.13.28" = "sha256-fN7dAY2QWh+YY6vTI6zw+LJ50w11ev+5Le7zK9OOElI=";
-  "0.13.27" = "sha256-ps116NVW/FnKqbdJwo2rIr6/EQ483b7OroKzYV6aYm0=";
-  "0.13.26" = "sha256-NhR3DKIeIfWVzNWuBkYQBh1PI5ptT22eBxiBl7EIgzM=";
-  "0.13.25" = "sha256-LiKMZzmRCaKhdlu6GX9YKWkgs0x3pUBAChfgrECQsSw=";
-  "0.13.24" = "sha256-gjeqkV+6jGqNUXy9cFEQpFWSwD9ydz1I1QTzj5ciOCo=";
-  "0.13.23" = "sha256-Rvjim/4F23pWRivdsbs80wL8cWg2y9PsT0Mheh3ulHY=";
-  "0.13.22" = "sha256-8hkk72S5Brkm5/G/YAlimQSUk8NVnheicvBqgSGtCwI=";
-  "0.13.21" = "sha256-VPyqgXmRPbHocvsHtd6oEr94+gUAd20ySdpszDp0GPk=";
-  "0.13.20" = "sha256-bCA58qWaL01EQActPsd+NCYVOgq0VqX7t8/JRlQcSFs=";
-  "0.13.19" = "sha256-aucdXzgaYnMhGBy8IByNV6I7tctHdYnbHlmlNr2Xd2o=";
-  "0.13.18" = "sha256-p+5/Y7VAI9sctJ+oPAxUvfz+gEq30MxuuiWpVD8ghBE=";
-  "0.13.17" = "sha256-vPBg7367TU/eJsuh6nafsPo6ytj089pgHjMT15F6fWY=";
-  "0.13.16" = "sha256-tAZ4Ex4/yKi14iXqoWX17XTCW4fk60uWbkMhVFnc7YQ=";
-  "0.13.15" = "sha256-5LWcYDJ0g59iWkjKxs0ZBItqpMry+i+HgaeUxkRiub0=";
-  "0.13.14" = "sha256-4igXnnm05+i0nXKcDKosq3r4rVUqlFam24sPNl5RaIw=";
-  "0.13.13" = "sha256-IxVGYwB1Cyjv4WooU0rc40EzQJsJ5BUNPCqChYj6q5M=";
-  "0.13.12" = "sha256-U7RprKLdmXuBJ7Ws1wPkW4s3rV0XPJSBZFeLSwpOhAQ=";
-  "0.13.11" = "sha256-XLu6oO/RkhX1qtPQULuDCaYgtkQH3AjM7qeEtDY8SCI=";
-  "0.13.10" = "sha256-6ZzPq7a9ZO2DXtMTc2BMoh6n/xB+8q9paljne0NTHWk=";
-  "0.13.9" = "sha256-hRF7PqcwnDz/0qghpLlCAlGFSdbb6XcGRMXuYzbqN+0=";
-  "0.13.8" = "sha256-xRvpRlGtzOZif3dEv49/Y2pMnZ1TJYuxIDQdreDmVq8=";
-  "0.13.7" = "sha256-iMNfOzIvV201IVclQQ3TER41eYzBc2zbsRq5IjkebB8=";
-  "0.13.6" = "sha256-5amA/CIXBwzrpOcr2pOun6DnO5QgJ0E1Hvf7WUZdrvQ=";
-  "0.13.5" = "sha256-0mbieyne0dEL2JBhNm4vEyZqHrAzspdmwvOI9rSK74Q=";
-  "0.13.4" = "sha256-u0Wax1dE4hrGiQL/tzh/7HlAw7FOIiNSsnRVKsEqFv4=";
-  "0.13.3" = "sha256-8BFddaY7JC3ZXD2hTVCSQrGM1OJNZEQuZo7speYp7/o=";
-  "0.13.2" = "sha256-f9ujxYzVX4cWDLRCmDjOs6Udf1P4j3uLUUsrPeVANzo=";
-  "0.13.1" = "sha256-wKKl4eJqz50tmT42rQp/JWL9WAgTN7/95nNyo9aw3Ys=";
-  "0.13.0" = "sha256-2X5jbj1Fl7oT9eZb+VLnkgRb3kFGLdp9I7Fzrp7qCgI=";
-  "0.12.52" = "sha256-2X5jbj1Fl7oT9eZb+VLnkgRb3kFGLdp9I7Fzrp7qCgI=";
-  "0.12.51" = "sha256-uEvUP6Tx8nGSSxdBQs1qWnrFEskqhNiJ+FBOT9Vfa9Q=";
-  "0.12.50" = "sha256-UquJXqEo69Wk5ZUm1Ml86tHppTgKPAFFT4Pobl282Mk=";
-  "0.12.49" = "sha256-t+XPxe8k+uHyj92lcz7u1YXGapos6t9hVp0NJ1gUVHM=";
-  "0.12.48" = "sha256-zQqdnrA7UmRxuR+swXxqsJM0+Q5pP2A8vGoziWlhHgo=";
-  "0.12.47" = "sha256-4DcOh6MHaSG52A0doYpWGajfwZbEoh/NxGnGQSGWqCI=";
-  "0.12.46" = "sha256-wilXQsxlNsH6D8UXasNelvJNLeVvhVrchPQeHXXD/8I=";
-  "0.12.45" = "sha256-dibCV1ksYQMKlwFbj04nCDrOTvTgGeOUsCowj7kLsVA=";
-  "0.12.44" = "sha256-rRJehqzSawpZYk5XGRhHShooEoZVTMwvwnRweUjEQ1U=";
-  "0.12.43" = "sha256-AY/nqU+eVZaOC8Oy7e2Dv2Jir4Yw1KGQ3uzRPVWrxK0=";
-  "0.12.42" = "sha256-nPq/MBLlZ0NNbbqjLFUdlRG8Q12z4gzCIo9JpdC+Ido=";
-  "0.12.41" = "sha256-VnojBV65vi9S+1nEtwqOpO35wq5bqxbN9Z8v43xSAYQ=";
-  "0.12.40" = "sha256-xiDUSqsVUR2r4/YgbWRhJ/3VLmSPRkZETDL0M5nBSM0=";
-  "0.12.39" = "sha256-z6Aj4K/DZySFxsx9OIZ7TuripzzdPAgA4H0hPQJCH8U=";
-  "0.12.38" = "sha256-tzRfTglqhdTb8ZdSCbM4Q47oq9wJ7C+8q/w8MynQWrI=";
-  "0.12.37" = "sha256-Vm0ZCEMf34pOlgHfX2tcjFa8akRxArNtU+G3l1sL7Os=";
-  "0.12.36" = "sha256-cwSMf2EZNxWyWsiJaWReIgRV9S8QL5o1dkbKIwxdLBE=";
-  "0.12.35" = "sha256-Q3Y2U21RYLJqrsmlNXOKASBglB+uzsmpu2u8m+q9hwg=";
-  "0.12.34" = "sha256-sQFgHNIbsqfREBKqZ6sz7bLPImzdHuGA25KGanr2kf0=";
-  "0.12.33" = "sha256-PXvfM1M/TIBi+JUs8c4lKKILNNeAlbgUPYIcMn/tGx0=";
-  "0.12.32" = "sha256-MnBdULY+H9SwEYPwJyGQh/b/j7M4pHfR7U54xwwcBSU=";
-  "0.12.31" = "sha256-jp9cVJZEZd5lsK0YQHBXFdzzvde+sSB1I/oBPLQwvFI=";
-  "0.12.30" = "sha256-Dtz3rI07P9+TQOcEg2h6Zv1rZt+gbRSltDg2tMKyVYo=";
-  "0.12.29" = "sha256-eTR2UPL1RUA75c4XOmuQwV/NjlhoW/5CF14SxXC59oE=";
-  "0.12.28" = "sha256-gqxSF6Yz+xdjyT/n8bRB/duIQpLngf2XyXU4tVLbldk=";
-  "0.12.27" = "sha256-9xqpg9I7bvVzb6VmtCO4l6Y18eIpBa99oF9fgoFqgjo=";
-  "0.12.26" = "sha256-JM7qrLmdZ04PYsyunObgajp0yFn0D9uib0vhSaZQl7U=";
-  "0.12.25" = "sha256-xndApIn3brkGGLUmpr9Sf3tIEJ5GEQzwTp1b/ULLKH4=";
-  "0.12.24" = "sha256-oRF4S1MMV8nALrUNguhJj7hSq6GyyGauNANQUggrHHY=";
-  "0.12.23" = "sha256-qRuvQgQU0ByD2F9RCgsU+tK4VJ072zfV72t86DWR0jE=";
-  "0.12.22" = "sha256-JvXno+4F7xge7GC5x8LeXr2q71YPebbTMOPW4lctSHU=";
-  "0.12.21" = "sha256-yMGrFtIs+Oo7Sb2FzDR4K01sbd2RbhRlGIg0n2lm4Iw=";
-  "0.12.20" = "sha256-sDuOl/NLQhb0NMONLw4S47psdXzwU+LxWOWVrl9qfro=";
-  "0.12.19" = "sha256-rc2QI4DhxVUW1aMHSZ3aYR+hkyhuZet3Bz+/+dGWnow=";
-  "0.12.18" = "sha256-70TwEWOZRTJi7qa1JgAmpDw5eU5nLXXthUe5NCJT4G4=";
-  "0.12.17" = "sha256-/TJASD6X2ZVsQ9CcXCcfjanfsUAxUIt3wKMp24B7RMU=";
-  "0.12.16" = "sha256-PTKaO9EfHD5oxyMc1wIE4NAT71Gkb58mar2V0g5g+sE=";
-  "0.12.15" = "sha256-NcKboiipLrOf1txhISyPNJwZ0aln+DQDFomDyjTzpis=";
-  "0.12.14" = "sha256-Xaachrt4yUCz/zQaL4nGgqoI7C873wcWKgQNJhx6f68=";
-  "0.12.13" = "sha256-Wf7ELuM1ubpkEaE2H8zCx3Xp1azTnBmaMzKXdQkVjhE=";
-  "0.12.12" = "sha256-OgTm/d3EOHRQIPFJerSACgN1sCyj+2XjBJWDD9SLbtU=";
-  "0.12.11" = "sha256-D1D0Kcrh6L2O5KJ7UHdRTtzaPX4atb9i2maLrUyLCw4=";
-  "0.12.10" = "sha256-VAIDXadgq2ubNmOBrrBWEznzAfI09/SxuYy8Lbiosbw=";
-  "0.12.9" = "sha256-bZaJp0TUBfdFttW3vj/iIB3JlahzEnkvMnGIYraAyMw=";
-  "0.12.8" = "sha256-NeBPPCNlfgGEUhRJ6cMUaj0Glyn9Qge341YXjzgitAY=";
-  "0.12.7" = "sha256-jCRLkzRCff2j8KIH3fjRVlH80qDjrce6P8r+AtQikcw=";
-  "0.12.6" = "sha256-3foXZzs4qvvPQ8n9Sru7Ub6d+fZ530cur19kWKBrosw=";
-  "0.12.5" = "sha256-tQqKauXHjVl2Vu96hAsY/+yV4l3fKdvmD1253la8YFY=";
-  "0.12.4" = "sha256-xvdQEts7K7GSTSGhjLDkFRLvWjjJgKdfxGniphcWVGw=";
-  "0.12.3" = "sha256-LCK5Kh/kBQiIBCLteSNXY8RwNm/NDKXMdFWIuHhfg1Q=";
-  "0.12.2" = "sha256-jLvPi8YolhhBdLJABBj/kAR1pJqCKGOKeJMDmQGXIV4=";
-  "0.12.1" = "sha256-ayxNE6vDWlTzg/jWtac8j+47I9ldVNWJ4hIvbFfT32k=";
-  "0.12.0" = "sha256-ayxNE6vDWlTzg/jWtac8j+47I9ldVNWJ4hIvbFfT32k=";
-  "0.11.70" = "sha256-ayxNE6vDWlTzg/jWtac8j+47I9ldVNWJ4hIvbFfT32k=";
-  "0.11.69" = "sha256-ZfMHNoB95rGWAL+leZH5xRAC5Qq9n7XdbxngmRMKgDA=";
-  "0.11.68" = "sha256-UuaMzdojfZiXSrUA0K9TDFEGcz083UFj4XIPQ1f/Dko=";
-  "0.11.67" = "sha256-GKDDaK6D/OdtX2mHpSCT90ntl1WfjhoRdVHI/JqXwNQ=";
-  "0.11.66" = "sha256-F8lA7SCNCNfZh5jbx1EF49jrr/T59wzBCeSfhhzsDxI=";
-  "0.11.65" = "sha256-eqWxi3rJn+djsX990QLX64f5yQTlwgzwsGT2Qzh2jI4=";
-  "0.11.64" = "sha256-PHn+sCo6c3C1BkyLqO5i1xGPBN9bUoEwfgWJGvwRFXo=";
-  "0.11.63" = "sha256-tK/0FYSyQt4E/RBkeJeBKEDbSiVkgIS4eZHTbOOPOX0=";
-  "0.11.62" = "sha256-WSccb1awcSWZj8LE3/azvQRau2Wyo78qbD/Fi1AoZlI=";
-  "0.11.61" = "sha256-SKCMtjkGj+ExB9eG/d1VEG1+O2RBfH0ruxQmmrZxSic=";
-  "0.11.60" = "sha256-Q+ADMAy3ww08WbHVSj5O7jYBSFf1w/N7PfOpuKBqCNM=";
-  "0.11.59" = "sha256-UNQ0gRk6vtrIbOhjRA/7DENDcB2DaLrgKC7rSwbuCfY=";
-  "0.11.58" = "sha256-pqR4xvN70dCS81N4XYPgwmKX1tfR4jwZ8rC4/znTXkg=";
-  "0.11.57" = "sha256-985Fi968cYjQiUgdKJp68bmlRPIjaLbPsS7pUWhORbg=";
-  "0.11.56" = "sha256-gYxNAXt/q5NXmp+41298vF/HiMbm4EFzzF5QeXe1s8Q=";
-  "0.11.55" = "sha256-+drfLWRQr2drZtpRf71cDl3qTicsE965W6ERICGbgEA=";
-  "0.11.54" = "sha256-GFU4EcVf0E/Si8gB1xIDrhBkDzr/SbJTB5rZ1BBcrtU=";
-  "0.11.53" = "sha256-QPpYPHEzUejizQaCw5gXEv4TqOmLDP0xigJklPOvswU=";
-  "0.11.52" = "sha256-OmUy8bEfPJ8Hq1HhhqqNIbZPKUlmcStE2T47Yhsr/EM=";
-  "0.11.51" = "sha256-YJJ5avvynOzo0m9eyKPSWdHQMkCDp3Q8A7TbYIjy3Cw=";
-  "0.11.50" = "sha256-45Pgu/Q9hi4PExw9XjgnemfERa8X3n6DbUd5MWUMGWY=";
-  "0.11.49" = "sha256-E/oe5u6F9pxvavRLlrXmr9kCc6pSdSmQgtg4a3wbIuA=";
-  "0.11.48" = "sha256-NyeFfdUwyKdOXa1O9Ufv4S3+L6YIq0A1uPnjtTIP1H8=";
-  "0.11.47" = "sha256-FQUIjMoYKwgrMYSAvFk/+djYPsgLjhgM24zJqxZunHw=";
-  "0.11.46" = "sha256-wzstxutBNCqTfhR58XXcv7aGBBiRf3OUZIOBg+IEtUg=";
-  "0.11.45" = "sha256-JMN+83nWq4YcOA2lHzm9qZGhtc3pCQ78BwK+pqYuiWM=";
-  "0.11.44" = "sha256-ZBvLn/SLA881JjGyEjtTranoeHLzzOaH9z4WbYGDaUY=";
-  "0.11.43" = "sha256-TaMV0KaxqEKzT2noQrHeZgVpb/hNzFkaBI199fRQP5E=";
-  "0.11.42" = "sha256-KBhmQHClcs/50vpjrMBeYtQuGeXOnm061l4/1lC88o8=";
-  "0.11.41" = "sha256-aLgTiwMeggil7uFZCSmOEA80Piwrbxd1ZFmFBrzdMIw=";
-  "0.11.40" = "sha256-REJyyREcp9w+je0uuogAgZRubRwq7u1vZi1315CBqJU=";
-  "0.11.39" = "sha256-RSwv+sS5YC7vIFkVz3atCHYTi4iJHJgYYyJtF4GBenk=";
-  "0.11.38" = "sha256-kvz76euDX32wnIie6shNkyI9A/cuM25nTqH+cl0LIng=";
-  "0.11.37" = "sha256-uZg/z1ksGXi9QiA4JP/s6hngOiEY5d5UCF0nyEnqncc=";
-  "0.11.36" = "sha256-gVSGs4LDZ4T7JQUs2pIuOlnfa6RvN4i6CVJv1EVtBuk=";
-  "0.11.35" = "sha256-3bDBDUqMG0SP7xEh+qXRZR+Vj6e3/bCzi/a3FlQ9Yw4=";
-  "0.11.34" = "sha256-zV9sHof8K4Q854IInkuUGuvgEIMC7XCDKm/o7S2NSdo=";
-  "0.11.33" = "sha256-YICRcr/DJy1bXhewEWjM6Ui+WNjUvFsSTJIloMuVMwA=";
-  "0.11.32" = "sha256-t03kLL+2iUFXKQ9yfOTGKzAc/HWLqFVEqcREr/1PRrA=";
-  "0.11.31" = "sha256-sOFxQVznX8znCqVH4QzEmQwsFQa/o/5E5KX5e0TOjog=";
-  "0.11.30" = "sha256-EYFclaoBgmERosxqiAYCcBoYs8HqBNypVyp13Wbf6/M=";
-  "0.11.29" = "sha256-7t6Dd0TwgW06ATwhZWDc6KHuivrm0qjwy2v0p1nGhEs=";
-  "0.11.28" = "sha256-9gSaUP8y7MO9EcXgNlxjLPjNLnBnzGXN93DbqiYrCG0=";
-  "0.11.27" = "sha256-PhOEhzMmrWRpCyPerxQAsP7Zeb/+NmqD6sxex26Bxgg=";
-  "0.11.26" = "sha256-0H+2+8gJ+cKunFX2SPLhpLcO+H6dzPk6PZ3yy9b98fQ=";
-  "0.11.25" = "sha256-6q/ucyM8RRxsOCyxmaewqKcJqYaQthdavifHMi9UN/8=";
-  "0.11.24" = "sha256-nuK4nZMdSAYqSRoroo0+2msO+0My7Vfe9jCpR3Oo8+w=";
-  "0.11.23" = "sha256-QaD0R4b166lST3S9wUJf3qJVsr8xZxii3K70r7Rh4zY=";
-  "0.11.22" = "sha256-LL4Tmob0hPlz1zxjpkD/9XKLX51YyQMqIcYYGrh5KbE=";
-  "0.11.21" = "sha256-FISCpeV7gUIG7CLOWvhW7SZUeGmb1tfhqnxnzAZA/Gs=";
-  "0.11.20" = "sha256-KIzKrQwHsOSfVBRmrtJv5YwHDjanv2fhf8McvLYJpDA=";
-  "0.11.19" = "sha256-uX0XfRk1vwZvPC3m2C0Wal7AzNSGNmI7dVUrHg/EUOk=";
-  "0.11.18" = "sha256-FDjRoAW78WN/RyxXGAmzamwYeP+jJ1+ErWM2zuWoZ+k=";
-  "0.11.17" = "sha256-h7p25uRl8dhw3A+RFPf5y2htIH2W/3p9PEFTbhH3NB8=";
-  "0.11.16" = "sha256-fJwqfQ9OJnls4eRTDKy6xJhdSc9s4lRlRXHI5vRXBXc=";
-  "0.11.15" = "sha256-cf0PgtOpnU1Vtu+kmqB8l9P8PQH7SQxQfuk3sv4jIac=";
-  "0.11.14" = "sha256-LAGeQvXAfMroVaNpxaew+v2aWqIZ22OrhJhAWY9qvNc=";
-  "0.11.13" = "sha256-aV0bXORLsfZsmbR6/oxX5qxhGYOWSNILIGlC8/WxmhA=";
-  "0.11.12" = "sha256-LCUxtsEYQvA+JpU7dKKM1H1KMhBudG+ShSCKTlZ3Ejo=";
-  "0.11.11" = "sha256-kMmNw7zBfM5cGOolf9+l2wzVRndnbqy5dP/vNOxHrEg=";
-  "0.11.10" = "sha256-MYyzKHNzQ4XyGyvmfaA00DXBr+nXmRmric20kRM+2Pc=";
-  "0.11.9" = "sha256-Xa2h+hxe8/1DeU6GZQ74V7/U10d7MSzCpkR5oRFPvrk=";
-  "0.11.8" = "sha256-6SAXaiqarmrjJVpYerGogQxP/CoZQkd5WWpc2iC7R4s=";
-  "0.11.7" = "sha256-Q7tW6owa6fVxjbMw6SBUox+5XVnUHHYERGh/I9++KBM=";
-  "0.11.6" = "sha256-CeFWTnJRwNMS9SCK7ZKxl3TWZN+QTO8w4cbshtFVmQw=";
-  "0.11.5" = "sha256-NkZsHsJFrKolQiHbRPvVeSmm7CLGdBXYKsG7GUPr/z8=";
-  "0.11.4" = "sha256-5+okOIamDJUJTFtiSC3RGNJOU/ZWhAI9X769ORtiYl4=";
-  "0.11.3" = "sha256-TZX+4cAq5sjn8gBnjUhjq78//Uow67FXxtPW34MIltA=";
-  "0.11.2" = "sha256-tx276gf3a2zmvb7fESHpyUk8aMkB4HEoWi8cCDmvptQ=";
-  "0.11.1" = "sha256-tx276gf3a2zmvb7fESHpyUk8aMkB4HEoWi8cCDmvptQ=";
-  "0.11.0" = "sha256-+g54OV9OGdcmd6UVcy6lEv7CJKW+9oO7OgS4E/j/iLc=";
-  "0.10.54" = "sha256-mVUeyVbn134q+y4KCsZ8+n4KMZLb9BT9k1+zm7+Z0cA=";
-  "0.10.53" = "sha256-5hfkUtG0h2nRJC6ocEwRdbH670trFaZgMzogqzv6G4Q=";
-  "0.10.52" = "sha256-CF4O3ForNAKXMQ90p92gNNHP8rNu9FlWeiL+73BhH14=";
-  "0.10.51" = "sha256-5rBGucr1ZEBquZAT1Nm3sQqM96BWv3aNHJ5qaoWpk2E=";
-  "0.10.50" = "sha256-jWds+T8ipxuRdCow1BaxblGqxoRwlzTS+K6I7jHcWZg=";
-  "0.10.49" = "sha256-gFVJ2HL/huwn253T8R0kYCBah3LbGLFJKwbLZJhymGE=";
-  "0.10.48" = "sha256-HWQBAd8lBQqOM2uYKKGDzLPlDZ8nWvo+uu8O1rrO1DM=";
-  "0.10.47" = "sha256-nwK62ydZB2+4gYUFDWyVxzPUzW2mogA/i7U+zlCy7PQ=";
-  "0.10.46" = "sha256-NSnVaj56xmAYQrH15KomM+e2BlHj2q+W0FFAQg24sbQ=";
-  "0.10.45" = "sha256-joukyX6a2NjLoHRgnYPy4QSFaSATfLDFgwq6MPeN7i4=";
-  "0.10.44" = "sha256-qdQPYHNaIFJA/RvV6F+pzrhTQA2OhshF0ji7d4ZjgMw=";
-  "0.10.43" = "sha256-PQ8968OGa0p5e+o41KEMY8So6KPVg2YmjEus4sl3sHw=";
-  "0.10.42" = "sha256-9ODSZvxFaNAamr8NO4WvPpSoCaFldeNWhSEHAqI/Iv8=";
-  "0.10.41" = "sha256-Zocbrm4EZDtRcYQ5qS0on3wRPln0KHBKpGnC4B3lLzQ=";
-  "0.10.40" = "sha256-QfNWh5Nnvb1niAVwg8l9mrrX92Wc8J0VBEedhbZzj4I=";
-  "0.10.39" = "sha256-PyyRjhs1Y1H0EemaOVGEmB2ZaoWZl5L0Vv9NxkhB7aI=";
-  "0.10.38" = "sha256-Pm05A/Pvw+FRtguuCtpf5KFftrVoKNAYk6keZTei4C4=";
-  "0.10.37" = "sha256-Pm05A/Pvw+FRtguuCtpf5KFftrVoKNAYk6keZTei4C4=";
-  "0.10.36" = "sha256-SQwHrpQMAAkfYizsX9bV65siM2U2P2Mn8IM+0PXOnV8=";
-  "0.10.35" = "sha256-F8W42W+4G2l5HIEMSBYNsvC/qTIwRCR0yEHqLlLWgso=";
-  "0.10.34" = "sha256-F8W42W+4G2l5HIEMSBYNsvC/qTIwRCR0yEHqLlLWgso=";
-  "0.10.33" = "sha256-s2jCYdfRFLaSzruSuTEBI6LcrB2P1ciRPznOTM7SgB0=";
-  "0.10.32" = "sha256-SlF6avZbRAIVuN1oXx/pi4g9P/CLtLNUUymOdVMyn5Y=";
-  "0.10.31" = "sha256-4e1UhBY8D0HsBLldv5IXjCQ+qWWH+yvidjRm/NaLNCY=";
-  "0.10.30" = "sha256-swuJ9za2Srwpy2moAyI0KavYpuclYp09EWPbiciyZ4c=";
-  "0.10.29" = "sha256-TU9XxM/OYvNn0j/JFOrs4VgPc6Eeiy7MDcXTL9v8dDM=";
-  "0.10.28" = "sha256-ZKKM2nPFs/nwm6Jb4vpN5mNF3qYUlTNXXtu0V3W6bCY=";
-  "0.10.27" = "sha256-krHjyPqluZOZPzaHkIuQr6PvCH4PZj+KIt/AyQ0tEIM=";
-  "0.10.26" = "sha256-rROz1vbnQwkouaH08FGicx4VBMmmS+fOCmFfC5+vKVY=";
-  "0.10.25" = "sha256-6cEmi9tJv5a/PbN/sOpmkFUNCvjXy/sHBIDydSYiL80=";
-  "0.10.24" = "sha256-ISbTkeM8bu46yhITZxiyON0z8Xe/EJRBu4YAhQQXb9g=";
-  "0.10.23" = "sha256-LfDDFpnB+/ajw+MDbiKfsPJuwMWOsVGVHuFMUtSEZFw=";
-  "0.10.22" = "sha256-5OAMn2k17EdJeH7nD6sRb08CEzhWnFVCj0jXdgulkUo=";
-  "0.10.21" = "sha256-YvibvwEV6v8su5IQh8mNyT5hR9uWQVuSpQBJXDDhXyg=";
-  "0.10.20" = "sha256-EjhU07ehEpZxuBnJVmOX13snVJj1SPZpjjFPy6SgFD8=";
-  "0.10.19" = "sha256-hxlCQJ09/yVHMbMz/cxvIc469uBqF8xNXLWZdsMASCU=";
-  "0.10.18" = "sha256-FWhRc9jIlZ1aeZa0fc6wE9jGvDUQhxrCYvUVaIViHTg=";
-  "0.10.17" = "sha256-CWDGucX3aekcUhe2kpnMEERlx45vFkic8EhRG+62CoY=";
-  "0.10.16" = "sha256-Sdod0seGWfgweqXZiGz/49QOBeAsnOD9dEazsC+iisE=";
-  "0.10.15" = "sha256-c4rHZ1wnYf6f2seG2rkJS9khLRE9NvfFtZJWJUjkDJs=";
-  "0.10.14" = "sha256-LkCii9dUg/T8F0hEnjuiIcloaezvYWLJjLjud9dapYg=";
-  "0.10.13" = "sha256-DWzFjWjXHdcadTeaSiqmHUhYK2tSnWQPdMhoaEvy9ig=";
-  "0.10.12" = "sha256-NqNUmfUngx7ZnHwktVKzvfEvt99Naj46zGjR64C/4+I=";
-  "0.10.11" = "sha256-qCiBPS0tNK8zBuVyEE2kpNXtoxh/rAgBnEOv/o1VTbE=";
-  "0.10.10" = "sha256-5CCuueTgWtezR7P3rtGGJNblMhuhZKHw2MlfeAyv+0E=";
-  "0.10.9" = "sha256-0kJE5yUc1HcF/xdUSpp8CVoMGQMZDrT8/joi0n1qtww=";
-  "0.10.8" = "sha256-zcyvk/hAnuj+hI5/KNiIuaOv41LtbNRnuXPu7AK0cVY=";
-  "0.10.7" = "sha256-YAtq7XyGqKnh03Ju48CKKDXvogjW/Z+vvXXfo+1Qw9Q=";
-  "0.10.6" = "sha256-x2Zr/769IDTb9Z3tgJU/Gu5zOsgdGtGZywOpdruIEc4=";
-  "0.10.5" = "sha256-mUqM1C3Hayg8H77smH+Kc+myBPUIkgwYsCV02xzG02s=";
-  "0.10.4" = "sha256-ULSXHkwTDoNIfmqf29L5XM4s+0CTJouSLf84wlDahV0=";
-  "0.10.3" = "sha256-ljJZykXb+R5Mt2yPw0Mrj0JhBCePlCqCbJdz+gPFyec=";
-  "0.10.2" = "sha256-hkvbMMmrlQyDqXQpYJssZxSKoIhXjvdryyL1de0JQS8=";
-  "0.10.1" = "sha256-0NW4aXaRxV/yYkwAUEYpNGKcDMx54HKu//TMEZCqElI=";
-  "0.10.0" = "sha256-h/RIEo+3sTooIA+gApmgWC+y5pdi/xLjJ4+ZayGZ1iM=";
-  "0.9.59" = "sha256-mdjINEw9BjM+Me5gqn0KdmrHGLkJZ9RHYgSOeJ0owFg=";
-  "0.9.58" = "sha256-DBSxot1DzCdfezFvl8pB6ja/InTUX/tXLLu4sqNGurM=";
-  "0.9.57" = "sha256-s8SBN1a304lSy0w6q2n6nwDhTdy3C3qskdnP3NFbrg8=";
-  "0.9.56" = "sha256-KmQh2I3s0XKJl2UTBn3dhoC0eEvcvkIrRg1AuLzmGGY=";
-  "0.9.55" = "sha256-A/HoEk5J93S6/Fwad89d3h4KVGdaA0/S2Rad0gX4vkI=";
-  "0.9.54" = "sha256-pyPnDL4r0uy8b1G9mhImg6RDhfrUBa98/yYlYFbz/jA=";
-  "0.9.53" = "sha256-kr4CgqB5Rkpt0oNy5Ho7ZjO8u86ujlFe3YmIfdemXrk=";
-  "0.9.52" = "sha256-7uVHNckNZhxNscTrhXKxo2YvY+RCP2KzgLOJEKJl65k=";
-  "0.9.51" = "sha256-20MkQDUAAPUZytwCFwkgkt5+DZqAP5z4yMGVpwvca7o=";
-  "0.9.50" = "sha256-WQqlrZg77rEQPVbL1ua6eDhhqLAyOZ+mVj7oBPZwD+4=";
-  "0.9.49" = "sha256-D3U0wA+khiFwJHQLfYWW+KclgCaqoJimH39t6jmXBX0=";
-  "0.9.48" = "sha256-GpNK5RBhIHjDAIExdj9JhfNEY3MzC57Znnxd+o1QAHE=";
-  "0.9.47" = "sha256-pXYderPHpyIgKdOd7Y/EzDJfNj2ZFYcRo587eLFEGb4=";
-  "0.9.46" = "sha256-at9lovUwhSVePxYTigUp2NmdKxnJmoMVNIxngS0wNsQ=";
-  "0.9.45" = "sha256-a9WlZXErSxrrQvMtaBzrIuIQxvKj0prpSE7TXMk3F1Q=";
-  "0.9.44" = "sha256-F68BJnXK9EjwKWRV+0aCJHQqY0RyAO7eG2GETCKdsgQ=";
-  "0.9.43" = "sha256-ykLr+g80vgUU7NAviuoqWoHa8pRJpPs2E67mq+sHhwM=";
-  "0.9.42" = "sha256-UdH+EULs/Va+2QpcQhqnmy5y0bbbmvhFY5mvqQupri4=";
-  "0.9.41" = "sha256-0fNXJSxRn6t6NAKEYYcoFaPSkSZOd4FbeLftkk3MLck=";
-  "0.9.40" = "sha256-ctwliUUDz38EEMTKKVEjzrl8olBYMom13PnZhUWt754=";
-  "0.9.39" = "sha256-ctwliUUDz38EEMTKKVEjzrl8olBYMom13PnZhUWt754=";
-  "0.9.38" = "sha256-lwyEbGJzKF05AE097PUTE/QPegzHmf2ZTd00IEI2aPc=";
-  "0.9.37" = "sha256-XiqRIQnE5WAAgGczJejF3IBG8Ad0YsnFN1QrkqK4n8I=";
-  "0.9.36" = "sha256-OZopEsfD57u8k1q49OXImvKxdxN3TFQRyAq/XbuKt94=";
-  "0.9.35" = "sha256-1PJ65PYMqPLoTFISl5X9u4Weij4ltqzr7aw897xsjoc=";
-  "0.9.34" = "sha256-/2Dl4sxsPgC8qPmKxiwBAFDN7AAwmt6IOHN37UCexW4=";
-  "0.9.33" = "sha256-w3ir6ITc/T9tmZt0RnX+W3Xa21VNEkFeDEyCd0Mq2t8=";
-  "0.9.32" = "sha256-9jal4WLwoMujNizK/KOFXvtlZ/8pUxG8SkW6cog0kAA=";
-  "0.9.31" = "sha256-qM8xNVofs2EDwvysaBawVb35cA/XFrntkOemFPL1Nr0=";
-  "0.9.30" = "sha256-ezbWLzX+tv9ygk4FILMMMtLvu+xA00XZBw9hmNhvxVA=";
-  "0.9.29" = "sha256-pT9KOlpVCDP8Sbyz2w98yOFD+zTkzK4qHxUxlmpLLFw=";
-  "0.9.28" = "sha256-tI5KgR6gn1K9ilUiGObby6del5nQ4s1E/dyv7Mr9C9c=";
-  "0.9.27" = "sha256-f7WOQik74s3ev+nCQCHUdCdefsGkBUpCRFvpc1M0txQ=";
-  "0.9.26" = "sha256-mlXqc0ybxDlkPG3f+SvFaL38Jn8eOhoP/jxgKmzfKwE=";
-  "0.9.25" = "sha256-JFeQVgRrmrXCJAWIVWYVu9I3IRaapGl1iXw7Fbgbrj0=";
-  "0.9.24" = "sha256-Q0A0FtO3rWSqQ0l8hwRudR0Vv4FcIUpMcZ76Rexwclo=";
-  "0.9.23" = "sha256-Lfqv7yB20vBdVDKEE8hM5Cd40ANc1SVeWIB3CukKvf4=";
-  "0.9.22" = "sha256-tc7jbZkiJSu2KDeUrnlwAShU7c5xqT8YW2u7/sG/plQ=";
-  "0.9.21" = "sha256-fITaAZflrvWU5svetgu8oczi+bmzm/W38z2PJ5OEfqc=";
-  "0.9.20" = "sha256-z+kk9cUTPfb/wtiL59oVVZWITo8jlYpztkrC+cocz2Q=";
-  "0.9.19" = "sha256-VxZRTGUPhpciCcGsPCFTkuL3xHPjQVGYqAMAC8vjb4Y=";
-  "0.9.18" = "sha256-3DPg8zxzU70TqH+gJxMVklhOEfPfv1iRpf88wcsvLzU=";
-  "0.9.17" = "sha256-+SxD7K0C/6PbAC6vwWYHxQMSKv0hEx6otIj/D8VtbcU=";
-  "0.9.16" = "sha256-0p939hKHgZZIOmtfRsG9rTUqROqEZhb84jwXzck6nd4=";
-  "0.9.15" = "sha256-nzB6Mz9yixKRT7HsN8Q+Hcf2IGUPyZydKrJ5VlyQGhA=";
-  "0.9.14" = "sha256-zTCjIydPBk6hSjGWq+/8sNWarQfH5+ifTiaGefbAzi8=";
-  "0.9.13" = "sha256-3R0Y5eZcZFBWYlIfl90ZGJonhoN8G8KjczcLgAJd9hQ=";
-  "0.9.12" = "sha256-2lMGtMXTK9Jf87hDv+c5suiIlmoRH2xDXjIoyPXntrg=";
-  "0.9.11" = "sha256-F98w61kRP+XhVrZk9H0js5KUUwCoYkV3PTkgsBFCIkI=";
-  "0.9.10" = "sha256-onU/ip1kdW61f/B5XYvn0R4I2WXQykNv/6DqUnkQO8E=";
-  "0.9.9" = "sha256-0RH9KqIueOfKV6ObAMtGEN/RyV2KB917yZCRWMm2hco=";
-  "0.9.8" = "sha256-siG2rTybnOEGDmuPF/ChMjLNDqJbgt71/bWGokSmvQM=";
-  "0.9.7" = "sha256-wPYKh39wYLbwcph3HqmR3m8Ez9uUCXqFhLbTyBor+6c=";
-  "0.9.6" = "sha256-y/0hTyIEQQDSDyeH7Gt797N+GyMyMKkxtgYes2uYMSQ=";
-  "0.9.5" = "sha256-ttzTnxQ/Q557nzyHHbQw0bKSiNSBGMcAwJ4+OgbeQng=";
-  "0.9.4" = "sha256-v5YNx1wzmXSGC5u7zNugKeT29N+jTHmL6txqs3nfMls=";
-  "0.9.3" = "sha256-VT1P08xCM0cDduMzkFm1lT7eetA5qENcvYQ4itKptB8=";
-  "0.9.2" = "sha256-iU8t6qqto94mGTJqCXKa/0A4dxfJBfeiW9kNim3Yif0=";
-  "0.9.1" = "sha256-URBw7D04znHRPcoOV1pHIjhzae/GQQLiLftkXkp8spw=";
-  "0.9.0" = "sha256-ksRVWh3dnuV/JOehCy4Nq10lkGtN2RUyoJvWcyYEJMA=";
-  "0.8.192" = "sha256-tpzyGT33W4LXP4A2xkPO4dHpbdyzlcuAmgudFomMt6c=";
-  "0.8.191" = "sha256-TZxX1Ul3Gvk58QFNz4NOwEvKSjTfW+EuATENO3JeRmE=";
-  "0.8.190" = "sha256-yOoDQO0DvBZr//4dstrHn3oPwUv6FvkrVjh3qnU0y10=";
-  "0.8.189" = "sha256-rdLixJJXGgS+oDufiq+VAsFIwpOMa05nWlv40eokRYc=";
-  "0.8.188" = "sha256-0Gv0yh4niGQJCb7RBayehZpqEqyRuJ++YGUBVE0uvtE=";
-  "0.8.187" = "sha256-XN2m7SLT4Rx+95xNvK7iKwGxPBE3+yBlUva2d3PKrns=";
-  "0.8.186" = "sha256-OXQgAG1FO5752hBO7BIyjtsf9+3wU7JMEvOg2L+EPpM=";
-  "0.8.185" = "sha256-Psif/Q21s6fjRYfnbswGlXqhzvygP9LGQHAvKk1diTA=";
-  "0.8.184" = "sha256-8GN/RQ/e3OO2RdDGVr+S82kmTbLrTL/2xEDBriZJXj8=";
-  "0.8.183" = "sha256-8GN/RQ/e3OO2RdDGVr+S82kmTbLrTL/2xEDBriZJXj8=";
-  "0.8.182" = "sha256-2XHUhUW9/CIIRzN0LI2oCmCTp8hHjt1ld5uJ5yiKx6w=";
-  "0.8.181" = "sha256-O5EkRCtoXhrag5cxyIDEHrun9jN8DXv7RznP+VSfQEs=";
-  "0.8.180" = "sha256-bJc34ggsOqEUNY0StwDNdDfmyW4D/gxbNjC2gm7Yu0c=";
-  "0.8.179" = "sha256-wEq6Pv59fqwCxZ9032TKfojl0n6i8iWfbpwOSVKOyXY=";
-  "0.8.178" = "sha256-Hvjf1EgyPcp0mtd7VpdGKvgx/e1kBgj8IzRskx/cds4=";
-  "0.8.177" = "sha256-jexmz9K55pUvUNdBdHorQGt0C9utt67fjjVDmndzZ/4=";
-  "0.8.176" = "sha256-gqmdPRKS++wYtM/d9cj2gDlxg/CPhVfMpIGZVRc3YMQ=";
-  "0.8.175" = "sha256-gqmdPRKS++wYtM/d9cj2gDlxg/CPhVfMpIGZVRc3YMQ=";
-  "0.8.174" = "sha256-Kfwc7W3xtDh0Q1cPD+uEXib66a9OlBFApjH8UPyToY0=";
-  "0.8.173" = "sha256-M/ZzMa4vbawhDwIuU2JvS1zCjODjxxZnbgY+mdpVO58=";
-  "0.8.172" = "sha256-lHE0qojmJi1wPcrTNU42MENZ1Q0zn0DM7F2ZEWWCyT0=";
-  "0.8.171" = "sha256-Q3Cp+LDNZ0bcCShqdWGnwVL1n+aSpGne3y8EUnMzMEI=";
-  "0.8.170" = "sha256-J3tZDk55bDLeGjHKF7Bp9XD4LiAd0gM6HKRYC/Wnsdg=";
-  "0.8.169" = "sha256-HQXwQM1DWrBe7rcCqdPFB6e8+0IpOH8RHzhutkqhy0w=";
-  "0.8.168" = "sha256-J3tZDk55bDLeGjHKF7Bp9XD4LiAd0gM6HKRYC/Wnsdg=";
-  "0.8.167" = "sha256-f5hmdWA8diu48aT/BP/CSXxmOr/IT3NGdu8bKAyxPoM=";
-  "0.8.166" = "sha256-eMAOc8IXSyKyn4zOWyFg91cLTHQSpCYKA5rVmEl2ejA=";
-  "0.8.165" = "sha256-XA1OTgHTyGAWILVynCny5WnQ1bup4m7RY1cHj7SQw2A=";
-  "0.8.164" = "sha256-YgNVh1wbPD/Sxg3kEiK+PKpvo7ONWIcZyxpbOH02u4o=";
-  "0.8.163" = "sha256-R0PDrbTawabDk4yezyoYoVMm0GRUayOKkMyyXn+/3hI=";
-  "0.8.162" = "sha256-X+L6ALhMXklXR4PWjMPOISX1TKOj1dRts2yi7Vjw2ow=";
-  "0.8.161" = "sha256-K0dJpNX9fYhlXtzPKG6F/9fWEA4WDTNxtPCAaIAk/xE=";
-  "0.8.160" = "sha256-AERqIpaibFYlaFkBfhIqX78+vyWZE8Lt1qrz82eqw3I=";
-  "0.8.159" = "sha256-SKUqN/oKV+4porGs78aDyFeQ2MHAgcE8PYyDYE33Jqc=";
-  "0.8.158" = "sha256-UMiuSS7JclgrS/BKh0J2dNcNqg0ZXz6i38DBcC/wbJs=";
-  "0.8.157" = "sha256-RkjeUCgNQdPjW0W0gm3YjKf4jHzqvE9WFx/mrkCTFR8=";
-  "0.8.156" = "sha256-6lZjr1fEFK9TKgzzKnkN9gOJamB8MLPjceEp/ao7sQ4=";
-  "0.8.155" = "sha256-1RiuATWzUwz9ffV9MZBcRhpbQrJvmpy2ONTFrl0Oass=";
-  "0.8.154" = "sha256-1RiuATWzUwz9ffV9MZBcRhpbQrJvmpy2ONTFrl0Oass=";
-  "0.8.153" = "sha256-8b9bz2oEEhff/3fKKJ0hZ14o4lL95M9+XewLYgHI/hw=";
-  "0.8.152" = "sha256-IZKJsjadfBOnAkR/7ny/Le8oUKBNp5kmdbFE2nYzEvI=";
-  "0.8.151" = "sha256-ck2at5lMNuL+yRZiHWAAxxq/yOFg0gpGBBnmXjdeQRw=";
-  "0.8.150" = "sha256-0Z/PWtYCFRersZvWxg0casfZQm6Au5OGQpKXIC+vEjE=";
-  "0.8.149" = "sha256-+3KAf0N/ao1Pw18myWrDoZmj3y+xyvpt1sy9g6PV2bU=";
-  "0.8.148" = "sha256-mLMBbDUHtnaBZVuDZ8zYeGBpzVRYH2+cCre5D2rc5/0=";
-  "0.8.147" = "sha256-u92z3BQ6mm20spnkb8ehZT73u9GEuB0TqZ3JxmeeiQE=";
-  "0.8.146" = "sha256-tBQrHhikQPWo0Pryz96JaFr1lCliMsTHNTBkgI86fGY=";
-  "0.8.145" = "sha256-Gy5W2d7GNs/PvHXYg5+PLnafdzrDdbRfcsPKH9LGSLU=";
-  "0.8.144" = "sha256-X3N4rIV4k7FNZlfencSmfIfrJIbgHbo+6wf74VXHTps=";
-  "0.8.143" = "sha256-c/EZsKAdd9Q5hxLQ9NZhszaHGQlTZmCEcqn/CX5sogw=";
-  "0.8.142" = "sha256-N84JtVn1WIMf9u1XDDAlGWopfBa0ai31iOZBC0qmsZM=";
-  "0.8.141" = "sha256-bsPtRrgczUGVoo0saTr5YrPF5udDScju/A8gOUdteEs=";
-  "0.8.140" = "sha256-ayP9VOKmjpdAcaC3qf3YAT4/3zNgTpqS4cHIUFWxpQ4=";
-  "0.8.139" = "sha256-ceNMC0v7bQS1YIVeyvqlwT6VDiP7UoMuC4gJOSTZ+zk=";
-  "0.8.138" = "sha256-vdHgEfrfobz1ordAbgWa6AanTXPZuckYS6IVuI6cRws=";
-  "0.8.137" = "sha256-ajALB2QNBgF28TagqsAKMyLBLrlncla9TB0k2NWbPmQ=";
-  "0.8.136" = "sha256-iscAruaDBjum+vB9NwG/WHogcM/jt8Qus+Zy32ml4UY=";
-  "0.8.135" = "sha256-I/cH8UcNDIyTIsRmQL6y0FGRJiS4DnvkyXenCYVD9fk=";
-  "0.8.134" = "sha256-5eMuw3LNOizwHCL6TdJis/02ciBn+L1ho/jo42yfBOE=";
-  "0.8.133" = "sha256-AmNKaIi+5Yb3hWUABiclKMvo4cnjMOusron0HaLEF/w=";
-  "0.8.132" = "sha256-CV7bw6Sc4HqsUC3wqVb/pXM45Y6uQQJJNXDW1vN1d+Y=";
-  "0.8.131" = "sha256-DrNc1OhLQ0Gqe0fSYxD718up4H3NCt3FOF693Mc7YyM=";
-  "0.8.130" = "sha256-3jC+AwOnpqFEo99BdwLUGjQ2Jf0+reh5WImi5m0HIqc=";
-  "0.8.129" = "sha256-vUhjy1JjT/Szs3RtutOTaOJrUwaovZJmmvsDzX+cxZo=";
-  "0.8.128" = "sha256-vUhjy1JjT/Szs3RtutOTaOJrUwaovZJmmvsDzX+cxZo=";
-  "0.8.127" = "sha256-vUhjy1JjT/Szs3RtutOTaOJrUwaovZJmmvsDzX+cxZo=";
-  "0.8.126" = "sha256-vUhjy1JjT/Szs3RtutOTaOJrUwaovZJmmvsDzX+cxZo=";
-  "0.8.125" = "sha256-giEfpZdSJkzmNtLCUw64yea5c4pB/gXki6PewmzGT5A=";
-  "0.8.124" = "sha256-vhbKlztFpXl4nVRRdiALQRW9ybqY6UjZUQlVltMwvjk=";
-  "0.8.123" = "sha256-tQ+iePmavqgjEg/Ybt8hEqxMBIf1+TCx62CjGeWjN0w=";
-  "0.8.122" = "sha256-aNlHrWn/fSXmzDB7UeTeHsqywGd4FvIacMDapanzFwc=";
-  "0.8.121" = "sha256-+CqgxAXVVDfZ14CtNb4nYza8VvJhOaXqabOpPs7Sc4g=";
-  "0.8.120" = "sha256-2c7fBaf81Gpb/Ab05M4vk1BiXjtRt2BHDWnbFCmQlN0=";
-  "0.8.119" = "sha256-g+acGBi9Uue3X0RfTyKqAjAXXqu6NZHifzJQ7Cy5hzU=";
-  "0.8.118" = "sha256-g+acGBi9Uue3X0RfTyKqAjAXXqu6NZHifzJQ7Cy5hzU=";
-  "0.8.117" = "sha256-J9BNqU9Z1LaHqfr+I9L0SgBrp9Obx535PIVN/dApCVc=";
-  "0.8.116" = "sha256-e4pThesxlLzYSULOhMxyuK/1nden9a/yLHSbP05rQhs=";
-  "0.8.115" = "sha256-1XqICt45xhDbP35TJYkHH63G/pTr86reTs6q51uf0uU=";
-  "0.8.114" = "sha256-+CnoLqVu7eWsPD+wGBJX9tqDa1Js727uzDAkQC36X28=";
-  "0.8.113" = "sha256-O9KsUYXZ8OCP1WzSLufdx7eQAO/9y6EeFg7LWZj9JjI=";
-  "0.8.112" = "sha256-aqxH1lDArf5kLMUoHhL3pn+KlRD+LlWi8/Eo62VYyCA=";
-  "0.8.111" = "sha256-kRxQEHBr5FOh1eWLm7nWsCbUCgqcxDrlFqucESUiOZ4=";
-  "0.8.110" = "sha256-RDBcC5ZkcBUHcZlvo1O+ReSQH2Phf+ySq+lPATdmM8M=";
-  "0.8.109" = "sha256-1lukQCgDv2WT/c3huq2Gmk3veAFrxN4+ox47hWzlzNU=";
-  "0.8.108" = "sha256-cUgYWE1LUymLZdVjX6zBDcYseT3/bbD07359VCQIBds=";
-  "0.8.107" = "sha256-XPoJgBSRmBYLNc7naV0kEkolnQggygQ0jlyH9qHeroo=";
-  "0.8.106" = "sha256-5qv5AO6uq6sjWHLzjI6aUJWNP1jzmiOGDrwdhOVf7qo=";
-  "0.8.105" = "sha256-WeVccqxIwfMGqs8fojXlIK8tWLd3q5cailFI6Jll9JM=";
-  "0.8.104" = "sha256-OVW0jSiFdj3t6b4QYiJNqIXtI74Npp6+3dCOOgfvrko=";
-  "0.8.103" = "sha256-I7wWm0pHoQIkKDGz538JMuUyc2dgfn+vcO6ZOeFQwXk=";
-  "0.8.102" = "sha256-Gm2/F2ik1BNv+ONx4UDHiRm5gbzQ5vBVW5ieVUkRxtA=";
-  "0.8.101" = "sha256-DnMn3JlFOn7VWx6QlDqTLMPpiXdyR4yKvLcGV7VEeL8=";
-  "0.8.100" = "sha256-8nvsBroUwdtlvYQB2qejQxexB6PMqde/fiz7NX8yWu0=";
-  "0.8.99" = "sha256-BlzRtWHIzP6Ad4Nc5b5cCAWUOCabE2s6A8UsUCFzFCA=";
-  "0.8.98" = "sha256-BlzRtWHIzP6Ad4Nc5b5cCAWUOCabE2s6A8UsUCFzFCA=";
-  "0.8.97" = "sha256-XaAtmvYJMPYyLxr9Sp6sijeNdT+xT2GrtuAnwpFae4o=";
-  "0.8.96" = "sha256-518e/GWCcxNo/1ImbnSYB8QJkONKhalTkFgBj2GtpS4=";
-  "0.8.95" = "sha256-ktYVcQOAcvW2NQ1szQWKs1ibmmFGgnmo0FbShKRHCVY=";
-  "0.8.94" = "sha256-+Iwug/JXUPxXdZoO0LiMehXx8G3Y1uUZVZF8osqR+2k=";
-  "0.8.93" = "sha256-S71aUfTuTB3Bop/sEnOHh9D7f9gk7rr80FDeoueZ+lI=";
-  "0.8.92" = "sha256-+Lk1Tk+mA8SD5MbDjUUHcdvWkft9p9RnOvVgTEhKDmM=";
-  "0.8.91" = "sha256-JYXhkpPJBGLpThvGdHrp8QlBgmHDFfitoVPj6SqJ9Eo=";
-  "0.8.90" = "sha256-MwmS3mH56Ae3Nui0GmyE1OGHs4W/22e5odgF4bciH9Y=";
-  "0.8.89" = "sha256-RVgfIvZGTqh/xQdEg3HWCgLpCSm7XCcnPF8YAEHpspM=";
-  "0.8.88" = "sha256-Fz3I6PqaAXyLJDaBG44Yu7Un5Y5cqvbNyXRQteekMjM=";
-  "0.8.87" = "sha256-Fz3I6PqaAXyLJDaBG44Yu7Un5Y5cqvbNyXRQteekMjM=";
-  "0.8.86" = "sha256-Fz3I6PqaAXyLJDaBG44Yu7Un5Y5cqvbNyXRQteekMjM=";
-  "0.8.85" = "sha256-Fz3I6PqaAXyLJDaBG44Yu7Un5Y5cqvbNyXRQteekMjM=";
-  "0.8.84" = "sha256-fZCkvfGWpCp2cZ9pnuae7/ME1KI2Z8WRIoEgus8Dh4g=";
-  "0.8.83" = "sha256-vZuEHrdghCe99O9WdZF2mDmlHczl/E7LOC8dpBMIO8o=";
-  "0.8.82" = "sha256-4Qe2+UHhb0FCB5XHuhDn9Zk6mthHJznJVT4sqZnOyQ0=";
-  "0.8.81" = "sha256-NQRlLfFZKfjPt6EzmB34HvxDu/Ky+OvqNM5uPD2N5Gc=";
-  "0.8.80" = "sha256-TYjNMbZCkxJGDkDYuznJ7SsHQ5lg5XAEbtYm0tONOSo=";
-  "0.8.79" = "sha256-tU1kBJtaCEc17qaZQh/aNTfMdk5GdyMtv/6kUlAG6sc=";
-  "0.8.78" = "sha256-jP4n6TqUrXFyKB7tAhbVX4S6wV42zi1LRiG2sEbbslY=";
-  "0.8.77" = "sha256-D09g83KyDJU2rlezoIGqWLckB1DN/5m9e3TxjFekN/8=";
-  "0.8.76" = "sha256-OJuWVKxUJVrZTyxKijk3LHwvehCKMUmq8cbHOZoJmug=";
-  "0.8.75" = "sha256-Jio+b0pqpiJWhCTrRorztoD3oVdo5CptGL3mCYH7Evc=";
-  "0.8.74" = "sha256-Jio+b0pqpiJWhCTrRorztoD3oVdo5CptGL3mCYH7Evc=";
-  "0.8.73" = "sha256-+c8/T5tq7ec2rXtNPDXYByb7JV5xhyLRRsHaNG6QESI=";
-  "0.8.72" = "sha256-C+n1t+INHCUdhZJRCoQKefQTEwo7JTyF+07MGWBcqbc=";
-  "0.8.71" = "sha256-INwGxh3KGPizGBL+mlUTitIVXi1QEZFT3jDY27Q/4JE=";
-  "0.8.70" = "sha256-2jVtilgODJvcsxCKeKbrNCbasRUDynlnNmmibvbW2d8=";
-  "0.8.69" = "sha256-SYpAxetMFCCIbhAp+Kzo60bw/e/S6I4ApWM/leCYE5k=";
-  "0.8.68" = "sha256-km86R/PvrN5IyZq5RgQu1S+WXkdd+t1aZlr4ljxlPDg=";
-  "0.8.67" = "sha256-oDpDa6U2eTCS/nwwqzx+05lGhgmk7mtmrWHJzBEDU+Y=";
-  "0.8.66" = "sha256-k3CZ2pGFobtSS7CU9Njcq0KmYNvJJGmzEY+C6VWAins=";
-  "0.8.65" = "sha256-HYGqx311qgIMwEvCM0Sii4pGVAEd2fcIbz6bKZ8bD7c=";
-  "0.8.64" = "sha256-nkAySo0DZ+0O1n04+NQU3uQBXOwO+87Jy9SKP9uwS2g=";
-  "0.8.63" = "sha256-maURGEBT0yGNqEEriVzxPoA7sBzk15ax4s7dxyeLfK8=";
-  "0.8.62" = "sha256-Nh2+p4bxcJoGdhebU8jlHAKY0bX+z8duSxauk9qWpD0=";
-  "0.8.61" = "sha256-FRT8DBdK+5JTA+e3ij2Iqfo/QN4z7wt4f/6WeHaiB6U=";
-  "0.8.60" = "sha256-fpjOXGCMMSj+sQuLMiVQ8cFYMyn1RROCrp9zVeBZjYE=";
-  "0.8.59" = "sha256-fpjOXGCMMSj+sQuLMiVQ8cFYMyn1RROCrp9zVeBZjYE=";
-  "0.8.58" = "sha256-Zl3yzBXl+6Br6BDq+F93NWuJir/nzcJeKbQJ6d++LIY=";
-  "0.8.57" = "sha256-7+t2kiVi1dSytzGFKvWX9zbNQETgUH7E8LeQsAgE044=";
-  "0.8.56" = "sha256-o9uUUCTTd60uP5G4B17aWXkEnUIImDHw7XH9IBdHL+o=";
-  "0.8.55" = "sha256-IvEZfcEfEKts7rSRlwfV3RVqkmgGiekz9ukfEjiK8n0=";
-  "0.8.54" = "sha256-MSFEKxXRDUBm+xx4SgSd5QWd8nYOiHlvNLD3w7cf/ko=";
-  "0.8.53" = "sha256-d8ilRgh/geOWeyZVUE6jxr5ovvfTnAAxvysxdbE1ihc=";
-  "0.8.52" = "sha256-1r4KmhoHB5u2Jaq6/jqxBB4wKH6QTW20PhJ0Rt4SEkg=";
-  "0.8.51" = "sha256-UgFHmO7ARS7DgJYrAaqI4zZyo+Z9W6EIqjGWz2TVdV4=";
-  "0.8.50" = "sha256-BOZWYS3P4iN+tB+b9B/4S/qDFYT2E8PgYfjBsMHVnV4=";
-  "0.8.49" = "sha256-BOZWYS3P4iN+tB+b9B/4S/qDFYT2E8PgYfjBsMHVnV4=";
-  "0.8.48" = "sha256-ihi80eNEXIJd+FZU1Ux/R/LQQk+6SGLM7GjKs6n/FpU=";
-  "0.8.47" = "sha256-EdPcViXCT3Z1c9Crf6mK67eczvxsbqeOcf3Fk/58huQ=";
-  "0.8.46" = "sha256-lSqNwzrT1f/MIZ2Ae18w4JcbVn8MgiEbYZfuA95XTgc=";
-  "0.8.45" = "sha256-3fmMWyInZsheJJBQTt42poaZaUtco8gFR1YFrlfFyb8=";
-  "0.8.44" = "sha256-3fmMWyInZsheJJBQTt42poaZaUtco8gFR1YFrlfFyb8=";
-  "0.8.43" = "sha256-UJvCnLLBN3AF5y1vBMCoZDkZHto/GT9OS677g2x1eSE=";
-  "0.8.42" = "sha256-UJvCnLLBN3AF5y1vBMCoZDkZHto/GT9OS677g2x1eSE=";
-  "0.8.41" = "sha256-M4du5v93Bn9YyhbdUs5imCGqA8H1Y5VK9Kqe1dmtvp8=";
-  "0.8.40" = "sha256-b9qgV6vUSzXbhI8p55cr98BST8sF+v2ii/vadbAypx4=";
-  "0.8.39" = "sha256-c9DyQvOv9g/hg4aL885wnpvQ5gMK2YdPV56glBhNpcc=";
-  "0.8.38" = "sha256-6qT5U0CrAQhOoudngRlC3mLaPYNJPSdQccIdytv2Q8g=";
-  "0.8.37" = "sha256-3ljYZYkzPmXFw7ZlBPDSDrFAuq0VIk/3vDqCDmte05Y=";
-  "0.8.36" = "sha256-lOux62WqgyyOiiMGjOUkqBE3MRZQDwzvya6XlqHhxCM=";
-  "0.8.35" = "sha256-9MAHx3udNOOY0k6uH/Qdarvgyy0KHj63qaKgq3ohVXY=";
-  "0.8.34" = "sha256-8Ra9VUCqZXmWfUmZZhZ+Y3YEtT+bpy5GfDTxSuAuBcA=";
-  "0.8.33" = "sha256-PRUQuIAU2LbCQEZej4CByMYsvBFEQ//IoxD2wBpGWFI=";
-  "0.8.32" = "sha256-vYMG8FGwHO5kxSlKMdp9T40Fh9mb6EsiPZHy4F5eqho=";
-  "0.8.31" = "sha256-vviVOY3nAMSeTK6f3xKyXRZVRJe+W3zINJwHdSATSpU=";
-  "0.8.30" = "sha256-QuBkkL4aqmzwSn95Fu6VZ553LxD8fYFETH9ZdH49fp8=";
-  "0.8.29" = "sha256-vrAwdXwGyzy8X06NM8jO2SyRAdSIyN0n5iUQze7E9ZM=";
-  "0.8.28" = "sha256-YnTMfAABInOkGzRpzpvttHOQJh7ki2BCfFBITqPRTQM=";
-  "0.8.27" = "sha256-J+Ppoq5yZy6+uVV7DF/VJScCAtOX4sIMQ6bNqMtsXOQ=";
-  "0.8.26" = "sha256-31LFGbL4YsHyJhxlzz9s/+dGeOnwynvwGljB5DbRXtU=";
-  "0.8.25" = "sha256-lO/Y1N7U7Jt/Klz4ukQ5IvPqyPINmYcX4jHhlul9gsk=";
-  "0.8.24" = "sha256-inHRRMU63K4MmrW49u3i5vKjymsjGzlNGFqBczh23+w=";
-  "0.8.23" = "sha256-Jeth8XsLwNeo3GjA9QUoq/UKjN4TTF83DnXlD9ez/44=";
-  "0.8.22" = "sha256-B1SgA6OZMMvRFTMk6X0bySl1R/Dvxu2DDOsTrTLs/98=";
-  "0.8.21" = "sha256-X/PhVI13MwUU3tIilD247GO22lTdI0E5H/QzmEPitfA=";
-  "0.8.20" = "sha256-aQHzIjidcq8HXt5ChzydWtPebfLIsQZyfUwXIJxFpx0=";
-  "0.8.19" = "sha256-MfWvxpZHMyEnu6HkqjuuCtQqdfjVj40Yhq5dCdKli+s=";
-  "0.8.18" = "sha256-swwyLTbrmk0uJItx7n9hJdhZCZWF23AFTd+nctszVsg=";
-  "0.8.17" = "sha256-/2FBEWqKaXaNv3Msr5GMkopNekofWL9nlf/1K9SNSGo=";
-  "0.8.16" = "sha256-hMbDWCoGZgJfGy2vOCg9D9yQY+EiBq3hBiYK3Fl/C3o=";
-  "0.8.15" = "sha256-57YCkJfkELxQTWmzdzXG3Dr14UTCpqTnSLruHlSXIM4=";
-  "0.8.14" = "sha256-9eYfDDZFpUDwu8HB5xzRaPJ5MTU/sa4rXnuNWG+nqe8=";
-  "0.8.13" = "sha256-byYIvyVGeomkpIdO6V+p5TYQXVe8WQlv8GhsUwlGCiU=";
-  "0.8.12" = "sha256-VL4NRYXuZoXc11qjj9/L5+VgNRYXnaW/iPFYIZ3QHrE=";
-  "0.8.11" = "sha256-Tot2vhBE5rxdlTczPRnY2fhELzOeWBjWJN/kyVokE1A=";
-  "0.8.10" = "sha256-yNlW2dqAyyxBtrVM2uinWfaK+R+g9wlewlPiaCM8fx0=";
-  "0.8.9" = "sha256-kpNRg4XXfQegWOtk9i5Kv3lRcaS+JEf0eTbbqxbWwQs=";
-  "0.8.8" = "sha256-Yqjk1bh1UDfYZY8RxW5ktJfm6bLlpcwgSb+B+b6iObk=";
-  "0.8.7" = "sha256-FhcJqtn4Jn2Ph0Ck9vLgwEMq2bEGl/Mm7TfgMW7mhwM=";
-  "0.8.6" = "sha256-+xF1USHH9n+4xO3HzQLC8gVKC2T2gUbf4niVm9H+lKI=";
-  "0.8.5" = "sha256-S04RAa73XK4CN12L6SU9f1yLfKgz+HW6b6Zri6lacXQ=";
-  "0.8.4" = "sha256-S04RAa73XK4CN12L6SU9f1yLfKgz+HW6b6Zri6lacXQ=";
-  "0.8.3" = "sha256-aMqIJajKT5Mdy+oRaFes6rKk7lowEPO/H81wZ7KcbWo=";
-  "0.8.2" = "sha256-hLgA/02ECKzThKcWLWefL16cErFgmxvBpFq+Q8ooiYY=";
-  "0.8.1" = "sha256-F/G35WRLM5m2Uaddvybz0PKE0N5dykMXwhbiJiO4j7E=";
-  "0.8.0" = "sha256-nNhepZW/wc0dsbpujKOpjxj/M+nBvLSKXUpwCmWH9lI=";
-  "0.7.172" = "sha256-kqGtJTc/IZzcKLtND7yzXFQ6iZgXkZ1llwmDOfD4Tog=";
-  "0.7.171" = "sha256-G41db5/I50hOyf8Wlvlk8BS56UDu/8yIM+wp7D5gCp0=";
-  "0.7.170" = "sha256-jBJwIP+v5V5AwIFEuTKCGDU8TEuYsajneK6Py0IJdGk=";
-  "0.7.169" = "sha256-Q+HG2uXo4yizYc+P0P1b2o57NKX/Z83T7g969H/D5bg=";
-  "0.7.168" = "sha256-elYPm7BbHZqgg5VWLd4ZyciYfNXQSVnwpRIGf1F1bT0=";
-  "0.7.167" = "sha256-3SCNIhanOUQ8hbFY6dRIJEoTpooe7v2nPd33HTskEBk=";
-  "0.7.166" = "sha256-bDUTbfbjZ3yrx6jcoQAPCngMLltW53HeIhl6IAgfMXE=";
-  "0.7.165" = "sha256-XAyDb8fDtSrkmaT4VgqdAlA8u8gPh9LIwn60eqTUo60=";
-  "0.7.164" = "sha256-aGPn4pTWJ0OiqWiPlvI070tZe9AR05sPbi6VyRo2DcY=";
-  "0.7.163" = "sha256-R0PUGTWR1qtevIegIXhTVA2NCwQW/WgK7v/UspiKEHs=";
-  "0.7.162" = "sha256-4GmQeXqpYz4KWESIHEQehPO7TvdQOMyIuVb+2rGbSus=";
-  "0.7.161" = "sha256-ZmjxCeOvmpteai1OmAjhJpBw2Sz6/vUnAc/DG6xJ6MA=";
-  "0.7.160" = "sha256-xtk8HOSVAq9J7+J+MldqBom4k1jwZd0zPxU3w54rs2c=";
-  "0.7.159" = "sha256-ebub9inhwURsmef4sLmVJzFL4pHyG4ye06dx+gM4yl0=";
-  "0.7.158" = "sha256-jD5nnoIg9PS4a8Y+ZcQQFXmT0p9/jBgW9XdaATyiffQ=";
-  "0.7.157" = "sha256-dev5cbr6SW8RpOobezixmM8eoUkEdM1XOixjIORfcUY=";
-  "0.7.156" = "sha256-fPgehf1h0EfnUOdKImGBuo8vnSx0vkj9OI9RuGqXBA4=";
-  "0.7.155" = "sha256-Z8UpKqDEIsMwbA2xjRPW8PNTTvYlUwv/efCfh9LJ9bU=";
-  "0.7.154" = "sha256-Pa44RbbAfMMybZ03cJ2fI1wuUqR6tdrNiCv0cV/oUEM=";
-  "0.7.153" = "sha256-t9+jTcdyvV0Sp5m1uI9tGabpsgKJ2LhaoY7VKx1w9u4=";
-  "0.7.152" = "sha256-SOBDH0rz4YLUOfbNOJpkigcvy4H9pKuO4OkzKMHPndI=";
-  "0.7.151" = "sha256-X+pdJi6EVwXSdtprpC6DRvY9UMga1aG7G3MVAfrwVi0=";
-  "0.7.150" = "sha256-CDDxWIs9qEPbv7pIIxO2Rg6NG6ctGSOZ7JpL28MG6ls=";
-  "0.7.149" = "sha256-+4oqyGAOAnJC32X4Rt90kKMLqPdEUqt+4u1osZfwMGk=";
-  "0.7.148" = "sha256-npVvfQC7MIVj4E2eljweYY76SS/Xc3grYLZHssr6TuA=";
-  "0.7.147" = "sha256-ba/xn3GMMlEiCR3vIx/eaOvjmKLmS3tMkIXYn6ESY3c=";
-  "0.7.146" = "sha256-16r7ZIvm5MBa0+iDAQnrJjUtu/MEGUtwL/awNo+Cvz4=";
-  "0.7.145" = "sha256-VMH6eoPlb5vt73XI4MX4fwkwbFCVeKdUDElSRzocvMY=";
-  "0.7.144" = "sha256-PxwELObg4iH3d/2isjJ0gU77+O0s0jQzVNtjLlmGs8w=";
-  "0.7.143" = "sha256-WepN8mJ8gFRSIx2Ulg+QFvqnY3is7ckz/AnJP8YxeFg=";
-  "0.7.142" = "sha256-IdYOiQMF2tCzcbxG6X4YbD0u7PIf7MyfoWQ2mO3qBK0=";
-  "0.7.141" = "sha256-xB3YfY86+pVTjVeIT5pAeteFADXiVDbTUFxHlmg43JM=";
-  "0.7.140" = "sha256-ZRk4lQwNm68fl+sPt0irWEtmawFBvj4KfL2jrfphcuk=";
-  "0.7.139" = "sha256-HsElrqZkz2Owho6Eu+o7nqit/dDfABQfhjQmIWjtPTc=";
-  "0.7.138" = "sha256-31kttaXnTkVy4sEj1Plm0bYDKZtjC+BtCXZRpoCWQp0=";
-  "0.7.137" = "sha256-Vd+MkUBRgwy5xSqFdC6fcUeVzlmjXnaIvH6WAc1LRWU=";
-  "0.7.136" = "sha256-W4YreZW7DrVHMIdqByYfFCNa+2h/26GzwZbCLY8ziuc=";
-  "0.7.135" = "sha256-WSBZ5a9x5pw+CoI/qtPlaGnmfn8NC5FhduvZ1WbuCPI=";
-  "0.7.134" = "sha256-KBWdyob0OLuE/qqzmtMlq72XAKr0qxhwtFOeMoe1K7Y=";
-  "0.7.133" = "sha256-fcujWqTJYwIO/LM8Jnj59+qPrVg3yMl8QtXV3+wUJv8=";
-  "0.7.132" = "sha256-igtzfG9rodjhe7ej0iGG2E3EZOrIKevCBo88xajU528=";
-  "0.7.131" = "sha256-5cBcjPnDiz+KQcZn1uo7WXKJDwAUpjivMGiEbGsUQHY=";
-  "0.7.130" = "sha256-9uFi9iLXBd6/0ErXSB8KIHpX9WnA2FkIsq5dY7GzszI=";
-  "0.7.129" = "sha256-omNjLoCsdenl0gKxHCxRjaXervmiwVHUwMyZi4xgXp8=";
-  "0.7.128" = "sha256-gR1SlZV5WjxXn7k1lG4XaRWLhQvdcHS8y8Ap5FBHBd4=";
-  "0.7.127" = "sha256-Bk3b5BPJO8GvaNG7xq+2FBcdH+lPW+7MM5gx6lZphds=";
-  "0.7.126" = "sha256-XaBnX3CZqKJfiSqqODsZ04a8aZ/Dwu884Eyw8Oe/tQM=";
-  "0.7.125" = "sha256-ksbnptsY/XNGJtM0zFDMF/CnlsrnRDcr+DJj9nTHjNI=";
-  "0.7.124" = "sha256-iJgG2+EgHBFo9jksSmbPiDJ6yGsba2tHpYc7Z4BnVL8=";
-  "0.7.123" = "sha256-ZcAPVxkymaQZ1HkYwZtB/9gfKxJpMaGDH9dN+q9mbWI=";
-  "0.7.122" = "sha256-d9baTve5nDmNuCVD5tEgnISVJ+/HEgt/EplatIjcmEg=";
-  "0.7.121" = "sha256-Kxf4yL3t0YSuwM2n9EXdSygbjqC/zL+fXDl6IGwyZl0=";
-  "0.7.120" = "sha256-+JvRet7nCASR2hvG8UB76I0bCzpKtTmnksnhXl0uHjM=";
-  "0.7.119" = "sha256-XZBO2s517PyJL9blswtD8c3bhZ01sP3tHJ5BCKH7rRo=";
-  "0.7.118" = "sha256-qIXs/EQ7qNDRti9Fse6w4QK5q/+9AjP1iF5WQUebhn0=";
-  "0.7.117" = "sha256-uMGUn+iPfcHfA1Tc+VnNLMXCs3QegHQFzT8odpjdIso=";
-  "0.7.116" = "sha256-mDS6599fZPeRwqi4q6mh6Xa9WwTFh+e/SBzO/mpesvg=";
-  "0.7.115" = "sha256-MFfJfi7SuWVq+343Xk9sUFPjSguJwrEytcihWkYqRzo=";
-  "0.7.114" = "sha256-h+/GY5vou/0iwT5lZRsM82JA3sxhf46SGdjHluLqOKo=";
-  "0.7.113" = "sha256-GbicyNdwhaQ8mP4Asp0u/utVuF0lS4iLujjJqgPfm0o=";
-  "0.7.112" = "sha256-OtkjKD+L2Tis6JmoICTavj2JnpTLfsf89UHWJe+cdn8=";
-  "0.7.111" = "sha256-ODxJNNPakpPsLnFRbFrdE4kb7oBn9kdR+TXXQkG9zdg=";
-  "0.7.110" = "sha256-/JAjznBuywcjqSIBBoN6JJ1XX4XYonA4c+KfJegdJOg=";
-  "0.7.109" = "sha256-D7bVZQxRRwvQdumcqaKYkG+bFpCQu6IfGYmI+xfCReY=";
-  "0.7.108" = "sha256-tN0AkUIGL0ATkbQMq0cagqfIf/odJmPZMrh1wQChlc8=";
-  "0.7.107" = "sha256-RAFN1CW2b3ch+7+axVBAk0mB0h7F83m+oaucoamX54w=";
-  "0.7.106" = "sha256-NnssztnmiMau5vXO5lIg7kAlAlGp5KEx+dBLrG8Vj5k=";
-  "0.7.105" = "sha256-Wmp4FFSBFMz8ySTbyaT4viLJoxr+m4Ptgrme61DGSqY=";
-  "0.7.104" = "sha256-JfnsgcxWHlPVNZIATfSUAGku9tVh1RWyBU5NX0Q9smA=";
-  "0.7.103" = "sha256-Ajl55Dc9dADw5Tl+0zpKXGuSe+rf/TXWHCq6wnSXMT4=";
-  "0.7.102" = "sha256-J8cbWFyzdWb5aygXXikRIYuA90Y6GSCov+L0HEBXtbI=";
-  "0.7.101" = "sha256-PX0UgfXkerP5JoXiw+m9gIKr3HK/l8NLiEdDRu8Kjds=";
-  "0.7.100" = "sha256-SK9WsjzLv30DYErpTYYk72WUANIsLyVTG+N3BFK6o0A=";
-  "0.7.99" = "sha256-U6xIspH3SqjzwlRp5IiO+nxRpdaxshYQZ+bZDMYaDjc=";
-  "0.7.98" = "sha256-k3D0+kFsXWCvJtJxR9jy9hHK0GNpLaU+8TJyWFIpElk=";
-  "0.7.97" = "sha256-Qn6d1hMkmSRMLWz11EEdD3e3/GSwKiZcwR4HbVb4rMw=";
-  "0.7.96" = "sha256-vTlT0+U2rMIK4jvaKhH4HikyS+cHtPknlrXnPlkrQ5k=";
-  "0.7.95" = "sha256-K6AzdJQYmcXiDktAfbvxX7pAi27GgReSD5Ee3OufS6U=";
-  "0.7.94" = "sha256-g4P6GbX6/6RzdmzprsAAO29Qn7P3JhUb6CcnRxpSqow=";
-  "0.7.93" = "sha256-1BQUaHw00uLgk6RNHI1TNH4UjAk23ROkWE/4fHk05+4=";
-  "0.7.92" = "sha256-7f2kvFOK1Wrvnpb0iTq1j+mcz9mtGDroR+u5jwmaAMQ=";
-  "0.7.91" = "sha256-qM8VjGlumfQvL+OiY5kRPs1EINgCCIkdlCT0t4idHLA=";
-  "0.7.90" = "sha256-kWHB2lQb7uzEnndB+lErBkZ+cAb8o10IXa+zbdG9tOg=";
-  "0.7.89" = "sha256-t3GFNKJJLiuiNs1kl185xIhfJiBDkRcVLGPOHb/ve/s=";
-  "0.7.88" = "sha256-GbPFVWi7g2bOoxR8+qOeKfxCFOPAPXVUW86azXy+aG4=";
-  "0.7.87" = "sha256-pGcc51Ew0cyBXBAygj8OZvENXWm3yJWWWgggubvHpj8=";
-  "0.7.86" = "sha256-REPPRb6aXr9CxnVVwDvbhVXogD5YNRM7jrkbz2aPDBA=";
-  "0.7.85" = "sha256-nNVP7fsxpKfYYSD+IbbgcoeiOSehY4N7Kt2iOddqSLM=";
-  "0.7.84" = "sha256-AablDC988nrJBPXbRw7BWPaeiVC74A2rkdECwOOiPHw=";
-  "0.7.83" = "sha256-WBxHrM3snW9TZTyFUPKvUBT1/MU7UWwzR0G0TqEFyGY=";
-  "0.7.82" = "sha256-/4dTolV3E/rSl8YfKr7T4VCVlyro7E83WnnUHzJzkWE=";
-  "0.7.81" = "sha256-BAxwrFMS2kEnfhyEY3rA3XCKlhGiHlrieMmNyJO14wA=";
-  "0.7.80" = "sha256-gSChj5x8nBcKTi1INP/se3NlNIqfSJivOL6gn+t43fU=";
-  "0.7.79" = "sha256-GTmgIXcaQWZqIUVRS6dapiyCNiys4tElKODMU6g+B9o=";
-  "0.7.78" = "sha256-8Zfz6ZZQ01AMor+iryiPSMEgidjPFxkkRGdmq8h1o2c=";
-  "0.7.77" = "sha256-yE41lDEHcDhxo/ZgRTozmg9AV8z9XFHlvwErRY6+fTM=";
-  "0.7.76" = "sha256-sjRcaKGXFeQS8S0xwL/ewoF/tYwsTQYtDPrxRNKAJjE=";
-  "0.7.75" = "sha256-sjRcaKGXFeQS8S0xwL/ewoF/tYwsTQYtDPrxRNKAJjE=";
-  "0.7.74" = "sha256-GqYPf+JRvAmif9dqiF3a7kxXoicbcBipnP0EdcWZymA=";
-  "0.7.73" = "sha256-wZ2IEi7e+CQ/T+PDaUR4kl2OcZ5hRcKF8cmX7AP7UY4=";
-  "0.7.72" = "sha256-wDZ+Z+t3NcWErLRuv0FfHck6GLCqm2NokGnA9ZwgK/g=";
-  "0.7.71" = "sha256-+sZRhLhoj1+E69dwJoSRyYNtRrHWTJJ+Xqx3kd9IISs=";
-  "0.7.70" = "sha256-CHupLOmN9WLnb1wEOxGOplSaP3MieyeYKHEzyvOygN4=";
-  "0.7.69" = "sha256-04PhVMPaonghgeYpP2ff9CBbLifYQyfqhk3hhz+7MnU=";
-  "0.7.68" = "sha256-04PhVMPaonghgeYpP2ff9CBbLifYQyfqhk3hhz+7MnU=";
-  "0.7.67" = "sha256-k5BaZs/U4nzQmzBUfC5kO0a2wmNwxkc2tWKRNQADq/U=";
-  "0.7.66" = "sha256-zm8qmgv0Co+T5yWwDzZJWGhuKUvq1be52HkH+DSSkAA=";
-  "0.7.65" = "sha256-ZlZbAs77RH/Zk53/4Uqsv79HfyQ+7YTVUbdp/yfFU1I=";
-  "0.7.64" = "sha256-/5J9htFi1224RsniovC65K65CR/xmcnOg2jBM5YipZw=";
-  "0.7.63" = "sha256-84Be5ZdmlFxNOUN3USvUK/4+ZZ5a+eGAvk+zyRvmhFY=";
-  "0.7.62" = "sha256-nDc46Fk6Em4CLtzdw7HtqAWiCy4Ko3X5HliWRHG96qU=";
-  "0.7.61" = "sha256-Lj6/Pgb0r5iw/PA4F+HKWbT62Fz+MOfJVy7qx8ujeAI=";
-  "0.7.60" = "sha256-Z6nzyHW9h2IqSzXFmgvPxtvHubgKsACtiuHhtdSAZhY=";
-  "0.7.59" = "sha256-BHUwY4oHMprgjZ1QTKHj+tkjkiLyGkd6AQRiPDjbIzc=";
-  "0.7.58" = "sha256-CKW/JSZqwwWwFYwF7vpeNRQMlQngdZpAvKVBWAZriMA=";
-  "0.7.57" = "sha256-CKW/JSZqwwWwFYwF7vpeNRQMlQngdZpAvKVBWAZriMA=";
-  "0.7.56" = "sha256-fmg4hHPiV2lJ7ez/7i+lUEp1+kjYjwasQJvSK5wwAWU=";
-  "0.7.55" = "sha256-RT/FhcTodJFyit9uOtCjI2n5TfFh/Ozo3e4qYLIohWk=";
-  "0.7.54" = "sha256-RT/FhcTodJFyit9uOtCjI2n5TfFh/Ozo3e4qYLIohWk=";
-  "0.7.53" = "sha256-Bs2aAUZEzQ2Ni3B9gshxkozvdv8P94UvGZ6lk790uNI=";
-  "0.7.52" = "sha256-a5kZtD9VLbxE6D5AyegHjcgeKukTktRIfNPtSQbZjkQ=";
-  "0.7.51" = "sha256-nw2bcEwYpyXwPHA0cyh66wSrv1c2jwjlJovRaGOlx2Q=";
-  "0.7.50" = "sha256-N9MraHaZUjQVGgM7wbo1UTZFDoMgkqHWaPmo/S9sENM=";
-  "0.7.49" = "sha256-rM24M25+ASI1Cx9xeWryyOa8Z8wVa7E+JcZXnzDCsNs=";
-  "0.7.48" = "sha256-y3/bdu0meGoGE0WuZyJHUnet7qX3vkd9Y3jhfNSXBj8=";
-  "0.7.47" = "sha256-1bkanYphXDyq4++YHm6UGlciZ0H5+lAYj6SPqrcaenU=";
-  "0.7.46" = "sha256-NVmOVFwsHARohcDzJaqyhLj6U7zhKDiZlLMhQkQafkY=";
-  "0.7.45" = "sha256-dxWGv8hkiQrnj3zZOWeAiF4m8zXiobDj6oUGQIjvKPA=";
-  "0.7.44" = "sha256-2Yn8I4td1AjozEZrlii9WeJhcUiFqi/W/i51ferZocw=";
-  "0.7.43" = "sha256-brrbPdjOCMv0nJBYxmBBO3Kvo0CvBJTo3JEqWssg8HM=";
-  "0.7.42" = "sha256-b7ZTIRM/bjB8cEoEp3iQ2nAqJuGTpOvZQfRlFT3F1k0=";
-  "0.7.41" = "sha256-5e7MKMtFN4RK9/TXaOrwE9+TnNa1wXxK/va5mUz9yQ4=";
-  "0.7.40" = "sha256-Iv6lHJxuN2zVIYCIAkhVVYksPEq0IDAnOR1uaVTG4QI=";
-  "0.7.39" = "sha256-+C3fVtD2/KlCO7W0Pv3YiTUAd1+Af6yu7M5kVAJKTVE=";
-  "0.7.38" = "sha256-iDXyQUjnqSSnYSziohmndjE3Lxmsa8nHYskl2QP3bkQ=";
-  "0.7.37" = "sha256-bQYGkZ954nrJvdrosHYuWiE6XBB3XzI3rjvCZS3V7ks=";
-  "0.7.36" = "sha256-eWDoje3zNjNsSNKHrLKMNVtEolHa7lZcJVLZ9ZTKgPE=";
-  "0.7.35" = "sha256-yH/7WOe9qqllsVHuMSBWeo2wRDZjHnKgG7BVHC8JU2I=";
-  "0.7.34" = "sha256-EYIzj01cb6Hf/q1/+ZVkQXPaYycWfnHx3qb01Lpxtjw=";
-  "0.7.33" = "sha256-V0Aqn74sRTb8rGKhwXgEHiefHYs1t0PZn632uzk4gxY=";
-  "0.7.32" = "sha256-Gm4p8ZGGrd5rT5Vrn9E911yimMXlnVh/ar5SAjbTRGw=";
-  "0.7.31" = "sha256-/2sFbQS7neHhynzHaQ8SaFzKszDVd3rENZ5nwy5hrlg=";
-  "0.7.30" = "sha256-eMVvW1f1nETGtHD/PxbUKqnvd5z8G0kjLbZfVKnlMak=";
-  "0.7.29" = "sha256-FI+8+K03wZN8eMMd5+cvgHWdF63hgzNCiwiXRY5RXXc=";
-  "0.7.28" = "sha256-wBHqC+b3A/VkJMEk1Z8t3870najpfFW1n9lWuKrOYoA=";
-  "0.7.27" = "sha256-3Epczrk6+XTFZPOtSdTcAVJDtmFsp+F+fFZuKGAJER8=";
-  "0.7.26" = "sha256-i+d0CrXll7LQ/Am/rO4u1fA8nIqjst8kXcgJVdNJOHQ=";
-  "0.7.25" = "sha256-Aapvb7TFMQDHW/ZdAKH4BoTSRetnzCgoYkom9iP7JOM=";
-  "0.7.24" = "sha256-EI65MvV6Ztau/wMvdCApY0D16dDOmvAvapTp8it+sKs=";
-  "0.7.23" = "sha256-l67PQfgY8rg6Qk9XmIqheRWcPbDq97sNH0wH5mL3eGQ=";
-  "0.7.22" = "sha256-k/KZp4vidqug9Arly4ee6w+yEleixtZ5snLPIlvNnDc=";
-  "0.7.21" = "sha256-4u4EMHYvK4FFfBw30QxtVzWcNX6jGqu+2KHU8JzSzXI=";
-  "0.7.20" = "sha256-FWDCMYHfxg3el0uwknj4r3a/bei6G2WaTFdOkgIhmNw=";
-  "0.7.19" = "sha256-RkmkaJaUM9MFyAqW2m36qISRq74JGvz14N1jwDIZObs=";
-  "0.7.18" = "sha256-cVZA8voEsorX1Bd9kFkQ8oKGnesKhvE97j+ZptMFsoE=";
-  "0.7.17" = "sha256-yuLat4G8LWR8GVvsyA3BHMfoGJzvh1Q6EKxASXXjttw=";
-  "0.7.16" = "sha256-mgVomEfpbUtR3FqllK8eU8ujRkXhxp48bQENO/cm7DM=";
-  "0.7.15" = "sha256-p80AxBLf7HXq9h4L0xfRiImtabb/1+WvHmA6WEHkNP8=";
-  "0.7.14" = "sha256-vfCW2VO9LKASVQZoclmDy9txjiW2pn+33F7g2d4k+kE=";
-  "0.7.13" = "sha256-WB7cEcozIA5DkWKWKcQ9wr1Tfrdp66bzQwE4hZ7TlyY=";
-  "0.7.12" = "sha256-blsCTACj8WwLg3IWvbgZ3kv2hzQRble4Yd1KYWQYCqM=";
-  "0.7.11" = "sha256-vfplGHbiwvuMQ4ZX3kJkPbh4cran2JOYkXTFW/Su4o4=";
-  "0.7.10" = "sha256-AeaNzVt6a0ApDuT0uTzi9uXKH2+Bedqxolpgr2Av4wA=";
-  "0.7.9" = "sha256-DuXrC835NvVyBiBQnVKWEoCct0U3jB7BJ3XAIhsZQhk=";
-  "0.7.8" = "sha256-PfPDJwuzKdlftyIw2EsLexbWYHJcwDM/Fia3Hsq0a4g=";
-  "0.7.7" = "sha256-ua2X7vFiT5qgCX6aKkjfulKGzGUv1JZv18eIUH8S/+w=";
-  "0.7.6" = "sha256-mSwWqB8oMrcZJEDHuOg8rp9I3lJxOKnLTyV1mE7eqRo=";
-  "0.7.5" = "sha256-a9qTxuQeMViZptYrXxVklzgRzY8bFm57es0JFPtFKuM=";
-  "0.7.4" = "sha256-SyLD+oLHKXaElx8dBsO3/SdY5VruN+arTWBmYTomxDQ=";
-  "0.7.3" = "sha256-w8GZCeZ+6sobHu+aH5dEVzJeLuMkaEI/UIZyMEx57mY=";
-  "0.7.2" = "sha256-s0sYjuMtAD65oYDP6FsRyuTXS1Ft/MDI9K36GiFcks0=";
-  "0.7.1" = "sha256-brK7LxaWdLHkJzLpe5BDeeuJXohqlrMbIhCOjCEPXPw=";
-  "0.7.0" = "sha256-qUkI8p5HzyaxFkNen5QXr1N/lsbabebg/IL8s9ucZOQ=";
-  "0.6.464" = "sha256-qUkI8p5HzyaxFkNen5QXr1N/lsbabebg/IL8s9ucZOQ=";
-  "0.6.463" = "sha256-ejVUgmPbYwxjerXgmN78cgJmgtMEA9HlmiiSg6fGhhk=";
-  "0.6.462" = "sha256-E/Y7CtZ1NSW3xSuJDHAlibLzYUST8k6zdySNmPQFa6w=";
-  "0.6.461" = "sha256-182kkgcXzn6rUc2V1nQRPaqid70XFzn1DKavbr+dwTw=";
-  "0.6.460" = "sha256-d7GSSfCb49KMLCyZ4dyVeNiCqo4xWrJ7gjQ2uNilWN4=";
-  "0.6.459" = "sha256-i9BaBu3gtt6DtV9RheFangZI8UvZuuc2NXbSNMYiqGU=";
-  "0.6.458" = "sha256-NP+n5OUgnQgfoVzO0/zsaCnEL21QF3w/jdNakAetI8U=";
-  "0.6.457" = "sha256-kCjz0nSWaL6MMA/NnpJs1lJQoz2ZZyeuS+hapuqOPAI=";
-  "0.6.456" = "sha256-FZQFYaDwmYe/y8TVt4Aewi/lhl0tjLysnVkMF3QCD88=";
-  "0.6.455" = "sha256-AFoYgwjjFm6+iQ6hDHZbuScBof13+4XP7CNSbq4Q3i0=";
-  "0.6.454" = "sha256-RwVs35434FkFxgckKtJbF0He+C2gHzaDGihGbUYRPLE=";
-  "0.6.453" = "sha256-dtpseGxv/f3ZrI3sfQ9x9ELP7dnuIfhsKyOCLYBG3DY=";
-  "0.6.452" = "sha256-SH/mWJisDa89r7WZKePGKoKvT/ekOPoJKECcw4bvKME=";
-  "0.6.451" = "sha256-Znq0lon11zWWydBMYERsUEADnylZvIvU2q2fYk7H+9g=";
-  "0.6.450" = "sha256-pVwWVVYWPlXMfDyjKe5t9Aec/WEwS7ZPWmik42jdB1o=";
-  "0.6.449" = "sha256-XAFkV7OcGENsF+M+/yB8NzdypN2Foioxlq7QvRB09XA=";
-  "0.6.448" = "sha256-1xhs38r2svW4jRcNt5V0zLuaPEk0xZUEk1aOCSLXhZ4=";
-  "0.6.447" = "sha256-jjxHQ5opO1pxFaqIVMHWnb5rh3mrmW32V+lwQEAAUqU=";
-  "0.6.446" = "sha256-ZhTSWPfAzxtWsv3GtyybDPA7sbn+ri9GaUkjVvS7QJ4=";
-  "0.6.445" = "sha256-AX6TFb8xmYBPyoibDb0Fi1RMZmUeJhE95AjS7bSy8N0=";
-  "0.6.444" = "sha256-sZkW5DaP//dSU81RmZXKbgDv+he5HQvpEgqQPYSTJNU=";
-  "0.6.443" = "sha256-FvGP9a2k7OnxLE0mQkuwckdAm3sAlGfJlCLand9/fFE=";
-  "0.6.442" = "sha256-bt7n4ouqWsAmAmq73PpxdApGYaR7/27SeMeiIeEuxEw=";
-  "0.6.441" = "sha256-B+kn5S9lh2t1ZdTobt89k2N1z+W1WpRdPtM2upckV9U=";
-  "0.6.440" = "sha256-L7iyqP9UED2N453/jA28dYRctEEEynMLk/I8ogjDaP0=";
-  "0.6.439" = "sha256-Hp2AiJaifeWWwKbgyEpf/k0+IOHfZkGFDI28pKgw8dE=";
-  "0.6.438" = "sha256-7kYOIEqY6JYGgD4KfKtmGCn5pxUsUhAZfWQm/2PuVxs=";
-  "0.6.437" = "sha256-i6nxfH278HNHkF7ayOKz/t+wJLDE1TIwMf6SoNr2tjA=";
-  "0.6.436" = "sha256-bf5VaqOvHBL6A093KUX/QcMSWal28Aj5sVLCHw9RRnc=";
-  "0.6.435" = "sha256-2HFZpgOaDFmIOL4vUMB7spxqzeEeA3kYGHW0F6czVlc=";
-  "0.6.434" = "sha256-phGCoxe3cy9GrxUkqYgDmRvSwcYiLP87ECXwQW066vc=";
-  "0.6.433" = "sha256-jI33byWGMTAMr60jb9qZzFzHtMHJHeTYkIZtlTho+gU=";
-  "0.6.432" = "sha256-dW4Fb0BJ0VqfVTTsklinn1o5WOpmTpIViLG2IwJThwE=";
-  "0.6.431" = "sha256-+9eKwUS3hjjfEMnAIGe65qFri+WIoexIUit+M2x4x/w=";
-  "0.6.430" = "sha256-+DFIXnGQv4+bQ+7WRcmHpE2BCSkKaIRUGUneDJP7xcg=";
-  "0.6.429" = "sha256-Cxq5mGnW88n7j7uQaVH2DjBIuf6A2CkHKlF7H1p//yw=";
-  "0.6.428" = "sha256-Bgd+Kd0GK87Z4vRO3qeSlj+bGn2k2VQrBPrBdtZUcUo=";
-  "0.6.427" = "sha256-QreQpOPZwKsn5DaHGxfTZEr80VyqeWjHlRZ4InvEEnM=";
-  "0.6.426" = "sha256-jfJIJzHQCi6M/Mb1OTa68UW+wKLqY0AGIr4m5BYjdlc=";
-  "0.6.425" = "sha256-10rJkTsUCZHCGPGWzXFnOLkMeORDlADXgue3h3zJies=";
-  "0.6.424" = "sha256-57BWoPs5Ews1/hN4eTH5NB/2GaQGG9t8xeeVCPIHVNU=";
-  "0.6.423" = "sha256-NuD1tPuBRzibseaw2F+DNxfGjPFX78fqoa+aKrzbb6Q=";
-  "0.6.422" = "sha256-KAF3/v1aTVlqHFi0Yu0jmBszjsz/O72Dk1DmiZpA2JU=";
-  "0.6.421" = "sha256-plgmFSZ8Lz3JewXBpaUklvpXOwpErcCz2flMvrvVJak=";
-  "0.6.420" = "sha256-NknY6Uo4MaLDvH5l7e3Fqs8jnzTLnibDKX/IvahTAXk=";
-  "0.6.419" = "sha256-LF8nB4ePDDS1p64DPwkLmpBzB3VAGEIPIIA+MTwGXw4=";
-  "0.6.418" = "sha256-cLYYlzyvB7ZAQvzTWr8f1D7P/aX9Lck57r7yY9vinko=";
-  "0.6.417" = "sha256-QHWPMAnwL/fzlGI/g3N2YyK1EET/YZvpRLxE+cX2aao=";
-  "0.6.416" = "sha256-DRIcRTh7oL4tU/nLEnmgnLp2IFvzfJr6INYXtpiiMQs=";
-  "0.6.415" = "sha256-STGbZY+dgKZ/ieUD/KvgdKGX+nQKjjl7mg1x4Ca+RE0=";
-  "0.6.414" = "sha256-aqy8E0wmXVSe0RsXDJtaS8QP+ANuleg4ztcjzqKiqbs=";
-  "0.6.413" = "sha256-tURUkH0oioSRY3LIkkE12RQH7s+3oRk0ytHGKAVjl/U=";
-  "0.6.412" = "sha256-gCwzksbtJAgxgz4/a+DxiarkbZo/uyTzJcDqWj9jZYk=";
-  "0.6.411" = "sha256-0T/NivpFGPJTXezKkIU3YImbuuUgDbzy29RVDJP5yRQ=";
-  "0.6.410" = "sha256-R7sX4cqdZZXb525tAhPnsQkPCQP9lRlcIEXXObMPuIw=";
-  "0.6.409" = "sha256-/hKSIJ5jvKLeb1lrSocFWclUlGeKhfMUrgop/Ri2Wzg=";
-  "0.6.408" = "sha256-8hhWcoFbp6jB1/MDzjpYJ26pi7DPX1e02XnOck9zMZ8=";
-  "0.6.407" = "sha256-jQqFgOl1UiBOgqMDCi3g3E/pmi7Lwl/55TDqM5vFpAE=";
-  "0.6.406" = "sha256-Mv6ZG3jgeq2R0SpFV7+0SY+M2JxY50+F+vlgEyJBg4s=";
-  "0.6.405" = "sha256-8qKbODNDBP7YngORucyqYCAxAJ0IQg3Ymasmei3Y+RI=";
-  "0.6.404" = "sha256-siYZvWCA256fb43J1JJjTwRBbokoVELY4zmvag8yFOM=";
-  "0.6.403" = "sha256-q8Hbz46aYzf9JQ2VooRPQGdKYr4OKWhNaUEchLmQl3c=";
-  "0.6.402" = "sha256-YB7LF4YVUBtOwJpTBXH0xSqHoezq+BwuFjIzj6CNY7w=";
-  "0.6.401" = "sha256-WZcokJAR1RKzY/NljenHDiirtdzci3dIM7UOxdscQp0=";
-  "0.6.400" = "sha256-+vYoKtYn0RRXRcyiUzTcaOB+B/LhKNdQ9meY4S0jWcQ=";
-  "0.6.399" = "sha256-lTP2JtU6fEoendTTxy6/+OyswGy/On+m160QhB6qLcE=";
-  "0.6.398" = "sha256-1skqftLrw7nKa5DUzlxCQsi3hi2Za+k6VzDXciqeYIM=";
-  "0.6.397" = "sha256-n0qwyAeHusikNF2mAVKKCf0dHZ25tXRnvomjRzN7fCw=";
-  "0.6.396" = "sha256-f67mytqAPEV0NuR4lAevNzfEcob4fOxB66la6+7eShQ=";
-  "0.6.395" = "sha256-ESZuk89qUTDQusDJzCcxl1gBHjJThIRDcwa+GNDnbw0=";
-  "0.6.394" = "sha256-kevKAdmGOB9M+qLSIj7gmQ2AmDptoBLB0l+80WDV0EQ=";
-  "0.6.393" = "sha256-qVr4+RI2VOlhfnhgswWg1JYo1w4QxahXhJNXyWrPMms=";
-  "0.6.392" = "sha256-v9p0nGhEZzgz9XPIt1m0xbXOojih4EEadUUC1d53YrA=";
-  "0.6.391" = "sha256-2JEupC2jWM+RBcbDi2pmcXxJ9wV7Alz6CcfT4IVbfSQ=";
-  "0.6.390" = "sha256-J4Se2MWPhkB7LRruv1tXydqsRVNYpWGkXvjXUZKLc5c=";
-  "0.6.389" = "sha256-uhrUwk+XlEYDezOPnYKoELregnmH4JSOgkCcMvHMjho=";
-  "0.6.388" = "sha256-yTT/tqmhV1Q6f37fVlhpFBLJ2QI21j73yDm86DFUfN0=";
-  "0.6.387" = "sha256-eo+ejk/IWo2q3rrPTBo2SrLNFe759EoTP8gW1nRL5IY=";
-  "0.6.386" = "sha256-QOvGYaZcWFrntAehhgTu9JbQCwIcn9JTO/GZUlK4nBU=";
-  "0.6.385" = "sha256-uX3k8WcFc+f0s8wgBen0W3VzBj1mvDpkG6wS7aU3zo0=";
-  "0.6.384" = "sha256-nRaswQ+y7sUbE1MsDror3vMMlrwNUY7ErCRAYDi4VUE=";
-  "0.6.383" = "sha256-RSVz4almZWIqyfpzVmEQa8Dy9KSD+Own+4BjAh1CSV0=";
-  "0.6.382" = "sha256-4WRl+jreU73Nr27lX6prcV4FIUm447FU/NYpl448vDA=";
-  "0.6.381" = "sha256-JdYUsKONiECykiOA//NA8bF59QogQojcnWwbMMrV5CQ=";
-  "0.6.380" = "sha256-JdYUsKONiECykiOA//NA8bF59QogQojcnWwbMMrV5CQ=";
-  "0.6.379" = "sha256-cWepGA4RjkNfZUmGxcVE8yhPnsW0ASD4HGDDk0a3WWQ=";
-  "0.6.378" = "sha256-z3Cs54I61/phjpkgZG+3hE9C0gxjr42nliFZ82vz4Yg=";
-  "0.6.377" = "sha256-z3Cs54I61/phjpkgZG+3hE9C0gxjr42nliFZ82vz4Yg=";
-  "0.6.376" = "sha256-rRUuNrk5/FHsuWkkwP8m/hOEY6aEvGOLjsVXwYw26Kw=";
-  "0.6.375" = "sha256-4xBvcEfDJtG6MB8ajVkJuhMy6+w7lP7p5LcibKe6r2k=";
-  "0.6.374" = "sha256-xJqmx3N9np+G+A/jN7EQZcxPmZZOpmkFXMEo8TPCWQg=";
-  "0.6.373" = "sha256-5WUUT2gl0NWl1t28WQBDsq6CesqVc/Mb/SSI3pcxT7o=";
-  "0.6.372" = "sha256-fRUYSoPxZjTyY6J7tweqyk5b7eNoW4vi/ypQjAfc+d4=";
-  "0.6.371" = "sha256-cXTfjF5b2d41OLGvTRk5EZXmQUfLcPnGToHSN7S3qGw=";
-  "0.6.370" = "sha256-+sIAMruzAPIJjLQVwzpRqKDwrDzrNh3zc1d67scUCx4=";
-  "0.6.369" = "sha256-4tRuJt8+VZwYrWr3JXbk3hX2rnk9l8PEEPIuHX4Rjm0=";
-  "0.6.368" = "sha256-CqsFfC+a8nEiuHHJDaacVee62LPZgHa/Ob44GApeitA=";
-  "0.6.367" = "sha256-PudFzM+/fNas57sM1zdsYK97XKc47xWgREDPJTcaBJc=";
-  "0.6.366" = "sha256-zZZl7hldUO8Mrx41cs3Q6uqHro4GRhwL6c+GBSSadY0=";
-  "0.6.365" = "sha256-En+emCzVT6mup+erW11fORlAkrhwKzwaYwLg81TrjCk=";
-  "0.6.364" = "sha256-cL252102iLlczhLE6ieR3EZbzickdyRvI916oc+zJTQ=";
-  "0.6.363" = "sha256-ZEVrtC5J6YOjUULDTrbmPRnm6vnMqzBI7LOdaviuKGc=";
-  "0.6.362" = "sha256-EQbswqdMSDxuttmw7oJuVsQREcr3gXaJ3pXycuIJtGs=";
-  "0.6.361" = "sha256-JwFIyQSdOIrzW7W7NiKGMk3NjAlQB2hAR34KuK50yCA=";
-  "0.6.360" = "sha256-AVwkS+lVdMvHaSr4frPkWNP0bYTmc8biH6mBUJ+VrCE=";
-  "0.6.359" = "sha256-zEPB9PjE7Pg9BweHI/NszeE5C1cY4QXB2qFoJM2fT8I=";
-  "0.6.358" = "sha256-WVDctu5T+bL/nLB8TweujezC+W2OnUjVgh1gkIpEySE=";
-  "0.6.357" = "sha256-vd/YLFGm59hke2lY+uDl51qyHtWEK/snR+8565QxnqA=";
-  "0.6.356" = "sha256-XaGkD0AnodsjKnAEUJp4SsoUDVBMlVLUfhFWopeZXs0=";
-  "0.6.355" = "sha256-mZ7eoXUvIV/HDTcW+oUp0wDYBUsGDadofVBGkKk0qLo=";
-  "0.6.354" = "sha256-vEzJT5ApTJV+mLscYEKpF8aMgRhK9CZRrWbVI5l9yXc=";
-  "0.6.353" = "sha256-wekpXJkUBbEUrItoeAiXdBU0BvUCalLTRPCDGFvmcXQ=";
-  "0.6.352" = "sha256-4Y5ZJK2QbhIVh1A1nwx+2VJO/2z2XZP1getnZwqgr0s=";
-  "0.6.351" = "sha256-W6DjyxEaPhJ+F65mZaTrjAAl3O8drS3ihvUBSlayDQQ=";
-  "0.6.350" = "sha256-b2Ebf+bjyjhVnRD9mo/aGveZzScRcZV2bzWQt67NGc0=";
-  "0.6.349" = "sha256-oTGD38rlM1xEvu+6rxfcUVlfheNEZyoxE4EadEbs1Bo=";
-  "0.6.348" = "sha256-LCQIabGc/unFoXwmr9KRWs4Y2XR1lRBLFgfU3d03QPk=";
-  "0.6.347" = "sha256-c6lptRzx3abMuZj5wGNr7HsZurE5aUDj53pMrJm4YaQ=";
-  "0.6.346" = "sha256-4cRCD0KQrFhTvo/iiI2sRCj214o1tw8AnoPlOcWTuwE=";
-  "0.6.345" = "sha256-F3NVuzv72DWSIgNMo+tnbHAhNOlgLZ9BEUKHG9WkC3Y=";
-  "0.6.344" = "sha256-oFwtGTLVeE3tUalExn3QPiALeSGmSq1V3otkXjkN64E=";
-  "0.6.343" = "sha256-oFwtGTLVeE3tUalExn3QPiALeSGmSq1V3otkXjkN64E=";
-  "0.6.342" = "sha256-1kX5KbtFE67DjI7TjaERKFZfMi0Cf9ppoXm+5dCjKwk=";
-  "0.6.341" = "sha256-l+oZMchF9K0eWLBP0rQ45Bkpkq7/MoZuMTWHnm2vOPU=";
-  "0.6.340" = "sha256-Bh0LFGnmv0friobqC4ugug0xNGlbQOKvoh+z/5qFF5Q=";
-  "0.6.339" = "sha256-1ltF31eQV3VQdQagy6v+hZCTClWLWTQPs94LpaK8ylo=";
-  "0.6.338" = "sha256-apIisCxvjaE5KN2vZkrJSs65AbbufFlBQMBaa/wLrmA=";
-  "0.6.337" = "sha256-C7a2QDTg2iOqGVNSTlqujtt41GGZhs2xt3Jeks+G6OE=";
-  "0.6.336" = "sha256-brGTyZrUlFWgS765e6UWuxV6TVT9E2w4oNDjsNiLYXU=";
-  "0.6.335" = "sha256-em4yLD7VnlViPYNmdGcbzjwPVzSKIjwURjqEg7S7wOQ=";
-  "0.6.334" = "sha256-DdyplYovhbo0eA5iWVxMMPVVlWtS6E+0MnB1ssGvRkc=";
-  "0.6.333" = "sha256-CVPdX3HCktabHqHBmW96AOic3Xo7EcTqNckelH+ANFQ=";
-  "0.6.332" = "sha256-tcJ3p9v5CANYS7VMYZ0dM5iJVXiCMAeTuecmXo4l59c=";
-  "0.6.331" = "sha256-wq9cP8g8tcWDJjwVMoBFOy+UN+B7Jl3tG2ngVPXvC4Y=";
-  "0.6.330" = "sha256-wo1f2OJSDQtazBGoDcaP2PA5TwDTzZXIGczo6glka6Y=";
-  "0.6.329" = "sha256-1fCRAE8+eflOKxt9dSmER8Non6iqxBMhML1J98KVgMs=";
-  "0.6.328" = "sha256-fOhiV/fekNxlkoJHGkTTEluu7oRq6Q723HwsazzA6/A=";
-  "0.6.327" = "sha256-DaFmeGTmNemBx0HSscPihAbf5nVFUCozAUYJwdLnGTg=";
-  "0.6.326" = "sha256-DVbAmBoWY/5b/npixmXK71koXPpcIsspaJTIQWLDOxs=";
-  "0.6.325" = "sha256-lJq7ufHXBYVMaJ93gxIa8lg6l7BrvEIPE9VK+KVkxuk=";
-  "0.6.324" = "sha256-hjO4YF1aqPoC7rZYukYltOEaxBzYE4U1cy8xirxbcpI=";
-  "0.6.323" = "sha256-NnxMHI9rNilKGbu8Fd/Z6Fp2/MqU9E4x4fLKo/OMzS0=";
-  "0.6.322" = "sha256-8Z7SQFQd7yqo7gmv1uzNvn9lr84bttn4sfOaCvtqu8o=";
-  "0.6.321" = "sha256-tPKH3A+91CdbkuooDKEz1xnKpzM7VRpsWuAJueY4MeI=";
-  "0.6.320" = "sha256-EiQR+b9bIb091S8S8wGqqm4EWmP3Sbe4KqUxIIkmpr0=";
-  "0.6.319" = "sha256-gIL4IH7lLsi8/gjs2wPuyqN0a/RZxpjiRanffSCOtiA=";
-  "0.6.318" = "sha256-94HLLX5U1W6meiP1MdIpfrt/JCIVyMGPNv94Ukvpf5k=";
-  "0.6.317" = "sha256-10Z/LEAAiJjYM+wEAGFKlKp9eERq4bkVBUbT3cfxJ1o=";
-  "0.6.316" = "sha256-OBnREN7ppgmPQh01cnp9M9Ar3nnI3RY9z3dZfGeRjpo=";
-  "0.6.315" = "sha256-W56bLM+Mzylo0b5xXQtH1j+Dy98+c6iYnwlm4i4AbZU=";
-  "0.6.314" = "sha256-XyKmRnlOxMSLP3s/fzo4FSqh9/0j8f9E1a8KsxlH22s=";
-  "0.6.313" = "sha256-peTeeFqWPR7k+FcZmXqQFc7n/1foQyQ7E9eQYMrbQ9s=";
-  "0.6.312" = "sha256-ZedNMqppImIKTqivT6+uD/dTRkp8/eJnh2SwlF4pfzU=";
-  "0.6.311" = "sha256-a+j/I//ld1OdazO7Ljagpi9rAX5Wfdk6DqxcEUAQDeI=";
-  "0.6.310" = "sha256-xqQ4jrU5pmLao8Xd9cW0Xnijb68CHlsPJhvs0jaErI4=";
-  "0.6.309" = "sha256-9avI8+RBlfuj7g3v2D8vsIAcb/UJgkU9OMZlnheg8iI=";
-  "0.6.308" = "sha256-IHOyf57TQjFPwUd6vdprDMloLn/C4WMGVJQ1BV4vmME=";
-  "0.6.307" = "sha256-LHrAh2jRsM97fmwSr/Yqi6Jz7bGGfLubGHkmRYvuVU4=";
-  "0.6.306" = "sha256-+nMdUBsLFT2Q/5bexxPPBupRp23Fv1s6zUgorWEcGEY=";
-  "0.6.305" = "sha256-PqArDhNLYVOQxmIDc6R03fxpdvkQ55VyNpHzhIQFHL0=";
-  "0.6.304" = "sha256-g0NBrulv8bv119w5zoWPqS9pkZCxkyfRaAA7Rab662s=";
-  "0.6.303" = "sha256-78nPIaM/2rClN1zTlo9ED1pHav0DVERJMDibVY9TFAE=";
-  "0.6.302" = "sha256-TPUHOMHJC5GD91r/aeoXOmsoXODVuV8QENNcYV3l1Os=";
-  "0.6.301" = "sha256-IeOFWxxl0mmVl6v7qEB9ST5dTiKYYxio9ESuIDnK9PY=";
-  "0.6.300" = "sha256-s5AG68FYKpX4yyPdCRftaVffVmcDTLejnPN/U8DL7zE=";
-  "0.6.299" = "sha256-0FisOmtKLi3F282wUcZgAv3c4pcngzc4V/Uqq4b8lFo=";
-  "0.6.298" = "sha256-tpIrpUwoNz3hQTAIY4qNbwvDB1xgCvI1OurqRFG2c+k=";
-  "0.6.297" = "sha256-kKL7WH2wupMVP6eZ094TuGOC4lRCXeo84UYrPw0g0bg=";
-  "0.6.296" = "sha256-Y0GT9ogVrf/Zl5ltql1ltyA7cdDKl/K0VJp24xd6Eaw=";
-  "0.6.295" = "sha256-MwgMZQAYjEC+L23rxkrffB2tjJA7J52J+reaSOKBAsk=";
-  "0.6.294" = "sha256-4E26wc5ql/AbJk/xy8Oq1bQoW64KkfFMrGxRGOCDtQY=";
-  "0.6.293" = "sha256-Hrl9otNFsZWL6kUUQN71frEGZLhjtdx47kuhuMsNpuk=";
-  "0.6.292" = "sha256-GfzG8s+XeENm69o5VbXuS0x/v/YtbJKUbsZqXtMLSKk=";
-  "0.6.291" = "sha256-i/iB0ATnp5Mwa8vPcUekmW6k/DdxPEz5p0/eThy0mFc=";
-  "0.6.290" = "sha256-0Td8rahuAMdXz5mDYGPpemSiky5YcVB4EAI0ES1kht4=";
-  "0.6.289" = "sha256-q5SW+gRsRdTA98tparrjWaVT58ZbqlgCVtuwxCwKMWk=";
-  "0.6.288" = "sha256-8iZwfD35iBZ96wuqj8Z1xf2nhtKKQm9o+NjqRXXTOF8=";
-  "0.6.287" = "sha256-aVYkEa4LoG5UCH9nNol6I4zlXpBEmDP6+skWf6HoNpI=";
-  "0.6.286" = "sha256-zj+R0ub3G/0Bz4mZ8iKwXE22KW6Pgr6o+YTEmqgF8lw=";
-  "0.6.285" = "sha256-RI/92aoSBgqa1v9VvwZ2g92iSliWbUZp71OEEQtrYcU=";
-  "0.6.284" = "sha256-BK8F1IPHoUsYAwR7HZG0F/i//eb4aPN3HXDjjWo3fb8=";
-  "0.6.283" = "sha256-/fWBL0ssp+zUTDAEzw+2gM/XVPpqmJ9SKSIb/0t01Gg=";
-  "0.6.282" = "sha256-qA0acOAXr9bfwj0/YGoQdYvmi0ks+fZe/4CnZd5z8ag=";
-  "0.6.281" = "sha256-hpObApRqargr/lOCTCd+7NS2ehG1+zwbP7QogWa4e10=";
-  "0.6.280" = "sha256-SrLK1IadzNjK2WPU0/pQdmD4kEkLr7vgINrm9XB5wjs=";
-  "0.6.279" = "sha256-Z0VkhW0D/0U5jFy2k9tI1HCX4wak9Lxx0QJbNCx/MN0=";
-  "0.6.278" = "sha256-rHJvJhFklOhmtjdvB2HQidRLooWB6QAEFLI9amiHq28=";
-  "0.6.277" = "sha256-iViC5nB4kieytJcTXotz0AeC4UDyDswT/X/4qTsZyxE=";
-  "0.6.276" = "sha256-X/yx07aYNqbr1iLSVqBdox4V/kDlXQqn9nmKdLdEPpA=";
-  "0.6.275" = "sha256-rOx8hyf5oQG7d04e7Js4ENRE8yWUtgDQz7vXlQisY1k=";
-  "0.6.274" = "sha256-vq/Mu5feCCBq8hYWpBxSm7jaAmUsFf25UBo3PmZNsJU=";
-  "0.6.273" = "sha256-teukt4xurEZdRw/kxclNSL1aAIl+Lz+6uAgB6cBnDBw=";
-  "0.6.272" = "sha256-r+zaCpgSqUcXip7KCgbvtTFJxBQbCwEXLO0uJB8MLFo=";
-  "0.6.271" = "sha256-qurUEX9ou7nhda8YFqzx0q5a+74L589KfEcPipvwIIY=";
-  "0.6.270" = "sha256-5HIjL01K+QEAGqCPQbC4eL3lXZmSTXhPRQZTWKV2DfQ=";
-  "0.6.269" = "sha256-2bmcZfKwN6c5nimd4wDuNKuuyI+/AYp/1Q7iGgOEPaY=";
-  "0.6.268" = "sha256-PSW9Y8lWiIKiUEbBmgGSegqsaaHD9zdMohpCxToB/xQ=";
-  "0.6.267" = "sha256-NB6EiIZlcam++GxdlmVsTKssSAWztErkFEth2SOYSIQ=";
-  "0.6.266" = "sha256-4vpSK8OS6SAA9gVoFplYTIU+oJLrDUVTkplueRaqWac=";
-  "0.6.265" = "sha256-1rPFxqtj7PQ49vkga4G9NL5Jcns4/Fj9cHNP+RzB0Hw=";
-  "0.6.264" = "sha256-E+Dh3i8LoNW9jTHz3zBBSiWoFmCz4hu4rSbH6Ix6Zh0=";
-  "0.6.263" = "sha256-N3712cSzV223JzaOF837EFqKWc5RS3PCa1TU2ho5vkk=";
-  "0.6.262" = "sha256-4T1YTju4XwenSj0ZSk0y33h6CCqo+ep6/ItSzWMdppA=";
-  "0.6.261" = "sha256-GBZC9wlaMxYvsnvWUZXpGRxB7pL7/qPJP/1y5I7Eh8Y=";
-  "0.6.260" = "sha256-aE/xqXjmTXqOWyL4uvwWhhovOtz/coeJNycxkkDZ6PI=";
-  "0.6.259" = "sha256-ELiExbdGWpxK4LR7N9eb6BzqTij2fP9CrRSltaiVhVo=";
-  "0.6.258" = "sha256-SUEkNhAGWZ7J5mbn++zfoJLO4ToiiqtizI4QRaCUOF0=";
-  "0.6.257" = "sha256-/mear8Mn+cGPhkaC/87GbzIfFhgrwPtswqYzLNizwUE=";
-  "0.6.256" = "sha256-YkbepQRN6oJ2eCbf+J0EVKuKVgWgt2DXpGEpzmFsob0=";
-  "0.6.255" = "sha256-3uX2GLm7ZvtGHO3awbzFt/8wen5SaPlwaSIkvsyMVY4=";
-  "0.6.254" = "sha256-BOKLIuYGLoKxjjz7qVMZ18ap1WtJ4eZ7BNK6auShVAE=";
-  "0.6.253" = "sha256-bdUP+NLmZ4Uuu87+F6VQ50E/LDwBdeSFmqJRddjTwyw=";
-  "0.6.252" = "sha256-dk2NGw8rIitr2cy2+f0N0ANC33u4vnvYNRPprV+MmJk=";
-  "0.6.251" = "sha256-zhbKYcUTVcQRRtxf7Dr218w4u7T/xBU5CHxSizRhUYY=";
-  "0.6.250" = "sha256-n3W4VszEl11lohPdf6uH97Pc6ZyBzg6FaKIo927PJfQ=";
-  "0.6.249" = "sha256-EH9sToYF6GSgDa/tzJZ/HjV9tjJJPm0fRkJ7MYb71Yo=";
-  "0.6.248" = "sha256-9PVShtgyE5uufRXT6oyee/5ZB2r+bTZAo3I4L2RAmRs=";
-  "0.6.247" = "sha256-jpTuC7NQaOpavZTeuudWsJSb1c++vtQq51gR0IIGIb0=";
-  "0.6.246" = "sha256-H54nHtU7K7epoAzdfwPk36hEfnKxH+ikbDl+5HXEuLg=";
-  "0.6.245" = "sha256-LMVDLAK84kJjxg7X8OXVilejaw3XIk7WuceY9kE6Bdk=";
-  "0.6.244" = "sha256-uPnc6jFxnapUOJImNc447+q94HHOt2UgWaSnszqtyFA=";
-  "0.6.243" = "sha256-1OWvAiN6MBfDHMm/uMKSEASgU6Z7whAkiUv+UtjsSNs=";
-  "0.6.242" = "sha256-F6ngRxLtCQ+f2L3B2iLTYTp51KDRPLFUs3LytB+36qU=";
-  "0.6.241" = "sha256-3sM4RHZK2/p++jOBaUqRex0Ky22X1pPma1DcrHGf0XU=";
-  "0.6.240" = "sha256-DfiUGg4iXrr3iS3OTn64VV67OVslZ4FJtZvpFE13Hvg=";
-  "0.6.239" = "sha256-ugo9XE/rBLToR/cuKpKRd7h/2MH612Xx3V6z+6Of4rc=";
-  "0.6.238" = "sha256-LwGmz7TU/Grm+FgH/1qtH/ddQlTcFq4fbqJFeS2a1vk=";
-  "0.6.237" = "sha256-2dxDggm8c5f7grS8VYId5dbu+poYscFnOzvamHdulsY=";
-  "0.6.236" = "sha256-yQhIxEUS0FDMdEcMw0WagTl5OjeUaWhDM3wLLU9mGEo=";
-  "0.6.235" = "sha256-2OtxvSpUvgKnd3VyYldILjIQ11z3y6f3a9USaS/rk6I=";
-  "0.6.234" = "sha256-tX/XaB7ts3ZtwG/NkX/cv8lvSy1zDxsshqWkeLfk1fM=";
-  "0.6.233" = "sha256-BUHx1cdjeKauZlk1tm+tpVMGX8m8mjrgm9vBH7AQ4Vk=";
-  "0.6.232" = "sha256-erVf8Zz0k8wVdJzKwFhF8u7qTtajUDsoEcOZT/skkFU=";
-  "0.6.231" = "sha256-963pNaAuI/kKF20YnpZziH86NH+JP+GDaNL168jijvw=";
-  "0.6.230" = "sha256-EKJ2VZh5tiV+U3pbV419rTDhG08PAW2LOWSc4SCCEAQ=";
-  "0.6.229" = "sha256-MXNikBCFoWtHuexqFdFO5hSF0Uwt4WjeAIAoV8JDKaA=";
-  "0.6.228" = "sha256-tdtYm3zOJ2+lRPX7qzUky2hFkaeFRCTvPoVJP3Su744=";
-  "0.6.227" = "sha256-uGhTelavoKzhQCLp5PcRVa+VNqGHIgF3vLdsYjBmS70=";
-  "0.6.226" = "sha256-xHCo3k9/V+0SqQyFyzPP5iQVGVOl/pxBM6AutRf6fEc=";
-  "0.6.225" = "sha256-rLcsW+PJFvjBBCCztNGBrjjMocx3Joi+PWQ0LvwcFlQ=";
-  "0.6.224" = "sha256-XX5+5TnuzN8EPGo9XDR+AxMI8bz621WUtPAAFqrBYPI=";
-  "0.6.223" = "sha256-DPYUbjWDOR6BtQiFyqKYU5lvv9AL9ty1ClptErydkXQ=";
-  "0.6.222" = "sha256-Rk3wxqgsxGBbmBX5sUopyE6KO/MjtDmh4Uix9Vn0ywM=";
-  "0.6.221" = "sha256-o0MDtnBqZdm2YnofL5gqAUP+iCwVKmdWZVGVOn5xw6s=";
-  "0.6.220" = "sha256-25QiEK8MRJdG4Ta5mHczUnSvit+FxRhwktgC8P9Tpws=";
-  "0.6.219" = "sha256-YEMiRagW+F3SwqNYM8C+Nz4QvKp3izN+BtKwraAPqYI=";
-  "0.6.218" = "sha256-Q6wr250MMbqHhPxqtd/hmYSB7J126QJ347hj8/YWvTw=";
-  "0.6.217" = "sha256-K7961+OtJoAgjyHqhbh8Sy2AsPFT4nU6Jc+8VNerS+Y=";
-  "0.6.216" = "sha256-C+VtshWyw1c4ryH4zuGhgAY5bhqifsOUGUQAZ3XhEc4=";
-  "0.6.215" = "sha256-hQjQTO8WaPKJNQddCYLiFd0E5hO9JCJ245s2diOhWTw=";
-  "0.6.214" = "sha256-gkYrgA0BCVGh6yFjA71EVFzj9BsOxidnngNSBvalxDk=";
-  "0.6.213" = "sha256-qvqUaxh1YcGbvxbOPlimfOczDWABSXoE1+YnhHU4CMQ=";
-  "0.6.212" = "sha256-7cde2kf4UqD+FbN/SLm16szi1RU81Nmb6YqpFH8fC+g=";
-  "0.6.211" = "sha256-9jdP1brd+wU8RJgjknBtHtYY5xFdpsWVyd0LeX0NTiA=";
-  "0.6.210" = "sha256-U7SRm4pEQQO8hBCREHIkooyWTi3fL7c13LIVI2KjvCs=";
-  "0.6.209" = "sha256-WXTy2nGM44jKJbHBTcl7zUmIjqWAuaEd4ybhP0CNheI=";
-  "0.6.208" = "sha256-zJl2rfH9iIDGMI2un6x0bb/ISMDlhqAB4/j/OOR7jQY=";
-  "0.6.207" = "sha256-zJl2rfH9iIDGMI2un6x0bb/ISMDlhqAB4/j/OOR7jQY=";
-  "0.6.206" = "sha256-7vPz2gJwpsoVE9g/rgO7IunX+gFZEzy2lIM5t9XJvME=";
-  "0.6.205" = "sha256-443240/md2XYRbJ2CMQXwR/EI43wAAquDYsRw2jsEEk=";
-  "0.6.204" = "sha256-hRJOood48k0N1wPGvZXzCjcA8ovWiMiAIM5nKfnMSQU=";
-  "0.6.203" = "sha256-8pPZv06dp2OjF77KUOQCtbnGhAs99EWCxpnUnO2Gk4U=";
-  "0.6.202" = "sha256-cyKU6H8Dy0gUxUM5nHc85jxaoO4lGzy8CnbksCdLPog=";
-  "0.6.201" = "sha256-l0rOZWWZ3/eDT6Egqkb5Hwz5Yvp/Hu/ZPLrDF+gob1U=";
-  "0.6.200" = "sha256-3h7K2lCnO//b8CBvOVaPn9R3+TbaUF8jJD3AnCFwo1k=";
-  "0.6.199" = "sha256-3M6q1SolQuaOI21RRpIe0UuPAgqLufU3LSqAeO31mTQ=";
-  "0.6.198" = "sha256-VT5TQ3Bra/1KPnlb0QU1nyYfXGowjdBZaLPCQaf0Cnw=";
-  "0.6.197" = "sha256-nYXP9jUaF7eALGPrA8cx5i7recEWzDVYG9YWphU644E=";
-  "0.6.196" = "sha256-/D+OyaXv+yqaBFuYecRzDtR2ycme3X64b03STTAeAZ4=";
-  "0.6.195" = "sha256-/VpHMzkJfuioMUJzZlG2JMIhOrqpQ3+hc1gmXNKTtF8=";
-  "0.6.194" = "sha256-+c02nQussFd7TsP/8NJv87qGOvV0xCgbavg9+6YxwK8=";
-  "0.6.193" = "sha256-PFcChVN9tlD/eRoRCcQ9HrzH4kPsPns1jwmDERW1Ru8=";
-  "0.6.192" = "sha256-arZE+CIOdwDV6oOTuXSIe5QUoNou6GI/bo1RbeJluz0=";
-  "0.6.191" = "sha256-M3Aixc3AQjnJW4Pzaksyq0xU0djaxc5X5HTn1HzSqlI=";
-  "0.6.190" = "sha256-c8+SBaMeptGY9tY15PN72mj7aTzNo160Np8C2kn5w1g=";
-  "0.6.189" = "sha256-tHra2NC6LnuDsWcPc/TQIYCz4QmtkVRsb56iPTPwduo=";
-  "0.6.188" = "sha256-O87kVtfJcIYPRhC4ZoVxrbGaH9RVQghX0fSiLNSAjOE=";
-  "0.6.187" = "sha256-u7oR7K11cp6Q2vD5U1UV8NU1AIg6uP98tupDMmJpaCE=";
-  "0.6.186" = "sha256-fI9qfoMyaJQso59QCTi66NT5wVEo0Y+7ABgwVGtex1w=";
-  "0.6.185" = "sha256-fLpWFHEa7VQher7XACt166DDt8KqeBB+VYs2WscHZMQ=";
-  "0.6.184" = "sha256-hNTGf5JBw4RgcZbXDRGrtfhHifnL/qJuJpiBP3SPnyU=";
-  "0.6.183" = "sha256-ZIip6GliRF37E8JcmJW+h+ElYmj2n5KrFjXyvU0vdvg=";
-  "0.6.182" = "sha256-tKCvSQXpE/FLZ/z34S3Mb1r3sQ9HVBDu/hpt8kznMw0=";
-  "0.6.181" = "sha256-pi4cniNqmbZfORRLZ5vINoTPo8tnOJtO6gBD1o1rUvs=";
-  "0.6.180" = "sha256-UYFapVnb8ZEtDjncH6wF+M/p7MoAuElHKtG7HhJ10yc=";
-  "0.6.179" = "sha256-UE9qQuiqCPt1WLEEM4w1mIiZPQ3DRV7RLUuGHLq8L2A=";
-  "0.6.178" = "sha256-T/rJsHS2aM+6sLQtVxAdLcT2VwK3D8vnsSZFdT6OsMM=";
-  "0.6.177" = "sha256-KPKWHja26bZUXcg+HJTWvpjksmNLpAe3vVHVUFrZZvU=";
-  "0.6.176" = "sha256-KPKWHja26bZUXcg+HJTWvpjksmNLpAe3vVHVUFrZZvU=";
-  "0.6.175" = "sha256-avCnTxXkRPzNt6RefL0o8SwKwXe9e4fXA1wq8kWDsZc=";
-  "0.6.174" = "sha256-zl84lBGzROlBuba5o6sluS0GGy49t6ZmiLnyAfad5hs=";
-  "0.6.173" = "sha256-/lhXpE3cJO+/6p8hPfBfVeITOGDrlrRdeQ8uHY+xBbU=";
-  "0.6.172" = "sha256-JRC/UKKLaDms8374L/UyqBat2SvEXwHpX/alVT0fvZM=";
-  "0.6.171" = "sha256-FR6ylR2HJNWM20BqYeQPhOpXVzkW1bH7bfBWO6e1WF8=";
-  "0.6.170" = "sha256-B3EtN9X+x+8inkB5SS/+yQkOXvZ+CE4xelt63XJlYtE=";
-  "0.6.169" = "sha256-Set8L/XraPciSoGgOFGMkKibXh8K8UJJ/xC6lZx+mvk=";
-  "0.6.168" = "sha256-jVZWDoDWPSijVG2rMGFYSq/g5+74Xu7UruQDBb3rQD8=";
-  "0.6.167" = "sha256-24zUOuih64smFQzsyb8VWZkGHvh95STyOVh5TzV1gY4=";
-  "0.6.166" = "sha256-ZVZu1s1Y1Dg9sAta6tSSYfgRb4g/QY9uzOKwGeLDO20=";
-  "0.6.165" = "sha256-TKOy9p/C4zVN3z/5n64XkZjCTsUuuhJsUBHqNxCIAxM=";
-  "0.6.164" = "sha256-rjfuBe5lvbQzb7+QDT1TSiQbwT2wq/6rMShRIgpm5go=";
-  "0.6.163" = "sha256-P4h54BoYWeqsmGaeXMFHniBO48WUGsWVX1TqK9/4psw=";
-  "0.6.162" = "sha256-oBbahY7JrZ9KMwqokKiuYXVkNNWlrsIROr/WS1mGQUg=";
-  "0.6.161" = "sha256-CUzKXCpiLuNjhMXj3no6ugn2h3ufbJA7+y9Cy/l8Vzw=";
-  "0.6.160" = "sha256-7V3lmToB5foEoRUKnS1fc4Q0WbvaCUB/XBHC4PqmCBU=";
-  "0.6.159" = "sha256-dlPwQBIfhxIWlEgT0LFmaxHvANOnxfRbqrffHUiTbxI=";
-  "0.6.158" = "sha256-cS7JOZsNyWH9CyGjBXbVc15bxuzHfz94tWQ1SXYv5cs=";
-  "0.6.157" = "sha256-b4NoWu/ILgD4LXZpKMkVb5en2Zz1WuksA4CwuEESkT8=";
-  "0.6.156" = "sha256-wQRNMqE4QRK8M0dgGQkGvjRgkn3/SzDnFAAwzopKK0k=";
-  "0.6.155" = "sha256-q3Lr8PO7bKThJHKc69zRT03VCwTvXcMIo3/f9PQm0PI=";
-  "0.6.154" = "sha256-NIIsFiORzvMWGgGekvBFF17GNQzNi4x8J24Xtjc/KgE=";
-  "0.6.153" = "sha256-KbewkrLYfT4GP2De+y0G7BU4OZLTFTRXviFHRGzOa/g=";
-  "0.6.152" = "sha256-VsHE8kbvbFINH2bNDzLMAWLY3vVYdrjiFrE4PNP96vs=";
-  "0.6.151" = "sha256-hVl3iQDJzZVvNLCmHnyJtiH3I7W8OTbfrk3LF57Mobc=";
-  "0.6.150" = "sha256-YqmbC7ZCyfFHrDXi5UZ2t00l9qIElr/jjR3F5p8d3FQ=";
-  "0.6.149" = "sha256-vjmELBw3uPgecLGYxLktlkyOhE8ODsMW9RLDIJKSnIk=";
-  "0.6.148" = "sha256-kPLL+l/u4169nV/kAF/Dqi0pLqUFFF3XHIMwkfhiNVw=";
-  "0.6.147" = "sha256-xa3Z1epMt+LC/emevYISOZiHvWwdNv5xsyiH63WghlM=";
-  "0.6.146" = "sha256-L5KqQ6E8par0l4i0reNvfqAwKI7w8Libk8bZfIVL9ys=";
-  "0.6.145" = "sha256-W2r8+pJ7disO7aB46KIfKzE4so9RoxwcPKWI5ymH6Ws=";
-  "0.6.144" = "sha256-VmZoI2ixTKBnWl7CuNDId+yCycmQY8jzlFhPMXhy4VQ=";
-  "0.6.143" = "sha256-TC3lpusOWtFB4vXTWX0qJ3e7QCcowPkicJjZr38oK+M=";
-  "0.6.142" = "sha256-d1Sui0YpHRpEi84vlRXzKv6IJQ2+qer7NtklDKxX2pc=";
-  "0.6.141" = "sha256-w1U1QrjF6i8wqBtFp3UX+dXnXa7jGq3LXP05DrezSmI=";
-  "0.6.140" = "sha256-rdJT3cuiTkK9pi6UsJK9H+NMc1S7A+AgKnePd+gVDX0=";
-  "0.6.139" = "sha256-rwAaBcjw759fgKgCtvnlZmQ1OYT7ZUbu+yNkICt6gPw=";
-  "0.6.138" = "sha256-h8gxlbDlWZV8RWTP5igeNkjohU80YTIPk0gE0k4FU/c=";
-  "0.6.137" = "sha256-qrraPG7hBaW9k9hl1K30OLGnaUDRK0rqmDnDBCTvAvY=";
-  "0.6.136" = "sha256-j0nvH9w7AQbBhh8A0LH1kHNDUonnpRNmfmzTy2221h4=";
-  "0.6.135" = "sha256-ZNuelYKH1l7GtGVnUuXRE6ufK0KX/RoslgyivqkdwSM=";
-  "0.6.134" = "sha256-bJiqVKNzYh1dt2wNx7JLh2kCu8gfrhfs35eorm6bFIE=";
-  "0.6.133" = "sha256-qCLK+wtReXuaXijR5XyRwvGsGS1mVmIsT+bo5AKE3+c=";
-  "0.6.132" = "sha256-7TMHY6OuPxamt9kiGwkz+Z1jlIH2R386OUzH2Zr04e8=";
-  "0.6.131" = "sha256-lQlcc4ixrzMoMK8k1MussdsiOVW49vA3qwCe8v1DiEI=";
-  "0.6.130" = "sha256-geMs+2k3JsEnu+7HtDyfvHptRw+7AZGnektl+Uef5hw=";
-  "0.6.129" = "sha256-xRoCWPfG+zt+5CwEf6fPNuiTeEltpk62kQpBcnbvZnw=";
-  "0.6.128" = "sha256-VFbzxIHP0D6woXaTHgChLG6n8b8S8t0orVivhboVAbc=";
-  "0.6.127" = "sha256-fOnLPXAv7rTQMMVTsro0UEVQM54DkwZ3UWlR8LzfZXk=";
-  "0.6.126" = "sha256-fOnLPXAv7rTQMMVTsro0UEVQM54DkwZ3UWlR8LzfZXk=";
-  "0.6.125" = "sha256-KYvFPXFwARCEddWcMQ1TV9SfXWEuqoyM8b12BDtTw3c=";
-  "0.6.124" = "sha256-XBiNpWXSJykORo9S+YHIH4UvOts+RBMYOpzn8WgkmqM=";
-  "0.6.123" = "sha256-ZThQ+0pQtIhosAoPrKYym8BF8dee7rIA0dhymI5YZsA=";
-  "0.6.122" = "sha256-0RGRn/vSmBO4WBLtamapPe4kfTB4CTZObmtv8AyncuE=";
-  "0.6.121" = "sha256-UAS0Ss2cztlA3/ZFNlyfDl/hEtIKFYxvOgPUg7kKeEc=";
-  "0.6.120" = "sha256-w48oyNK8eUk4QODwfhZymUKebO1cXr+yHBuA11PRsmY=";
-  "0.6.119" = "sha256-RGU6To+MrQy0i3CxMXCMrS7ZoH9kidWM8Sl6QPnr14Y=";
-  "0.6.118" = "sha256-7bGFQFK4t/bj56AEjWABfCB0mb7YcFWb8ag5LQaf46Q=";
-  "0.6.117" = "sha256-TBJKpsQhk4sCKE0QJaZOto2aJuW7SguCbLFtx1lQ4mQ=";
-  "0.6.116" = "sha256-TkyPupDjHFLhBHu5adotOlh/1T5nBQMITJiGBb1QWZo=";
-  "0.6.115" = "sha256-dUS00osxnkt+BHq19g73ozmg7ynowdHBX6ziTD38hFE=";
-  "0.6.114" = "sha256-Tk/18f7MvFiFppD2UMuJ+UOS68Oj7MoPVdcv14KGrxU=";
-  "0.6.113" = "sha256-A4lW61XnZEDvs9NU1RcoBz46O6uy5VUL3kIU/w7hYrs=";
-  "0.6.112" = "sha256-9J2sJYKgsxEBg/r5w/7N7Kw/2L3GpepS8XMM5OMsloI=";
-  "0.6.111" = "sha256-NBwNFTAUdAFndLU7IhXeHK1X0BJqNsielLliXag2fp4=";
-  "0.6.110" = "sha256-UtDM7SrYN4ED7dzE/tYoLl7QbszPJI5Zy4sFkbKWsSo=";
-  "0.6.109" = "sha256-9dCDBkqvKLJcLK3rxvdhW/HZ9Io8wv2y71z82fZ1hfo=";
-  "0.6.108" = "sha256-hHTSaliTkgK6bYhAPAA8earCC79z6I/Lhy7FCcy43ls=";
-  "0.6.107" = "sha256-Tu/tFAxlAATCLG0XYHA2hReHnejliRT8oWat809daTc=";
-  "0.6.106" = "sha256-uEABIBqYEiONhvgPtyhk83d0Fw0mcD6e68aYkREOy4Q=";
-  "0.6.105" = "sha256-3PkLxw5A4Sd6YvrGMM3hBGktMC44skMBJ5HiInjuhOg=";
-  "0.6.104" = "sha256-ChcsrUlg+XHx8Xsxhe9U5Yv72KXZIclPYOUGmJ+0b1Q=";
-  "0.6.103" = "sha256-p3xrlmPnOKs/uNkQy27ulvLrXcs9/y/QxQb3Ja3aLT4=";
-  "0.6.102" = "sha256-jdQ8+LWvKNcqhzfh0tTS6UUD7RYzxNMVyZn8xYN4nQY=";
-  "0.6.101" = "sha256-sHPNO6dJ0GuSwF/w//1KN0dEuAlNC6VqzYIKIo5UJys=";
-  "0.6.100" = "sha256-Kvrz+4dnQivqBtIskJ4KvfMLo+P7z2DA1vuqu5vfFVw=";
-  "0.6.99" = "sha256-o+ga58mrtWkZTFnA8r6oh0I/cawQ6V2iMlotVoE/yrk=";
-  "0.6.98" = "sha256-JuZ7Z1dHr+D38GoxJEBIvOZlVAlftPJBEVj4iYWvaf8=";
-  "0.6.97" = "sha256-3j8husVNNR90RMohSLD3BRCkBHWjTZd/v2FZftepHNI=";
-  "0.6.96" = "sha256-dyUZRVu3GoINFa2/A/fmI6/We0Fao/faem/hyxYXKAk=";
-  "0.6.95" = "sha256-pu1hmJlpO9o0VDoM98a56rOcNPtu99jcSXO62nmcEJM=";
-  "0.6.94" = "sha256-NPwgIG4zy4vc4BMRf3ORzMzDxb1F6jCLrwurt5ZVWyk=";
-  "0.6.93" = "sha256-x7ae1u4zmWJU5ZoVpvNDkDNj/vYOsQqGomIH8v9NoGY=";
-  "0.6.92" = "sha256-FeaVURIPnVbCCyx5meue6SWG32t7CPwpYmXzfpSsvRQ=";
-  "0.6.91" = "sha256-R0Ko9eULoUWr0LeW070b70yTe4NKw+cKbL23R1rqqKs=";
-  "0.6.90" = "sha256-B4f/JwJqm3LgBBUGGLW3WcNZOIzngZI7Jns672EtXyk=";
-  "0.6.89" = "sha256-pj+vU6E3GuXLmJoqK6aUdXgOm7GRXIkl9MRGA7Kae90=";
-  "0.6.88" = "sha256-PAqduwIHK/7M3Hn9go1gU4yr5eXswR3gCQAHVkvC+9k=";
-  "0.6.87" = "sha256-PAqduwIHK/7M3Hn9go1gU4yr5eXswR3gCQAHVkvC+9k=";
-  "0.6.86" = "sha256-EbsxJBgb0BQCRznbw84SS/oFtkrxomAiXrjEWiBHKlo=";
-  "0.6.85" = "sha256-xoRwMhDn5S5iZwowqgIBfLatuHKEUaY0tVUk2JShzvA=";
-  "0.6.84" = "sha256-1v/KkI8K0XCQ0OuXtwoSUf94Z42+DVWdr4yVz5wDBOM=";
-  "0.6.83" = "sha256-mxGHqIlBdY+ZqneDXNyHIWC4bjBGA2YksqtAIL6CaKs=";
-  "0.6.82" = "sha256-saFLg0MrHZ8YNcv+maXHlwmC0b+tnm/ba1xua2s/L1Q=";
-  "0.6.81" = "sha256-KX6BRWTqmH9u49wj/GBKwx1zHD/Vylm6pDztE4+7N+0=";
-  "0.6.80" = "sha256-hu9+GvkCISV8PH+8iF0C1OlLyT/axvBh/A3sbFyDW+8=";
-  "0.6.79" = "sha256-YQhkOkWyUPsAdEY7toAK6EyS1sFjpHSw9Bd5L37iBu4=";
-  "0.6.78" = "sha256-Vjo1L/cMnTHN3PZKdhGXMp5X2IFU4MN8cdiRulLDhKw=";
-  "0.6.77" = "sha256-Mbwdqc/8GdvkSmarQwfps+1+tjOiP301QyA8fvHbAKY=";
-  "0.6.76" = "sha256-XKku9i85zw/2WOGUK+Ihp6LrmwJ5QhHheWuqKu5LhWs=";
-  "0.6.75" = "sha256-gNZXQqRkO6XFrjPRA6CxmLQouNUYi4GNtV0w6HltLz8=";
-  "0.6.74" = "sha256-B/ur1MKW4wWNSstplAzfmOc3jTwvNGQ/S4m25heCe58=";
-  "0.6.73" = "sha256-2l8beV6BofhpyDvsWtUYqaGENmabcu1SxDUuwUoVC1g=";
-  "0.6.72" = "sha256-WjXAvn6f42Sd5bMn0oK/Wz8Ry5nPIfrhNaeWyEEPXiw=";
-  "0.6.71" = "sha256-socDZMfqtOMF+G6H6mnZTDiyE5GMFExmT/hpNWRmpqo=";
-  "0.6.70" = "sha256-N7vz9Wpaxw1Wp00AXM3Z0tCWJOwxxkpQuXw/5we8gVY=";
-  "0.6.69" = "sha256-ZHAdBtXFbf3b+5c0ZFLJKahHNZw0F9hGM3O34rranw4=";
-  "0.6.68" = "sha256-yP3I9lcjVhuIq0nl/MbZrhhbruFFs25dD7XEGLqKOtg=";
-  "0.6.67" = "sha256-N1voWehHtc4rHWUtqNtLFb+TGg2dle3+C5GtbqbM1FU=";
-  "0.6.66" = "sha256-xSAlb+LAjmFfX8Dx42fD7KfPZhxWJ6uUQGFHSlmlHs0=";
-  "0.6.65" = "sha256-qMRcBHQPjkC4hTWUvH0WbQiOWUpeCrfwxV16UOk/cos=";
-  "0.6.64" = "sha256-YKa4PpeHM64subsk699O0JJwkvbyjiVk5jfcTQjK5Ng=";
-  "0.6.63" = "sha256-/kewegECRQcXa1iL/SVXlBfKEaYaBFlN1Zg/iAzpn3A=";
-  "0.6.62" = "sha256-9Tx1F7mYs41NkcXrRg3HEZ8MamPi7SFh692gF9IaajQ=";
-  "0.6.61" = "sha256-IDJweTzPPj3CJ3ZDoY2/aKFOkyzEBodx5ED9/vkUz/0=";
-  "0.6.60" = "sha256-GmsPHN6O4DNuu3bOlYucMAbPjirjjw8meIMuwN9Vqgs=";
-  "0.6.59" = "sha256-TRjqd9cCQpQaETY3CxJiYHawpz5CiGMOvWjbw2eBH5g=";
-  "0.6.58" = "sha256-zGKA8nj7oeZfQH7Bp1TMmY66C7xZSOsbRhLiePj1kfU=";
-  "0.6.57" = "sha256-xPggQVRzPYp/I2L1NG/+jCQehN+o83u/HfHWmUKXK1U=";
-  "0.6.56" = "sha256-JUSZu6pzFxFgCCOL3UHaZjMAEBO0dV2gAy8E3XRoKMM=";
-  "0.6.55" = "sha256-3/6h+1H9zbaqAeN3zziSaZfj1U2cIkBaTRR8wDxlNqE=";
-  "0.6.54" = "sha256-3/6h+1H9zbaqAeN3zziSaZfj1U2cIkBaTRR8wDxlNqE=";
-  "0.6.53" = "sha256-NQOVNN6N/BDlhnpbm9nQYgeoKQK8G8YaTFj1owEYb8A=";
-  "0.6.52" = "sha256-Df6SME+ceSOqw3J/jvrkJIGj26Ar6LTjg9VdTChTWHs=";
-  "0.6.51" = "sha256-8LFSExNaiozsoU6MRvVYLaxr1qQgNPsPB5kn2Qo/NM0=";
-  "0.6.50" = "sha256-8LFSExNaiozsoU6MRvVYLaxr1qQgNPsPB5kn2Qo/NM0=";
-  "0.6.49" = "sha256-tRtdlgmCJtuV7x/KBdmriHi8/5F23rpO0oOFamIUXr4=";
-  "0.6.48" = "sha256-eTmRNUme8grNlL3Jh/gz1kBGKrjaMS8dJYrUitQifH4=";
-  "0.6.47" = "sha256-5uoxHrC9XtLWc/QDz+6+obIEvHUZqkWfJ8pdCFrCPMo=";
-  "0.6.46" = "sha256-O9K9cdKwO5nlOUvltlEK16v2pHvv2u04krDEsjdH080=";
-  "0.6.45" = "sha256-foI4BGQ87l/C2l9xGttebXqyZ4wVrtHJsWmnQjrLA/0=";
-  "0.6.44" = "sha256-bwNIzURMLfB/yiOGUN2g5LZX990lini5qvx5y9US0h8=";
-  "0.6.43" = "sha256-0iYPhuMT+B/sio+sqlBg+dPIaUD4eQ1CrnnrQYjY6Ag=";
-  "0.6.42" = "sha256-xA6Sc3v0fqAKyRmGL6azvkNwc1Ddo8rNWciwGKYm3j8=";
-  "0.6.41" = "sha256-Oz0SjLnCgs55xt+BEZpgpriNe6+JMS4hNOuOItixCc0=";
-  "0.6.40" = "sha256-4GTvJAMJLWcLvIEaSsG0U9L6iFTOV/GGmeMqlWNt3n4=";
-  "0.6.39" = "sha256-rx1g7VsJSvDdu0JNxGntYkHjKGTDZRHkq0PRX/iw8Os=";
-  "0.6.38" = "sha256-P0IvnKJUmyz7eqy+9ywjT3OW2FVar2vc0fBrN7H4JvE=";
-  "0.6.37" = "sha256-idrtDyc8DWhx1uBf5h0iIAnA1XDMysF/wnDEcclYk5I=";
-  "0.6.36" = "sha256-tk/Koxh53NfVS0YS/1Rtd0quKuMgKvboWeIfdS8a+vQ=";
-  "0.6.35" = "sha256-QmALfERqAweZUb+R/BwN/TEBfs4bOLYzxc2YIyYSwXU=";
-  "0.6.34" = "sha256-AyEKcsyrmckZE9Uos5LW6uT8+qMZJAHWIF6X7YYvakU=";
-  "0.6.33" = "sha256-2qf13FWTvfeyAe8JUyukU6ckIEJ0qJXXA5/ZXBcfjzQ=";
-  "0.6.32" = "sha256-ecwxyhIhvrene98hmUn2Yd6AzNJ2kN81+ldV+4jlADo=";
-  "0.6.31" = "sha256-m+1Zxgr/YX7/VKn8seRoauAa4DRBP7vjMLqVJkdO4VQ=";
-  "0.6.30" = "sha256-g4g4Ky3XtQKN6Vag6autaz2Y4rROpOFYCx30P254BP4=";
-  "0.6.29" = "sha256-dkib6n+f6MdOpovij/HGz6YfN4BdhOO/GbCMLiQtr6s=";
-  "0.6.28" = "sha256-RtRKVPjC7gr4bhPQKWE1j24nrw/O1QXt5Al14eXeyQw=";
-  "0.6.27" = "sha256-rfzlqyXvm1EokHmjZ322WPdiTVnyvqbhWnMRfYUi66E=";
-  "0.6.26" = "sha256-IXjv2czD+cELuy6NEKvBEsohXFUj94osE3Vn6nRjFh4=";
-  "0.6.25" = "sha256-KCfGdtEz/Ef/AgQxewct5qop9+90bj9GvZtTa994svY=";
-  "0.6.24" = "sha256-J27LgD06xo4/GztfpH+W2VEfk/fMAb3h0F1yVMDY+H0=";
-  "0.6.23" = "sha256-vDKXnHMdEJpmTHTDAZ15eyb6aeK8f6zi34F2N7NZH1k=";
-  "0.6.22" = "sha256-rABrJ0KvTWAUpAqJY26sgVAs+tl684w3WekYbBuazlU=";
-  "0.6.21" = "sha256-Vajz8uuUWEZGz11gzY3gPuKnrKL9+ao2lkCggPw8mK0=";
-  "0.6.20" = "sha256-EgIxjHsgmpt4L4gffWpjXhSL94v5RbeLUlK9blM1SAA=";
-  "0.6.19" = "sha256-H7qkhRbhbOhIxb/Cu0N34Jvm5TLyo8ICRHHE1kA4n2U=";
-  "0.6.18" = "sha256-H4KFTFUjWxxjy/1XMEQHVH3zK9ycEnycQdM1+njl9Bw=";
-  "0.6.17" = "sha256-ZfCXsAgG36FgDqzgS1Py4PBw1dj3tWAcWtxXT5a1HBw=";
-  "0.6.16" = "sha256-wa/JuIX2rCgrYpToOw5l0HZd15T+1A0tr0kBAwWcxRk=";
-  "0.6.15" = "sha256-W2YEk4ynpKDJkUoufn8IcCsFKo5HM4FdzAb4Ozhi394=";
-  "0.6.14" = "sha256-YO2jBjY/Syz1eeC3dBCn5Q36ubaekAp5UJD8CXxuSzc=";
-  "0.6.13" = "sha256-f+wIY5yXNpcURyH2Hm8ggzFmmMarhTBs+rfWaLnmJ/w=";
-  "0.6.12" = "sha256-g/kEFAbaeDoSjLqGvroADIgY2xO5yxYZd0jW8Oq6J0E=";
-  "0.6.11" = "sha256-2FeuTxjc9bKih9MO0cks4Pz7rMcNa8L9BJS/zN0wxk8=";
-  "0.6.10" = "sha256-RZw973+peCcB91X0N24p1sHHRjhmYC50zQ9nktsRJic=";
-  "0.6.9" = "sha256-StJ26+FxQ1jt2I+TMhgh8PNyZcOfmfE4XqIWxB1GsKQ=";
-  "0.6.8" = "sha256-SY/Sq+HbSzjj7VGEtTpDaWQw/6HaqTqDqv0Nt1EUlpc=";
-  "0.6.7" = "sha256-uhrdT3Xk/8C1DqbWv7D6tGmj0WL05H9TlxYbNWqLjGA=";
-  "0.6.6" = "sha256-lbdSOdPOwXQVHSkLlbES/4I/fhbeO557dgPUR69+3bo=";
-  "0.6.5" = "sha256-2l9sYJt0iLCsQ90Sf9uKNF1Ps36ZCO2yXT4EQB6E8S4=";
-  "0.6.4" = "sha256-CZN8cg2e8BVFX57NEvNlUQUMy8YfL9jEu7sWapA1fps=";
-  "0.6.3" = "sha256-hfiRmkIB18kwPbylTVUrCEZdMzkhpIyhnG9UyTWrpaY=";
-  "0.6.2" = "sha256-mJzKsjUUBX0wuAXiH3K24/SgKyVuVn74aSnUPvmPZfE=";
-  "0.6.1" = "sha256-o4MT4ez1s+RK3GN/ifH0sr+YtJStpxIuOUJ+uOoxna8=";
-  "0.6.0" = "sha256-O9405JTK7sof91L0+nzUi6E1+YzenS6l7hKN1Jd/ovE=";
-  "0.5.264" = "sha256-0hb7SW9X9g6UPKvifK1c9sMLmCoKPAzRM/3hmSqq5Kw=";
-  "0.5.263" = "sha256-gWP+vxBWjeCpzpg1umB8uNk3TujfuP0JnVIMcRZy9bU=";
-  "0.5.262" = "sha256-wRBAWTtL6wr1+8Lv9lGvTnk/QoCEzeXS3+Xy2E3mscI=";
-  "0.5.261" = "sha256-yND+3cDshlzOvI0ZweGzghtWA7fYWnSuYOtXWhoFQJY=";
-  "0.5.260" = "sha256-kJtcNP3dzs/ee24aFZniMmzZCQxNJ4yf9pxNEDBufJ4=";
-  "0.5.259" = "sha256-aX9tz8XMdTQU0hq2JpjRlQ6VwBtmu8V6snyc62IHShI=";
-  "0.5.258" = "sha256-aX9tz8XMdTQU0hq2JpjRlQ6VwBtmu8V6snyc62IHShI=";
-  "0.5.257" = "sha256-aX9tz8XMdTQU0hq2JpjRlQ6VwBtmu8V6snyc62IHShI=";
-  "0.5.256" = "sha256-aX9tz8XMdTQU0hq2JpjRlQ6VwBtmu8V6snyc62IHShI=";
-  "0.5.255" = "sha256-AhxRjxQjOWUJF7ttjlPUxn16qMhu0iZcgJUPgeQ2Ph8=";
-  "0.5.254" = "sha256-AhxRjxQjOWUJF7ttjlPUxn16qMhu0iZcgJUPgeQ2Ph8=";
-  "0.5.253" = "sha256-SzK2/f225HEA2Fbv7hjIJ/YYTQuKxz1q2sWBK3KWvWc=";
-  "0.5.252" = "sha256-zKtDkJ2P5t+MKNoFSduyiwN21gQFv8UVj4Tj9RxavtQ=";
-  "0.5.251" = "sha256-gmvQ1BoLYf1U1KnYgmsZRZYfDw1/pjlfcrDEc57u0o4=";
-  "0.5.250" = "sha256-5e+IzGwW8wERLjb+9S8/KO5m8PH8PwqnQNbNmrVCHM8=";
-  "0.5.249" = "sha256-dJkyW3liz1Xt8SXXdzL5xLzElYFxvZF0vIwahLqJEvg=";
-  "0.5.248" = "sha256-4nO6bAZBnZ10u4idq4ryAqDlJ4uknlsCgAJHsz3bm7Q=";
-  "0.5.247" = "sha256-kcJQ3+GVjzs27w6iTXnKCS0ohm7bfBC0lYP9LbK2aVQ=";
-  "0.5.246" = "sha256-PLSGYc0K4OpsbD63NCv5eR7vPNv32C3WbWkK5mrEVO0=";
-  "0.5.245" = "sha256-r5iqU9pYTXQYA2nTS1TUEkbKuN09vMBZxBUVlObb6ks=";
-  "0.5.244" = "sha256-Mup9nJytdz+VsdnQqQ1LRcONmWm9LAzRqhZaP5Yw2tE=";
-  "0.5.243" = "sha256-0JLYl55DjTICMIdnENs0hkiwJTu8RnkxJ8bsCQPiCLU=";
-  "0.5.242" = "sha256-vtfFkMqw7HPd00/eS0C8kwhnHTk5hnV6tppnvmVu0CM=";
-  "0.5.241" = "sha256-EAX33TIQ2usBHrWhhBVkcIq+nufpwr47vPgrm7CEvoQ=";
-  "0.5.240" = "sha256-UqoNef4+uavQyuudB8gZe70Nr5bXTGAeQeE4cebL5XA=";
-  "0.5.239" = "sha256-zuG4Eq0F2lCE3lpWCi17vApo/gFxXoPWFWk1KP1gF2c=";
-  "0.5.238" = "sha256-khG5dQ72voYe8BdguBeqtC2JSeJMxAb5lxKJLkotY9c=";
-  "0.5.237" = "sha256-inrmLj8DxziIs3phferv8CV7KmTxns9oCWPVLG5w0Tg=";
-  "0.5.236" = "sha256-S7cwXtpQOZ9DGap3ohehRQdVOCStSgwcnh92WgoVMCI=";
-  "0.5.235" = "sha256-yljiC/A/D/V65RFRCaetrb/ande7Mpf4OlUDPfeBm7k=";
-  "0.5.234" = "sha256-B2uZG1JfXJL4YoqKrEr0ZQ0hMyhyQ8o/aEUQCFI7ap0=";
-  "0.5.233" = "sha256-ZhlAMplXcNONYFgt+ct6dSmxqQ7DReSuqDlqahfe/XA=";
-  "0.5.232" = "sha256-RFeHecNgRwnjVSwN+fI3fa2zhOZ3Xlav+oUnMFaXM18=";
-  "0.5.231" = "sha256-+x12JMFS6ioqN90VQGzdX4b7UCawCoXAwe2VFy4NqQg=";
-  "0.5.230" = "sha256-EEv2R93yS099QdZqRqvwXzOKG8P8RaNPOR23ztSWGqE=";
-  "0.5.229" = "sha256-q48Be7BYjN/9I1oEXaw8JqcrdIbXiqQGkC5YtwDtTGE=";
-  "0.5.228" = "sha256-9RcXFqydNAZtR9dhmLP3+3MwtUUaNGXyTzyDpmgWYZM=";
-  "0.5.227" = "sha256-QR4yHjUgzpOU2oBvaAKfJf1vrkhTktSU10zNuaQw4io=";
-  "0.5.226" = "sha256-QeHz1FoOJKSiyzzboDqxCulP4AP+vULjdQdJMRzkQhk=";
-  "0.5.225" = "sha256-sUNd+iFbUJvy6Gtq74aeYs8IVq3h1JIhdWSvGW0oiyw=";
-  "0.5.224" = "sha256-J7o2bp8WxucfiCa4ci7nzfKW7H/kDzeJw0MDcCOYZDk=";
-  "0.5.223" = "sha256-JpOu7yPkvRcaKfKNt1r35Bhlt/tV11Pwl/oONTKhLtI=";
-  "0.5.222" = "sha256-T+ow/uDXXtVfoL6YiCeNT2xKkKyeT6dsHPLavfnMYIA=";
-  "0.5.221" = "sha256-/pW16jutrlA8AYKhWO6hO89Vl+MrTckzBfqhMOPuOQo=";
-  "0.5.220" = "sha256-5un3EjcVY6VK/cKT8XrBxxPCRAgpukF6BPHA/IitOSc=";
-  "0.5.219" = "sha256-U9pt5WOOj6+9XL4yomhm0jk2w5CFT7JUvaXPn2UYDsc=";
-  "0.5.218" = "sha256-/FPGEanWv3V9d1fIMKAv+hWVEgT5BQP4kpAMPMGyyVs=";
-  "0.5.217" = "sha256-G5SCXFPefoWOChnZDh/jXf9KiXg3GqLug0kkkUK3TSI=";
-  "0.5.216" = "sha256-pnyOEQjH0WiiWFif+JMZDA+rYDWE0RDgU5AEX65jU8g=";
-  "0.5.215" = "sha256-GMG5OwAYkwIrMg6bN8WbKcf33O37pGnu+vwlPJSwAGU=";
-  "0.5.214" = "sha256-GrhhqkUEj3lpkXeCHYv+dxCgCgcsMVAz+FjRCw1KqdQ=";
-  "0.5.213" = "sha256-bkbeiKPH1bTprUh/YG2e2KoOcINADd+g0+GUXYXeCbk=";
-  "0.5.212" = "sha256-3NBpcVouDqlrgoUGnkqz59H923rShks1obzSiVrxMeI=";
-  "0.5.211" = "sha256-rdhbN994M1Z/bH4lUO6ZJcKkCFWEQDMsFwSsQ2WxzOo=";
-  "0.5.210" = "sha256-1MelD2I3DtneycqoDKfj4mw5ZFeyaeKXudB3p3A9b3w=";
-  "0.5.209" = "sha256-a52TLMmWtmuJEh83UNebC82n50VqPGR+dNHsN9qzAxA=";
-  "0.5.208" = "sha256-V9l9/VDkUH3tZ+7UqLcOMN7aclj3Rx5no3lIWKsxCBI=";
-  "0.5.207" = "sha256-GnRwYQjil9fj2tVynOvKZyFKLw61pKaZ8ifHcuV1RtY=";
-  "0.5.206" = "sha256-s1Tbv77Jcd+anbRWHeHK5MoDtlrTCTmOBnKjxjWMRtU=";
-  "0.5.205" = "sha256-Fum/uJ1NUBehLJMCch1toTLeqrCth/03dpUI3HHUpUU=";
-  "0.5.204" = "sha256-7W7J5CzEM9x1wAocZnRb6tJHciKWVH5ar/aRgww5I88=";
-  "0.5.203" = "sha256-KRGe323tbqEmWbW2TeqqEXXTgfdaHKn/ItfFqP24Cxo=";
-  "0.5.202" = "sha256-i1KOQBRO1gEj1kXvkZyHiA94bfj/AXMbDts7lErF+Aw=";
-  "0.5.201" = "sha256-i1KOQBRO1gEj1kXvkZyHiA94bfj/AXMbDts7lErF+Aw=";
-  "0.5.200" = "sha256-Cu4zYPfanm9ofKeCd3zZHWC5JtSPN3ZXWNUuN6151YU=";
-  "0.5.199" = "sha256-xGl5J2BAdHEnyAFFtqHczYTlMMhSCOq2Xhafwiu5zWA=";
-  "0.5.198" = "sha256-qPYdTEDeMvXUfz1GWPv4oDK4KtkRqADQHqrKByIe69E=";
-  "0.5.197" = "sha256-PXsGu7SfU7aH9mT2lCLIIWEkWLbHQT4XuF+7mpM5onY=";
-  "0.5.196" = "sha256-It6kwiFCLtAPoFJwy09hzCmaQ/V3Y9N6qxQbKM0nZGo=";
-  "0.5.195" = "sha256-1U0Iv7e27GLdqZaKFXamfe5GsL94KibuotljgpVDRnM=";
-  "0.5.194" = "sha256-M8VbeoxmzRIjRCeTyBETEYaXBcD3JBidIPMhi1KY/5Y=";
-  "0.5.193" = "sha256-M8VbeoxmzRIjRCeTyBETEYaXBcD3JBidIPMhi1KY/5Y=";
-  "0.5.192" = "sha256-iAoxpAzYY/GWLFBZDEFmbXlVWKMOVYOJbYuR4xiBRIk=";
-  "0.5.191" = "sha256-qhUrvzsmtYyjZ81u9hm96V4E4GigJ4oLOCEjcLltzjw=";
-  "0.5.190" = "sha256-o5e8fn52afMWLr/+rqpm6e1rCyuTnK30J/jxL8cBTpY=";
-  "0.5.189" = "sha256-Xz51rTnXbFUNSTaTNPNpRXFmCSpnNa0AIl4QuNv1Taw=";
-  "0.5.188" = "sha256-rL0tVxDNQBuxu6K6+Qee/MdyMBxy3OtE9/gafqz2wc0=";
-  "0.5.187" = "sha256-q+tC0JIxwuwQX19EvJhWiodhbwWOdIepPpNX7V8hRmQ=";
-  "0.5.186" = "sha256-UWISpAuTe82cdXdjVfKMZw54YQlPlhzEIx6gRr5Pmu0=";
-  "0.5.185" = "sha256-UWISpAuTe82cdXdjVfKMZw54YQlPlhzEIx6gRr5Pmu0=";
-  "0.5.184" = "sha256-Wr6+24bQhAS/XFK4vz8S4VWlkRFfVUs6X/igK6a0LbY=";
-  "0.5.183" = "sha256-sjYWkQpBmyXOdXmuOnypAgxqUvNEU1tQQv8dxzyQ/fk=";
-  "0.5.182" = "sha256-9d6ey1Ni7rnm7PloA8kPRW7yeVtai5umRONBFghakrc=";
-  "0.5.181" = "sha256-Rjlfz9F2NLwJROtscwCt7re7ead0M9PIo6GGZ7+0f0Y=";
-  "0.5.180" = "sha256-ed7tIcaxHAaadEhcMp0ixPd4rCAqtDwf9r04rM4aQ+A=";
-  "0.5.179" = "sha256-G3+C7S8uZkA2kBAPyrsjtx0dLtE4146bJxDcAByoV2E=";
-  "0.5.178" = "sha256-5a7ouIjmF5RJ7SB/77ypJQ9OUoQbmr86qgnMoF++v/Q=";
-  "0.5.177" = "sha256-fAUbmEyXgdXi9Jr3pRf1dFH+mToVb78uTtld2K3JGfs=";
-  "0.5.176" = "sha256-KKaDGYh/wjfj7JDibE5Ik0neHYmf6ODBtmve6ot+z7g=";
-  "0.5.175" = "sha256-DW2fSxIsDQxw1odZpx1s3/Pyaw/z5xrRVtvYFF73Zc0=";
-  "0.5.174" = "sha256-xPMa3LAkyeVgJmO7kqeYEOrSfaAYMbMWDJ4YCF447Dw=";
-  "0.5.173" = "sha256-JJjlQdUTl6pUFh5wil0WkLou9W/7dx7j5aZOYlVhW08=";
-  "0.5.172" = "sha256-x6xLeQjJn3ayBEGE1uoA34WfXoDhVYEdeWkVLcNnSJc=";
-  "0.5.171" = "sha256-ReJ207zXuQKrhN1o2akipmvN0kQlQVl0wsiaEh9T+Zg=";
-  "0.5.170" = "sha256-AFNXgyazwMMiaKdKwZ9CQdBFy/tnnaCUdIVwVGm7fxo=";
-  "0.5.169" = "sha256-SicHquOv6bmKU/4UYwU6dxAqOPmzGpq/u4U+B2JM1BY=";
-  "0.5.168" = "sha256-Gyk5QWoYuV/QVsxKPVh0qCP5Ygg0xSyI02+W6//rNH4=";
-  "0.5.167" = "sha256-SPI4EIgYPufUI2tjRBXtzXqHOHCoBikWy6CD5WVUSkg=";
-  "0.5.166" = "sha256-h3HcDRMEAQ4HYzx5WmWNHyLsm0jBx2omzbqf5CoWN64=";
-  "0.5.165" = "sha256-h3HcDRMEAQ4HYzx5WmWNHyLsm0jBx2omzbqf5CoWN64=";
-  "0.5.164" = "sha256-d81FzDHRkpOo44X1d3CGGI3ztm4lnU/KyN1XR1gJbsQ=";
-  "0.5.163" = "sha256-1FkQnn7hTARhcS4PUEoeWTIWZDbCBzAUuDZohnPE9N8=";
-  "0.5.162" = "sha256-B/vMacmrUtwRXpnDOCvv1nt3TDMcUti1a+dUueJNKSU=";
-  "0.5.161" = "sha256-VnrsK9VaR4TUhbrONImcUpsX+8JV/z1phuDnkVKFUSE=";
-  "0.5.160" = "sha256-CBnjn0vqVJCV/SoTQ3guGd8SSEGBlvCtUacT3/ThqC4=";
-  "0.5.159" = "sha256-pQd0wO15V+xUu8g2TXgVh+qrqFsqIyqUTJeP4z24X+8=";
-  "0.5.158" = "sha256-+QlatzA/6EDTXBh/1mm9c/HX6oaBGkrkrerew8MuVpk=";
-  "0.5.157" = "sha256-+QlatzA/6EDTXBh/1mm9c/HX6oaBGkrkrerew8MuVpk=";
-  "0.5.156" = "sha256-+QlatzA/6EDTXBh/1mm9c/HX6oaBGkrkrerew8MuVpk=";
-  "0.5.155" = "sha256-TF43yy8VmHlIztU6FhQF1m1XEeB/4d5uheDIXY3WyMw=";
-  "0.5.154" = "sha256-huJvt4tmX7JiM1vOvHdH1EFf7trgnB7ZEkxRv9jV5RM=";
-  "0.5.153" = "sha256-xBNwwu/QMCdA2Ri21/nOvLUBle56EPKm1vaI89n9BHo=";
-  "0.5.152" = "sha256-LK8qG3/c5S+EzLVH9rdU1l2MtT+J+PWx/TValtAaOgQ=";
-  "0.5.151" = "sha256-0e3CPGpiIw42ug37RXQ/tIsUqGeQwiHsWYwyW7soHgI=";
-  "0.5.150" = "sha256-7hlHDAV/BvAA6Mt7aqoqMYlGry1V2UnZNv9EnHKWEi0=";
-  "0.5.149" = "sha256-InXebga1Gi5vB00m0MaK6UaxXk4nPi0jZW5sXCYtccU=";
-  "0.5.148" = "sha256-9+IESM5VntR0bI28qXFBnC44eRKOmy1VoK6exBk1XCk=";
-  "0.5.147" = "sha256-ea3DglK3JWJhXLFB4V503P30IWKOPaTWosBL3+QENfQ=";
-  "0.5.146" = "sha256-l86i3QsC4I8WlBzWV62Jt970sRXyzoslOFT6lHxANpc=";
-  "0.5.145" = "sha256-l86i3QsC4I8WlBzWV62Jt970sRXyzoslOFT6lHxANpc=";
-  "0.5.144" = "sha256-bk6Pou7Yuo99HpnMl81ZT1o+C1PJgdZ4xfkN/qy+asc=";
-  "0.5.143" = "sha256-PKrRUemRFeOapflxcvhGKFAp+NBWYuh3YgfmoGDjrhs=";
-  "0.5.142" = "sha256-LhD+voxKERStZqg850P+O0rEMPi9O/z48OfWZOX6ZC0=";
-  "0.5.141" = "sha256-Ayu1T8kpLoel+Lg55O5vLDqyzJf8qQybY9Wj2ABkUFA=";
-  "0.5.140" = "sha256-N+wx9nyuwfOSjbFUM9Eclhbyb8Sjjm5RjGwojF3bLoA=";
-  "0.5.139" = "sha256-xe4lDXo/3ttv0mFEaTZi2fpE0of0YGTVaMkeA4pVzuA=";
-  "0.5.138" = "sha256-//tb2U+mSmDGY7EXg5dsaJO49aPtV7Jh5ZRqqoOpWdE=";
-  "0.5.137" = "sha256-AyvPbMeptrkDfa+nbPNnFSX/74ShY/qvTxC6Ah6VEVk=";
-  "0.5.136" = "sha256-MYFutydMyNVjZJPLQ08eKMC/DPCcBUgWod5A6cLHZuQ=";
-  "0.5.135" = "sha256-BobyAzHCkIqmCpRoqHwUdbRelfNeYZ1vUPKbxLEG15E=";
-  "0.5.134" = "sha256-g02ijuwQvvScinWO7dJdjU3mbjJM1HDwjmywdR6rH+E=";
-  "0.5.133" = "sha256-JLQ/ARyKq4DAI0RUwV3mQnpRr6dsg8uevpdPNWYBK+o=";
-  "0.5.132" = "sha256-CxZJGqZlalk8iWZizSlOmnt0pZIR2XSqwS9y4zcd37M=";
-  "0.5.131" = "sha256-rZ/FlaupF2fz2oi8CLUFQ0VpTK3ZGqWmMdwGKsJx4Wc=";
-  "0.5.130" = "sha256-uU3YKVvkc5T6vhsGM+mXM/3l6gi/pVtXvt9RfRyigH4=";
-  "0.5.129" = "sha256-LVIsjFeTm6B0FJXzk2zTPyDp1V+cRRLmeELdGicgKLU=";
-  "0.5.128" = "sha256-AmP0JAREqn4FfrooXzc8xLaBvCAAL2l+F6aDGzhzxvA=";
-  "0.5.127" = "sha256-5YjEn7qe1rl0bGItUWf3q2x8M+AvuKCzsI6rsKZyZvc=";
-  "0.5.126" = "sha256-sAOWf2ya9H8Jc5kV6BGGpfAgQRUU1GU8w19PZPaEScE=";
-  "0.5.125" = "sha256-Pr63FySjFWwS2GNkeJHCRhm5qMkUEKHTHikjDmQlyTY=";
-  "0.5.124" = "sha256-lQC+XwxU0ZcXTqm4MCX/pX2DPHuRbl4XcY6cOg3PGVY=";
-  "0.5.123" = "sha256-S94MSDhRD52T+Fm1GUUlQ1xaABEy14Izp+BsCxZ/cxc=";
-  "0.5.122" = "sha256-AgFsj2XzqqPBmxXl8ODDFTg+qVswJkDIkdNkE+/tg9Q=";
-  "0.5.121" = "sha256-3d9HihRejVoKOradJSXcSIQX2etc8+S0mwQ42bDu8hE=";
-  "0.5.120" = "sha256-zoalNfmDw6f0YXryoaHxqOqhEl8Lr1X8qThdxy+PLs4=";
-  "0.5.119" = "sha256-j7Edy9SkcdBsaibCTMOvsJDaVsBdXameOQHE7AJsH/E=";
-  "0.5.118" = "sha256-NWplEkg9TaHukGc58J86KfknkNe3c9QTaHNPQgjOuS4=";
-  "0.5.117" = "sha256-EmzdODj4okAul4ysruweJT0vVwlAQ96hAKqZ4GR4vI4=";
-  "0.5.116" = "sha256-5Vb0IdZIxvNW35GZ8dtGN2W4KNpw2j6u9CrseqrqH84=";
-  "0.5.115" = "sha256-aqgsgjIlTsT17Gt1eOxDEqDamLEjdwuzAKsv/tqiSAE=";
-  "0.5.114" = "sha256-X7E7gKfdbw1kQdW4AebmZu5U75jGYRBamuTwMcW99mE=";
-  "0.5.113" = "sha256-BwJrxROPQ1QMVWM1AONK7Ba7/y6Y4XAiYPAFLWKXRiA=";
-  "0.5.112" = "sha256-S3Kv/JPEIGe6I9BRRqSD2eAMlUFZ17Rn4/HaY3uQFo4=";
-  "0.5.111" = "sha256-qj2c1wEul84S7vLbAVQf7XaxWBdaHCV3aKxiGw4zJf4=";
-  "0.5.110" = "sha256-d5dqbXCaZJlw+uRyTftQzK2OoV6Jn5uEPjlzBozLXRs=";
-  "0.5.109" = "sha256-1YIMekLJZKY/jtLeg7DUafRhVR6tmj2c6qcyTTeZwVs=";
-  "0.5.108" = "sha256-lCKNlEU0nLy92eQA+UIc+r3tHPDeHgx4oC7VNoPld5Y=";
-  "0.5.107" = "sha256-Lf4AaLhJuGnWzF4PCshhRumsVM0i4H4j1h7FMv1W8zk=";
-  "0.5.106" = "sha256-8OVOs5jqtWwlXSbecfdMLe43Qc9VjGL8FROy2Ac2cnA=";
-  "0.5.105" = "sha256-iS0KMcEGM2B0ddbvYYPgIFQAMaRwzF3b/pc/bQVix1M=";
-  "0.5.104" = "sha256-6JR4I5RX7x0Lhsd5vexXX6DpRN8rWyAOWwqILdcA+NU=";
-  "0.5.103" = "sha256-YmHvewLCE/Hp4otkdWlCv8fy123UWQnQe6/UivyENWk=";
-  "0.5.102" = "sha256-pw1DpJqa/SB8yJMj6++eQ1tAV4fLOVEyImb9wxAW/GA=";
-  "0.5.101" = "sha256-8gjNxrMk5+gxFMCc473tax0FgbnSu39ddaCjRy7raAE=";
-  "0.5.100" = "sha256-lnpf0Gc7jzrBUgRM3Y24mKs3KtEEPYHfNTWaN/SmbME=";
-  "0.5.99" = "sha256-8RWiMP++xCMhMRIvd0u267jwThSIjXfzMzPaqwLQXj4=";
-  "0.5.98" = "sha256-uQj9OO7joEMSa1KfBcTANaTCtAV3pNVcdHjfW4nxI24=";
-  "0.5.97" = "sha256-Px+ITO7ltKuWMepHKX5GEften8I8wLdBrLXM3B/Vu+c=";
-  "0.5.96" = "sha256-xtlLsjSU87ZoqEVrwFRZlgJhmckp/KtDyKImERT4ujI=";
-  "0.5.95" = "sha256-4B/WvKNuV1NJbzbQj+f33JEEFrstUd8HRcgVgzNEZgc=";
-  "0.5.94" = "sha256-E6DnSvswZFDFndLOk2+1FRNHhlakxW7YhLBEbCLMavQ=";
-  "0.5.93" = "sha256-zp8wm/q3EGHBX2cPk3ngdLX4znLt/2+8IFfjJ08kl3g=";
-  "0.5.92" = "sha256-KUKaGGw+LtSCHRY8oIu/d5FX2ofEUotPKlWK8fssCEQ=";
-  "0.5.91" = "sha256-OFjrmaCsLzGoqVdXFcF+lG/TaqjLqqwMk6R9bvGHNDw=";
-  "0.5.90" = "sha256-f6f60kyXCVbm+gIpBC4lbfmKubBLT8QHyhYTRNClDto=";
-  "0.5.89" = "sha256-w+ZpqQvuzNY3Zg2nfzR1SeSy0OyQ6TvFTKfvQEFgNzQ=";
-  "0.5.88" = "sha256-UcUp9fOTHd/CL/bD+C3HT1B12ZhrRTmyn+6t9xs41Ww=";
-  "0.5.87" = "sha256-mZV2nAIbbJBdgSh3J2Us31Cn9W6gKsJ5WR293Dx4m+8=";
-  "0.5.86" = "sha256-ouvuoo6FweNyRbSYnTetfaWJ0vnNWsViB+GYn2pmyQA=";
-  "0.5.85" = "sha256-um9C16j6Ee3N4lR3SD4h0x3vYrQgLbK3R0gtDDhiKuw=";
-  "0.5.84" = "sha256-cOhfdb8uavL1UZ0cCmkD+Jxltr2ctQ8z4V2C5A8Bruk=";
-  "0.5.83" = "sha256-jRJ/ZOPJmSDVLqud305CQHuQVih2DfG0RZ6VLuCVfR0=";
-  "0.5.82" = "sha256-PdtDDvOY0spa/Xi/LD2b/2WgoA+LnSeCZiQb4DqNQXw=";
-  "0.5.81" = "sha256-b5byIUw013X8scBj0Tl+9BxhWNwgbGUHlXRRMEDlkv8=";
-  "0.5.80" = "sha256-vc+JItM9TSLsfLBhhKQQlREmQXGcnvPND6EZUX1zui0=";
-  "0.5.79" = "sha256-AVCHK6c27a2VNQNSOeEOOD8ZxIvE4iRWeA0NZ6REv9M=";
-  "0.5.78" = "sha256-qaXzwd/amhBpZgyoJZGHIrztAjOJl1kHG4gZm+fqNFQ=";
-  "0.5.77" = "sha256-5l+Bes3RRp4o0/favjZKy74rkScKbGXpkbr8AtR1t9c=";
-  "0.5.76" = "sha256-7VmdgqIbPzlTGoBh9Z6EzEn4TkKdM7IZdlWHei0s3Fg=";
-  "0.5.75" = "sha256-NAt+K7ob0QpTyQzK2q79vVG0vAWGikGZp+NiOpBjedo=";
-  "0.5.74" = "sha256-JlrLlAWtojKz4KaUvnQaoJn6504n9oeNri6ZW+14pTs=";
-  "0.5.73" = "sha256-kZvAhiuEI5190hoHPXvjpXVy+XJ3J69FvOvAEOyfKrc=";
-  "0.5.72" = "sha256-Gywn2Ki9x7377nrcoZ6nE0aCR1BZTnefTYMfXtU6/a4=";
-  "0.5.71" = "sha256-1EVbbEqaobbfaN59RxxPVxlfyzPOf4S1MwhicHIzmSU=";
-  "0.5.70" = "sha256-byuNOyuzrP0TyT6mx1BoSmA8TIBKLvQb5JOlAZIPzB8=";
-  "0.5.69" = "sha256-FwOUEoD0+HPvclEzt0hoLxLCMUicbOPNTJO5sNYm0yY=";
-  "0.5.68" = "sha256-5zaRN2damDivI7XhhuxxKIiwC1gionhyPKpcA8hUgAo=";
-  "0.5.67" = "sha256-D3/3aPADypU2CLE2oIcxM9f/KvCi2fDU7R8RwSYE3v8=";
-  "0.5.66" = "sha256-hZL2ymRDpvrkKLDAiN6YYCwKSAaWVQ1dOKVLFYLuP8U=";
-  "0.5.65" = "sha256-snRD48+YQKGfEp4LkAlj6yKaKIctFuBJwUux0jIzCTI=";
-  "0.5.64" = "sha256-blZHP4rWyh3ez7oJzas9N39flP03IMttoF1+2NlxsFE=";
-  "0.5.63" = "sha256-dGZuXMHYSdRP20tBsOEvWrpEE6yDhmiAThpHvRFUV7g=";
-  "0.5.62" = "sha256-V6FiELBW0ygW+rwTXyhDcupQ/tY2nWVrhfnGU3688J8=";
-  "0.5.61" = "sha256-Z37saRlehhh8EMYUb1Mp/8/HsXU+nrPnm2gd6KWqdqU=";
-  "0.5.60" = "sha256-3LlqoJuBHyQWCSAjFThw2PdkY+kpFSNfKHcJtpY37NM=";
-  "0.5.59" = "sha256-axFRn0lPC4aSLzut6j5cLBeQ+AGTYf+IBgvpY37YW2Q=";
-  "0.5.58" = "sha256-ZIhM0eHEPberr8BH9aoeQu5orxTutIyn9tKVrUPm29Q=";
-  "0.5.57" = "sha256-nVG0A8XiFkowNRNwKHfZWEbuViAyTDEhFBLwKRzR2W4=";
-  "0.5.56" = "sha256-13ZQ+pJu49NnSlCFE5DR0w4bLWr7YDkb0txDtJ9ldgU=";
-  "0.5.55" = "sha256-jRXn82AaWVXuT4CcGhZgyUahgTdYKvw7kuvzFIyR3zM=";
-  "0.5.54" = "sha256-JcnlP31WsQSugQ/W3zEaoBd98l7CsDlZjQ5cr2sowB8=";
-  "0.5.53" = "sha256-DPcUVY9pGTRkKx632aDnlSr1/b3kOhkCQbvrZSL23Fg=";
-  "0.5.52" = "sha256-eufMb3uFiEukUdo7s2SbPRa+GekzXhdA/663aKsEPLo=";
-  "0.5.51" = "sha256-MYKeW9Gdx+YrVRR+/B1fgrHwNoVeFlBWhGp4EARQFWo=";
-  "0.5.50" = "sha256-+JJoqU9FL7jVJ/eJWZXvqaPLwHD9f5IRIXL4FmclQVo=";
-  "0.5.49" = "sha256-fPhJf5obhPko/TAPKl9W2apP3oXHJm7dlRY/e1RGCEI=";
-  "0.5.48" = "sha256-aV1b9c3iSmiHyvEVm4PhK9sZ4BkywneI43VuUrU+h9o=";
-  "0.5.47" = "sha256-Uj86fkIG9LQsUWEw++x+90I1ywEfURHcsEBxUDWWun0=";
-  "0.5.46" = "sha256-VzjzD1DCSIQXyS8a94maBAqnosI5RXEO01brIYWVHCU=";
-  "0.5.45" = "sha256-ownTNFyJ0jjYzNKyAEjr7YayhzwjNBN58fowPNF/Cnw=";
-  "0.5.44" = "sha256-41paFGsj7092/Z90g14xNfXVjZSfi2zAHiO9qzubark=";
-  "0.5.43" = "sha256-Ma7A0bSymACRaG7NbtmlQCYYeLTABafURlpX2poOOQw=";
-  "0.5.42" = "sha256-bpsu4l9gCJEkn1TNH2WJo7ALfRFJ5KQ5MpGG9PX90v0=";
-  "0.5.41" = "sha256-3oa4W0JEREmRuxPNZIsw6QvVDOwqtRRhnAzsRxzUHFU=";
-  "0.5.40" = "sha256-8enTTDm7w2Z9CgIBR/QdMDtpGWcvEBTSEgpqTqYenj0=";
-  "0.5.39" = "sha256-d1u+BIMvkmeJex4XUiLTKrGn3dq5e6yVqw2nPKPTzAo=";
-  "0.5.38" = "sha256-CQSMN722r+hgRucWaKFtTgLWJvn4ma2XkasOaeNmctc=";
-  "0.5.37" = "sha256-fmA575DDmJ6Mla9eOfSdB6RYMtxOA18RMWI2E3MUNkw=";
-  "0.5.36" = "sha256-lRDShp8+mhk13a3vQeBFX/sBtF7+d8VrHBSGAI+p9XM=";
-  "0.5.35" = "sha256-FKTePKfbLutPAwvrGLo6QaOQ0FOZHndIxSSgPpX4ZFg=";
-  "0.5.34" = "sha256-+G5Sd1wTbcc//JYXc+vQH3Er6bZtlK4ahJbhyQZruXw=";
-  "0.5.33" = "sha256-9vs+JQrMdPEmNAiFeYILQjEBj8DF193OHasOQSf7cuo=";
-  "0.5.32" = "sha256-B4dU1liInp7n0Uw6JNEznF+5e+raT90eRu5Kcoa0QT4=";
-  "0.5.31" = "sha256-tlyckwE6iy9EEpSMoyzEmSdIGFP1zho53xFR0g9sOq8=";
-  "0.5.30" = "sha256-2bhx/iOdPyOW8JYu8rgeVaiaJx8rc2s117eVe9yyQG8=";
-  "0.5.29" = "sha256-X7SBffP4HNaSwcyOKS/nnDtzfe4pYheOdAogbLNnF58=";
-  "0.5.28" = "sha256-hYj9nba6mYFY769osHNY92hBkOBXrY5JMxX0sV8/Xrs=";
-  "0.5.27" = "sha256-qDqU5gZ3eIEaYiuKyC3vzwBi8q5t63f0FIC0PW19OQM=";
-  "0.5.26" = "sha256-oD2X6sDMP7hyvfwthBiAWjEFIpUC/Namba8haYLKLFo=";
-  "0.5.25" = "sha256-dyxDBGqCj69k41SOGtZzS4xIFpXFM+B6VytHhLsn/c4=";
-  "0.5.24" = "sha256-Kbt1nEw3D/FJkGv//Gx/6naqnlgB1hb0oYgsckxm7u4=";
-  "0.5.23" = "sha256-V5CCcBv+vGvcs5jNvgaIT+1vGwCHhhtBLYLWrfFuExU=";
-  "0.5.22" = "sha256-g7jM8taYzxS8pK/De6zhg53TZ0iAhwKjOSW8OgF1qvs=";
-  "0.5.21" = "sha256-fLFlre391mx8yiQbfCA5/GkckzpPsAKWo5G8xSUtIYU=";
-  "0.5.20" = "sha256-oQyMQT+lNpM5dPuI8ET65iaLJxhNXGmARZEWl+rpaUc=";
-  "0.5.17" = "sha256-fE/zpEwMCyZGSmFsI2CM5pPVB9vTYk1LtWmW9pbAtpY=";
-  "0.5.16" = "sha256-95w6/iGpyef/Gv3oVUN9z19zc5AIdTaMn2ibMA9I078=";
-  "0.5.15" = "sha256-TGxcVA7eAWZqVamF5KNm2sJQZAgNFdJyxGdLldBYdM0=";
-  "0.5.14" = "sha256-tcs797PvAj0jdM/aoRegwVZude+7BFtM5poxyhY47wY=";
-  "0.5.13" = "sha256-mELPQVqvDNGY+pleOoVFYngH1qrd/oHwmmXIJANgf/0=";
-  "0.5.12" = "sha256-v7gE4+WeN473IPzYt7yRMypnBOkuOCH6AH2iqwRV1vw=";
-  "0.5.11" = "sha256-jyDtb0+FcZQbCefZcjVfGBeomIb9kt5PGyM8p12H18Y=";
-  "0.5.10" = "sha256-0+Zb6kmPhHVJAjx9HmeFJ9T6jnFcXmjsONCWilvtWPg=";
-  "0.5.9" = "sha256-v4B74Tzl/HyHrM83Tkn/b0WSn0NWKf2/bsE6nrLIL1M=";
-  "0.5.8" = "sha256-b8k6CiiN471D6sAv8YIGzlOt6XPe+jW2INzaG8OoTog=";
-  "0.5.7" = "sha256-qXU5JtWObfIrblRUg8fJCt4vFXNbUVKb5pBDVtiJ87g=";
-  "0.5.6" = "sha256-cIrVb5FcE35KrobdW6rQLtWNXq9sgXXS+i5SGnmuiHo=";
-  "0.5.5" = "sha256-RCV4Fc0doBU9RgDAam09DTWYBLL63OfQDzO1dlFh2H0=";
-  "0.5.4" = "sha256-V5HtdQjqYCAzYekCH6rRXOF5uxaoCNOVYdIX61VWpGo=";
-  "0.5.3" = "sha256-JbW2GZC6HF9uHcVZtUeIPaCFMxvu+dI9Lvz69yboMGE=";
-  "0.5.2" = "sha256-tnHeZrI9J/QvfkD7gaBlL6IkFjZ/UySXSRXeiXWEHvk=";
-  "0.5.1" = "sha256-KioeFX8cXHKAhqwHDXhVCbSHR4AZwZHonl47zCMd+G4=";
-  "0.5.0" = "sha256-lQaFRi2YuceIlSUhUyFMnwxnrrtuMnthfhX+g5mEpSw=";
+  fetchQmkFirmware,
+}:
+
+rec {
+  latest = v0_33_5;
+
+  v0 = v0_33_5;
+
+  v0_10 = v0_10_54;
+  v0_11 = v0_11_70;
+  v0_12 = v0_12_52;
+  v0_13 = v0_13_38;
+  v0_14 = v0_14_33;
+  v0_15 = v0_15_25;
+  v0_16 = v0_16_9;
+  v0_17 = v0_17_9;
+  v0_18 = v0_18_17;
+  v0_19 = v0_19_12;
+  v0_20 = v0_20_8;
+  v0_21 = v0_21_7;
+  v0_22 = v0_22_14;
+  v0_23 = v0_23_9;
+  v0_24 = v0_24_11;
+  v0_25 = v0_25_22;
+  v0_26 = v0_26_11;
+  v0_27 = v0_27_13;
+  v0_28 = v0_28_10;
+  v0_29 = v0_29_12;
+  v0_30 = v0_30_15;
+  v0_31 = v0_31_12;
+  v0_32 = v0_32_16;
+  v0_33 = v0_33_5;
+  v0_5 = v0_5_264;
+  v0_6 = v0_6_464;
+  v0_7 = v0_7_172;
+  v0_8 = v0_8_192;
+  v0_9 = v0_9_59;
+
+  v0_33_5 = fetchQmkFirmware {
+    tag = "0.33.5";
+    hash = "sha256-UijXLKIIpWV51F/UW6SQ1/yPzvT5ndWTzzym0VnuBQE=";
+  };
+
+  v0_33_4 = fetchQmkFirmware {
+    tag = "0.33.4";
+    hash = "sha256-JPazevmDHBP1WyvJdQ/dLTPRAl4VEqjjCrnlscNa5s0=";
+  };
+
+  v0_33_3 = fetchQmkFirmware {
+    tag = "0.33.3";
+    hash = "sha256-3otHYlL7IYS3VFd5/S/mBFUcZkT3Fvxo87l3VTDxbL0=";
+  };
+
+  v0_33_2 = fetchQmkFirmware {
+    tag = "0.33.2";
+    hash = "sha256-a4BHtrI9il42WzSPWFaG5uH0iz6tjmdVKtbUhZacrOw=";
+  };
+
+  v0_33_1 = fetchQmkFirmware {
+    tag = "0.33.1";
+    hash = "sha256-DddJ4geeIwEhsyCYXrYfu/SDA0V/X32RMAnSiRm/xKc=";
+  };
+
+  v0_33_0 = fetchQmkFirmware {
+    tag = "0.33.0";
+    hash = "sha256-Lkj5E0dklPwqJ3itXU1PQ1gkTfldK4LwD6P1d2CXgww=";
+  };
+
+  v0_32_16 = fetchQmkFirmware {
+    tag = "0.32.16";
+    hash = "sha256-reZB2yG+zmMziUUTWCAZtzltVW1ZwxmF2TrK5NcDBnk=";
+  };
+
+  v0_32_15 = fetchQmkFirmware {
+    tag = "0.32.15";
+    hash = "sha256-BYx3wgJe4dQh2MqUaAS90/b+O9pHs7SVjaa14VY2q54=";
+  };
+
+  v0_32_14 = fetchQmkFirmware {
+    tag = "0.32.14";
+    hash = "sha256-QkFZc6nCrcT8wL2GnE6wCV31C9T+bS3dyGbGvbsMVzk=";
+  };
+
+  v0_32_13 = fetchQmkFirmware {
+    tag = "0.32.13";
+    hash = "sha256-qim7VYSfJJVBCgEo0MN71I5GB7UuemVducZOuqwL3qE=";
+  };
+
+  v0_32_12 = fetchQmkFirmware {
+    tag = "0.32.12";
+    hash = "sha256-rcUxgboZugByBtLKGWTZrqWw1RIZio4316MYCFGFci0=";
+  };
+
+  v0_32_11 = fetchQmkFirmware {
+    tag = "0.32.11";
+    hash = "sha256-qZToDpe/3P4v00DFlLOHI3JrXxQJxlcYid9O+0VrQC4=";
+  };
+
+  v0_32_10 = fetchQmkFirmware {
+    tag = "0.32.10";
+    hash = "sha256-MRn6YaqqGyhVod7iOwG2/C2dQo2QurroqyrNIrRXPjg=";
+  };
+
+  v0_32_9 = fetchQmkFirmware {
+    tag = "0.32.9";
+    hash = "sha256-xuJbhqyrO8+DGWzzG1qLzByXQyHU7oB/6HW/sg7ZiZ4=";
+  };
+
+  v0_32_8 = fetchQmkFirmware {
+    tag = "0.32.8";
+    hash = "sha256-h1bJjB1kea7ZqKZ38gPHSrK8n7Q3NARN6QJEm5eL4Zw=";
+  };
+
+  v0_32_7 = fetchQmkFirmware {
+    tag = "0.32.7";
+    hash = "sha256-kpsYkcHAAcYeEHdjABakfXjwP4azPBi4pEkkI9q9jHo=";
+  };
+
+  v0_32_6 = fetchQmkFirmware {
+    tag = "0.32.6";
+    hash = "sha256-8BIo+UUeGXqLbV3s1UBB2SwcPLhJGCvHB/eU5GmQpCg=";
+  };
+
+  v0_32_5 = fetchQmkFirmware {
+    tag = "0.32.5";
+    hash = "sha256-3pd5AF+l3yJp7UenK6yEq8Os71D5LZUx43qIsL7/FBw=";
+  };
+
+  v0_32_4 = fetchQmkFirmware {
+    tag = "0.32.4";
+    hash = "sha256-U+1YaNXVCHQTFLS9YsPol6qDzw3hzaMTrpazHTB+7qk=";
+  };
+
+  v0_32_3 = fetchQmkFirmware {
+    tag = "0.32.3";
+    hash = "sha256-WmvoHXHkMuHosLvGHEhFD/ruG5MEkZepgyIMUDTq4Xc=";
+  };
+
+  v0_32_2 = fetchQmkFirmware {
+    tag = "0.32.2";
+    hash = "sha256-v/EPqMJQJ8y0GEcSjrvGeEwSYGFWuRI56P4wBdFvOfk=";
+  };
+
+  v0_32_1 = fetchQmkFirmware {
+    tag = "0.32.1";
+    hash = "sha256-UOn2g4OjkDZDY26RpoVB67PxWwf8yhjTFe7dYXrqCNo=";
+  };
+
+  v0_32_0 = fetchQmkFirmware {
+    tag = "0.32.0";
+    hash = "sha256-HPF/IrsTGZL+NweaacjldS4N9Bsy4UhDOBQppZiGPEU=";
+  };
+
+  v0_31_12 = fetchQmkFirmware {
+    tag = "0.31.12";
+    hash = "sha256-QAU/BPqfKQiMawjzOuxM4iwMlkWleADrJJNoCWPgejw=";
+  };
+
+  v0_31_11 = fetchQmkFirmware {
+    tag = "0.31.11";
+    hash = "sha256-S+XhWcWT6xNAGaJOCGnkBpVHnVYXa/b/gyZWHIJOn1s=";
+  };
+
+  v0_31_10 = fetchQmkFirmware {
+    tag = "0.31.10";
+    hash = "sha256-2Wx+QaonWz/6/BfMIGekxqik8EBrrmloZta5LLzuAtU=";
+  };
+
+  v0_31_9 = fetchQmkFirmware {
+    tag = "0.31.9";
+    hash = "sha256-MMTLYhdYr/Xf+EunEV7V54mfAqS9l6ojdfogO8tKjnI=";
+  };
+
+  v0_31_8 = fetchQmkFirmware {
+    tag = "0.31.8";
+    hash = "sha256-ufRJPVIppEAVj43UJtze6t1RJl9xq/U43eJ3FLYnMCc=";
+  };
+
+  v0_31_7 = fetchQmkFirmware {
+    tag = "0.31.7";
+    hash = "sha256-yRMh3XLOZrCV5P5nniNHcbqaK+BR2XFxQG+Ngb7Vnyw=";
+  };
+
+  v0_31_6 = fetchQmkFirmware {
+    tag = "0.31.6";
+    hash = "sha256-bhdKPMU/DdAPnASSp1yNJxf6D6MSXNcJXp5AykBSXlk=";
+  };
+
+  v0_31_5 = fetchQmkFirmware {
+    tag = "0.31.5";
+    hash = "sha256-iL0nJL8xcNmWIhZKbBW1Jf82dQhBKbcqG1oyg7pH98I=";
+  };
+
+  v0_31_4 = fetchQmkFirmware {
+    tag = "0.31.4";
+    hash = "sha256-Hny0zVetAN99aBp/1Dujx5HcsnVU1nnkYfCufugjEi4=";
+  };
+
+  v0_31_3 = fetchQmkFirmware {
+    tag = "0.31.3";
+    hash = "sha256-mF5FLW2Z7i8FS9+6zlrincruofqPwdL1AIK+hToTino=";
+  };
+
+  v0_31_2 = fetchQmkFirmware {
+    tag = "0.31.2";
+    hash = "sha256-3OoC+oebnlyQINwHQLSWt36gqsTGrGBNV3OKvEG2fho=";
+  };
+
+  v0_31_1 = fetchQmkFirmware {
+    tag = "0.31.1";
+    hash = "sha256-jibfaqh4uTx2sWyQ9V5qiUoe9B+8jK3g1WXNfs2xArg=";
+  };
+
+  v0_31_0 = fetchQmkFirmware {
+    tag = "0.31.0";
+    hash = "sha256-AldP6CbwDmoYh9vmRktm5NyXL9Ux3qKZRC/yKmioq5c=";
+  };
+
+  v0_30_15 = fetchQmkFirmware {
+    tag = "0.30.15";
+    hash = "sha256-BoUnqjRNLyFjyprQyC+D/9nsOe+6DsM6KMWOLFMxv2g=";
+  };
+
+  v0_30_14 = fetchQmkFirmware {
+    tag = "0.30.14";
+    hash = "sha256-QCGnOvahbM29bQz9K+uZ3JlfbQy7S7y0F2ODfu1EeYE=";
+  };
+
+  v0_30_13 = fetchQmkFirmware {
+    tag = "0.30.13";
+    hash = "sha256-qVIBcgjE8C0jeH2s/AIUh7SVRQzqo/SUYCN75V7Niyc=";
+  };
+
+  v0_30_12 = fetchQmkFirmware {
+    tag = "0.30.12";
+    hash = "sha256-awFWWNN8N/zFQSd0tCRjLyhC1SZj8dnhKDrNQAwqJyQ=";
+  };
+
+  v0_30_11 = fetchQmkFirmware {
+    tag = "0.30.11";
+    hash = "sha256-g9/gPfLHS1Pt6Jq9S9pa7/65b1tM4XyPRLrDlrgs9B4=";
+  };
+
+  v0_30_10 = fetchQmkFirmware {
+    tag = "0.30.10";
+    hash = "sha256-v2cjnwhyNBfPCY+UaG9F5VE2fQ5Vvtjrxm1/gVhKbnk=";
+  };
+
+  v0_30_9 = fetchQmkFirmware {
+    tag = "0.30.9";
+    hash = "sha256-pnDprDYZC8qq4SLCpDHhQz90Hg7QtZGu1/Byu0izwFo=";
+  };
+
+  v0_30_8 = fetchQmkFirmware {
+    tag = "0.30.8";
+    hash = "sha256-0UtX3V+vPDdQMp1ZxqwITltaoHuqJYqXt3Jx72OzAnY=";
+  };
+
+  v0_30_7 = fetchQmkFirmware {
+    tag = "0.30.7";
+    hash = "sha256-+6UBaqmIefs4UIAKvjkdJqZnqJ/AFckoN1GqvBDnrmM=";
+  };
+
+  v0_30_6 = fetchQmkFirmware {
+    tag = "0.30.6";
+    hash = "sha256-SsRHL4je3V1kg4dalnV3/+EwXt45vKkiiqr/yA6NBlc=";
+  };
+
+  v0_30_5 = fetchQmkFirmware {
+    tag = "0.30.5";
+    hash = "sha256-TdStj8Hf5seH/5SMDqG7B3JLXHCvlL58AJlRqydaNJ0=";
+  };
+
+  v0_30_4 = fetchQmkFirmware {
+    tag = "0.30.4";
+    hash = "sha256-UJm8zKUOsAUaEZTiC1+EVPJxcFqdTzRO+M8NO5JdBTA=";
+  };
+
+  v0_30_3 = fetchQmkFirmware {
+    tag = "0.30.3";
+    hash = "sha256-lM5B9xl7sSxGhI/fbS0ys22t5oVUp8aMLI4pzICEKHk=";
+  };
+
+  v0_30_2 = fetchQmkFirmware {
+    tag = "0.30.2";
+    hash = "sha256-Xhq5yfIzGZ8DJC5UD6+bMnJvRpX2gJuOMwwQYbVE0JY=";
+  };
+
+  v0_30_1 = fetchQmkFirmware {
+    tag = "0.30.1";
+    hash = "sha256-wxg2VO3Eq5NkyroJAJO251BYQaWxz2LzsrM4wrXK2Ig=";
+  };
+
+  v0_30_0 = fetchQmkFirmware {
+    tag = "0.30.0";
+    hash = "sha256-eLx4lKBwkABevHZYSf4P/rHg5+FLm7G/m3eW/dUWnKc=";
+  };
+
+  v0_29_12 = fetchQmkFirmware {
+    tag = "0.29.12";
+    hash = "sha256-1Ocu//oLEn/mZDvmiF45ZA40abHSwpXXYL+wBfxYs84=";
+  };
+
+  v0_29_11 = fetchQmkFirmware {
+    tag = "0.29.11";
+    hash = "sha256-R1WVPcsySmqwDAR6Ru3Hge2w9iRU7Hd5d+5NLJz4Icc=";
+  };
+
+  v0_29_10 = fetchQmkFirmware {
+    tag = "0.29.10";
+    hash = "sha256-qKiESjPkL6aiussjuPi7TxAr0v8AMEIjmpAqF0JlmPA=";
+  };
+
+  v0_29_9 = fetchQmkFirmware {
+    tag = "0.29.9";
+    hash = "sha256-ZLUDfExc7GwYS7CH37EENxruSPnmX8o041HTY41bZk4=";
+  };
+
+  v0_29_8 = fetchQmkFirmware {
+    tag = "0.29.8";
+    hash = "sha256-B/sssgr/U3h5Ti7wM7xUdHR5Co12JrlVmj/9VV2iWwQ=";
+  };
+
+  v0_29_7 = fetchQmkFirmware {
+    tag = "0.29.7";
+    hash = "sha256-WY8e3MeVSAlbckOxP/9CGF6Ez8sgEfFEkbzAH+oyrJ0=";
+  };
+
+  v0_29_6 = fetchQmkFirmware {
+    tag = "0.29.6";
+    hash = "sha256-QwRix2t6JyQJeDW9rgOG0JL241eDQAYMDtUrF1CN3nE=";
+  };
+
+  v0_29_5 = fetchQmkFirmware {
+    tag = "0.29.5";
+    hash = "sha256-suPdqV5p8NKwrituAsxFyC8RMnhSUl7YULZaUHWekl4=";
+  };
+
+  v0_29_4 = fetchQmkFirmware {
+    tag = "0.29.4";
+    hash = "sha256-21EhqwaweGy3wwTR3BoMN3IXYpogvltR25X4UtGN0SA=";
+  };
+
+  v0_29_3 = fetchQmkFirmware {
+    tag = "0.29.3";
+    hash = "sha256-13zLe5ON9vZYE/EZ1Pto86Isko0moL3ushwmHW9F6Ic=";
+  };
+
+  v0_29_2 = fetchQmkFirmware {
+    tag = "0.29.2";
+    hash = "sha256-PSfiAfdiljRIm9xfLg4g936RMK18adUeHsM2ywj+RlI=";
+  };
+
+  v0_29_1 = fetchQmkFirmware {
+    tag = "0.29.1";
+    hash = "sha256-N2JgQUTYgoBPSJzzuj2wlXjsV7T0VAJZrKoHfLQnmEY=";
+  };
+
+  v0_29_0 = fetchQmkFirmware {
+    tag = "0.29.0";
+    hash = "sha256-a4cI6jjoKz8fRR3egkso6xC+4wJDpyI6bCeNHvUzsIw=";
+  };
+
+  v0_28_10 = fetchQmkFirmware {
+    tag = "0.28.10";
+    hash = "sha256-JMvdyxqJNk+l9quEtQFz3kczi/hnJSy/a/fSkPG4WLQ=";
+  };
+
+  v0_28_9 = fetchQmkFirmware {
+    tag = "0.28.9";
+    hash = "sha256-MolMcMKSRWkwZXL9Zwp0/uQ7Wa8ROXDM5t43vmO1Hm0=";
+  };
+
+  v0_28_8 = fetchQmkFirmware {
+    tag = "0.28.8";
+    hash = "sha256-MfzrnbAxjlPQN+ANMJ3LSIXv6kMzu1SLcEpHSDfjlTw=";
+  };
+
+  v0_28_7 = fetchQmkFirmware {
+    tag = "0.28.7";
+    hash = "sha256-n1+jcG7woYmB8Gm5nxgfPtha130KJ1d/qYHSakA8nf8=";
+  };
+
+  v0_28_6 = fetchQmkFirmware {
+    tag = "0.28.6";
+    hash = "sha256-aADmfqspGYXaXZ4F6/c/l2hgoE2SgaAAz/zOfoFh+vQ=";
+  };
+
+  v0_28_5 = fetchQmkFirmware {
+    tag = "0.28.5";
+    hash = "sha256-pY8WFXGihltJrakjaQgePlDUlpJBsibjmxOhKLmFIbY=";
+  };
+
+  v0_28_4 = fetchQmkFirmware {
+    tag = "0.28.4";
+    hash = "sha256-Tf64Y7MI9678vJGU7B7pTj/IPklJXgViJd/UkPRAZK4=";
+  };
+
+  v0_28_3 = fetchQmkFirmware {
+    tag = "0.28.3";
+    hash = "sha256-LOL+DV+PGrG8SVmLvnNtfWvrJ8MPG4B0weIlN1y/9Eg=";
+  };
+
+  v0_28_2 = fetchQmkFirmware {
+    tag = "0.28.2";
+    hash = "sha256-Rwul37fGeK5F+VXNb+Bsa7kbTmbdOopoqV24bIXaZsg=";
+  };
+
+  v0_28_1 = fetchQmkFirmware {
+    tag = "0.28.1";
+    hash = "sha256-42PTAF8/scV+/luHKBHyOnY/2BbQnIbCUp2VtyPolfE=";
+  };
+
+  v0_28_0 = fetchQmkFirmware {
+    tag = "0.28.0";
+    hash = "sha256-ThFBLA1YlRmSVkOV3NW1YWF5NCsbWJRLfHQYIejiYGA=";
+  };
+
+  v0_27_13 = fetchQmkFirmware {
+    tag = "0.27.13";
+    hash = "sha256-rBQtn63ZOkn+UQJ8gB+6WE7O7J2EJpnyR2u4T2k9L+o=";
+  };
+
+  v0_27_12 = fetchQmkFirmware {
+    tag = "0.27.12";
+    hash = "sha256-Y5+EvgwqngyJ4tBMfX/3qWP3X3dfolpXBiRUAFJZ4sw=";
+  };
+
+  v0_27_11 = fetchQmkFirmware {
+    tag = "0.27.11";
+    hash = "sha256-Nqng/y6YVT5gbQ+q767klppCtTX8fgFCLvJAqXkQkpA=";
+  };
+
+  v0_27_10 = fetchQmkFirmware {
+    tag = "0.27.10";
+    hash = "sha256-CKcRWlOrXiLyosuSlE+snSTecU4KosZGMWY6FEFo050=";
+  };
+
+  v0_27_9 = fetchQmkFirmware {
+    tag = "0.27.9";
+    hash = "sha256-bxzjcUYvDMoY6WZSpOpq2dJKHW/KgdUhPmkLoBvvbVg=";
+  };
+
+  v0_27_8 = fetchQmkFirmware {
+    tag = "0.27.8";
+    hash = "sha256-XAnqH0Ja8uxDyx7PV2xtJa4KV0MMJo+PybySahoz1Xc=";
+  };
+
+  v0_27_7 = fetchQmkFirmware {
+    tag = "0.27.7";
+    hash = "sha256-67dGA8IDDRWi+F9m2BeeJZKqxLZKBnQcVuK/5AT6L7w=";
+  };
+
+  v0_27_6 = fetchQmkFirmware {
+    tag = "0.27.6";
+    hash = "sha256-jg9kXeCAX1kjFVOxx2Cv43674OGa2pE+czpL6C3QKNo=";
+  };
+
+  v0_27_5 = fetchQmkFirmware {
+    tag = "0.27.5";
+    hash = "sha256-fElJHNCuZd3ojtpSAY/BunW4Jq8A6M9d73bQagb6oD0=";
+  };
+
+  v0_27_4 = fetchQmkFirmware {
+    tag = "0.27.4";
+    hash = "sha256-P1EVHY/nIp0+m9AhwKMFnQ1n/5BOmNv9CUdkwNpKQx0=";
+  };
+
+  v0_27_3 = fetchQmkFirmware {
+    tag = "0.27.3";
+    hash = "sha256-ifiv5vd3ZyMidWMMIvCDOh4vM9AsnnHR29rj9D64PVk=";
+  };
+
+  v0_27_2 = fetchQmkFirmware {
+    tag = "0.27.2";
+    hash = "sha256-pIFyoPk4G3GBQWMEtoxVwTpe2BzDX8pQhi02LSyGI5g=";
+  };
+
+  v0_27_1 = fetchQmkFirmware {
+    tag = "0.27.1";
+    hash = "sha256-hM9aMVpyeTlgutYNM+o6ZwmoCRNK9fCDjsVvGjojN6k=";
+  };
+
+  v0_27_0 = fetchQmkFirmware {
+    tag = "0.27.0";
+    hash = "sha256-5Ok13U2H9Xu+PWx6dVKCPLa5/s7RY6NvwVLsLaqkxho=";
+  };
+
+  v0_26_11 = fetchQmkFirmware {
+    tag = "0.26.11";
+    hash = "sha256-RJ/ktMeDOuosJVPWiXVENfZAKgOJYIrSSTOLXBI4QdQ=";
+  };
+
+  v0_26_10 = fetchQmkFirmware {
+    tag = "0.26.10";
+    hash = "sha256-4DuP/zljO8LQRGId69NNvobyOuQ15PcgwQH7C3GDQo0=";
+  };
+
+  v0_26_9 = fetchQmkFirmware {
+    tag = "0.26.9";
+    hash = "sha256-BNvGF73L+nKk19PZcnb27IivxCYaSiUKX5xg+PbLE1s=";
+  };
+
+  v0_26_8 = fetchQmkFirmware {
+    tag = "0.26.8";
+    hash = "sha256-rZLZOsuidmNTUwwXXAVdKAgkRPdXlDy2DXFPJE8BXBs=";
+  };
+
+  v0_26_7 = fetchQmkFirmware {
+    tag = "0.26.7";
+    hash = "sha256-2a40vRHy2IkVoRbgaXfCLRcHd5Y+IszQ0xfunGovfmk=";
+  };
+
+  v0_26_6 = fetchQmkFirmware {
+    tag = "0.26.6";
+    hash = "sha256-mzkX1YF7MLrBpDhQV/0IlEyjcgaCkq8EaRDoBT97o8I=";
+  };
+
+  v0_26_5 = fetchQmkFirmware {
+    tag = "0.26.5";
+    hash = "sha256-9Gyjf0b5xNPrRKsn4m7z3tm5eA78dCM8kd2gWh2MhMM=";
+  };
+
+  v0_26_4 = fetchQmkFirmware {
+    tag = "0.26.4";
+    hash = "sha256-vfDX4c+eIwqFubdslGpUk0+/m4zdlMRu98DNetOtAmc=";
+  };
+
+  v0_26_3 = fetchQmkFirmware {
+    tag = "0.26.3";
+    hash = "sha256-pZWB6TD035gxf0hSYsgmdAYPsmy8b8JoKSPoqs0bOns=";
+  };
+
+  v0_26_2 = fetchQmkFirmware {
+    tag = "0.26.2";
+    hash = "sha256-PvlhOP+M5cw23J2otmv288DEucDybzR3pZcOI2jyq28=";
+  };
+
+  v0_26_1 = fetchQmkFirmware {
+    tag = "0.26.1";
+    hash = "sha256-Tk8m/rnlLns04R/+IZ8KmkmQEzfTyP8AIwW5a5gZrCc=";
+  };
+
+  v0_26_0 = fetchQmkFirmware {
+    tag = "0.26.0";
+    hash = "sha256-TfsLZ/xMUfL/B457YqXfVDhbixJoxnkIFoH6bpqam94=";
+  };
+
+  v0_25_22 = fetchQmkFirmware {
+    tag = "0.25.22";
+    hash = "sha256-btjuOReSobvV+KDuQldFzNKPYryp1+QeOGljHD0lFW0=";
+  };
+
+  v0_25_21 = fetchQmkFirmware {
+    tag = "0.25.21";
+    hash = "sha256-aw3aN0hkgnb5J0bQgqx2vH3IlLaEqpWv5HK2kfL6+A8=";
+  };
+
+  v0_25_20 = fetchQmkFirmware {
+    tag = "0.25.20";
+    hash = "sha256-iEFTueWYvE86j9gTiKARvk6dNVAEb1XIQ5DcZQTxYtY=";
+  };
+
+  v0_25_19 = fetchQmkFirmware {
+    tag = "0.25.19";
+    hash = "sha256-DRUH5RwMYVZaW47mpoD6die9UiS+v+5HuXvu0r+wLdM=";
+  };
+
+  v0_25_18 = fetchQmkFirmware {
+    tag = "0.25.18";
+    hash = "sha256-+YCXvlke/wIBQdlXPSMuSKFrpgigfIfDgcAre+JYVIQ=";
+  };
+
+  v0_25_17 = fetchQmkFirmware {
+    tag = "0.25.17";
+    hash = "sha256-MY2vmMQKfqIQubC2QeAPIxS41e6dN4Gt8kyEIrY8SI0=";
+  };
+
+  v0_25_16 = fetchQmkFirmware {
+    tag = "0.25.16";
+    hash = "sha256-sRRoF2D8wGMzlwjacOnQy7BOdl6+EZlTGZU+aVLyrDk=";
+  };
+
+  v0_25_15 = fetchQmkFirmware {
+    tag = "0.25.15";
+    hash = "sha256-aRkNRTOF0FKKl8RHkcCBGuL43MWlJbv0SgDSwG4qoCo=";
+  };
+
+  v0_25_14 = fetchQmkFirmware {
+    tag = "0.25.14";
+    hash = "sha256-9DTsydnnbPqGOJof5sNs5LufqD4Io9fYmbxPeCiUv2w=";
+  };
+
+  v0_25_13 = fetchQmkFirmware {
+    tag = "0.25.13";
+    hash = "sha256-Nen6vR0NrX8EFyEGXSgHWZmqiZx7kRaeJoOw6JZaepM=";
+  };
+
+  v0_25_12 = fetchQmkFirmware {
+    tag = "0.25.12";
+    hash = "sha256-Yak3bsoeJ6mrNVtWM2owYVv/1edJsQ4stslck+PVQlk=";
+  };
+
+  v0_25_11 = fetchQmkFirmware {
+    tag = "0.25.11";
+    hash = "sha256-Z6w9pi0amXwfHbPLjstBTu6UoKz6JV/ZEEJYa4VVGfw=";
+  };
+
+  v0_25_10 = fetchQmkFirmware {
+    tag = "0.25.10";
+    hash = "sha256-h0WVEQjXsap+vs5s9ufeJ9fbg86aIspgUvY6EnjSumM=";
+  };
+
+  v0_25_9 = fetchQmkFirmware {
+    tag = "0.25.9";
+    hash = "sha256-M0kLGbte1wq5teD56IFd8uWCIvpra8dz2b0bjxlTzx0=";
+  };
+
+  v0_25_8 = fetchQmkFirmware {
+    tag = "0.25.8";
+    hash = "sha256-sb69476GT09CEVB7hpU/eaUBOi8rvq6l1nZUIOX6IFs=";
+  };
+
+  v0_25_7 = fetchQmkFirmware {
+    tag = "0.25.7";
+    hash = "sha256-vQxFs3f4jAzmr+LwrGEOsDC0LLuPpkVuDQwZPwORTHU=";
+  };
+
+  v0_25_6 = fetchQmkFirmware {
+    tag = "0.25.6";
+    hash = "sha256-N/sGC1WJBKVKwTNqZ0UvkTzJCBjgr8cZwc2xI71JSl8=";
+  };
+
+  v0_25_5 = fetchQmkFirmware {
+    tag = "0.25.5";
+    hash = "sha256-oG6FJWqpyH8kKLyW242fW5AxuDCORrWF5MBNo9dpRJI=";
+  };
+
+  v0_25_4 = fetchQmkFirmware {
+    tag = "0.25.4";
+    hash = "sha256-NHUzTP/R12/SNworWsFsnkvc0MVvnj2k+Kj3vSudyKw=";
+  };
+
+  v0_25_3 = fetchQmkFirmware {
+    tag = "0.25.3";
+    hash = "sha256-3cx/UNWgGvG1yVXJt62qx4zD4ZYXhMTu472iWjApw8o=";
+  };
+
+  v0_25_2 = fetchQmkFirmware {
+    tag = "0.25.2";
+    hash = "sha256-Iiem93jLcCmI71IRiU3ZjJYAGFXv/cSfg458JscpdHU=";
+  };
+
+  v0_25_1 = fetchQmkFirmware {
+    tag = "0.25.1";
+    hash = "sha256-sMhdhULZVvgiMpI933vgRCqtrj9fnedzb8/LRwN8RjE=";
+  };
+
+  v0_25_0 = fetchQmkFirmware {
+    tag = "0.25.0";
+    hash = "sha256-1NZDZTZA7ccjksuPVGylmEZW4ynVV0iN0yuR5PLEhdY=";
+  };
+
+  v0_24_11 = fetchQmkFirmware {
+    tag = "0.24.11";
+    hash = "sha256-6GfwVnHkUARwUXdWAY1ZhI+e3joSLirnVfrCJbHveZg=";
+  };
+
+  v0_24_10 = fetchQmkFirmware {
+    tag = "0.24.10";
+    hash = "sha256-D7WMAjgQq2ZjPYo4dYBLfhPXzR7uyqXHEx3UZb8IzDg=";
+  };
+
+  v0_24_9 = fetchQmkFirmware {
+    tag = "0.24.9";
+    hash = "sha256-Aw+PLmU2Fc9w7HlmZIrUkkI4BHQx+Dbs6LxrOA695ZA=";
+  };
+
+  v0_24_8 = fetchQmkFirmware {
+    tag = "0.24.8";
+    hash = "sha256-DRHPfJXF1KF1+EwkbeGhqhVrpfp21JY2spOZxesZFbA=";
+  };
+
+  v0_24_7 = fetchQmkFirmware {
+    tag = "0.24.7";
+    hash = "sha256-Kq75bzyefx+WyTJkxn7tejhWezp8TUus8QFSnXAbxwo=";
+  };
+
+  v0_24_6 = fetchQmkFirmware {
+    tag = "0.24.6";
+    hash = "sha256-eGiO0ckGfaguwOw/B8YOO2iPeS2+xC1MDGFLuvblLPw=";
+  };
+
+  v0_24_5 = fetchQmkFirmware {
+    tag = "0.24.5";
+    hash = "sha256-CzsuaWnLhMy4j6rV9nJ1+mZy7NX2j0rxbx4A6npCjcs=";
+  };
+
+  v0_24_4 = fetchQmkFirmware {
+    tag = "0.24.4";
+    hash = "sha256-xnmVkXd3wrGDv0ZUQas1dmS07hFSPSHA5vymaPebGVc=";
+  };
+
+  v0_24_3 = fetchQmkFirmware {
+    tag = "0.24.3";
+    hash = "sha256-QBUCwZ9romHW0v1+Ysc7E7zxU2V8B30qhqNnvjCQxvA=";
+  };
+
+  v0_24_2 = fetchQmkFirmware {
+    tag = "0.24.2";
+    hash = "sha256-hkZ5hj/W32si0kRAe0zkSsGAJMVrgjf/Fu/ikPPwa8I=";
+  };
+
+  v0_24_1 = fetchQmkFirmware {
+    tag = "0.24.1";
+    hash = "sha256-tnGVE9zcruBcjmN1XL3Spn8ief7Ym4QgU7/DFk7Irfs=";
+  };
+
+  v0_24_0 = fetchQmkFirmware {
+    tag = "0.24.0";
+    hash = "sha256-R7ThQepgZtmhMYfP0tYghVen2EYaTdOH6fRwf+Wp/So=";
+  };
+
+  v0_23_9 = fetchQmkFirmware {
+    tag = "0.23.9";
+    hash = "sha256-I1Hw+Lw7fRByDiiA+SWXGZHiuNBe9ohe2Y8EfkxsYus=";
+  };
+
+  v0_23_8 = fetchQmkFirmware {
+    tag = "0.23.8";
+    hash = "sha256-y1V2DMIcMrAdWgpZ/6duVPb9FEkY4+kPalkApAzTrJQ=";
+  };
+
+  v0_23_7 = fetchQmkFirmware {
+    tag = "0.23.7";
+    hash = "sha256-KwVQVxNC8dTTeRmycWfENGZtnqt0n8sY0O2LGLlwFsk=";
+  };
+
+  v0_23_6 = fetchQmkFirmware {
+    tag = "0.23.6";
+    hash = "sha256-TTFD3S7o9XDvajDjtVTxl4C5CShiGB1S36f2tP0YL9A=";
+  };
+
+  v0_23_5 = fetchQmkFirmware {
+    tag = "0.23.5";
+    hash = "sha256-w2u2+S+1+RVM0ygF65UOX+JP+BmomkC7tcDx0cebVKY=";
+  };
+
+  v0_23_4 = fetchQmkFirmware {
+    tag = "0.23.4";
+    hash = "sha256-soAYGoGG4gJ6UpdA3ORP6z3pNvKwJG3nEm8Z97xysJc=";
+  };
+
+  v0_23_3 = fetchQmkFirmware {
+    tag = "0.23.3";
+    hash = "sha256-V7FxFj+t7QmjUCn4J+hhgtGGQ3+URw68pQ9Caj+wH/k=";
+  };
+
+  v0_23_2 = fetchQmkFirmware {
+    tag = "0.23.2";
+    hash = "sha256-fFPStF4ck+0eFc1vi7jimzpZrhJk0VCj82I5u+vjaME=";
+  };
+
+  v0_23_1 = fetchQmkFirmware {
+    tag = "0.23.1";
+    hash = "sha256-qIC87D2YdI2TV5rDRc22a3M7sJMP+qs4QFMHhJXGs2M=";
+  };
+
+  v0_23_0 = fetchQmkFirmware {
+    tag = "0.23.0";
+    hash = "sha256-+aJg3CkZERTDNIr+Qk11uttQTgvqOpk7veRfwd3gD94=";
+  };
+
+  v0_22_14 = fetchQmkFirmware {
+    tag = "0.22.14";
+    hash = "sha256-0xezGGrzu6UlKFLsAIBBCzkXehKTPsAtymcZa0y6u2Y=";
+  };
+
+  v0_22_13 = fetchQmkFirmware {
+    tag = "0.22.13";
+    hash = "sha256-Ox+0/50i/3zdTqkjAdFW/9YqE1ygJBGovPG7IGf8kFg=";
+  };
+
+  v0_22_12 = fetchQmkFirmware {
+    tag = "0.22.12";
+    hash = "sha256-DuvAekRMkDTxwqTrfXD+AEUyVnXnvtm+urS6iNZYM1M=";
+  };
+
+  v0_22_11 = fetchQmkFirmware {
+    tag = "0.22.11";
+    hash = "sha256-onjWUIwQ2knXxUBdDxUdBrEWxjzrDG94IBHWaOPzdkI=";
+  };
+
+  v0_22_10 = fetchQmkFirmware {
+    tag = "0.22.10";
+    hash = "sha256-GHkcOulb0jM2y5DkOU4izEdQvzyv9uFa93kPWfxVUvc=";
+  };
+
+  v0_22_9 = fetchQmkFirmware {
+    tag = "0.22.9";
+    hash = "sha256-Jx7P2nU2losdWjvYrtvU8im+e9h6rjAED3wkHLnPJpE=";
+  };
+
+  v0_22_8 = fetchQmkFirmware {
+    tag = "0.22.8";
+    hash = "sha256-rU0MvIE4VTVS8HE+vsWS7VeK/briO4g7aX86OCV/pIA=";
+  };
+
+  v0_22_7 = fetchQmkFirmware {
+    tag = "0.22.7";
+    hash = "sha256-ptP1oQj9/eXmv9KWs5ptIRdYJj9T68ClmxrF1hC0pvo=";
+  };
+
+  v0_22_6 = fetchQmkFirmware {
+    tag = "0.22.6";
+    hash = "sha256-bHVbNWpw/qREcSB9GHhoH3BvtKJJbz5Zx+UMyeRq4WE=";
+  };
+
+  v0_22_5 = fetchQmkFirmware {
+    tag = "0.22.5";
+    hash = "sha256-X9d2OSeK09RVHZbjxvfFfrd1N2TxXogFUcDn2ORX888=";
+  };
+
+  v0_22_4 = fetchQmkFirmware {
+    tag = "0.22.4";
+    hash = "sha256-0Qr4G93UUVDpPXXhz47izRPw1tluHinVVheYMvbRRkU=";
+  };
+
+  v0_22_3 = fetchQmkFirmware {
+    tag = "0.22.3";
+    hash = "sha256-wFTmGBGr49M6iHKnJYX7DTA42Yu0KGOJR/Hz47D0I2A=";
+  };
+
+  v0_22_2 = fetchQmkFirmware {
+    tag = "0.22.2";
+    hash = "sha256-gXUWp8VUeZaWKUMm1tHn01aLQlkVBvZLPYPgZtxfPXM=";
+  };
+
+  v0_22_1 = fetchQmkFirmware {
+    tag = "0.22.1";
+    hash = "sha256-K7AV8LSZ+wwPz2QQcL1BZs7lrl+5Fb3oqIFaQNqt3D0=";
+  };
+
+  v0_22_0 = fetchQmkFirmware {
+    tag = "0.22.0";
+    hash = "sha256-E2JcU5kntz5EgN2TeVwECxA6HFn2qh7SdQavWzXZcVI=";
+  };
+
+  v0_21_7 = fetchQmkFirmware {
+    tag = "0.21.7";
+    hash = "sha256-ERztAcjD1QiuD6m7L89JoD8MjR7JaaVs80ZTDp4rZw8=";
+  };
+
+  v0_21_6 = fetchQmkFirmware {
+    tag = "0.21.6";
+    hash = "sha256-AXkssn617lPHbuVccqJBbjZY8iQ6NoM/EFHfhPch308=";
+  };
+
+  v0_21_5 = fetchQmkFirmware {
+    tag = "0.21.5";
+    hash = "sha256-sRyD2brDL4IwV7dEq++MzMcvbiczKCtLsd3tR/la4t8=";
+  };
+
+  v0_21_4 = fetchQmkFirmware {
+    tag = "0.21.4";
+    hash = "sha256-Y39TYsiV4CwaA1xyqm9His5OdBcHFmDY1Q0e47qEobM=";
+  };
+
+  v0_21_3 = fetchQmkFirmware {
+    tag = "0.21.3";
+    hash = "sha256-jSNgGg84BRhedYscJlmUtNTSFT21/Gv4ZUrknqhm96A=";
+  };
+
+  v0_21_2 = fetchQmkFirmware {
+    tag = "0.21.2";
+    hash = "sha256-teJeBddPav58gAVXtwkvTCbttOrFCL9Aeg/2Q4JHyNM=";
+  };
+
+  v0_21_1 = fetchQmkFirmware {
+    tag = "0.21.1";
+    hash = "sha256-flR3sjynN25pkGGlxY7pCjYzSP/+civbXNiQtuZi7xM=";
+  };
+
+  v0_21_0 = fetchQmkFirmware {
+    tag = "0.21.0";
+    hash = "sha256-FjYOtJq4VUpmZlW39JH962q/5IQz4njN9uLlPmOUvaw=";
+  };
+
+  v0_20_8 = fetchQmkFirmware {
+    tag = "0.20.8";
+    hash = "sha256-bFG05uJqesMGQ/xOJkbfwOHvgWJIMLGdnlzm4Wy/tQo=";
+  };
+
+  v0_20_7 = fetchQmkFirmware {
+    tag = "0.20.7";
+    hash = "sha256-S6EuLiMbJp7sgAVGV0M9DuinuVLwQ9hStjlA5w9VxOo=";
+  };
+
+  v0_20_6 = fetchQmkFirmware {
+    tag = "0.20.6";
+    hash = "sha256-7cablEU1fDrzjJ2qPzgcdwRuB3AwD5hbJrUlPALmvqE=";
+  };
+
+  v0_20_5 = fetchQmkFirmware {
+    tag = "0.20.5";
+    hash = "sha256-RMWNStAmi/++GGwQOGNzKj4u0bYCCZQ2Lc+ismox0FE=";
+  };
+
+  v0_20_4 = fetchQmkFirmware {
+    tag = "0.20.4";
+    hash = "sha256-xqRiZo8xxQGu7jlqnvvOm+IWIbJ7FvTmdMof9vEVut0=";
+  };
+
+  v0_20_3 = fetchQmkFirmware {
+    tag = "0.20.3";
+    hash = "sha256-Iy44QYmtvEdniiei2e8DrlLg+8GqfR59T4Xn8/JW3NA=";
+  };
+
+  v0_20_2 = fetchQmkFirmware {
+    tag = "0.20.2";
+    hash = "sha256-uI4qCqcvTsSLkEs4IgkgiNyRLUzCs7MYjgZDOM5ceZU=";
+  };
+
+  v0_20_1 = fetchQmkFirmware {
+    tag = "0.20.1";
+    hash = "sha256-jqxFg3SRqtNMlQ8b4JefMurWUvHyNh0eOLrAQtrBeqQ=";
+  };
+
+  v0_20_0 = fetchQmkFirmware {
+    tag = "0.20.0";
+    hash = "sha256-6lb+E5RHsvVsSKzuFp3KZ4Dk8k3dNoACHd7iVpXChEY=";
+  };
+
+  v0_19_12 = fetchQmkFirmware {
+    tag = "0.19.12";
+    hash = "sha256-ZRzUPu50SSMUiYWz9nEaiizvFn/x0rMkTLJBeubWdwY=";
+  };
+
+  v0_19_11 = fetchQmkFirmware {
+    tag = "0.19.11";
+    hash = "sha256-ODFE0dtB0sDVxb6JWKS7IdXxk+f1Nb515YBnUB/FvlM=";
+  };
+
+  v0_19_10 = fetchQmkFirmware {
+    tag = "0.19.10";
+    hash = "sha256-BoeBX00JHX+Vf7d0PtA0G2cilh57Mg3um2PbBSmdUic=";
+  };
+
+  v0_19_9 = fetchQmkFirmware {
+    tag = "0.19.9";
+    hash = "sha256-VsyBcx4GT3G/k42A1hzInXYGfAkVOV2Ph6N7jchuGag=";
+  };
+
+  v0_19_8 = fetchQmkFirmware {
+    tag = "0.19.8";
+    hash = "sha256-PJ0wPFI8Th6U/8uVqZuTsxDY8ll/0mvGEdb2ntuW9CA=";
+  };
+
+  v0_19_7 = fetchQmkFirmware {
+    tag = "0.19.7";
+    hash = "sha256-kdY1H0KSzu+QAoiFv6CrTGqvFMgMjN1lFLxQQGfZ1pg=";
+  };
+
+  v0_19_6 = fetchQmkFirmware {
+    tag = "0.19.6";
+    hash = "sha256-6kkMmjDIxiJSFg9lzWESC7Y8g1/zhGjBQQ+MIE0jeP4=";
+  };
+
+  v0_19_5 = fetchQmkFirmware {
+    tag = "0.19.5";
+    hash = "sha256-L4H5Q12FXHeQ+7voJZQReF9yljDm6y5dii35LhDYHgA=";
+  };
+
+  v0_19_4 = fetchQmkFirmware {
+    tag = "0.19.4";
+    hash = "sha256-lLUADA+/+9NUDfFQthJq2SvXu8/kF0ArqjOrKH/ucz0=";
+  };
+
+  v0_19_3 = fetchQmkFirmware {
+    tag = "0.19.3";
+    hash = "sha256-5e+qYOgU5xWduEeEGsGC15M0GgEtjNHjbM3UmO36S6g=";
+  };
+
+  v0_19_2 = fetchQmkFirmware {
+    tag = "0.19.2";
+    hash = "sha256-YLiUV47kDr9uHrIhnNopj67TG2ws41x64lXIkZXtBtM=";
+  };
+
+  v0_19_1 = fetchQmkFirmware {
+    tag = "0.19.1";
+    hash = "sha256-fCnXX1cTweIGC6I+Z/v63hGGhOPGGSeKtItYf1bHo/E=";
+  };
+
+  v0_19_0 = fetchQmkFirmware {
+    tag = "0.19.0";
+    hash = "sha256-RBMCT10jHlJk7lADuyYwvmwMxAUWK4SsJoLrdaS/Lzk=";
+  };
+
+  v0_18_17 = fetchQmkFirmware {
+    tag = "0.18.17";
+    hash = "sha256-VyifdLwBT337HgRlU7wba7+a5m0HalutWDhVF4zL6dM=";
+  };
+
+  v0_18_16 = fetchQmkFirmware {
+    tag = "0.18.16";
+    hash = "sha256-f+IHgUQANDMK0CykfgQ6E2QCB3ZB80RMrlQwhZjwr18=";
+  };
+
+  v0_18_15 = fetchQmkFirmware {
+    tag = "0.18.15";
+    hash = "sha256-QGCXih94W5ijawtMC5Wy74b82Y0Mad6d61AhRMrfJLo=";
+  };
+
+  v0_18_14 = fetchQmkFirmware {
+    tag = "0.18.14";
+    hash = "sha256-IXL2cicQmlk4WRoxXI0x0zJdlKVFXfibxQ5d38Wtge4=";
+  };
+
+  v0_18_13 = fetchQmkFirmware {
+    tag = "0.18.13";
+    hash = "sha256-eK+IV2TDalcbzN5kHThunwBqRZXecGBrg3Je5TAoKEs=";
+  };
+
+  v0_18_12 = fetchQmkFirmware {
+    tag = "0.18.12";
+    hash = "sha256-COzORoCk18+o9Lo+vD+0S2BY8/t+MzlISGppT2yH9Mo=";
+  };
+
+  v0_18_11 = fetchQmkFirmware {
+    tag = "0.18.11";
+    hash = "sha256-+/rzzJ28G1oYBoTB7HhFEqGUIooq7GfU/sTm/iJmvR8=";
+  };
+
+  v0_18_10 = fetchQmkFirmware {
+    tag = "0.18.10";
+    hash = "sha256-IVobzEVkiUgNxaGVYKW8MRap/ZmewYh+9/AOCNFtkKg=";
+  };
+
+  v0_18_9 = fetchQmkFirmware {
+    tag = "0.18.9";
+    hash = "sha256-BgpUPSb/xUnR1g1c9q3df79bb2v6DfEqVi4Hr2pM3iI=";
+  };
+
+  v0_18_8 = fetchQmkFirmware {
+    tag = "0.18.8";
+    hash = "sha256-o/4JCJszWsavj5YpvyNaBIKPWxJZjD+lEJ25u1NO9w8=";
+  };
+
+  v0_18_7 = fetchQmkFirmware {
+    tag = "0.18.7";
+    hash = "sha256-m2rAuDNP6VQW3RBSPKZkuXSAV0+gb5MyFvqkge8adEM=";
+  };
+
+  v0_18_6 = fetchQmkFirmware {
+    tag = "0.18.6";
+    hash = "sha256-EeLVz+2LPDvq6w86DFvDb6K0o1hiRzrtHqTQnKNMf6k=";
+  };
+
+  v0_18_5 = fetchQmkFirmware {
+    tag = "0.18.5";
+    hash = "sha256-SOmy86uRuMqgNrrEcokE6Xw8fsnlDlcatejIpmRfaiI=";
+  };
+
+  v0_18_4 = fetchQmkFirmware {
+    tag = "0.18.4";
+    hash = "sha256-bXlLRqG1b8LWXfAk1Wsk4Qj7Dn7GlBOCjEHEtxR38pw=";
+  };
+
+  v0_18_3 = fetchQmkFirmware {
+    tag = "0.18.3";
+    hash = "sha256-xJOTNJmUeETHlX+NmYB3qZ1GIDOfFNHHIbdSJfsKgwA=";
+  };
+
+  v0_18_2 = fetchQmkFirmware {
+    tag = "0.18.2";
+    hash = "sha256-tqdtQJyoiVQvqTqHlx9p/XSpuCuTAp3rHYyZVbeKAxo=";
+  };
+
+  v0_18_1 = fetchQmkFirmware {
+    tag = "0.18.1";
+    hash = "sha256-Oukq9mzdJ7Gx/wDmh5kP5z3+VPld+pmP/YmAijLhN6s=";
+  };
+
+  v0_18_0 = fetchQmkFirmware {
+    tag = "0.18.0";
+    hash = "sha256-XGgeyVDz+3DWM80R6yadYjkYBu0MWFY+J5ieeNznpjg=";
+  };
+
+  v0_17_9 = fetchQmkFirmware {
+    tag = "0.17.9";
+    hash = "sha256-Xcl4j34LVPtYnL+MY075daYWaFiuvzo/McN1uRb3ZLo=";
+  };
+
+  v0_17_8 = fetchQmkFirmware {
+    tag = "0.17.8";
+    hash = "sha256-gUU2DMEqeC998OLvAEqibQmMR5s8EbDVTSlGkBk8kZ8=";
+  };
+
+  v0_17_7 = fetchQmkFirmware {
+    tag = "0.17.7";
+    hash = "sha256-++xxbkPMKk4MIkiO1HUuDQyy2xZRYiGgynCoW0gCTaE=";
+  };
+
+  v0_17_6 = fetchQmkFirmware {
+    tag = "0.17.6";
+    hash = "sha256-Xq3IkLOb43egYGdo3T502wBMezOnGqHTwGOAG1vVURk=";
+  };
+
+  v0_17_5 = fetchQmkFirmware {
+    tag = "0.17.5";
+    hash = "sha256-eHbNCdKSyfKwoJ/AmfgLKKPCi8093feO75qCkDP1/YA=";
+  };
+
+  v0_17_4 = fetchQmkFirmware {
+    tag = "0.17.4";
+    hash = "sha256-4Uk65KZyCouT9ECw7W7eRIgGN1Af3v2SQS/hPtNpQUk=";
+  };
+
+  v0_17_3 = fetchQmkFirmware {
+    tag = "0.17.3";
+    hash = "sha256-78Xe/Q3J9ovT5/WvxnTzZXxuBWTtDnUmu6hbcTiHS3c=";
+  };
+
+  v0_17_2 = fetchQmkFirmware {
+    tag = "0.17.2";
+    hash = "sha256-i3fFQnmWn5lfKTrBOH2DIOBAqsCrxXqltivyNrnrm7w=";
+  };
+
+  v0_17_1 = fetchQmkFirmware {
+    tag = "0.17.1";
+    hash = "sha256-7VBGzpr5l8OCf7E68PJXHAu4QOcq6zIB7vGznbwbddk=";
+  };
+
+  v0_17_0 = fetchQmkFirmware {
+    tag = "0.17.0";
+    hash = "sha256-Koatn3uEFNp5wnoF7HqyUTyItH2gsHfu3hropOB8z9g=";
+  };
+
+  v0_16_9 = fetchQmkFirmware {
+    tag = "0.16.9";
+    hash = "sha256-gnQ/hehxPiYujakJWZynAJ7plJiDciAG3NAy0Xl18/A=";
+  };
+
+  v0_16_8 = fetchQmkFirmware {
+    tag = "0.16.8";
+    hash = "sha256-iqtt0dU0eXnn/ZCVbPmiZnvJ6J0OmzluFJ5wDVrwy/k=";
+  };
+
+  v0_16_7 = fetchQmkFirmware {
+    tag = "0.16.7";
+    hash = "sha256-+DDdt9fUgmnWfH7g/gbdyPJ2+12BZo8Yry4uS6aSR3M=";
+  };
+
+  v0_16_6 = fetchQmkFirmware {
+    tag = "0.16.6";
+    hash = "sha256-lN1R0X6B5adeFZK0UE6KB2duGADvALF35StjjAbLoDU=";
+  };
+
+  v0_16_5 = fetchQmkFirmware {
+    tag = "0.16.5";
+    hash = "sha256-TfIrImk67VqqSqjv+4w7Q609Xeu/6PRaiu7zq6lQEcQ=";
+  };
+
+  v0_16_4 = fetchQmkFirmware {
+    tag = "0.16.4";
+    hash = "sha256-RI7SciX5GzvBDBUd5GJU2I+zF6SzazXRDfL1C6nJoSQ=";
+  };
+
+  v0_16_3 = fetchQmkFirmware {
+    tag = "0.16.3";
+    hash = "sha256-96Ja5UL0GXo8GVzZwHaGjtED7MCxT5ddyHvehjJ043w=";
+  };
+
+  v0_16_2 = fetchQmkFirmware {
+    tag = "0.16.2";
+    hash = "sha256-4s9ytFfIXIKl+W563VUX+QeHtAnQzFxFc2Ir6lm2J+E=";
+  };
+
+  v0_16_1 = fetchQmkFirmware {
+    tag = "0.16.1";
+    hash = "sha256-utD32ErTXtvl5zf737K0zrwMGFHeLLu7MJt6MKLQQoY=";
+  };
+
+  v0_16_0 = fetchQmkFirmware {
+    tag = "0.16.0";
+    hash = "sha256-BRATcOSCfE1SRYdHYK4+EqfgvXJiqVVOj1IhAfjorNU=";
+  };
+
+  v0_15_25 = fetchQmkFirmware {
+    tag = "0.15.25";
+    hash = "sha256-NtI/tyyXZR6C5a9X5QY0YtzQuzLjhXgbzPItVtwQsTM=";
+  };
+
+  v0_15_24 = fetchQmkFirmware {
+    tag = "0.15.24";
+    hash = "sha256-ZlzsmEi7t/ip9fVPRw6ZAnpd05uau5Y1xom7FLBUWQ4=";
+  };
+
+  v0_15_23 = fetchQmkFirmware {
+    tag = "0.15.23";
+    hash = "sha256-A+x5+XOMsz/Q0V7vYMosnjUpTtSl6s9E1A88uZITcrM=";
+  };
+
+  v0_15_22 = fetchQmkFirmware {
+    tag = "0.15.22";
+    hash = "sha256-8A6mE/rOIHqJzikzS+tZwlbpMcCAstLxB9iOSbPVESs=";
+  };
+
+  v0_15_21 = fetchQmkFirmware {
+    tag = "0.15.21";
+    hash = "sha256-4PDCX/poMOdOE09T5YiWndJs7eDJrYXwnNnJ68rAzng=";
+  };
+
+  v0_15_20 = fetchQmkFirmware {
+    tag = "0.15.20";
+    hash = "sha256-RZYfYSIq5fxPC9CIlXRrPbRkXre0kR5hTLZMhS29dXM=";
+  };
+
+  v0_15_19 = fetchQmkFirmware {
+    tag = "0.15.19";
+    hash = "sha256-Fui+bdX0P+vsxFJJvMfV6yXRecdV+znU2Exw9WZRzXk=";
+  };
+
+  v0_15_18 = fetchQmkFirmware {
+    tag = "0.15.18";
+    hash = "sha256-Z31Z76pJ+X2kEGjqm/MFeQkejvNZivNrl0dXwmgwbFw=";
+  };
+
+  v0_15_17 = fetchQmkFirmware {
+    tag = "0.15.17";
+    hash = "sha256-pV2huKyjtYi3QFxCHac0OC4nf83kvD0WnJ5QY9XG/eQ=";
+  };
+
+  v0_15_16 = fetchQmkFirmware {
+    tag = "0.15.16";
+    hash = "sha256-mX3EDEQp7e7pKoRPLKwejCMHXS0tdvc+zL6Oa47vph0=";
+  };
+
+  v0_15_15 = fetchQmkFirmware {
+    tag = "0.15.15";
+    hash = "sha256-bPmTCeBfg9nAxFRM87nZoEQoYqiumwj2DjocHG6Q+JI=";
+  };
+
+  v0_15_14 = fetchQmkFirmware {
+    tag = "0.15.14";
+    hash = "sha256-bSXdB7J0XvmetRNZVpe298vR0q2KF8uzGQxyCqa4XIg=";
+  };
+
+  v0_15_13 = fetchQmkFirmware {
+    tag = "0.15.13";
+    hash = "sha256-992AUDZq32KzGCOD2QwJsh+yxlgez3jrLp+oGW7RfeY=";
+  };
+
+  v0_15_12 = fetchQmkFirmware {
+    tag = "0.15.12";
+    hash = "sha256-au93MgJ6KkowjpSbfVarbjfQJIHzIbaJac3JqPeM5PE=";
+  };
+
+  v0_15_11 = fetchQmkFirmware {
+    tag = "0.15.11";
+    hash = "sha256-us+/2pq9opSsm5/Rab/1sSCxzYJvrJRVjQoIzL4/W+8=";
+  };
+
+  v0_15_10 = fetchQmkFirmware {
+    tag = "0.15.10";
+    hash = "sha256-5loCMS7v9FsjKijwN7pDLx0Ge4mV3H1eeUVJDNX24P4=";
+  };
+
+  v0_15_9 = fetchQmkFirmware {
+    tag = "0.15.9";
+    hash = "sha256-LSmX2xPSjK/vU1aRMuhRjSdfbGd4H0CXaEnSvUMKfkg=";
+  };
+
+  v0_15_8 = fetchQmkFirmware {
+    tag = "0.15.8";
+    hash = "sha256-QhjJa3imPERY2tMdu5v4UjE0O/NUEwxhrAsz1GJcHDY=";
+  };
+
+  v0_15_7 = fetchQmkFirmware {
+    tag = "0.15.7";
+    hash = "sha256-SxNPSDXaVa93F62FX1cQr6l2zbBhzC/c89VDtWg0stc=";
+  };
+
+  v0_15_6 = fetchQmkFirmware {
+    tag = "0.15.6";
+    hash = "sha256-R0gSJkH1PNDwu1r7gYnQaWrY2FRGs3H9+NCQs3xGS6M=";
+  };
+
+  v0_15_5 = fetchQmkFirmware {
+    tag = "0.15.5";
+    hash = "sha256-BGukp/GGkGb1xBq/s5FJ0VpsOe45gwu8MeAOfKWurFw=";
+  };
+
+  v0_15_4 = fetchQmkFirmware {
+    tag = "0.15.4";
+    hash = "sha256-4E1bBO1RO+iGgDVrUPcWUMgztrDq3aVOqS3Nt/+R6CI=";
+  };
+
+  v0_15_3 = fetchQmkFirmware {
+    tag = "0.15.3";
+    hash = "sha256-AQfndphvMDE983ynPe5iNyuwNx6de9Y8HHzwu+t10Rw=";
+  };
+
+  v0_15_2 = fetchQmkFirmware {
+    tag = "0.15.2";
+    hash = "sha256-9ktqpDSJNgwJNeZDT0auUzM3VjLaS4UJSNop6dwsfEI=";
+  };
+
+  v0_15_1 = fetchQmkFirmware {
+    tag = "0.15.1";
+    hash = "sha256-MvqXVr3Fdu+evknPQyruDrQ2xWlogLccqxnS5yJidos=";
+  };
+
+  v0_15_0 = fetchQmkFirmware {
+    tag = "0.15.0";
+    hash = "sha256-RRT2hSOrgWjzVDb5or/HRfF7FOkQOK7ISKfuxFsKPzU=";
+  };
+
+  v0_14_33 = fetchQmkFirmware {
+    tag = "0.14.33";
+    hash = "sha256-RRT2hSOrgWjzVDb5or/HRfF7FOkQOK7ISKfuxFsKPzU=";
+  };
+
+  v0_14_32 = fetchQmkFirmware {
+    tag = "0.14.32";
+    hash = "sha256-RXHShIYGe/PwBMQkdMcDKX1bBknuPKB0SbcNrFw19pc=";
+  };
+
+  v0_14_31 = fetchQmkFirmware {
+    tag = "0.14.31";
+    hash = "sha256-k7d4Oal0Sh2gB8RyUiowf9YR45xzlgAzS+lk2P/92dQ=";
+  };
+
+  v0_14_30 = fetchQmkFirmware {
+    tag = "0.14.30";
+    hash = "sha256-Zvb80TmfGRKoYVdaZClHgHv402hBDCHrPG6lpgwVuRY=";
+  };
+
+  v0_14_29 = fetchQmkFirmware {
+    tag = "0.14.29";
+    hash = "sha256-jz6iNGc872EOpRdplk7H+Qavi8kZdjyMidKUrUw9fVg=";
+  };
+
+  v0_14_28 = fetchQmkFirmware {
+    tag = "0.14.28";
+    hash = "sha256-3bqhgZbhRkXKQp7vQWJ7RUF+lurM7kcwSXvFFb3vDK8=";
+  };
+
+  v0_14_27 = fetchQmkFirmware {
+    tag = "0.14.27";
+    hash = "sha256-/R170hjpculiLWRdueuqYliXzfg2ryanOvJYz592UPw=";
+  };
+
+  v0_14_26 = fetchQmkFirmware {
+    tag = "0.14.26";
+    hash = "sha256-mkAsBR5CnPejtEEPFsXgXRSIulOBDAarrZtlDSFvuPw=";
+  };
+
+  v0_14_25 = fetchQmkFirmware {
+    tag = "0.14.25";
+    hash = "sha256-N/gJG8xSp2uwB1qwh+RG4r69k4T5BufuAZzM9yJoUyk=";
+  };
+
+  v0_14_24 = fetchQmkFirmware {
+    tag = "0.14.24";
+    hash = "sha256-Zy/W07uNehfN0hF1rn1hryz7BjZhWVbBDvmbpZsBrwE=";
+  };
+
+  v0_14_23 = fetchQmkFirmware {
+    tag = "0.14.23";
+    hash = "sha256-RjwBTjhuBnp6ZAU50ZU3xOOBo1vhHAgTwEnsaaJXFBE=";
+  };
+
+  v0_14_22 = fetchQmkFirmware {
+    tag = "0.14.22";
+    hash = "sha256-d76VLSNSLEPHJSdi0j6kjuJS9CN7o0y2hPFmUfXVhlg=";
+  };
+
+  v0_14_21 = fetchQmkFirmware {
+    tag = "0.14.21";
+    hash = "sha256-iLLNf7rwp+LDw6bdBF0xxsJcD5ud9INGX3o85PJd23g=";
+  };
+
+  v0_14_20 = fetchQmkFirmware {
+    tag = "0.14.20";
+    hash = "sha256-FMH0TMISNheqVMzsw67NEBEmfpBK6qKCoxeQYOICIpA=";
+  };
+
+  v0_14_19 = fetchQmkFirmware {
+    tag = "0.14.19";
+    hash = "sha256-1Tri6wZ4MPZ96aRb1SAkHAEoU4ZvfZQZphmpEZU/7HI=";
+  };
+
+  v0_14_18 = fetchQmkFirmware {
+    tag = "0.14.18";
+    hash = "sha256-CgPmsIOXQvpDzRc61H78/7onG18NOk0oddVrJeqCbqs=";
+  };
+
+  v0_14_17 = fetchQmkFirmware {
+    tag = "0.14.17";
+    hash = "sha256-HViIiCx+5eYLP0A9vZfbGXue175cC28q9jpjSCwLjDM=";
+  };
+
+  v0_14_16 = fetchQmkFirmware {
+    tag = "0.14.16";
+    hash = "sha256-DE6CNaG5w/CRFOnIFJUaWX+bHd3I9ebwNpFjxoT8UvA=";
+  };
+
+  v0_14_15 = fetchQmkFirmware {
+    tag = "0.14.15";
+    hash = "sha256-qyirWKxmEqxBAhCgmn4G76MeIDgZUD2iQpUCwUrHYBc=";
+  };
+
+  v0_14_14 = fetchQmkFirmware {
+    tag = "0.14.14";
+    hash = "sha256-2PreKluvfdhQQ8wEe8+8S02PGlJQbhJ8TUWgZpkRun4=";
+  };
+
+  v0_14_13 = fetchQmkFirmware {
+    tag = "0.14.13";
+    hash = "sha256-Z3HnveDH/QkmDhshx3MDmdYMzI1k/2wbz+Zl4jRPMfg=";
+  };
+
+  v0_14_12 = fetchQmkFirmware {
+    tag = "0.14.12";
+    hash = "sha256-tO+g9AwCujoy2+t2YnYKe/jq0R2l/yrvUlVtDzrsvZI=";
+  };
+
+  v0_14_11 = fetchQmkFirmware {
+    tag = "0.14.11";
+    hash = "sha256-JsjjzHdSVt6hSUnGqIGOBvbiVz6I2cYBgE4/EUf3ZD0=";
+  };
+
+  v0_14_10 = fetchQmkFirmware {
+    tag = "0.14.10";
+    hash = "sha256-pKe6ACgocyXJBL+a1Vte4qZ2iZgwDZW4w3/yYcxi6iI=";
+  };
+
+  v0_14_9 = fetchQmkFirmware {
+    tag = "0.14.9";
+    hash = "sha256-W25Odt7JcMsv48tZpASU9Iuu7hTiyr0p3bYjUqkq1UA=";
+  };
+
+  v0_14_8 = fetchQmkFirmware {
+    tag = "0.14.8";
+    hash = "sha256-jsvcUK+OPfhisN2AShDH5Tlnx874EUk4TfWmo+dzDAM=";
+  };
+
+  v0_14_7 = fetchQmkFirmware {
+    tag = "0.14.7";
+    hash = "sha256-/0mzQPma0Hu/pDFDY+rLVv/PwJQ1WgbsIk7UEQ0k40Q=";
+  };
+
+  v0_14_6 = fetchQmkFirmware {
+    tag = "0.14.6";
+    hash = "sha256-zXlbwruGO4LbWNKaTQOg72WVZNNj93yvS/KPUjfTIAg=";
+  };
+
+  v0_14_5 = fetchQmkFirmware {
+    tag = "0.14.5";
+    hash = "sha256-VvnZbepvz6dcRtSwCfPVRzxMI6m2UCB+UjDO7GPiKMQ=";
+  };
+
+  v0_14_4 = fetchQmkFirmware {
+    tag = "0.14.4";
+    hash = "sha256-rZHAHcP7vrCCNYX71w4dNZVMorP5bytVdk/tB5VBDrM=";
+  };
+
+  v0_14_3 = fetchQmkFirmware {
+    tag = "0.14.3";
+    hash = "sha256-mOkib9KkJwQQFQ46vthSgJpxKi4X+dUtI1DDj4Scon8=";
+  };
+
+  v0_14_2 = fetchQmkFirmware {
+    tag = "0.14.2";
+    hash = "sha256-A0DjDaBOg7UmTKP1C/xP5ZB3xuWTPGVVWI/+YKHtza8=";
+  };
+
+  v0_14_1 = fetchQmkFirmware {
+    tag = "0.14.1";
+    hash = "sha256-LEGIUEoQWX7ULLn+qrADESxKLJIsXBIl/YX9USoIaOo=";
+  };
+
+  v0_14_0 = fetchQmkFirmware {
+    tag = "0.14.0";
+    hash = "sha256-+ArZgW5fECveagF38Yls8zz/grrY9zlLly5pjhAW44M=";
+  };
+
+  v0_13_38 = fetchQmkFirmware {
+    tag = "0.13.38";
+    hash = "sha256-us+W8+7NcGFsxY/4CTNHSbub8is2Rg3okls6eldJY/g=";
+  };
+
+  v0_13_37 = fetchQmkFirmware {
+    tag = "0.13.37";
+    hash = "sha256-oUKhmnemVcQAXP2lapc2FpJP6jDVjIqJljUWkmuk/xw=";
+  };
+
+  v0_13_36 = fetchQmkFirmware {
+    tag = "0.13.36";
+    hash = "sha256-lPLgA5j2NN6hovPtKtYgkonYMrDD7LZO9b7gwNhJHbc=";
+  };
+
+  v0_13_35 = fetchQmkFirmware {
+    tag = "0.13.35";
+    hash = "sha256-nfh5J0DfjpAQybKPGaF40sU/5hgk6tq0UR+yXhLzpRw=";
+  };
+
+  v0_13_34 = fetchQmkFirmware {
+    tag = "0.13.34";
+    hash = "sha256-Bqu+m32/EbTgDqcAmyBv1GF3MgTUWaqz3gaIQAobOD4=";
+  };
+
+  v0_13_33 = fetchQmkFirmware {
+    tag = "0.13.33";
+    hash = "sha256-yaQJ1M9m5mNexX3mpaQm93COZm5Xm5X79D1YKcjEaTc=";
+  };
+
+  v0_13_32 = fetchQmkFirmware {
+    tag = "0.13.32";
+    hash = "sha256-/DUplacN6encJGTqgGiQszKcGnsVp5Yi8ADv6fQZ6+w=";
+  };
+
+  v0_13_31 = fetchQmkFirmware {
+    tag = "0.13.31";
+    hash = "sha256-pqOlmmr98bZ1y6gBX7oQyutKPEJRpFoPSiZVN/mQCEY=";
+  };
+
+  v0_13_30 = fetchQmkFirmware {
+    tag = "0.13.30";
+    hash = "sha256-tgJCBZBxt3GM9B7XInWn/KBGIzYYN0MFGcbCy8lPBpU=";
+  };
+
+  v0_13_29 = fetchQmkFirmware {
+    tag = "0.13.29";
+    hash = "sha256-L9e7Sr6sBhSvhIcuemzfmQ30u6056vfJTOs5+KGFhyk=";
+  };
+
+  v0_13_28 = fetchQmkFirmware {
+    tag = "0.13.28";
+    hash = "sha256-fN7dAY2QWh+YY6vTI6zw+LJ50w11ev+5Le7zK9OOElI=";
+  };
+
+  v0_13_27 = fetchQmkFirmware {
+    tag = "0.13.27";
+    hash = "sha256-ps116NVW/FnKqbdJwo2rIr6/EQ483b7OroKzYV6aYm0=";
+  };
+
+  v0_13_26 = fetchQmkFirmware {
+    tag = "0.13.26";
+    hash = "sha256-NhR3DKIeIfWVzNWuBkYQBh1PI5ptT22eBxiBl7EIgzM=";
+  };
+
+  v0_13_25 = fetchQmkFirmware {
+    tag = "0.13.25";
+    hash = "sha256-LiKMZzmRCaKhdlu6GX9YKWkgs0x3pUBAChfgrECQsSw=";
+  };
+
+  v0_13_24 = fetchQmkFirmware {
+    tag = "0.13.24";
+    hash = "sha256-gjeqkV+6jGqNUXy9cFEQpFWSwD9ydz1I1QTzj5ciOCo=";
+  };
+
+  v0_13_23 = fetchQmkFirmware {
+    tag = "0.13.23";
+    hash = "sha256-Rvjim/4F23pWRivdsbs80wL8cWg2y9PsT0Mheh3ulHY=";
+  };
+
+  v0_13_22 = fetchQmkFirmware {
+    tag = "0.13.22";
+    hash = "sha256-8hkk72S5Brkm5/G/YAlimQSUk8NVnheicvBqgSGtCwI=";
+  };
+
+  v0_13_21 = fetchQmkFirmware {
+    tag = "0.13.21";
+    hash = "sha256-VPyqgXmRPbHocvsHtd6oEr94+gUAd20ySdpszDp0GPk=";
+  };
+
+  v0_13_20 = fetchQmkFirmware {
+    tag = "0.13.20";
+    hash = "sha256-bCA58qWaL01EQActPsd+NCYVOgq0VqX7t8/JRlQcSFs=";
+  };
+
+  v0_13_19 = fetchQmkFirmware {
+    tag = "0.13.19";
+    hash = "sha256-aucdXzgaYnMhGBy8IByNV6I7tctHdYnbHlmlNr2Xd2o=";
+  };
+
+  v0_13_18 = fetchQmkFirmware {
+    tag = "0.13.18";
+    hash = "sha256-p+5/Y7VAI9sctJ+oPAxUvfz+gEq30MxuuiWpVD8ghBE=";
+  };
+
+  v0_13_17 = fetchQmkFirmware {
+    tag = "0.13.17";
+    hash = "sha256-vPBg7367TU/eJsuh6nafsPo6ytj089pgHjMT15F6fWY=";
+  };
+
+  v0_13_16 = fetchQmkFirmware {
+    tag = "0.13.16";
+    hash = "sha256-tAZ4Ex4/yKi14iXqoWX17XTCW4fk60uWbkMhVFnc7YQ=";
+  };
+
+  v0_13_15 = fetchQmkFirmware {
+    tag = "0.13.15";
+    hash = "sha256-5LWcYDJ0g59iWkjKxs0ZBItqpMry+i+HgaeUxkRiub0=";
+  };
+
+  v0_13_14 = fetchQmkFirmware {
+    tag = "0.13.14";
+    hash = "sha256-4igXnnm05+i0nXKcDKosq3r4rVUqlFam24sPNl5RaIw=";
+  };
+
+  v0_13_13 = fetchQmkFirmware {
+    tag = "0.13.13";
+    hash = "sha256-IxVGYwB1Cyjv4WooU0rc40EzQJsJ5BUNPCqChYj6q5M=";
+  };
+
+  v0_13_12 = fetchQmkFirmware {
+    tag = "0.13.12";
+    hash = "sha256-U7RprKLdmXuBJ7Ws1wPkW4s3rV0XPJSBZFeLSwpOhAQ=";
+  };
+
+  v0_13_11 = fetchQmkFirmware {
+    tag = "0.13.11";
+    hash = "sha256-XLu6oO/RkhX1qtPQULuDCaYgtkQH3AjM7qeEtDY8SCI=";
+  };
+
+  v0_13_10 = fetchQmkFirmware {
+    tag = "0.13.10";
+    hash = "sha256-6ZzPq7a9ZO2DXtMTc2BMoh6n/xB+8q9paljne0NTHWk=";
+  };
+
+  v0_13_9 = fetchQmkFirmware {
+    tag = "0.13.9";
+    hash = "sha256-hRF7PqcwnDz/0qghpLlCAlGFSdbb6XcGRMXuYzbqN+0=";
+  };
+
+  v0_13_8 = fetchQmkFirmware {
+    tag = "0.13.8";
+    hash = "sha256-xRvpRlGtzOZif3dEv49/Y2pMnZ1TJYuxIDQdreDmVq8=";
+  };
+
+  v0_13_7 = fetchQmkFirmware {
+    tag = "0.13.7";
+    hash = "sha256-iMNfOzIvV201IVclQQ3TER41eYzBc2zbsRq5IjkebB8=";
+  };
+
+  v0_13_6 = fetchQmkFirmware {
+    tag = "0.13.6";
+    hash = "sha256-5amA/CIXBwzrpOcr2pOun6DnO5QgJ0E1Hvf7WUZdrvQ=";
+  };
+
+  v0_13_5 = fetchQmkFirmware {
+    tag = "0.13.5";
+    hash = "sha256-0mbieyne0dEL2JBhNm4vEyZqHrAzspdmwvOI9rSK74Q=";
+  };
+
+  v0_13_4 = fetchQmkFirmware {
+    tag = "0.13.4";
+    hash = "sha256-u0Wax1dE4hrGiQL/tzh/7HlAw7FOIiNSsnRVKsEqFv4=";
+  };
+
+  v0_13_3 = fetchQmkFirmware {
+    tag = "0.13.3";
+    hash = "sha256-8BFddaY7JC3ZXD2hTVCSQrGM1OJNZEQuZo7speYp7/o=";
+  };
+
+  v0_13_2 = fetchQmkFirmware {
+    tag = "0.13.2";
+    hash = "sha256-f9ujxYzVX4cWDLRCmDjOs6Udf1P4j3uLUUsrPeVANzo=";
+  };
+
+  v0_13_1 = fetchQmkFirmware {
+    tag = "0.13.1";
+    hash = "sha256-wKKl4eJqz50tmT42rQp/JWL9WAgTN7/95nNyo9aw3Ys=";
+  };
+
+  v0_13_0 = fetchQmkFirmware {
+    tag = "0.13.0";
+    hash = "sha256-2X5jbj1Fl7oT9eZb+VLnkgRb3kFGLdp9I7Fzrp7qCgI=";
+  };
+
+  v0_12_52 = fetchQmkFirmware {
+    tag = "0.12.52";
+    hash = "sha256-2X5jbj1Fl7oT9eZb+VLnkgRb3kFGLdp9I7Fzrp7qCgI=";
+  };
+
+  v0_12_51 = fetchQmkFirmware {
+    tag = "0.12.51";
+    hash = "sha256-uEvUP6Tx8nGSSxdBQs1qWnrFEskqhNiJ+FBOT9Vfa9Q=";
+  };
+
+  v0_12_50 = fetchQmkFirmware {
+    tag = "0.12.50";
+    hash = "sha256-UquJXqEo69Wk5ZUm1Ml86tHppTgKPAFFT4Pobl282Mk=";
+  };
+
+  v0_12_49 = fetchQmkFirmware {
+    tag = "0.12.49";
+    hash = "sha256-t+XPxe8k+uHyj92lcz7u1YXGapos6t9hVp0NJ1gUVHM=";
+  };
+
+  v0_12_48 = fetchQmkFirmware {
+    tag = "0.12.48";
+    hash = "sha256-zQqdnrA7UmRxuR+swXxqsJM0+Q5pP2A8vGoziWlhHgo=";
+  };
+
+  v0_12_47 = fetchQmkFirmware {
+    tag = "0.12.47";
+    hash = "sha256-4DcOh6MHaSG52A0doYpWGajfwZbEoh/NxGnGQSGWqCI=";
+  };
+
+  v0_12_46 = fetchQmkFirmware {
+    tag = "0.12.46";
+    hash = "sha256-wilXQsxlNsH6D8UXasNelvJNLeVvhVrchPQeHXXD/8I=";
+  };
+
+  v0_12_45 = fetchQmkFirmware {
+    tag = "0.12.45";
+    hash = "sha256-dibCV1ksYQMKlwFbj04nCDrOTvTgGeOUsCowj7kLsVA=";
+  };
+
+  v0_12_44 = fetchQmkFirmware {
+    tag = "0.12.44";
+    hash = "sha256-rRJehqzSawpZYk5XGRhHShooEoZVTMwvwnRweUjEQ1U=";
+  };
+
+  v0_12_43 = fetchQmkFirmware {
+    tag = "0.12.43";
+    hash = "sha256-AY/nqU+eVZaOC8Oy7e2Dv2Jir4Yw1KGQ3uzRPVWrxK0=";
+  };
+
+  v0_12_42 = fetchQmkFirmware {
+    tag = "0.12.42";
+    hash = "sha256-nPq/MBLlZ0NNbbqjLFUdlRG8Q12z4gzCIo9JpdC+Ido=";
+  };
+
+  v0_12_41 = fetchQmkFirmware {
+    tag = "0.12.41";
+    hash = "sha256-VnojBV65vi9S+1nEtwqOpO35wq5bqxbN9Z8v43xSAYQ=";
+  };
+
+  v0_12_40 = fetchQmkFirmware {
+    tag = "0.12.40";
+    hash = "sha256-xiDUSqsVUR2r4/YgbWRhJ/3VLmSPRkZETDL0M5nBSM0=";
+  };
+
+  v0_12_39 = fetchQmkFirmware {
+    tag = "0.12.39";
+    hash = "sha256-z6Aj4K/DZySFxsx9OIZ7TuripzzdPAgA4H0hPQJCH8U=";
+  };
+
+  v0_12_38 = fetchQmkFirmware {
+    tag = "0.12.38";
+    hash = "sha256-tzRfTglqhdTb8ZdSCbM4Q47oq9wJ7C+8q/w8MynQWrI=";
+  };
+
+  v0_12_37 = fetchQmkFirmware {
+    tag = "0.12.37";
+    hash = "sha256-Vm0ZCEMf34pOlgHfX2tcjFa8akRxArNtU+G3l1sL7Os=";
+  };
+
+  v0_12_36 = fetchQmkFirmware {
+    tag = "0.12.36";
+    hash = "sha256-cwSMf2EZNxWyWsiJaWReIgRV9S8QL5o1dkbKIwxdLBE=";
+  };
+
+  v0_12_35 = fetchQmkFirmware {
+    tag = "0.12.35";
+    hash = "sha256-Q3Y2U21RYLJqrsmlNXOKASBglB+uzsmpu2u8m+q9hwg=";
+  };
+
+  v0_12_34 = fetchQmkFirmware {
+    tag = "0.12.34";
+    hash = "sha256-sQFgHNIbsqfREBKqZ6sz7bLPImzdHuGA25KGanr2kf0=";
+  };
+
+  v0_12_33 = fetchQmkFirmware {
+    tag = "0.12.33";
+    hash = "sha256-PXvfM1M/TIBi+JUs8c4lKKILNNeAlbgUPYIcMn/tGx0=";
+  };
+
+  v0_12_32 = fetchQmkFirmware {
+    tag = "0.12.32";
+    hash = "sha256-MnBdULY+H9SwEYPwJyGQh/b/j7M4pHfR7U54xwwcBSU=";
+  };
+
+  v0_12_31 = fetchQmkFirmware {
+    tag = "0.12.31";
+    hash = "sha256-jp9cVJZEZd5lsK0YQHBXFdzzvde+sSB1I/oBPLQwvFI=";
+  };
+
+  v0_12_30 = fetchQmkFirmware {
+    tag = "0.12.30";
+    hash = "sha256-Dtz3rI07P9+TQOcEg2h6Zv1rZt+gbRSltDg2tMKyVYo=";
+  };
+
+  v0_12_29 = fetchQmkFirmware {
+    tag = "0.12.29";
+    hash = "sha256-eTR2UPL1RUA75c4XOmuQwV/NjlhoW/5CF14SxXC59oE=";
+  };
+
+  v0_12_28 = fetchQmkFirmware {
+    tag = "0.12.28";
+    hash = "sha256-gqxSF6Yz+xdjyT/n8bRB/duIQpLngf2XyXU4tVLbldk=";
+  };
+
+  v0_12_27 = fetchQmkFirmware {
+    tag = "0.12.27";
+    hash = "sha256-9xqpg9I7bvVzb6VmtCO4l6Y18eIpBa99oF9fgoFqgjo=";
+  };
+
+  v0_12_26 = fetchQmkFirmware {
+    tag = "0.12.26";
+    hash = "sha256-JM7qrLmdZ04PYsyunObgajp0yFn0D9uib0vhSaZQl7U=";
+  };
+
+  v0_12_25 = fetchQmkFirmware {
+    tag = "0.12.25";
+    hash = "sha256-xndApIn3brkGGLUmpr9Sf3tIEJ5GEQzwTp1b/ULLKH4=";
+  };
+
+  v0_12_24 = fetchQmkFirmware {
+    tag = "0.12.24";
+    hash = "sha256-oRF4S1MMV8nALrUNguhJj7hSq6GyyGauNANQUggrHHY=";
+  };
+
+  v0_12_23 = fetchQmkFirmware {
+    tag = "0.12.23";
+    hash = "sha256-qRuvQgQU0ByD2F9RCgsU+tK4VJ072zfV72t86DWR0jE=";
+  };
+
+  v0_12_22 = fetchQmkFirmware {
+    tag = "0.12.22";
+    hash = "sha256-JvXno+4F7xge7GC5x8LeXr2q71YPebbTMOPW4lctSHU=";
+  };
+
+  v0_12_21 = fetchQmkFirmware {
+    tag = "0.12.21";
+    hash = "sha256-yMGrFtIs+Oo7Sb2FzDR4K01sbd2RbhRlGIg0n2lm4Iw=";
+  };
+
+  v0_12_20 = fetchQmkFirmware {
+    tag = "0.12.20";
+    hash = "sha256-sDuOl/NLQhb0NMONLw4S47psdXzwU+LxWOWVrl9qfro=";
+  };
+
+  v0_12_19 = fetchQmkFirmware {
+    tag = "0.12.19";
+    hash = "sha256-rc2QI4DhxVUW1aMHSZ3aYR+hkyhuZet3Bz+/+dGWnow=";
+  };
+
+  v0_12_18 = fetchQmkFirmware {
+    tag = "0.12.18";
+    hash = "sha256-70TwEWOZRTJi7qa1JgAmpDw5eU5nLXXthUe5NCJT4G4=";
+  };
+
+  v0_12_17 = fetchQmkFirmware {
+    tag = "0.12.17";
+    hash = "sha256-/TJASD6X2ZVsQ9CcXCcfjanfsUAxUIt3wKMp24B7RMU=";
+  };
+
+  v0_12_16 = fetchQmkFirmware {
+    tag = "0.12.16";
+    hash = "sha256-PTKaO9EfHD5oxyMc1wIE4NAT71Gkb58mar2V0g5g+sE=";
+  };
+
+  v0_12_15 = fetchQmkFirmware {
+    tag = "0.12.15";
+    hash = "sha256-NcKboiipLrOf1txhISyPNJwZ0aln+DQDFomDyjTzpis=";
+  };
+
+  v0_12_14 = fetchQmkFirmware {
+    tag = "0.12.14";
+    hash = "sha256-Xaachrt4yUCz/zQaL4nGgqoI7C873wcWKgQNJhx6f68=";
+  };
+
+  v0_12_13 = fetchQmkFirmware {
+    tag = "0.12.13";
+    hash = "sha256-Wf7ELuM1ubpkEaE2H8zCx3Xp1azTnBmaMzKXdQkVjhE=";
+  };
+
+  v0_12_12 = fetchQmkFirmware {
+    tag = "0.12.12";
+    hash = "sha256-OgTm/d3EOHRQIPFJerSACgN1sCyj+2XjBJWDD9SLbtU=";
+  };
+
+  v0_12_11 = fetchQmkFirmware {
+    tag = "0.12.11";
+    hash = "sha256-D1D0Kcrh6L2O5KJ7UHdRTtzaPX4atb9i2maLrUyLCw4=";
+  };
+
+  v0_12_10 = fetchQmkFirmware {
+    tag = "0.12.10";
+    hash = "sha256-VAIDXadgq2ubNmOBrrBWEznzAfI09/SxuYy8Lbiosbw=";
+  };
+
+  v0_12_9 = fetchQmkFirmware {
+    tag = "0.12.9";
+    hash = "sha256-bZaJp0TUBfdFttW3vj/iIB3JlahzEnkvMnGIYraAyMw=";
+  };
+
+  v0_12_8 = fetchQmkFirmware {
+    tag = "0.12.8";
+    hash = "sha256-NeBPPCNlfgGEUhRJ6cMUaj0Glyn9Qge341YXjzgitAY=";
+  };
+
+  v0_12_7 = fetchQmkFirmware {
+    tag = "0.12.7";
+    hash = "sha256-jCRLkzRCff2j8KIH3fjRVlH80qDjrce6P8r+AtQikcw=";
+  };
+
+  v0_12_6 = fetchQmkFirmware {
+    tag = "0.12.6";
+    hash = "sha256-3foXZzs4qvvPQ8n9Sru7Ub6d+fZ530cur19kWKBrosw=";
+  };
+
+  v0_12_5 = fetchQmkFirmware {
+    tag = "0.12.5";
+    hash = "sha256-tQqKauXHjVl2Vu96hAsY/+yV4l3fKdvmD1253la8YFY=";
+  };
+
+  v0_12_4 = fetchQmkFirmware {
+    tag = "0.12.4";
+    hash = "sha256-xvdQEts7K7GSTSGhjLDkFRLvWjjJgKdfxGniphcWVGw=";
+  };
+
+  v0_12_3 = fetchQmkFirmware {
+    tag = "0.12.3";
+    hash = "sha256-LCK5Kh/kBQiIBCLteSNXY8RwNm/NDKXMdFWIuHhfg1Q=";
+  };
+
+  v0_12_2 = fetchQmkFirmware {
+    tag = "0.12.2";
+    hash = "sha256-jLvPi8YolhhBdLJABBj/kAR1pJqCKGOKeJMDmQGXIV4=";
+  };
+
+  v0_12_1 = fetchQmkFirmware {
+    tag = "0.12.1";
+    hash = "sha256-ayxNE6vDWlTzg/jWtac8j+47I9ldVNWJ4hIvbFfT32k=";
+  };
+
+  v0_12_0 = fetchQmkFirmware {
+    tag = "0.12.0";
+    hash = "sha256-ayxNE6vDWlTzg/jWtac8j+47I9ldVNWJ4hIvbFfT32k=";
+  };
+
+  v0_11_70 = fetchQmkFirmware {
+    tag = "0.11.70";
+    hash = "sha256-ayxNE6vDWlTzg/jWtac8j+47I9ldVNWJ4hIvbFfT32k=";
+  };
+
+  v0_11_69 = fetchQmkFirmware {
+    tag = "0.11.69";
+    hash = "sha256-ZfMHNoB95rGWAL+leZH5xRAC5Qq9n7XdbxngmRMKgDA=";
+  };
+
+  v0_11_68 = fetchQmkFirmware {
+    tag = "0.11.68";
+    hash = "sha256-UuaMzdojfZiXSrUA0K9TDFEGcz083UFj4XIPQ1f/Dko=";
+  };
+
+  v0_11_67 = fetchQmkFirmware {
+    tag = "0.11.67";
+    hash = "sha256-GKDDaK6D/OdtX2mHpSCT90ntl1WfjhoRdVHI/JqXwNQ=";
+  };
+
+  v0_11_66 = fetchQmkFirmware {
+    tag = "0.11.66";
+    hash = "sha256-F8lA7SCNCNfZh5jbx1EF49jrr/T59wzBCeSfhhzsDxI=";
+  };
+
+  v0_11_65 = fetchQmkFirmware {
+    tag = "0.11.65";
+    hash = "sha256-eqWxi3rJn+djsX990QLX64f5yQTlwgzwsGT2Qzh2jI4=";
+  };
+
+  v0_11_64 = fetchQmkFirmware {
+    tag = "0.11.64";
+    hash = "sha256-PHn+sCo6c3C1BkyLqO5i1xGPBN9bUoEwfgWJGvwRFXo=";
+  };
+
+  v0_11_63 = fetchQmkFirmware {
+    tag = "0.11.63";
+    hash = "sha256-tK/0FYSyQt4E/RBkeJeBKEDbSiVkgIS4eZHTbOOPOX0=";
+  };
+
+  v0_11_62 = fetchQmkFirmware {
+    tag = "0.11.62";
+    hash = "sha256-WSccb1awcSWZj8LE3/azvQRau2Wyo78qbD/Fi1AoZlI=";
+  };
+
+  v0_11_61 = fetchQmkFirmware {
+    tag = "0.11.61";
+    hash = "sha256-SKCMtjkGj+ExB9eG/d1VEG1+O2RBfH0ruxQmmrZxSic=";
+  };
+
+  v0_11_60 = fetchQmkFirmware {
+    tag = "0.11.60";
+    hash = "sha256-Q+ADMAy3ww08WbHVSj5O7jYBSFf1w/N7PfOpuKBqCNM=";
+  };
+
+  v0_11_59 = fetchQmkFirmware {
+    tag = "0.11.59";
+    hash = "sha256-UNQ0gRk6vtrIbOhjRA/7DENDcB2DaLrgKC7rSwbuCfY=";
+  };
+
+  v0_11_58 = fetchQmkFirmware {
+    tag = "0.11.58";
+    hash = "sha256-pqR4xvN70dCS81N4XYPgwmKX1tfR4jwZ8rC4/znTXkg=";
+  };
+
+  v0_11_57 = fetchQmkFirmware {
+    tag = "0.11.57";
+    hash = "sha256-985Fi968cYjQiUgdKJp68bmlRPIjaLbPsS7pUWhORbg=";
+  };
+
+  v0_11_56 = fetchQmkFirmware {
+    tag = "0.11.56";
+    hash = "sha256-gYxNAXt/q5NXmp+41298vF/HiMbm4EFzzF5QeXe1s8Q=";
+  };
+
+  v0_11_55 = fetchQmkFirmware {
+    tag = "0.11.55";
+    hash = "sha256-+drfLWRQr2drZtpRf71cDl3qTicsE965W6ERICGbgEA=";
+  };
+
+  v0_11_54 = fetchQmkFirmware {
+    tag = "0.11.54";
+    hash = "sha256-GFU4EcVf0E/Si8gB1xIDrhBkDzr/SbJTB5rZ1BBcrtU=";
+  };
+
+  v0_11_53 = fetchQmkFirmware {
+    tag = "0.11.53";
+    hash = "sha256-QPpYPHEzUejizQaCw5gXEv4TqOmLDP0xigJklPOvswU=";
+  };
+
+  v0_11_52 = fetchQmkFirmware {
+    tag = "0.11.52";
+    hash = "sha256-OmUy8bEfPJ8Hq1HhhqqNIbZPKUlmcStE2T47Yhsr/EM=";
+  };
+
+  v0_11_51 = fetchQmkFirmware {
+    tag = "0.11.51";
+    hash = "sha256-YJJ5avvynOzo0m9eyKPSWdHQMkCDp3Q8A7TbYIjy3Cw=";
+  };
+
+  v0_11_50 = fetchQmkFirmware {
+    tag = "0.11.50";
+    hash = "sha256-45Pgu/Q9hi4PExw9XjgnemfERa8X3n6DbUd5MWUMGWY=";
+  };
+
+  v0_11_49 = fetchQmkFirmware {
+    tag = "0.11.49";
+    hash = "sha256-E/oe5u6F9pxvavRLlrXmr9kCc6pSdSmQgtg4a3wbIuA=";
+  };
+
+  v0_11_48 = fetchQmkFirmware {
+    tag = "0.11.48";
+    hash = "sha256-NyeFfdUwyKdOXa1O9Ufv4S3+L6YIq0A1uPnjtTIP1H8=";
+  };
+
+  v0_11_47 = fetchQmkFirmware {
+    tag = "0.11.47";
+    hash = "sha256-FQUIjMoYKwgrMYSAvFk/+djYPsgLjhgM24zJqxZunHw=";
+  };
+
+  v0_11_46 = fetchQmkFirmware {
+    tag = "0.11.46";
+    hash = "sha256-wzstxutBNCqTfhR58XXcv7aGBBiRf3OUZIOBg+IEtUg=";
+  };
+
+  v0_11_45 = fetchQmkFirmware {
+    tag = "0.11.45";
+    hash = "sha256-JMN+83nWq4YcOA2lHzm9qZGhtc3pCQ78BwK+pqYuiWM=";
+  };
+
+  v0_11_44 = fetchQmkFirmware {
+    tag = "0.11.44";
+    hash = "sha256-ZBvLn/SLA881JjGyEjtTranoeHLzzOaH9z4WbYGDaUY=";
+  };
+
+  v0_11_43 = fetchQmkFirmware {
+    tag = "0.11.43";
+    hash = "sha256-TaMV0KaxqEKzT2noQrHeZgVpb/hNzFkaBI199fRQP5E=";
+  };
+
+  v0_11_42 = fetchQmkFirmware {
+    tag = "0.11.42";
+    hash = "sha256-KBhmQHClcs/50vpjrMBeYtQuGeXOnm061l4/1lC88o8=";
+  };
+
+  v0_11_41 = fetchQmkFirmware {
+    tag = "0.11.41";
+    hash = "sha256-aLgTiwMeggil7uFZCSmOEA80Piwrbxd1ZFmFBrzdMIw=";
+  };
+
+  v0_11_40 = fetchQmkFirmware {
+    tag = "0.11.40";
+    hash = "sha256-REJyyREcp9w+je0uuogAgZRubRwq7u1vZi1315CBqJU=";
+  };
+
+  v0_11_39 = fetchQmkFirmware {
+    tag = "0.11.39";
+    hash = "sha256-RSwv+sS5YC7vIFkVz3atCHYTi4iJHJgYYyJtF4GBenk=";
+  };
+
+  v0_11_38 = fetchQmkFirmware {
+    tag = "0.11.38";
+    hash = "sha256-kvz76euDX32wnIie6shNkyI9A/cuM25nTqH+cl0LIng=";
+  };
+
+  v0_11_37 = fetchQmkFirmware {
+    tag = "0.11.37";
+    hash = "sha256-uZg/z1ksGXi9QiA4JP/s6hngOiEY5d5UCF0nyEnqncc=";
+  };
+
+  v0_11_36 = fetchQmkFirmware {
+    tag = "0.11.36";
+    hash = "sha256-gVSGs4LDZ4T7JQUs2pIuOlnfa6RvN4i6CVJv1EVtBuk=";
+  };
+
+  v0_11_35 = fetchQmkFirmware {
+    tag = "0.11.35";
+    hash = "sha256-3bDBDUqMG0SP7xEh+qXRZR+Vj6e3/bCzi/a3FlQ9Yw4=";
+  };
+
+  v0_11_34 = fetchQmkFirmware {
+    tag = "0.11.34";
+    hash = "sha256-zV9sHof8K4Q854IInkuUGuvgEIMC7XCDKm/o7S2NSdo=";
+  };
+
+  v0_11_33 = fetchQmkFirmware {
+    tag = "0.11.33";
+    hash = "sha256-YICRcr/DJy1bXhewEWjM6Ui+WNjUvFsSTJIloMuVMwA=";
+  };
+
+  v0_11_32 = fetchQmkFirmware {
+    tag = "0.11.32";
+    hash = "sha256-t03kLL+2iUFXKQ9yfOTGKzAc/HWLqFVEqcREr/1PRrA=";
+  };
+
+  v0_11_31 = fetchQmkFirmware {
+    tag = "0.11.31";
+    hash = "sha256-sOFxQVznX8znCqVH4QzEmQwsFQa/o/5E5KX5e0TOjog=";
+  };
+
+  v0_11_30 = fetchQmkFirmware {
+    tag = "0.11.30";
+    hash = "sha256-EYFclaoBgmERosxqiAYCcBoYs8HqBNypVyp13Wbf6/M=";
+  };
+
+  v0_11_29 = fetchQmkFirmware {
+    tag = "0.11.29";
+    hash = "sha256-7t6Dd0TwgW06ATwhZWDc6KHuivrm0qjwy2v0p1nGhEs=";
+  };
+
+  v0_11_28 = fetchQmkFirmware {
+    tag = "0.11.28";
+    hash = "sha256-9gSaUP8y7MO9EcXgNlxjLPjNLnBnzGXN93DbqiYrCG0=";
+  };
+
+  v0_11_27 = fetchQmkFirmware {
+    tag = "0.11.27";
+    hash = "sha256-PhOEhzMmrWRpCyPerxQAsP7Zeb/+NmqD6sxex26Bxgg=";
+  };
+
+  v0_11_26 = fetchQmkFirmware {
+    tag = "0.11.26";
+    hash = "sha256-0H+2+8gJ+cKunFX2SPLhpLcO+H6dzPk6PZ3yy9b98fQ=";
+  };
+
+  v0_11_25 = fetchQmkFirmware {
+    tag = "0.11.25";
+    hash = "sha256-6q/ucyM8RRxsOCyxmaewqKcJqYaQthdavifHMi9UN/8=";
+  };
+
+  v0_11_24 = fetchQmkFirmware {
+    tag = "0.11.24";
+    hash = "sha256-nuK4nZMdSAYqSRoroo0+2msO+0My7Vfe9jCpR3Oo8+w=";
+  };
+
+  v0_11_23 = fetchQmkFirmware {
+    tag = "0.11.23";
+    hash = "sha256-QaD0R4b166lST3S9wUJf3qJVsr8xZxii3K70r7Rh4zY=";
+  };
+
+  v0_11_22 = fetchQmkFirmware {
+    tag = "0.11.22";
+    hash = "sha256-LL4Tmob0hPlz1zxjpkD/9XKLX51YyQMqIcYYGrh5KbE=";
+  };
+
+  v0_11_21 = fetchQmkFirmware {
+    tag = "0.11.21";
+    hash = "sha256-FISCpeV7gUIG7CLOWvhW7SZUeGmb1tfhqnxnzAZA/Gs=";
+  };
+
+  v0_11_20 = fetchQmkFirmware {
+    tag = "0.11.20";
+    hash = "sha256-KIzKrQwHsOSfVBRmrtJv5YwHDjanv2fhf8McvLYJpDA=";
+  };
+
+  v0_11_19 = fetchQmkFirmware {
+    tag = "0.11.19";
+    hash = "sha256-uX0XfRk1vwZvPC3m2C0Wal7AzNSGNmI7dVUrHg/EUOk=";
+  };
+
+  v0_11_18 = fetchQmkFirmware {
+    tag = "0.11.18";
+    hash = "sha256-FDjRoAW78WN/RyxXGAmzamwYeP+jJ1+ErWM2zuWoZ+k=";
+  };
+
+  v0_11_17 = fetchQmkFirmware {
+    tag = "0.11.17";
+    hash = "sha256-h7p25uRl8dhw3A+RFPf5y2htIH2W/3p9PEFTbhH3NB8=";
+  };
+
+  v0_11_16 = fetchQmkFirmware {
+    tag = "0.11.16";
+    hash = "sha256-fJwqfQ9OJnls4eRTDKy6xJhdSc9s4lRlRXHI5vRXBXc=";
+  };
+
+  v0_11_15 = fetchQmkFirmware {
+    tag = "0.11.15";
+    hash = "sha256-cf0PgtOpnU1Vtu+kmqB8l9P8PQH7SQxQfuk3sv4jIac=";
+  };
+
+  v0_11_14 = fetchQmkFirmware {
+    tag = "0.11.14";
+    hash = "sha256-LAGeQvXAfMroVaNpxaew+v2aWqIZ22OrhJhAWY9qvNc=";
+  };
+
+  v0_11_13 = fetchQmkFirmware {
+    tag = "0.11.13";
+    hash = "sha256-aV0bXORLsfZsmbR6/oxX5qxhGYOWSNILIGlC8/WxmhA=";
+  };
+
+  v0_11_12 = fetchQmkFirmware {
+    tag = "0.11.12";
+    hash = "sha256-LCUxtsEYQvA+JpU7dKKM1H1KMhBudG+ShSCKTlZ3Ejo=";
+  };
+
+  v0_11_11 = fetchQmkFirmware {
+    tag = "0.11.11";
+    hash = "sha256-kMmNw7zBfM5cGOolf9+l2wzVRndnbqy5dP/vNOxHrEg=";
+  };
+
+  v0_11_10 = fetchQmkFirmware {
+    tag = "0.11.10";
+    hash = "sha256-MYyzKHNzQ4XyGyvmfaA00DXBr+nXmRmric20kRM+2Pc=";
+  };
+
+  v0_11_9 = fetchQmkFirmware {
+    tag = "0.11.9";
+    hash = "sha256-Xa2h+hxe8/1DeU6GZQ74V7/U10d7MSzCpkR5oRFPvrk=";
+  };
+
+  v0_11_8 = fetchQmkFirmware {
+    tag = "0.11.8";
+    hash = "sha256-6SAXaiqarmrjJVpYerGogQxP/CoZQkd5WWpc2iC7R4s=";
+  };
+
+  v0_11_7 = fetchQmkFirmware {
+    tag = "0.11.7";
+    hash = "sha256-Q7tW6owa6fVxjbMw6SBUox+5XVnUHHYERGh/I9++KBM=";
+  };
+
+  v0_11_6 = fetchQmkFirmware {
+    tag = "0.11.6";
+    hash = "sha256-CeFWTnJRwNMS9SCK7ZKxl3TWZN+QTO8w4cbshtFVmQw=";
+  };
+
+  v0_11_5 = fetchQmkFirmware {
+    tag = "0.11.5";
+    hash = "sha256-NkZsHsJFrKolQiHbRPvVeSmm7CLGdBXYKsG7GUPr/z8=";
+  };
+
+  v0_11_4 = fetchQmkFirmware {
+    tag = "0.11.4";
+    hash = "sha256-5+okOIamDJUJTFtiSC3RGNJOU/ZWhAI9X769ORtiYl4=";
+  };
+
+  v0_11_3 = fetchQmkFirmware {
+    tag = "0.11.3";
+    hash = "sha256-TZX+4cAq5sjn8gBnjUhjq78//Uow67FXxtPW34MIltA=";
+  };
+
+  v0_11_2 = fetchQmkFirmware {
+    tag = "0.11.2";
+    hash = "sha256-tx276gf3a2zmvb7fESHpyUk8aMkB4HEoWi8cCDmvptQ=";
+  };
+
+  v0_11_1 = fetchQmkFirmware {
+    tag = "0.11.1";
+    hash = "sha256-tx276gf3a2zmvb7fESHpyUk8aMkB4HEoWi8cCDmvptQ=";
+  };
+
+  v0_11_0 = fetchQmkFirmware {
+    tag = "0.11.0";
+    hash = "sha256-+g54OV9OGdcmd6UVcy6lEv7CJKW+9oO7OgS4E/j/iLc=";
+  };
+
+  v0_10_54 = fetchQmkFirmware {
+    tag = "0.10.54";
+    hash = "sha256-mVUeyVbn134q+y4KCsZ8+n4KMZLb9BT9k1+zm7+Z0cA=";
+  };
+
+  v0_10_53 = fetchQmkFirmware {
+    tag = "0.10.53";
+    hash = "sha256-5hfkUtG0h2nRJC6ocEwRdbH670trFaZgMzogqzv6G4Q=";
+  };
+
+  v0_10_52 = fetchQmkFirmware {
+    tag = "0.10.52";
+    hash = "sha256-CF4O3ForNAKXMQ90p92gNNHP8rNu9FlWeiL+73BhH14=";
+  };
+
+  v0_10_51 = fetchQmkFirmware {
+    tag = "0.10.51";
+    hash = "sha256-5rBGucr1ZEBquZAT1Nm3sQqM96BWv3aNHJ5qaoWpk2E=";
+  };
+
+  v0_10_50 = fetchQmkFirmware {
+    tag = "0.10.50";
+    hash = "sha256-jWds+T8ipxuRdCow1BaxblGqxoRwlzTS+K6I7jHcWZg=";
+  };
+
+  v0_10_49 = fetchQmkFirmware {
+    tag = "0.10.49";
+    hash = "sha256-gFVJ2HL/huwn253T8R0kYCBah3LbGLFJKwbLZJhymGE=";
+  };
+
+  v0_10_48 = fetchQmkFirmware {
+    tag = "0.10.48";
+    hash = "sha256-HWQBAd8lBQqOM2uYKKGDzLPlDZ8nWvo+uu8O1rrO1DM=";
+  };
+
+  v0_10_47 = fetchQmkFirmware {
+    tag = "0.10.47";
+    hash = "sha256-nwK62ydZB2+4gYUFDWyVxzPUzW2mogA/i7U+zlCy7PQ=";
+  };
+
+  v0_10_46 = fetchQmkFirmware {
+    tag = "0.10.46";
+    hash = "sha256-NSnVaj56xmAYQrH15KomM+e2BlHj2q+W0FFAQg24sbQ=";
+  };
+
+  v0_10_45 = fetchQmkFirmware {
+    tag = "0.10.45";
+    hash = "sha256-joukyX6a2NjLoHRgnYPy4QSFaSATfLDFgwq6MPeN7i4=";
+  };
+
+  v0_10_44 = fetchQmkFirmware {
+    tag = "0.10.44";
+    hash = "sha256-qdQPYHNaIFJA/RvV6F+pzrhTQA2OhshF0ji7d4ZjgMw=";
+  };
+
+  v0_10_43 = fetchQmkFirmware {
+    tag = "0.10.43";
+    hash = "sha256-PQ8968OGa0p5e+o41KEMY8So6KPVg2YmjEus4sl3sHw=";
+  };
+
+  v0_10_42 = fetchQmkFirmware {
+    tag = "0.10.42";
+    hash = "sha256-9ODSZvxFaNAamr8NO4WvPpSoCaFldeNWhSEHAqI/Iv8=";
+  };
+
+  v0_10_41 = fetchQmkFirmware {
+    tag = "0.10.41";
+    hash = "sha256-Zocbrm4EZDtRcYQ5qS0on3wRPln0KHBKpGnC4B3lLzQ=";
+  };
+
+  v0_10_40 = fetchQmkFirmware {
+    tag = "0.10.40";
+    hash = "sha256-QfNWh5Nnvb1niAVwg8l9mrrX92Wc8J0VBEedhbZzj4I=";
+  };
+
+  v0_10_39 = fetchQmkFirmware {
+    tag = "0.10.39";
+    hash = "sha256-PyyRjhs1Y1H0EemaOVGEmB2ZaoWZl5L0Vv9NxkhB7aI=";
+  };
+
+  v0_10_38 = fetchQmkFirmware {
+    tag = "0.10.38";
+    hash = "sha256-Pm05A/Pvw+FRtguuCtpf5KFftrVoKNAYk6keZTei4C4=";
+  };
+
+  v0_10_37 = fetchQmkFirmware {
+    tag = "0.10.37";
+    hash = "sha256-Pm05A/Pvw+FRtguuCtpf5KFftrVoKNAYk6keZTei4C4=";
+  };
+
+  v0_10_36 = fetchQmkFirmware {
+    tag = "0.10.36";
+    hash = "sha256-SQwHrpQMAAkfYizsX9bV65siM2U2P2Mn8IM+0PXOnV8=";
+  };
+
+  v0_10_35 = fetchQmkFirmware {
+    tag = "0.10.35";
+    hash = "sha256-F8W42W+4G2l5HIEMSBYNsvC/qTIwRCR0yEHqLlLWgso=";
+  };
+
+  v0_10_34 = fetchQmkFirmware {
+    tag = "0.10.34";
+    hash = "sha256-F8W42W+4G2l5HIEMSBYNsvC/qTIwRCR0yEHqLlLWgso=";
+  };
+
+  v0_10_33 = fetchQmkFirmware {
+    tag = "0.10.33";
+    hash = "sha256-s2jCYdfRFLaSzruSuTEBI6LcrB2P1ciRPznOTM7SgB0=";
+  };
+
+  v0_10_32 = fetchQmkFirmware {
+    tag = "0.10.32";
+    hash = "sha256-SlF6avZbRAIVuN1oXx/pi4g9P/CLtLNUUymOdVMyn5Y=";
+  };
+
+  v0_10_31 = fetchQmkFirmware {
+    tag = "0.10.31";
+    hash = "sha256-4e1UhBY8D0HsBLldv5IXjCQ+qWWH+yvidjRm/NaLNCY=";
+  };
+
+  v0_10_30 = fetchQmkFirmware {
+    tag = "0.10.30";
+    hash = "sha256-swuJ9za2Srwpy2moAyI0KavYpuclYp09EWPbiciyZ4c=";
+  };
+
+  v0_10_29 = fetchQmkFirmware {
+    tag = "0.10.29";
+    hash = "sha256-TU9XxM/OYvNn0j/JFOrs4VgPc6Eeiy7MDcXTL9v8dDM=";
+  };
+
+  v0_10_28 = fetchQmkFirmware {
+    tag = "0.10.28";
+    hash = "sha256-ZKKM2nPFs/nwm6Jb4vpN5mNF3qYUlTNXXtu0V3W6bCY=";
+  };
+
+  v0_10_27 = fetchQmkFirmware {
+    tag = "0.10.27";
+    hash = "sha256-krHjyPqluZOZPzaHkIuQr6PvCH4PZj+KIt/AyQ0tEIM=";
+  };
+
+  v0_10_26 = fetchQmkFirmware {
+    tag = "0.10.26";
+    hash = "sha256-rROz1vbnQwkouaH08FGicx4VBMmmS+fOCmFfC5+vKVY=";
+  };
+
+  v0_10_25 = fetchQmkFirmware {
+    tag = "0.10.25";
+    hash = "sha256-6cEmi9tJv5a/PbN/sOpmkFUNCvjXy/sHBIDydSYiL80=";
+  };
+
+  v0_10_24 = fetchQmkFirmware {
+    tag = "0.10.24";
+    hash = "sha256-ISbTkeM8bu46yhITZxiyON0z8Xe/EJRBu4YAhQQXb9g=";
+  };
+
+  v0_10_23 = fetchQmkFirmware {
+    tag = "0.10.23";
+    hash = "sha256-LfDDFpnB+/ajw+MDbiKfsPJuwMWOsVGVHuFMUtSEZFw=";
+  };
+
+  v0_10_22 = fetchQmkFirmware {
+    tag = "0.10.22";
+    hash = "sha256-5OAMn2k17EdJeH7nD6sRb08CEzhWnFVCj0jXdgulkUo=";
+  };
+
+  v0_10_21 = fetchQmkFirmware {
+    tag = "0.10.21";
+    hash = "sha256-YvibvwEV6v8su5IQh8mNyT5hR9uWQVuSpQBJXDDhXyg=";
+  };
+
+  v0_10_20 = fetchQmkFirmware {
+    tag = "0.10.20";
+    hash = "sha256-EjhU07ehEpZxuBnJVmOX13snVJj1SPZpjjFPy6SgFD8=";
+  };
+
+  v0_10_19 = fetchQmkFirmware {
+    tag = "0.10.19";
+    hash = "sha256-hxlCQJ09/yVHMbMz/cxvIc469uBqF8xNXLWZdsMASCU=";
+  };
+
+  v0_10_18 = fetchQmkFirmware {
+    tag = "0.10.18";
+    hash = "sha256-FWhRc9jIlZ1aeZa0fc6wE9jGvDUQhxrCYvUVaIViHTg=";
+  };
+
+  v0_10_17 = fetchQmkFirmware {
+    tag = "0.10.17";
+    hash = "sha256-CWDGucX3aekcUhe2kpnMEERlx45vFkic8EhRG+62CoY=";
+  };
+
+  v0_10_16 = fetchQmkFirmware {
+    tag = "0.10.16";
+    hash = "sha256-Sdod0seGWfgweqXZiGz/49QOBeAsnOD9dEazsC+iisE=";
+  };
+
+  v0_10_15 = fetchQmkFirmware {
+    tag = "0.10.15";
+    hash = "sha256-c4rHZ1wnYf6f2seG2rkJS9khLRE9NvfFtZJWJUjkDJs=";
+  };
+
+  v0_10_14 = fetchQmkFirmware {
+    tag = "0.10.14";
+    hash = "sha256-LkCii9dUg/T8F0hEnjuiIcloaezvYWLJjLjud9dapYg=";
+  };
+
+  v0_10_13 = fetchQmkFirmware {
+    tag = "0.10.13";
+    hash = "sha256-DWzFjWjXHdcadTeaSiqmHUhYK2tSnWQPdMhoaEvy9ig=";
+  };
+
+  v0_10_12 = fetchQmkFirmware {
+    tag = "0.10.12";
+    hash = "sha256-NqNUmfUngx7ZnHwktVKzvfEvt99Naj46zGjR64C/4+I=";
+  };
+
+  v0_10_11 = fetchQmkFirmware {
+    tag = "0.10.11";
+    hash = "sha256-qCiBPS0tNK8zBuVyEE2kpNXtoxh/rAgBnEOv/o1VTbE=";
+  };
+
+  v0_10_10 = fetchQmkFirmware {
+    tag = "0.10.10";
+    hash = "sha256-5CCuueTgWtezR7P3rtGGJNblMhuhZKHw2MlfeAyv+0E=";
+  };
+
+  v0_10_9 = fetchQmkFirmware {
+    tag = "0.10.9";
+    hash = "sha256-0kJE5yUc1HcF/xdUSpp8CVoMGQMZDrT8/joi0n1qtww=";
+  };
+
+  v0_10_8 = fetchQmkFirmware {
+    tag = "0.10.8";
+    hash = "sha256-zcyvk/hAnuj+hI5/KNiIuaOv41LtbNRnuXPu7AK0cVY=";
+  };
+
+  v0_10_7 = fetchQmkFirmware {
+    tag = "0.10.7";
+    hash = "sha256-YAtq7XyGqKnh03Ju48CKKDXvogjW/Z+vvXXfo+1Qw9Q=";
+  };
+
+  v0_10_6 = fetchQmkFirmware {
+    tag = "0.10.6";
+    hash = "sha256-x2Zr/769IDTb9Z3tgJU/Gu5zOsgdGtGZywOpdruIEc4=";
+  };
+
+  v0_10_5 = fetchQmkFirmware {
+    tag = "0.10.5";
+    hash = "sha256-mUqM1C3Hayg8H77smH+Kc+myBPUIkgwYsCV02xzG02s=";
+  };
+
+  v0_10_4 = fetchQmkFirmware {
+    tag = "0.10.4";
+    hash = "sha256-ULSXHkwTDoNIfmqf29L5XM4s+0CTJouSLf84wlDahV0=";
+  };
+
+  v0_10_3 = fetchQmkFirmware {
+    tag = "0.10.3";
+    hash = "sha256-ljJZykXb+R5Mt2yPw0Mrj0JhBCePlCqCbJdz+gPFyec=";
+  };
+
+  v0_10_2 = fetchQmkFirmware {
+    tag = "0.10.2";
+    hash = "sha256-hkvbMMmrlQyDqXQpYJssZxSKoIhXjvdryyL1de0JQS8=";
+  };
+
+  v0_10_1 = fetchQmkFirmware {
+    tag = "0.10.1";
+    hash = "sha256-0NW4aXaRxV/yYkwAUEYpNGKcDMx54HKu//TMEZCqElI=";
+  };
+
+  v0_10_0 = fetchQmkFirmware {
+    tag = "0.10.0";
+    hash = "sha256-h/RIEo+3sTooIA+gApmgWC+y5pdi/xLjJ4+ZayGZ1iM=";
+  };
+
+  v0_9_59 = fetchQmkFirmware {
+    tag = "0.9.59";
+    hash = "sha256-mdjINEw9BjM+Me5gqn0KdmrHGLkJZ9RHYgSOeJ0owFg=";
+  };
+
+  v0_9_58 = fetchQmkFirmware {
+    tag = "0.9.58";
+    hash = "sha256-DBSxot1DzCdfezFvl8pB6ja/InTUX/tXLLu4sqNGurM=";
+  };
+
+  v0_9_57 = fetchQmkFirmware {
+    tag = "0.9.57";
+    hash = "sha256-s8SBN1a304lSy0w6q2n6nwDhTdy3C3qskdnP3NFbrg8=";
+  };
+
+  v0_9_56 = fetchQmkFirmware {
+    tag = "0.9.56";
+    hash = "sha256-KmQh2I3s0XKJl2UTBn3dhoC0eEvcvkIrRg1AuLzmGGY=";
+  };
+
+  v0_9_55 = fetchQmkFirmware {
+    tag = "0.9.55";
+    hash = "sha256-A/HoEk5J93S6/Fwad89d3h4KVGdaA0/S2Rad0gX4vkI=";
+  };
+
+  v0_9_54 = fetchQmkFirmware {
+    tag = "0.9.54";
+    hash = "sha256-pyPnDL4r0uy8b1G9mhImg6RDhfrUBa98/yYlYFbz/jA=";
+  };
+
+  v0_9_53 = fetchQmkFirmware {
+    tag = "0.9.53";
+    hash = "sha256-kr4CgqB5Rkpt0oNy5Ho7ZjO8u86ujlFe3YmIfdemXrk=";
+  };
+
+  v0_9_52 = fetchQmkFirmware {
+    tag = "0.9.52";
+    hash = "sha256-7uVHNckNZhxNscTrhXKxo2YvY+RCP2KzgLOJEKJl65k=";
+  };
+
+  v0_9_51 = fetchQmkFirmware {
+    tag = "0.9.51";
+    hash = "sha256-20MkQDUAAPUZytwCFwkgkt5+DZqAP5z4yMGVpwvca7o=";
+  };
+
+  v0_9_50 = fetchQmkFirmware {
+    tag = "0.9.50";
+    hash = "sha256-WQqlrZg77rEQPVbL1ua6eDhhqLAyOZ+mVj7oBPZwD+4=";
+  };
+
+  v0_9_49 = fetchQmkFirmware {
+    tag = "0.9.49";
+    hash = "sha256-D3U0wA+khiFwJHQLfYWW+KclgCaqoJimH39t6jmXBX0=";
+  };
+
+  v0_9_48 = fetchQmkFirmware {
+    tag = "0.9.48";
+    hash = "sha256-GpNK5RBhIHjDAIExdj9JhfNEY3MzC57Znnxd+o1QAHE=";
+  };
+
+  v0_9_47 = fetchQmkFirmware {
+    tag = "0.9.47";
+    hash = "sha256-pXYderPHpyIgKdOd7Y/EzDJfNj2ZFYcRo587eLFEGb4=";
+  };
+
+  v0_9_46 = fetchQmkFirmware {
+    tag = "0.9.46";
+    hash = "sha256-at9lovUwhSVePxYTigUp2NmdKxnJmoMVNIxngS0wNsQ=";
+  };
+
+  v0_9_45 = fetchQmkFirmware {
+    tag = "0.9.45";
+    hash = "sha256-a9WlZXErSxrrQvMtaBzrIuIQxvKj0prpSE7TXMk3F1Q=";
+  };
+
+  v0_9_44 = fetchQmkFirmware {
+    tag = "0.9.44";
+    hash = "sha256-F68BJnXK9EjwKWRV+0aCJHQqY0RyAO7eG2GETCKdsgQ=";
+  };
+
+  v0_9_43 = fetchQmkFirmware {
+    tag = "0.9.43";
+    hash = "sha256-ykLr+g80vgUU7NAviuoqWoHa8pRJpPs2E67mq+sHhwM=";
+  };
+
+  v0_9_42 = fetchQmkFirmware {
+    tag = "0.9.42";
+    hash = "sha256-UdH+EULs/Va+2QpcQhqnmy5y0bbbmvhFY5mvqQupri4=";
+  };
+
+  v0_9_41 = fetchQmkFirmware {
+    tag = "0.9.41";
+    hash = "sha256-0fNXJSxRn6t6NAKEYYcoFaPSkSZOd4FbeLftkk3MLck=";
+  };
+
+  v0_9_40 = fetchQmkFirmware {
+    tag = "0.9.40";
+    hash = "sha256-ctwliUUDz38EEMTKKVEjzrl8olBYMom13PnZhUWt754=";
+  };
+
+  v0_9_39 = fetchQmkFirmware {
+    tag = "0.9.39";
+    hash = "sha256-ctwliUUDz38EEMTKKVEjzrl8olBYMom13PnZhUWt754=";
+  };
+
+  v0_9_38 = fetchQmkFirmware {
+    tag = "0.9.38";
+    hash = "sha256-lwyEbGJzKF05AE097PUTE/QPegzHmf2ZTd00IEI2aPc=";
+  };
+
+  v0_9_37 = fetchQmkFirmware {
+    tag = "0.9.37";
+    hash = "sha256-XiqRIQnE5WAAgGczJejF3IBG8Ad0YsnFN1QrkqK4n8I=";
+  };
+
+  v0_9_36 = fetchQmkFirmware {
+    tag = "0.9.36";
+    hash = "sha256-OZopEsfD57u8k1q49OXImvKxdxN3TFQRyAq/XbuKt94=";
+  };
+
+  v0_9_35 = fetchQmkFirmware {
+    tag = "0.9.35";
+    hash = "sha256-1PJ65PYMqPLoTFISl5X9u4Weij4ltqzr7aw897xsjoc=";
+  };
+
+  v0_9_34 = fetchQmkFirmware {
+    tag = "0.9.34";
+    hash = "sha256-/2Dl4sxsPgC8qPmKxiwBAFDN7AAwmt6IOHN37UCexW4=";
+  };
+
+  v0_9_33 = fetchQmkFirmware {
+    tag = "0.9.33";
+    hash = "sha256-w3ir6ITc/T9tmZt0RnX+W3Xa21VNEkFeDEyCd0Mq2t8=";
+  };
+
+  v0_9_32 = fetchQmkFirmware {
+    tag = "0.9.32";
+    hash = "sha256-9jal4WLwoMujNizK/KOFXvtlZ/8pUxG8SkW6cog0kAA=";
+  };
+
+  v0_9_31 = fetchQmkFirmware {
+    tag = "0.9.31";
+    hash = "sha256-qM8xNVofs2EDwvysaBawVb35cA/XFrntkOemFPL1Nr0=";
+  };
+
+  v0_9_30 = fetchQmkFirmware {
+    tag = "0.9.30";
+    hash = "sha256-ezbWLzX+tv9ygk4FILMMMtLvu+xA00XZBw9hmNhvxVA=";
+  };
+
+  v0_9_29 = fetchQmkFirmware {
+    tag = "0.9.29";
+    hash = "sha256-pT9KOlpVCDP8Sbyz2w98yOFD+zTkzK4qHxUxlmpLLFw=";
+  };
+
+  v0_9_28 = fetchQmkFirmware {
+    tag = "0.9.28";
+    hash = "sha256-tI5KgR6gn1K9ilUiGObby6del5nQ4s1E/dyv7Mr9C9c=";
+  };
+
+  v0_9_27 = fetchQmkFirmware {
+    tag = "0.9.27";
+    hash = "sha256-f7WOQik74s3ev+nCQCHUdCdefsGkBUpCRFvpc1M0txQ=";
+  };
+
+  v0_9_26 = fetchQmkFirmware {
+    tag = "0.9.26";
+    hash = "sha256-mlXqc0ybxDlkPG3f+SvFaL38Jn8eOhoP/jxgKmzfKwE=";
+  };
+
+  v0_9_25 = fetchQmkFirmware {
+    tag = "0.9.25";
+    hash = "sha256-JFeQVgRrmrXCJAWIVWYVu9I3IRaapGl1iXw7Fbgbrj0=";
+  };
+
+  v0_9_24 = fetchQmkFirmware {
+    tag = "0.9.24";
+    hash = "sha256-Q0A0FtO3rWSqQ0l8hwRudR0Vv4FcIUpMcZ76Rexwclo=";
+  };
+
+  v0_9_23 = fetchQmkFirmware {
+    tag = "0.9.23";
+    hash = "sha256-Lfqv7yB20vBdVDKEE8hM5Cd40ANc1SVeWIB3CukKvf4=";
+  };
+
+  v0_9_22 = fetchQmkFirmware {
+    tag = "0.9.22";
+    hash = "sha256-tc7jbZkiJSu2KDeUrnlwAShU7c5xqT8YW2u7/sG/plQ=";
+  };
+
+  v0_9_21 = fetchQmkFirmware {
+    tag = "0.9.21";
+    hash = "sha256-fITaAZflrvWU5svetgu8oczi+bmzm/W38z2PJ5OEfqc=";
+  };
+
+  v0_9_20 = fetchQmkFirmware {
+    tag = "0.9.20";
+    hash = "sha256-z+kk9cUTPfb/wtiL59oVVZWITo8jlYpztkrC+cocz2Q=";
+  };
+
+  v0_9_19 = fetchQmkFirmware {
+    tag = "0.9.19";
+    hash = "sha256-VxZRTGUPhpciCcGsPCFTkuL3xHPjQVGYqAMAC8vjb4Y=";
+  };
+
+  v0_9_18 = fetchQmkFirmware {
+    tag = "0.9.18";
+    hash = "sha256-3DPg8zxzU70TqH+gJxMVklhOEfPfv1iRpf88wcsvLzU=";
+  };
+
+  v0_9_17 = fetchQmkFirmware {
+    tag = "0.9.17";
+    hash = "sha256-+SxD7K0C/6PbAC6vwWYHxQMSKv0hEx6otIj/D8VtbcU=";
+  };
+
+  v0_9_16 = fetchQmkFirmware {
+    tag = "0.9.16";
+    hash = "sha256-0p939hKHgZZIOmtfRsG9rTUqROqEZhb84jwXzck6nd4=";
+  };
+
+  v0_9_15 = fetchQmkFirmware {
+    tag = "0.9.15";
+    hash = "sha256-nzB6Mz9yixKRT7HsN8Q+Hcf2IGUPyZydKrJ5VlyQGhA=";
+  };
+
+  v0_9_14 = fetchQmkFirmware {
+    tag = "0.9.14";
+    hash = "sha256-zTCjIydPBk6hSjGWq+/8sNWarQfH5+ifTiaGefbAzi8=";
+  };
+
+  v0_9_13 = fetchQmkFirmware {
+    tag = "0.9.13";
+    hash = "sha256-3R0Y5eZcZFBWYlIfl90ZGJonhoN8G8KjczcLgAJd9hQ=";
+  };
+
+  v0_9_12 = fetchQmkFirmware {
+    tag = "0.9.12";
+    hash = "sha256-2lMGtMXTK9Jf87hDv+c5suiIlmoRH2xDXjIoyPXntrg=";
+  };
+
+  v0_9_11 = fetchQmkFirmware {
+    tag = "0.9.11";
+    hash = "sha256-F98w61kRP+XhVrZk9H0js5KUUwCoYkV3PTkgsBFCIkI=";
+  };
+
+  v0_9_10 = fetchQmkFirmware {
+    tag = "0.9.10";
+    hash = "sha256-onU/ip1kdW61f/B5XYvn0R4I2WXQykNv/6DqUnkQO8E=";
+  };
+
+  v0_9_9 = fetchQmkFirmware {
+    tag = "0.9.9";
+    hash = "sha256-0RH9KqIueOfKV6ObAMtGEN/RyV2KB917yZCRWMm2hco=";
+  };
+
+  v0_9_8 = fetchQmkFirmware {
+    tag = "0.9.8";
+    hash = "sha256-siG2rTybnOEGDmuPF/ChMjLNDqJbgt71/bWGokSmvQM=";
+  };
+
+  v0_9_7 = fetchQmkFirmware {
+    tag = "0.9.7";
+    hash = "sha256-wPYKh39wYLbwcph3HqmR3m8Ez9uUCXqFhLbTyBor+6c=";
+  };
+
+  v0_9_6 = fetchQmkFirmware {
+    tag = "0.9.6";
+    hash = "sha256-y/0hTyIEQQDSDyeH7Gt797N+GyMyMKkxtgYes2uYMSQ=";
+  };
+
+  v0_9_5 = fetchQmkFirmware {
+    tag = "0.9.5";
+    hash = "sha256-ttzTnxQ/Q557nzyHHbQw0bKSiNSBGMcAwJ4+OgbeQng=";
+  };
+
+  v0_9_4 = fetchQmkFirmware {
+    tag = "0.9.4";
+    hash = "sha256-v5YNx1wzmXSGC5u7zNugKeT29N+jTHmL6txqs3nfMls=";
+  };
+
+  v0_9_3 = fetchQmkFirmware {
+    tag = "0.9.3";
+    hash = "sha256-VT1P08xCM0cDduMzkFm1lT7eetA5qENcvYQ4itKptB8=";
+  };
+
+  v0_9_2 = fetchQmkFirmware {
+    tag = "0.9.2";
+    hash = "sha256-iU8t6qqto94mGTJqCXKa/0A4dxfJBfeiW9kNim3Yif0=";
+  };
+
+  v0_9_1 = fetchQmkFirmware {
+    tag = "0.9.1";
+    hash = "sha256-URBw7D04znHRPcoOV1pHIjhzae/GQQLiLftkXkp8spw=";
+  };
+
+  v0_9_0 = fetchQmkFirmware {
+    tag = "0.9.0";
+    hash = "sha256-ksRVWh3dnuV/JOehCy4Nq10lkGtN2RUyoJvWcyYEJMA=";
+  };
+
+  v0_8_192 = fetchQmkFirmware {
+    tag = "0.8.192";
+    hash = "sha256-tpzyGT33W4LXP4A2xkPO4dHpbdyzlcuAmgudFomMt6c=";
+  };
+
+  v0_8_191 = fetchQmkFirmware {
+    tag = "0.8.191";
+    hash = "sha256-TZxX1Ul3Gvk58QFNz4NOwEvKSjTfW+EuATENO3JeRmE=";
+  };
+
+  v0_8_190 = fetchQmkFirmware {
+    tag = "0.8.190";
+    hash = "sha256-yOoDQO0DvBZr//4dstrHn3oPwUv6FvkrVjh3qnU0y10=";
+  };
+
+  v0_8_189 = fetchQmkFirmware {
+    tag = "0.8.189";
+    hash = "sha256-rdLixJJXGgS+oDufiq+VAsFIwpOMa05nWlv40eokRYc=";
+  };
+
+  v0_8_188 = fetchQmkFirmware {
+    tag = "0.8.188";
+    hash = "sha256-0Gv0yh4niGQJCb7RBayehZpqEqyRuJ++YGUBVE0uvtE=";
+  };
+
+  v0_8_187 = fetchQmkFirmware {
+    tag = "0.8.187";
+    hash = "sha256-XN2m7SLT4Rx+95xNvK7iKwGxPBE3+yBlUva2d3PKrns=";
+  };
+
+  v0_8_186 = fetchQmkFirmware {
+    tag = "0.8.186";
+    hash = "sha256-OXQgAG1FO5752hBO7BIyjtsf9+3wU7JMEvOg2L+EPpM=";
+  };
+
+  v0_8_185 = fetchQmkFirmware {
+    tag = "0.8.185";
+    hash = "sha256-Psif/Q21s6fjRYfnbswGlXqhzvygP9LGQHAvKk1diTA=";
+  };
+
+  v0_8_184 = fetchQmkFirmware {
+    tag = "0.8.184";
+    hash = "sha256-8GN/RQ/e3OO2RdDGVr+S82kmTbLrTL/2xEDBriZJXj8=";
+  };
+
+  v0_8_183 = fetchQmkFirmware {
+    tag = "0.8.183";
+    hash = "sha256-8GN/RQ/e3OO2RdDGVr+S82kmTbLrTL/2xEDBriZJXj8=";
+  };
+
+  v0_8_182 = fetchQmkFirmware {
+    tag = "0.8.182";
+    hash = "sha256-2XHUhUW9/CIIRzN0LI2oCmCTp8hHjt1ld5uJ5yiKx6w=";
+  };
+
+  v0_8_181 = fetchQmkFirmware {
+    tag = "0.8.181";
+    hash = "sha256-O5EkRCtoXhrag5cxyIDEHrun9jN8DXv7RznP+VSfQEs=";
+  };
+
+  v0_8_180 = fetchQmkFirmware {
+    tag = "0.8.180";
+    hash = "sha256-bJc34ggsOqEUNY0StwDNdDfmyW4D/gxbNjC2gm7Yu0c=";
+  };
+
+  v0_8_179 = fetchQmkFirmware {
+    tag = "0.8.179";
+    hash = "sha256-wEq6Pv59fqwCxZ9032TKfojl0n6i8iWfbpwOSVKOyXY=";
+  };
+
+  v0_8_178 = fetchQmkFirmware {
+    tag = "0.8.178";
+    hash = "sha256-Hvjf1EgyPcp0mtd7VpdGKvgx/e1kBgj8IzRskx/cds4=";
+  };
+
+  v0_8_177 = fetchQmkFirmware {
+    tag = "0.8.177";
+    hash = "sha256-jexmz9K55pUvUNdBdHorQGt0C9utt67fjjVDmndzZ/4=";
+  };
+
+  v0_8_176 = fetchQmkFirmware {
+    tag = "0.8.176";
+    hash = "sha256-gqmdPRKS++wYtM/d9cj2gDlxg/CPhVfMpIGZVRc3YMQ=";
+  };
+
+  v0_8_175 = fetchQmkFirmware {
+    tag = "0.8.175";
+    hash = "sha256-gqmdPRKS++wYtM/d9cj2gDlxg/CPhVfMpIGZVRc3YMQ=";
+  };
+
+  v0_8_174 = fetchQmkFirmware {
+    tag = "0.8.174";
+    hash = "sha256-Kfwc7W3xtDh0Q1cPD+uEXib66a9OlBFApjH8UPyToY0=";
+  };
+
+  v0_8_173 = fetchQmkFirmware {
+    tag = "0.8.173";
+    hash = "sha256-M/ZzMa4vbawhDwIuU2JvS1zCjODjxxZnbgY+mdpVO58=";
+  };
+
+  v0_8_172 = fetchQmkFirmware {
+    tag = "0.8.172";
+    hash = "sha256-lHE0qojmJi1wPcrTNU42MENZ1Q0zn0DM7F2ZEWWCyT0=";
+  };
+
+  v0_8_171 = fetchQmkFirmware {
+    tag = "0.8.171";
+    hash = "sha256-Q3Cp+LDNZ0bcCShqdWGnwVL1n+aSpGne3y8EUnMzMEI=";
+  };
+
+  v0_8_170 = fetchQmkFirmware {
+    tag = "0.8.170";
+    hash = "sha256-J3tZDk55bDLeGjHKF7Bp9XD4LiAd0gM6HKRYC/Wnsdg=";
+  };
+
+  v0_8_169 = fetchQmkFirmware {
+    tag = "0.8.169";
+    hash = "sha256-HQXwQM1DWrBe7rcCqdPFB6e8+0IpOH8RHzhutkqhy0w=";
+  };
+
+  v0_8_168 = fetchQmkFirmware {
+    tag = "0.8.168";
+    hash = "sha256-J3tZDk55bDLeGjHKF7Bp9XD4LiAd0gM6HKRYC/Wnsdg=";
+  };
+
+  v0_8_167 = fetchQmkFirmware {
+    tag = "0.8.167";
+    hash = "sha256-f5hmdWA8diu48aT/BP/CSXxmOr/IT3NGdu8bKAyxPoM=";
+  };
+
+  v0_8_166 = fetchQmkFirmware {
+    tag = "0.8.166";
+    hash = "sha256-eMAOc8IXSyKyn4zOWyFg91cLTHQSpCYKA5rVmEl2ejA=";
+  };
+
+  v0_8_165 = fetchQmkFirmware {
+    tag = "0.8.165";
+    hash = "sha256-XA1OTgHTyGAWILVynCny5WnQ1bup4m7RY1cHj7SQw2A=";
+  };
+
+  v0_8_164 = fetchQmkFirmware {
+    tag = "0.8.164";
+    hash = "sha256-YgNVh1wbPD/Sxg3kEiK+PKpvo7ONWIcZyxpbOH02u4o=";
+  };
+
+  v0_8_163 = fetchQmkFirmware {
+    tag = "0.8.163";
+    hash = "sha256-R0PDrbTawabDk4yezyoYoVMm0GRUayOKkMyyXn+/3hI=";
+  };
+
+  v0_8_162 = fetchQmkFirmware {
+    tag = "0.8.162";
+    hash = "sha256-X+L6ALhMXklXR4PWjMPOISX1TKOj1dRts2yi7Vjw2ow=";
+  };
+
+  v0_8_161 = fetchQmkFirmware {
+    tag = "0.8.161";
+    hash = "sha256-K0dJpNX9fYhlXtzPKG6F/9fWEA4WDTNxtPCAaIAk/xE=";
+  };
+
+  v0_8_160 = fetchQmkFirmware {
+    tag = "0.8.160";
+    hash = "sha256-AERqIpaibFYlaFkBfhIqX78+vyWZE8Lt1qrz82eqw3I=";
+  };
+
+  v0_8_159 = fetchQmkFirmware {
+    tag = "0.8.159";
+    hash = "sha256-SKUqN/oKV+4porGs78aDyFeQ2MHAgcE8PYyDYE33Jqc=";
+  };
+
+  v0_8_158 = fetchQmkFirmware {
+    tag = "0.8.158";
+    hash = "sha256-UMiuSS7JclgrS/BKh0J2dNcNqg0ZXz6i38DBcC/wbJs=";
+  };
+
+  v0_8_157 = fetchQmkFirmware {
+    tag = "0.8.157";
+    hash = "sha256-RkjeUCgNQdPjW0W0gm3YjKf4jHzqvE9WFx/mrkCTFR8=";
+  };
+
+  v0_8_156 = fetchQmkFirmware {
+    tag = "0.8.156";
+    hash = "sha256-6lZjr1fEFK9TKgzzKnkN9gOJamB8MLPjceEp/ao7sQ4=";
+  };
+
+  v0_8_155 = fetchQmkFirmware {
+    tag = "0.8.155";
+    hash = "sha256-1RiuATWzUwz9ffV9MZBcRhpbQrJvmpy2ONTFrl0Oass=";
+  };
+
+  v0_8_154 = fetchQmkFirmware {
+    tag = "0.8.154";
+    hash = "sha256-1RiuATWzUwz9ffV9MZBcRhpbQrJvmpy2ONTFrl0Oass=";
+  };
+
+  v0_8_153 = fetchQmkFirmware {
+    tag = "0.8.153";
+    hash = "sha256-8b9bz2oEEhff/3fKKJ0hZ14o4lL95M9+XewLYgHI/hw=";
+  };
+
+  v0_8_152 = fetchQmkFirmware {
+    tag = "0.8.152";
+    hash = "sha256-IZKJsjadfBOnAkR/7ny/Le8oUKBNp5kmdbFE2nYzEvI=";
+  };
+
+  v0_8_151 = fetchQmkFirmware {
+    tag = "0.8.151";
+    hash = "sha256-ck2at5lMNuL+yRZiHWAAxxq/yOFg0gpGBBnmXjdeQRw=";
+  };
+
+  v0_8_150 = fetchQmkFirmware {
+    tag = "0.8.150";
+    hash = "sha256-0Z/PWtYCFRersZvWxg0casfZQm6Au5OGQpKXIC+vEjE=";
+  };
+
+  v0_8_149 = fetchQmkFirmware {
+    tag = "0.8.149";
+    hash = "sha256-+3KAf0N/ao1Pw18myWrDoZmj3y+xyvpt1sy9g6PV2bU=";
+  };
+
+  v0_8_148 = fetchQmkFirmware {
+    tag = "0.8.148";
+    hash = "sha256-mLMBbDUHtnaBZVuDZ8zYeGBpzVRYH2+cCre5D2rc5/0=";
+  };
+
+  v0_8_147 = fetchQmkFirmware {
+    tag = "0.8.147";
+    hash = "sha256-u92z3BQ6mm20spnkb8ehZT73u9GEuB0TqZ3JxmeeiQE=";
+  };
+
+  v0_8_146 = fetchQmkFirmware {
+    tag = "0.8.146";
+    hash = "sha256-tBQrHhikQPWo0Pryz96JaFr1lCliMsTHNTBkgI86fGY=";
+  };
+
+  v0_8_145 = fetchQmkFirmware {
+    tag = "0.8.145";
+    hash = "sha256-Gy5W2d7GNs/PvHXYg5+PLnafdzrDdbRfcsPKH9LGSLU=";
+  };
+
+  v0_8_144 = fetchQmkFirmware {
+    tag = "0.8.144";
+    hash = "sha256-X3N4rIV4k7FNZlfencSmfIfrJIbgHbo+6wf74VXHTps=";
+  };
+
+  v0_8_143 = fetchQmkFirmware {
+    tag = "0.8.143";
+    hash = "sha256-c/EZsKAdd9Q5hxLQ9NZhszaHGQlTZmCEcqn/CX5sogw=";
+  };
+
+  v0_8_142 = fetchQmkFirmware {
+    tag = "0.8.142";
+    hash = "sha256-N84JtVn1WIMf9u1XDDAlGWopfBa0ai31iOZBC0qmsZM=";
+  };
+
+  v0_8_141 = fetchQmkFirmware {
+    tag = "0.8.141";
+    hash = "sha256-bsPtRrgczUGVoo0saTr5YrPF5udDScju/A8gOUdteEs=";
+  };
+
+  v0_8_140 = fetchQmkFirmware {
+    tag = "0.8.140";
+    hash = "sha256-ayP9VOKmjpdAcaC3qf3YAT4/3zNgTpqS4cHIUFWxpQ4=";
+  };
+
+  v0_8_139 = fetchQmkFirmware {
+    tag = "0.8.139";
+    hash = "sha256-ceNMC0v7bQS1YIVeyvqlwT6VDiP7UoMuC4gJOSTZ+zk=";
+  };
+
+  v0_8_138 = fetchQmkFirmware {
+    tag = "0.8.138";
+    hash = "sha256-vdHgEfrfobz1ordAbgWa6AanTXPZuckYS6IVuI6cRws=";
+  };
+
+  v0_8_137 = fetchQmkFirmware {
+    tag = "0.8.137";
+    hash = "sha256-ajALB2QNBgF28TagqsAKMyLBLrlncla9TB0k2NWbPmQ=";
+  };
+
+  v0_8_136 = fetchQmkFirmware {
+    tag = "0.8.136";
+    hash = "sha256-iscAruaDBjum+vB9NwG/WHogcM/jt8Qus+Zy32ml4UY=";
+  };
+
+  v0_8_135 = fetchQmkFirmware {
+    tag = "0.8.135";
+    hash = "sha256-I/cH8UcNDIyTIsRmQL6y0FGRJiS4DnvkyXenCYVD9fk=";
+  };
+
+  v0_8_134 = fetchQmkFirmware {
+    tag = "0.8.134";
+    hash = "sha256-5eMuw3LNOizwHCL6TdJis/02ciBn+L1ho/jo42yfBOE=";
+  };
+
+  v0_8_133 = fetchQmkFirmware {
+    tag = "0.8.133";
+    hash = "sha256-AmNKaIi+5Yb3hWUABiclKMvo4cnjMOusron0HaLEF/w=";
+  };
+
+  v0_8_132 = fetchQmkFirmware {
+    tag = "0.8.132";
+    hash = "sha256-CV7bw6Sc4HqsUC3wqVb/pXM45Y6uQQJJNXDW1vN1d+Y=";
+  };
+
+  v0_8_131 = fetchQmkFirmware {
+    tag = "0.8.131";
+    hash = "sha256-DrNc1OhLQ0Gqe0fSYxD718up4H3NCt3FOF693Mc7YyM=";
+  };
+
+  v0_8_130 = fetchQmkFirmware {
+    tag = "0.8.130";
+    hash = "sha256-3jC+AwOnpqFEo99BdwLUGjQ2Jf0+reh5WImi5m0HIqc=";
+  };
+
+  v0_8_129 = fetchQmkFirmware {
+    tag = "0.8.129";
+    hash = "sha256-vUhjy1JjT/Szs3RtutOTaOJrUwaovZJmmvsDzX+cxZo=";
+  };
+
+  v0_8_128 = fetchQmkFirmware {
+    tag = "0.8.128";
+    hash = "sha256-vUhjy1JjT/Szs3RtutOTaOJrUwaovZJmmvsDzX+cxZo=";
+  };
+
+  v0_8_127 = fetchQmkFirmware {
+    tag = "0.8.127";
+    hash = "sha256-vUhjy1JjT/Szs3RtutOTaOJrUwaovZJmmvsDzX+cxZo=";
+  };
+
+  v0_8_126 = fetchQmkFirmware {
+    tag = "0.8.126";
+    hash = "sha256-vUhjy1JjT/Szs3RtutOTaOJrUwaovZJmmvsDzX+cxZo=";
+  };
+
+  v0_8_125 = fetchQmkFirmware {
+    tag = "0.8.125";
+    hash = "sha256-giEfpZdSJkzmNtLCUw64yea5c4pB/gXki6PewmzGT5A=";
+  };
+
+  v0_8_124 = fetchQmkFirmware {
+    tag = "0.8.124";
+    hash = "sha256-vhbKlztFpXl4nVRRdiALQRW9ybqY6UjZUQlVltMwvjk=";
+  };
+
+  v0_8_123 = fetchQmkFirmware {
+    tag = "0.8.123";
+    hash = "sha256-tQ+iePmavqgjEg/Ybt8hEqxMBIf1+TCx62CjGeWjN0w=";
+  };
+
+  v0_8_122 = fetchQmkFirmware {
+    tag = "0.8.122";
+    hash = "sha256-aNlHrWn/fSXmzDB7UeTeHsqywGd4FvIacMDapanzFwc=";
+  };
+
+  v0_8_121 = fetchQmkFirmware {
+    tag = "0.8.121";
+    hash = "sha256-+CqgxAXVVDfZ14CtNb4nYza8VvJhOaXqabOpPs7Sc4g=";
+  };
+
+  v0_8_120 = fetchQmkFirmware {
+    tag = "0.8.120";
+    hash = "sha256-2c7fBaf81Gpb/Ab05M4vk1BiXjtRt2BHDWnbFCmQlN0=";
+  };
+
+  v0_8_119 = fetchQmkFirmware {
+    tag = "0.8.119";
+    hash = "sha256-g+acGBi9Uue3X0RfTyKqAjAXXqu6NZHifzJQ7Cy5hzU=";
+  };
+
+  v0_8_118 = fetchQmkFirmware {
+    tag = "0.8.118";
+    hash = "sha256-g+acGBi9Uue3X0RfTyKqAjAXXqu6NZHifzJQ7Cy5hzU=";
+  };
+
+  v0_8_117 = fetchQmkFirmware {
+    tag = "0.8.117";
+    hash = "sha256-J9BNqU9Z1LaHqfr+I9L0SgBrp9Obx535PIVN/dApCVc=";
+  };
+
+  v0_8_116 = fetchQmkFirmware {
+    tag = "0.8.116";
+    hash = "sha256-e4pThesxlLzYSULOhMxyuK/1nden9a/yLHSbP05rQhs=";
+  };
+
+  v0_8_115 = fetchQmkFirmware {
+    tag = "0.8.115";
+    hash = "sha256-1XqICt45xhDbP35TJYkHH63G/pTr86reTs6q51uf0uU=";
+  };
+
+  v0_8_114 = fetchQmkFirmware {
+    tag = "0.8.114";
+    hash = "sha256-+CnoLqVu7eWsPD+wGBJX9tqDa1Js727uzDAkQC36X28=";
+  };
+
+  v0_8_113 = fetchQmkFirmware {
+    tag = "0.8.113";
+    hash = "sha256-O9KsUYXZ8OCP1WzSLufdx7eQAO/9y6EeFg7LWZj9JjI=";
+  };
+
+  v0_8_112 = fetchQmkFirmware {
+    tag = "0.8.112";
+    hash = "sha256-aqxH1lDArf5kLMUoHhL3pn+KlRD+LlWi8/Eo62VYyCA=";
+  };
+
+  v0_8_111 = fetchQmkFirmware {
+    tag = "0.8.111";
+    hash = "sha256-kRxQEHBr5FOh1eWLm7nWsCbUCgqcxDrlFqucESUiOZ4=";
+  };
+
+  v0_8_110 = fetchQmkFirmware {
+    tag = "0.8.110";
+    hash = "sha256-RDBcC5ZkcBUHcZlvo1O+ReSQH2Phf+ySq+lPATdmM8M=";
+  };
+
+  v0_8_109 = fetchQmkFirmware {
+    tag = "0.8.109";
+    hash = "sha256-1lukQCgDv2WT/c3huq2Gmk3veAFrxN4+ox47hWzlzNU=";
+  };
+
+  v0_8_108 = fetchQmkFirmware {
+    tag = "0.8.108";
+    hash = "sha256-cUgYWE1LUymLZdVjX6zBDcYseT3/bbD07359VCQIBds=";
+  };
+
+  v0_8_107 = fetchQmkFirmware {
+    tag = "0.8.107";
+    hash = "sha256-XPoJgBSRmBYLNc7naV0kEkolnQggygQ0jlyH9qHeroo=";
+  };
+
+  v0_8_106 = fetchQmkFirmware {
+    tag = "0.8.106";
+    hash = "sha256-5qv5AO6uq6sjWHLzjI6aUJWNP1jzmiOGDrwdhOVf7qo=";
+  };
+
+  v0_8_105 = fetchQmkFirmware {
+    tag = "0.8.105";
+    hash = "sha256-WeVccqxIwfMGqs8fojXlIK8tWLd3q5cailFI6Jll9JM=";
+  };
+
+  v0_8_104 = fetchQmkFirmware {
+    tag = "0.8.104";
+    hash = "sha256-OVW0jSiFdj3t6b4QYiJNqIXtI74Npp6+3dCOOgfvrko=";
+  };
+
+  v0_8_103 = fetchQmkFirmware {
+    tag = "0.8.103";
+    hash = "sha256-I7wWm0pHoQIkKDGz538JMuUyc2dgfn+vcO6ZOeFQwXk=";
+  };
+
+  v0_8_102 = fetchQmkFirmware {
+    tag = "0.8.102";
+    hash = "sha256-Gm2/F2ik1BNv+ONx4UDHiRm5gbzQ5vBVW5ieVUkRxtA=";
+  };
+
+  v0_8_101 = fetchQmkFirmware {
+    tag = "0.8.101";
+    hash = "sha256-DnMn3JlFOn7VWx6QlDqTLMPpiXdyR4yKvLcGV7VEeL8=";
+  };
+
+  v0_8_100 = fetchQmkFirmware {
+    tag = "0.8.100";
+    hash = "sha256-8nvsBroUwdtlvYQB2qejQxexB6PMqde/fiz7NX8yWu0=";
+  };
+
+  v0_8_99 = fetchQmkFirmware {
+    tag = "0.8.99";
+    hash = "sha256-BlzRtWHIzP6Ad4Nc5b5cCAWUOCabE2s6A8UsUCFzFCA=";
+  };
+
+  v0_8_98 = fetchQmkFirmware {
+    tag = "0.8.98";
+    hash = "sha256-BlzRtWHIzP6Ad4Nc5b5cCAWUOCabE2s6A8UsUCFzFCA=";
+  };
+
+  v0_8_97 = fetchQmkFirmware {
+    tag = "0.8.97";
+    hash = "sha256-XaAtmvYJMPYyLxr9Sp6sijeNdT+xT2GrtuAnwpFae4o=";
+  };
+
+  v0_8_96 = fetchQmkFirmware {
+    tag = "0.8.96";
+    hash = "sha256-518e/GWCcxNo/1ImbnSYB8QJkONKhalTkFgBj2GtpS4=";
+  };
+
+  v0_8_95 = fetchQmkFirmware {
+    tag = "0.8.95";
+    hash = "sha256-ktYVcQOAcvW2NQ1szQWKs1ibmmFGgnmo0FbShKRHCVY=";
+  };
+
+  v0_8_94 = fetchQmkFirmware {
+    tag = "0.8.94";
+    hash = "sha256-+Iwug/JXUPxXdZoO0LiMehXx8G3Y1uUZVZF8osqR+2k=";
+  };
+
+  v0_8_93 = fetchQmkFirmware {
+    tag = "0.8.93";
+    hash = "sha256-S71aUfTuTB3Bop/sEnOHh9D7f9gk7rr80FDeoueZ+lI=";
+  };
+
+  v0_8_92 = fetchQmkFirmware {
+    tag = "0.8.92";
+    hash = "sha256-+Lk1Tk+mA8SD5MbDjUUHcdvWkft9p9RnOvVgTEhKDmM=";
+  };
+
+  v0_8_91 = fetchQmkFirmware {
+    tag = "0.8.91";
+    hash = "sha256-JYXhkpPJBGLpThvGdHrp8QlBgmHDFfitoVPj6SqJ9Eo=";
+  };
+
+  v0_8_90 = fetchQmkFirmware {
+    tag = "0.8.90";
+    hash = "sha256-MwmS3mH56Ae3Nui0GmyE1OGHs4W/22e5odgF4bciH9Y=";
+  };
+
+  v0_8_89 = fetchQmkFirmware {
+    tag = "0.8.89";
+    hash = "sha256-RVgfIvZGTqh/xQdEg3HWCgLpCSm7XCcnPF8YAEHpspM=";
+  };
+
+  v0_8_88 = fetchQmkFirmware {
+    tag = "0.8.88";
+    hash = "sha256-Fz3I6PqaAXyLJDaBG44Yu7Un5Y5cqvbNyXRQteekMjM=";
+  };
+
+  v0_8_87 = fetchQmkFirmware {
+    tag = "0.8.87";
+    hash = "sha256-Fz3I6PqaAXyLJDaBG44Yu7Un5Y5cqvbNyXRQteekMjM=";
+  };
+
+  v0_8_86 = fetchQmkFirmware {
+    tag = "0.8.86";
+    hash = "sha256-Fz3I6PqaAXyLJDaBG44Yu7Un5Y5cqvbNyXRQteekMjM=";
+  };
+
+  v0_8_85 = fetchQmkFirmware {
+    tag = "0.8.85";
+    hash = "sha256-Fz3I6PqaAXyLJDaBG44Yu7Un5Y5cqvbNyXRQteekMjM=";
+  };
+
+  v0_8_84 = fetchQmkFirmware {
+    tag = "0.8.84";
+    hash = "sha256-fZCkvfGWpCp2cZ9pnuae7/ME1KI2Z8WRIoEgus8Dh4g=";
+  };
+
+  v0_8_83 = fetchQmkFirmware {
+    tag = "0.8.83";
+    hash = "sha256-vZuEHrdghCe99O9WdZF2mDmlHczl/E7LOC8dpBMIO8o=";
+  };
+
+  v0_8_82 = fetchQmkFirmware {
+    tag = "0.8.82";
+    hash = "sha256-4Qe2+UHhb0FCB5XHuhDn9Zk6mthHJznJVT4sqZnOyQ0=";
+  };
+
+  v0_8_81 = fetchQmkFirmware {
+    tag = "0.8.81";
+    hash = "sha256-NQRlLfFZKfjPt6EzmB34HvxDu/Ky+OvqNM5uPD2N5Gc=";
+  };
+
+  v0_8_80 = fetchQmkFirmware {
+    tag = "0.8.80";
+    hash = "sha256-TYjNMbZCkxJGDkDYuznJ7SsHQ5lg5XAEbtYm0tONOSo=";
+  };
+
+  v0_8_79 = fetchQmkFirmware {
+    tag = "0.8.79";
+    hash = "sha256-tU1kBJtaCEc17qaZQh/aNTfMdk5GdyMtv/6kUlAG6sc=";
+  };
+
+  v0_8_78 = fetchQmkFirmware {
+    tag = "0.8.78";
+    hash = "sha256-jP4n6TqUrXFyKB7tAhbVX4S6wV42zi1LRiG2sEbbslY=";
+  };
+
+  v0_8_77 = fetchQmkFirmware {
+    tag = "0.8.77";
+    hash = "sha256-D09g83KyDJU2rlezoIGqWLckB1DN/5m9e3TxjFekN/8=";
+  };
+
+  v0_8_76 = fetchQmkFirmware {
+    tag = "0.8.76";
+    hash = "sha256-OJuWVKxUJVrZTyxKijk3LHwvehCKMUmq8cbHOZoJmug=";
+  };
+
+  v0_8_75 = fetchQmkFirmware {
+    tag = "0.8.75";
+    hash = "sha256-Jio+b0pqpiJWhCTrRorztoD3oVdo5CptGL3mCYH7Evc=";
+  };
+
+  v0_8_74 = fetchQmkFirmware {
+    tag = "0.8.74";
+    hash = "sha256-Jio+b0pqpiJWhCTrRorztoD3oVdo5CptGL3mCYH7Evc=";
+  };
+
+  v0_8_73 = fetchQmkFirmware {
+    tag = "0.8.73";
+    hash = "sha256-+c8/T5tq7ec2rXtNPDXYByb7JV5xhyLRRsHaNG6QESI=";
+  };
+
+  v0_8_72 = fetchQmkFirmware {
+    tag = "0.8.72";
+    hash = "sha256-C+n1t+INHCUdhZJRCoQKefQTEwo7JTyF+07MGWBcqbc=";
+  };
+
+  v0_8_71 = fetchQmkFirmware {
+    tag = "0.8.71";
+    hash = "sha256-INwGxh3KGPizGBL+mlUTitIVXi1QEZFT3jDY27Q/4JE=";
+  };
+
+  v0_8_70 = fetchQmkFirmware {
+    tag = "0.8.70";
+    hash = "sha256-2jVtilgODJvcsxCKeKbrNCbasRUDynlnNmmibvbW2d8=";
+  };
+
+  v0_8_69 = fetchQmkFirmware {
+    tag = "0.8.69";
+    hash = "sha256-SYpAxetMFCCIbhAp+Kzo60bw/e/S6I4ApWM/leCYE5k=";
+  };
+
+  v0_8_68 = fetchQmkFirmware {
+    tag = "0.8.68";
+    hash = "sha256-km86R/PvrN5IyZq5RgQu1S+WXkdd+t1aZlr4ljxlPDg=";
+  };
+
+  v0_8_67 = fetchQmkFirmware {
+    tag = "0.8.67";
+    hash = "sha256-oDpDa6U2eTCS/nwwqzx+05lGhgmk7mtmrWHJzBEDU+Y=";
+  };
+
+  v0_8_66 = fetchQmkFirmware {
+    tag = "0.8.66";
+    hash = "sha256-k3CZ2pGFobtSS7CU9Njcq0KmYNvJJGmzEY+C6VWAins=";
+  };
+
+  v0_8_65 = fetchQmkFirmware {
+    tag = "0.8.65";
+    hash = "sha256-HYGqx311qgIMwEvCM0Sii4pGVAEd2fcIbz6bKZ8bD7c=";
+  };
+
+  v0_8_64 = fetchQmkFirmware {
+    tag = "0.8.64";
+    hash = "sha256-nkAySo0DZ+0O1n04+NQU3uQBXOwO+87Jy9SKP9uwS2g=";
+  };
+
+  v0_8_63 = fetchQmkFirmware {
+    tag = "0.8.63";
+    hash = "sha256-maURGEBT0yGNqEEriVzxPoA7sBzk15ax4s7dxyeLfK8=";
+  };
+
+  v0_8_62 = fetchQmkFirmware {
+    tag = "0.8.62";
+    hash = "sha256-Nh2+p4bxcJoGdhebU8jlHAKY0bX+z8duSxauk9qWpD0=";
+  };
+
+  v0_8_61 = fetchQmkFirmware {
+    tag = "0.8.61";
+    hash = "sha256-FRT8DBdK+5JTA+e3ij2Iqfo/QN4z7wt4f/6WeHaiB6U=";
+  };
+
+  v0_8_60 = fetchQmkFirmware {
+    tag = "0.8.60";
+    hash = "sha256-fpjOXGCMMSj+sQuLMiVQ8cFYMyn1RROCrp9zVeBZjYE=";
+  };
+
+  v0_8_59 = fetchQmkFirmware {
+    tag = "0.8.59";
+    hash = "sha256-fpjOXGCMMSj+sQuLMiVQ8cFYMyn1RROCrp9zVeBZjYE=";
+  };
+
+  v0_8_58 = fetchQmkFirmware {
+    tag = "0.8.58";
+    hash = "sha256-Zl3yzBXl+6Br6BDq+F93NWuJir/nzcJeKbQJ6d++LIY=";
+  };
+
+  v0_8_57 = fetchQmkFirmware {
+    tag = "0.8.57";
+    hash = "sha256-7+t2kiVi1dSytzGFKvWX9zbNQETgUH7E8LeQsAgE044=";
+  };
+
+  v0_8_56 = fetchQmkFirmware {
+    tag = "0.8.56";
+    hash = "sha256-o9uUUCTTd60uP5G4B17aWXkEnUIImDHw7XH9IBdHL+o=";
+  };
+
+  v0_8_55 = fetchQmkFirmware {
+    tag = "0.8.55";
+    hash = "sha256-IvEZfcEfEKts7rSRlwfV3RVqkmgGiekz9ukfEjiK8n0=";
+  };
+
+  v0_8_54 = fetchQmkFirmware {
+    tag = "0.8.54";
+    hash = "sha256-MSFEKxXRDUBm+xx4SgSd5QWd8nYOiHlvNLD3w7cf/ko=";
+  };
+
+  v0_8_53 = fetchQmkFirmware {
+    tag = "0.8.53";
+    hash = "sha256-d8ilRgh/geOWeyZVUE6jxr5ovvfTnAAxvysxdbE1ihc=";
+  };
+
+  v0_8_52 = fetchQmkFirmware {
+    tag = "0.8.52";
+    hash = "sha256-1r4KmhoHB5u2Jaq6/jqxBB4wKH6QTW20PhJ0Rt4SEkg=";
+  };
+
+  v0_8_51 = fetchQmkFirmware {
+    tag = "0.8.51";
+    hash = "sha256-UgFHmO7ARS7DgJYrAaqI4zZyo+Z9W6EIqjGWz2TVdV4=";
+  };
+
+  v0_8_50 = fetchQmkFirmware {
+    tag = "0.8.50";
+    hash = "sha256-BOZWYS3P4iN+tB+b9B/4S/qDFYT2E8PgYfjBsMHVnV4=";
+  };
+
+  v0_8_49 = fetchQmkFirmware {
+    tag = "0.8.49";
+    hash = "sha256-BOZWYS3P4iN+tB+b9B/4S/qDFYT2E8PgYfjBsMHVnV4=";
+  };
+
+  v0_8_48 = fetchQmkFirmware {
+    tag = "0.8.48";
+    hash = "sha256-ihi80eNEXIJd+FZU1Ux/R/LQQk+6SGLM7GjKs6n/FpU=";
+  };
+
+  v0_8_47 = fetchQmkFirmware {
+    tag = "0.8.47";
+    hash = "sha256-EdPcViXCT3Z1c9Crf6mK67eczvxsbqeOcf3Fk/58huQ=";
+  };
+
+  v0_8_46 = fetchQmkFirmware {
+    tag = "0.8.46";
+    hash = "sha256-lSqNwzrT1f/MIZ2Ae18w4JcbVn8MgiEbYZfuA95XTgc=";
+  };
+
+  v0_8_45 = fetchQmkFirmware {
+    tag = "0.8.45";
+    hash = "sha256-3fmMWyInZsheJJBQTt42poaZaUtco8gFR1YFrlfFyb8=";
+  };
+
+  v0_8_44 = fetchQmkFirmware {
+    tag = "0.8.44";
+    hash = "sha256-3fmMWyInZsheJJBQTt42poaZaUtco8gFR1YFrlfFyb8=";
+  };
+
+  v0_8_43 = fetchQmkFirmware {
+    tag = "0.8.43";
+    hash = "sha256-UJvCnLLBN3AF5y1vBMCoZDkZHto/GT9OS677g2x1eSE=";
+  };
+
+  v0_8_42 = fetchQmkFirmware {
+    tag = "0.8.42";
+    hash = "sha256-UJvCnLLBN3AF5y1vBMCoZDkZHto/GT9OS677g2x1eSE=";
+  };
+
+  v0_8_41 = fetchQmkFirmware {
+    tag = "0.8.41";
+    hash = "sha256-M4du5v93Bn9YyhbdUs5imCGqA8H1Y5VK9Kqe1dmtvp8=";
+  };
+
+  v0_8_40 = fetchQmkFirmware {
+    tag = "0.8.40";
+    hash = "sha256-b9qgV6vUSzXbhI8p55cr98BST8sF+v2ii/vadbAypx4=";
+  };
+
+  v0_8_39 = fetchQmkFirmware {
+    tag = "0.8.39";
+    hash = "sha256-c9DyQvOv9g/hg4aL885wnpvQ5gMK2YdPV56glBhNpcc=";
+  };
+
+  v0_8_38 = fetchQmkFirmware {
+    tag = "0.8.38";
+    hash = "sha256-6qT5U0CrAQhOoudngRlC3mLaPYNJPSdQccIdytv2Q8g=";
+  };
+
+  v0_8_37 = fetchQmkFirmware {
+    tag = "0.8.37";
+    hash = "sha256-3ljYZYkzPmXFw7ZlBPDSDrFAuq0VIk/3vDqCDmte05Y=";
+  };
+
+  v0_8_36 = fetchQmkFirmware {
+    tag = "0.8.36";
+    hash = "sha256-lOux62WqgyyOiiMGjOUkqBE3MRZQDwzvya6XlqHhxCM=";
+  };
+
+  v0_8_35 = fetchQmkFirmware {
+    tag = "0.8.35";
+    hash = "sha256-9MAHx3udNOOY0k6uH/Qdarvgyy0KHj63qaKgq3ohVXY=";
+  };
+
+  v0_8_34 = fetchQmkFirmware {
+    tag = "0.8.34";
+    hash = "sha256-8Ra9VUCqZXmWfUmZZhZ+Y3YEtT+bpy5GfDTxSuAuBcA=";
+  };
+
+  v0_8_33 = fetchQmkFirmware {
+    tag = "0.8.33";
+    hash = "sha256-PRUQuIAU2LbCQEZej4CByMYsvBFEQ//IoxD2wBpGWFI=";
+  };
+
+  v0_8_32 = fetchQmkFirmware {
+    tag = "0.8.32";
+    hash = "sha256-vYMG8FGwHO5kxSlKMdp9T40Fh9mb6EsiPZHy4F5eqho=";
+  };
+
+  v0_8_31 = fetchQmkFirmware {
+    tag = "0.8.31";
+    hash = "sha256-vviVOY3nAMSeTK6f3xKyXRZVRJe+W3zINJwHdSATSpU=";
+  };
+
+  v0_8_30 = fetchQmkFirmware {
+    tag = "0.8.30";
+    hash = "sha256-QuBkkL4aqmzwSn95Fu6VZ553LxD8fYFETH9ZdH49fp8=";
+  };
+
+  v0_8_29 = fetchQmkFirmware {
+    tag = "0.8.29";
+    hash = "sha256-vrAwdXwGyzy8X06NM8jO2SyRAdSIyN0n5iUQze7E9ZM=";
+  };
+
+  v0_8_28 = fetchQmkFirmware {
+    tag = "0.8.28";
+    hash = "sha256-YnTMfAABInOkGzRpzpvttHOQJh7ki2BCfFBITqPRTQM=";
+  };
+
+  v0_8_27 = fetchQmkFirmware {
+    tag = "0.8.27";
+    hash = "sha256-J+Ppoq5yZy6+uVV7DF/VJScCAtOX4sIMQ6bNqMtsXOQ=";
+  };
+
+  v0_8_26 = fetchQmkFirmware {
+    tag = "0.8.26";
+    hash = "sha256-31LFGbL4YsHyJhxlzz9s/+dGeOnwynvwGljB5DbRXtU=";
+  };
+
+  v0_8_25 = fetchQmkFirmware {
+    tag = "0.8.25";
+    hash = "sha256-lO/Y1N7U7Jt/Klz4ukQ5IvPqyPINmYcX4jHhlul9gsk=";
+  };
+
+  v0_8_24 = fetchQmkFirmware {
+    tag = "0.8.24";
+    hash = "sha256-inHRRMU63K4MmrW49u3i5vKjymsjGzlNGFqBczh23+w=";
+  };
+
+  v0_8_23 = fetchQmkFirmware {
+    tag = "0.8.23";
+    hash = "sha256-Jeth8XsLwNeo3GjA9QUoq/UKjN4TTF83DnXlD9ez/44=";
+  };
+
+  v0_8_22 = fetchQmkFirmware {
+    tag = "0.8.22";
+    hash = "sha256-B1SgA6OZMMvRFTMk6X0bySl1R/Dvxu2DDOsTrTLs/98=";
+  };
+
+  v0_8_21 = fetchQmkFirmware {
+    tag = "0.8.21";
+    hash = "sha256-X/PhVI13MwUU3tIilD247GO22lTdI0E5H/QzmEPitfA=";
+  };
+
+  v0_8_20 = fetchQmkFirmware {
+    tag = "0.8.20";
+    hash = "sha256-aQHzIjidcq8HXt5ChzydWtPebfLIsQZyfUwXIJxFpx0=";
+  };
+
+  v0_8_19 = fetchQmkFirmware {
+    tag = "0.8.19";
+    hash = "sha256-MfWvxpZHMyEnu6HkqjuuCtQqdfjVj40Yhq5dCdKli+s=";
+  };
+
+  v0_8_18 = fetchQmkFirmware {
+    tag = "0.8.18";
+    hash = "sha256-swwyLTbrmk0uJItx7n9hJdhZCZWF23AFTd+nctszVsg=";
+  };
+
+  v0_8_17 = fetchQmkFirmware {
+    tag = "0.8.17";
+    hash = "sha256-/2FBEWqKaXaNv3Msr5GMkopNekofWL9nlf/1K9SNSGo=";
+  };
+
+  v0_8_16 = fetchQmkFirmware {
+    tag = "0.8.16";
+    hash = "sha256-hMbDWCoGZgJfGy2vOCg9D9yQY+EiBq3hBiYK3Fl/C3o=";
+  };
+
+  v0_8_15 = fetchQmkFirmware {
+    tag = "0.8.15";
+    hash = "sha256-57YCkJfkELxQTWmzdzXG3Dr14UTCpqTnSLruHlSXIM4=";
+  };
+
+  v0_8_14 = fetchQmkFirmware {
+    tag = "0.8.14";
+    hash = "sha256-9eYfDDZFpUDwu8HB5xzRaPJ5MTU/sa4rXnuNWG+nqe8=";
+  };
+
+  v0_8_13 = fetchQmkFirmware {
+    tag = "0.8.13";
+    hash = "sha256-byYIvyVGeomkpIdO6V+p5TYQXVe8WQlv8GhsUwlGCiU=";
+  };
+
+  v0_8_12 = fetchQmkFirmware {
+    tag = "0.8.12";
+    hash = "sha256-VL4NRYXuZoXc11qjj9/L5+VgNRYXnaW/iPFYIZ3QHrE=";
+  };
+
+  v0_8_11 = fetchQmkFirmware {
+    tag = "0.8.11";
+    hash = "sha256-Tot2vhBE5rxdlTczPRnY2fhELzOeWBjWJN/kyVokE1A=";
+  };
+
+  v0_8_10 = fetchQmkFirmware {
+    tag = "0.8.10";
+    hash = "sha256-yNlW2dqAyyxBtrVM2uinWfaK+R+g9wlewlPiaCM8fx0=";
+  };
+
+  v0_8_9 = fetchQmkFirmware {
+    tag = "0.8.9";
+    hash = "sha256-kpNRg4XXfQegWOtk9i5Kv3lRcaS+JEf0eTbbqxbWwQs=";
+  };
+
+  v0_8_8 = fetchQmkFirmware {
+    tag = "0.8.8";
+    hash = "sha256-Yqjk1bh1UDfYZY8RxW5ktJfm6bLlpcwgSb+B+b6iObk=";
+  };
+
+  v0_8_7 = fetchQmkFirmware {
+    tag = "0.8.7";
+    hash = "sha256-FhcJqtn4Jn2Ph0Ck9vLgwEMq2bEGl/Mm7TfgMW7mhwM=";
+  };
+
+  v0_8_6 = fetchQmkFirmware {
+    tag = "0.8.6";
+    hash = "sha256-+xF1USHH9n+4xO3HzQLC8gVKC2T2gUbf4niVm9H+lKI=";
+  };
+
+  v0_8_5 = fetchQmkFirmware {
+    tag = "0.8.5";
+    hash = "sha256-S04RAa73XK4CN12L6SU9f1yLfKgz+HW6b6Zri6lacXQ=";
+  };
+
+  v0_8_4 = fetchQmkFirmware {
+    tag = "0.8.4";
+    hash = "sha256-S04RAa73XK4CN12L6SU9f1yLfKgz+HW6b6Zri6lacXQ=";
+  };
+
+  v0_8_3 = fetchQmkFirmware {
+    tag = "0.8.3";
+    hash = "sha256-aMqIJajKT5Mdy+oRaFes6rKk7lowEPO/H81wZ7KcbWo=";
+  };
+
+  v0_8_2 = fetchQmkFirmware {
+    tag = "0.8.2";
+    hash = "sha256-hLgA/02ECKzThKcWLWefL16cErFgmxvBpFq+Q8ooiYY=";
+  };
+
+  v0_8_1 = fetchQmkFirmware {
+    tag = "0.8.1";
+    hash = "sha256-F/G35WRLM5m2Uaddvybz0PKE0N5dykMXwhbiJiO4j7E=";
+  };
+
+  v0_8_0 = fetchQmkFirmware {
+    tag = "0.8.0";
+    hash = "sha256-nNhepZW/wc0dsbpujKOpjxj/M+nBvLSKXUpwCmWH9lI=";
+  };
+
+  v0_7_172 = fetchQmkFirmware {
+    tag = "0.7.172";
+    hash = "sha256-kqGtJTc/IZzcKLtND7yzXFQ6iZgXkZ1llwmDOfD4Tog=";
+  };
+
+  v0_7_171 = fetchQmkFirmware {
+    tag = "0.7.171";
+    hash = "sha256-G41db5/I50hOyf8Wlvlk8BS56UDu/8yIM+wp7D5gCp0=";
+  };
+
+  v0_7_170 = fetchQmkFirmware {
+    tag = "0.7.170";
+    hash = "sha256-jBJwIP+v5V5AwIFEuTKCGDU8TEuYsajneK6Py0IJdGk=";
+  };
+
+  v0_7_169 = fetchQmkFirmware {
+    tag = "0.7.169";
+    hash = "sha256-Q+HG2uXo4yizYc+P0P1b2o57NKX/Z83T7g969H/D5bg=";
+  };
+
+  v0_7_168 = fetchQmkFirmware {
+    tag = "0.7.168";
+    hash = "sha256-elYPm7BbHZqgg5VWLd4ZyciYfNXQSVnwpRIGf1F1bT0=";
+  };
+
+  v0_7_167 = fetchQmkFirmware {
+    tag = "0.7.167";
+    hash = "sha256-3SCNIhanOUQ8hbFY6dRIJEoTpooe7v2nPd33HTskEBk=";
+  };
+
+  v0_7_166 = fetchQmkFirmware {
+    tag = "0.7.166";
+    hash = "sha256-bDUTbfbjZ3yrx6jcoQAPCngMLltW53HeIhl6IAgfMXE=";
+  };
+
+  v0_7_165 = fetchQmkFirmware {
+    tag = "0.7.165";
+    hash = "sha256-XAyDb8fDtSrkmaT4VgqdAlA8u8gPh9LIwn60eqTUo60=";
+  };
+
+  v0_7_164 = fetchQmkFirmware {
+    tag = "0.7.164";
+    hash = "sha256-aGPn4pTWJ0OiqWiPlvI070tZe9AR05sPbi6VyRo2DcY=";
+  };
+
+  v0_7_163 = fetchQmkFirmware {
+    tag = "0.7.163";
+    hash = "sha256-R0PUGTWR1qtevIegIXhTVA2NCwQW/WgK7v/UspiKEHs=";
+  };
+
+  v0_7_162 = fetchQmkFirmware {
+    tag = "0.7.162";
+    hash = "sha256-4GmQeXqpYz4KWESIHEQehPO7TvdQOMyIuVb+2rGbSus=";
+  };
+
+  v0_7_161 = fetchQmkFirmware {
+    tag = "0.7.161";
+    hash = "sha256-ZmjxCeOvmpteai1OmAjhJpBw2Sz6/vUnAc/DG6xJ6MA=";
+  };
+
+  v0_7_160 = fetchQmkFirmware {
+    tag = "0.7.160";
+    hash = "sha256-xtk8HOSVAq9J7+J+MldqBom4k1jwZd0zPxU3w54rs2c=";
+  };
+
+  v0_7_159 = fetchQmkFirmware {
+    tag = "0.7.159";
+    hash = "sha256-ebub9inhwURsmef4sLmVJzFL4pHyG4ye06dx+gM4yl0=";
+  };
+
+  v0_7_158 = fetchQmkFirmware {
+    tag = "0.7.158";
+    hash = "sha256-jD5nnoIg9PS4a8Y+ZcQQFXmT0p9/jBgW9XdaATyiffQ=";
+  };
+
+  v0_7_157 = fetchQmkFirmware {
+    tag = "0.7.157";
+    hash = "sha256-dev5cbr6SW8RpOobezixmM8eoUkEdM1XOixjIORfcUY=";
+  };
+
+  v0_7_156 = fetchQmkFirmware {
+    tag = "0.7.156";
+    hash = "sha256-fPgehf1h0EfnUOdKImGBuo8vnSx0vkj9OI9RuGqXBA4=";
+  };
+
+  v0_7_155 = fetchQmkFirmware {
+    tag = "0.7.155";
+    hash = "sha256-Z8UpKqDEIsMwbA2xjRPW8PNTTvYlUwv/efCfh9LJ9bU=";
+  };
+
+  v0_7_154 = fetchQmkFirmware {
+    tag = "0.7.154";
+    hash = "sha256-Pa44RbbAfMMybZ03cJ2fI1wuUqR6tdrNiCv0cV/oUEM=";
+  };
+
+  v0_7_153 = fetchQmkFirmware {
+    tag = "0.7.153";
+    hash = "sha256-t9+jTcdyvV0Sp5m1uI9tGabpsgKJ2LhaoY7VKx1w9u4=";
+  };
+
+  v0_7_152 = fetchQmkFirmware {
+    tag = "0.7.152";
+    hash = "sha256-SOBDH0rz4YLUOfbNOJpkigcvy4H9pKuO4OkzKMHPndI=";
+  };
+
+  v0_7_151 = fetchQmkFirmware {
+    tag = "0.7.151";
+    hash = "sha256-X+pdJi6EVwXSdtprpC6DRvY9UMga1aG7G3MVAfrwVi0=";
+  };
+
+  v0_7_150 = fetchQmkFirmware {
+    tag = "0.7.150";
+    hash = "sha256-CDDxWIs9qEPbv7pIIxO2Rg6NG6ctGSOZ7JpL28MG6ls=";
+  };
+
+  v0_7_149 = fetchQmkFirmware {
+    tag = "0.7.149";
+    hash = "sha256-+4oqyGAOAnJC32X4Rt90kKMLqPdEUqt+4u1osZfwMGk=";
+  };
+
+  v0_7_148 = fetchQmkFirmware {
+    tag = "0.7.148";
+    hash = "sha256-npVvfQC7MIVj4E2eljweYY76SS/Xc3grYLZHssr6TuA=";
+  };
+
+  v0_7_147 = fetchQmkFirmware {
+    tag = "0.7.147";
+    hash = "sha256-ba/xn3GMMlEiCR3vIx/eaOvjmKLmS3tMkIXYn6ESY3c=";
+  };
+
+  v0_7_146 = fetchQmkFirmware {
+    tag = "0.7.146";
+    hash = "sha256-16r7ZIvm5MBa0+iDAQnrJjUtu/MEGUtwL/awNo+Cvz4=";
+  };
+
+  v0_7_145 = fetchQmkFirmware {
+    tag = "0.7.145";
+    hash = "sha256-VMH6eoPlb5vt73XI4MX4fwkwbFCVeKdUDElSRzocvMY=";
+  };
+
+  v0_7_144 = fetchQmkFirmware {
+    tag = "0.7.144";
+    hash = "sha256-PxwELObg4iH3d/2isjJ0gU77+O0s0jQzVNtjLlmGs8w=";
+  };
+
+  v0_7_143 = fetchQmkFirmware {
+    tag = "0.7.143";
+    hash = "sha256-WepN8mJ8gFRSIx2Ulg+QFvqnY3is7ckz/AnJP8YxeFg=";
+  };
+
+  v0_7_142 = fetchQmkFirmware {
+    tag = "0.7.142";
+    hash = "sha256-IdYOiQMF2tCzcbxG6X4YbD0u7PIf7MyfoWQ2mO3qBK0=";
+  };
+
+  v0_7_141 = fetchQmkFirmware {
+    tag = "0.7.141";
+    hash = "sha256-xB3YfY86+pVTjVeIT5pAeteFADXiVDbTUFxHlmg43JM=";
+  };
+
+  v0_7_140 = fetchQmkFirmware {
+    tag = "0.7.140";
+    hash = "sha256-ZRk4lQwNm68fl+sPt0irWEtmawFBvj4KfL2jrfphcuk=";
+  };
+
+  v0_7_139 = fetchQmkFirmware {
+    tag = "0.7.139";
+    hash = "sha256-HsElrqZkz2Owho6Eu+o7nqit/dDfABQfhjQmIWjtPTc=";
+  };
+
+  v0_7_138 = fetchQmkFirmware {
+    tag = "0.7.138";
+    hash = "sha256-31kttaXnTkVy4sEj1Plm0bYDKZtjC+BtCXZRpoCWQp0=";
+  };
+
+  v0_7_137 = fetchQmkFirmware {
+    tag = "0.7.137";
+    hash = "sha256-Vd+MkUBRgwy5xSqFdC6fcUeVzlmjXnaIvH6WAc1LRWU=";
+  };
+
+  v0_7_136 = fetchQmkFirmware {
+    tag = "0.7.136";
+    hash = "sha256-W4YreZW7DrVHMIdqByYfFCNa+2h/26GzwZbCLY8ziuc=";
+  };
+
+  v0_7_135 = fetchQmkFirmware {
+    tag = "0.7.135";
+    hash = "sha256-WSBZ5a9x5pw+CoI/qtPlaGnmfn8NC5FhduvZ1WbuCPI=";
+  };
+
+  v0_7_134 = fetchQmkFirmware {
+    tag = "0.7.134";
+    hash = "sha256-KBWdyob0OLuE/qqzmtMlq72XAKr0qxhwtFOeMoe1K7Y=";
+  };
+
+  v0_7_133 = fetchQmkFirmware {
+    tag = "0.7.133";
+    hash = "sha256-fcujWqTJYwIO/LM8Jnj59+qPrVg3yMl8QtXV3+wUJv8=";
+  };
+
+  v0_7_132 = fetchQmkFirmware {
+    tag = "0.7.132";
+    hash = "sha256-igtzfG9rodjhe7ej0iGG2E3EZOrIKevCBo88xajU528=";
+  };
+
+  v0_7_131 = fetchQmkFirmware {
+    tag = "0.7.131";
+    hash = "sha256-5cBcjPnDiz+KQcZn1uo7WXKJDwAUpjivMGiEbGsUQHY=";
+  };
+
+  v0_7_130 = fetchQmkFirmware {
+    tag = "0.7.130";
+    hash = "sha256-9uFi9iLXBd6/0ErXSB8KIHpX9WnA2FkIsq5dY7GzszI=";
+  };
+
+  v0_7_129 = fetchQmkFirmware {
+    tag = "0.7.129";
+    hash = "sha256-omNjLoCsdenl0gKxHCxRjaXervmiwVHUwMyZi4xgXp8=";
+  };
+
+  v0_7_128 = fetchQmkFirmware {
+    tag = "0.7.128";
+    hash = "sha256-gR1SlZV5WjxXn7k1lG4XaRWLhQvdcHS8y8Ap5FBHBd4=";
+  };
+
+  v0_7_127 = fetchQmkFirmware {
+    tag = "0.7.127";
+    hash = "sha256-Bk3b5BPJO8GvaNG7xq+2FBcdH+lPW+7MM5gx6lZphds=";
+  };
+
+  v0_7_126 = fetchQmkFirmware {
+    tag = "0.7.126";
+    hash = "sha256-XaBnX3CZqKJfiSqqODsZ04a8aZ/Dwu884Eyw8Oe/tQM=";
+  };
+
+  v0_7_125 = fetchQmkFirmware {
+    tag = "0.7.125";
+    hash = "sha256-ksbnptsY/XNGJtM0zFDMF/CnlsrnRDcr+DJj9nTHjNI=";
+  };
+
+  v0_7_124 = fetchQmkFirmware {
+    tag = "0.7.124";
+    hash = "sha256-iJgG2+EgHBFo9jksSmbPiDJ6yGsba2tHpYc7Z4BnVL8=";
+  };
+
+  v0_7_123 = fetchQmkFirmware {
+    tag = "0.7.123";
+    hash = "sha256-ZcAPVxkymaQZ1HkYwZtB/9gfKxJpMaGDH9dN+q9mbWI=";
+  };
+
+  v0_7_122 = fetchQmkFirmware {
+    tag = "0.7.122";
+    hash = "sha256-d9baTve5nDmNuCVD5tEgnISVJ+/HEgt/EplatIjcmEg=";
+  };
+
+  v0_7_121 = fetchQmkFirmware {
+    tag = "0.7.121";
+    hash = "sha256-Kxf4yL3t0YSuwM2n9EXdSygbjqC/zL+fXDl6IGwyZl0=";
+  };
+
+  v0_7_120 = fetchQmkFirmware {
+    tag = "0.7.120";
+    hash = "sha256-+JvRet7nCASR2hvG8UB76I0bCzpKtTmnksnhXl0uHjM=";
+  };
+
+  v0_7_119 = fetchQmkFirmware {
+    tag = "0.7.119";
+    hash = "sha256-XZBO2s517PyJL9blswtD8c3bhZ01sP3tHJ5BCKH7rRo=";
+  };
+
+  v0_7_118 = fetchQmkFirmware {
+    tag = "0.7.118";
+    hash = "sha256-qIXs/EQ7qNDRti9Fse6w4QK5q/+9AjP1iF5WQUebhn0=";
+  };
+
+  v0_7_117 = fetchQmkFirmware {
+    tag = "0.7.117";
+    hash = "sha256-uMGUn+iPfcHfA1Tc+VnNLMXCs3QegHQFzT8odpjdIso=";
+  };
+
+  v0_7_116 = fetchQmkFirmware {
+    tag = "0.7.116";
+    hash = "sha256-mDS6599fZPeRwqi4q6mh6Xa9WwTFh+e/SBzO/mpesvg=";
+  };
+
+  v0_7_115 = fetchQmkFirmware {
+    tag = "0.7.115";
+    hash = "sha256-MFfJfi7SuWVq+343Xk9sUFPjSguJwrEytcihWkYqRzo=";
+  };
+
+  v0_7_114 = fetchQmkFirmware {
+    tag = "0.7.114";
+    hash = "sha256-h+/GY5vou/0iwT5lZRsM82JA3sxhf46SGdjHluLqOKo=";
+  };
+
+  v0_7_113 = fetchQmkFirmware {
+    tag = "0.7.113";
+    hash = "sha256-GbicyNdwhaQ8mP4Asp0u/utVuF0lS4iLujjJqgPfm0o=";
+  };
+
+  v0_7_112 = fetchQmkFirmware {
+    tag = "0.7.112";
+    hash = "sha256-OtkjKD+L2Tis6JmoICTavj2JnpTLfsf89UHWJe+cdn8=";
+  };
+
+  v0_7_111 = fetchQmkFirmware {
+    tag = "0.7.111";
+    hash = "sha256-ODxJNNPakpPsLnFRbFrdE4kb7oBn9kdR+TXXQkG9zdg=";
+  };
+
+  v0_7_110 = fetchQmkFirmware {
+    tag = "0.7.110";
+    hash = "sha256-/JAjznBuywcjqSIBBoN6JJ1XX4XYonA4c+KfJegdJOg=";
+  };
+
+  v0_7_109 = fetchQmkFirmware {
+    tag = "0.7.109";
+    hash = "sha256-D7bVZQxRRwvQdumcqaKYkG+bFpCQu6IfGYmI+xfCReY=";
+  };
+
+  v0_7_108 = fetchQmkFirmware {
+    tag = "0.7.108";
+    hash = "sha256-tN0AkUIGL0ATkbQMq0cagqfIf/odJmPZMrh1wQChlc8=";
+  };
+
+  v0_7_107 = fetchQmkFirmware {
+    tag = "0.7.107";
+    hash = "sha256-RAFN1CW2b3ch+7+axVBAk0mB0h7F83m+oaucoamX54w=";
+  };
+
+  v0_7_106 = fetchQmkFirmware {
+    tag = "0.7.106";
+    hash = "sha256-NnssztnmiMau5vXO5lIg7kAlAlGp5KEx+dBLrG8Vj5k=";
+  };
+
+  v0_7_105 = fetchQmkFirmware {
+    tag = "0.7.105";
+    hash = "sha256-Wmp4FFSBFMz8ySTbyaT4viLJoxr+m4Ptgrme61DGSqY=";
+  };
+
+  v0_7_104 = fetchQmkFirmware {
+    tag = "0.7.104";
+    hash = "sha256-JfnsgcxWHlPVNZIATfSUAGku9tVh1RWyBU5NX0Q9smA=";
+  };
+
+  v0_7_103 = fetchQmkFirmware {
+    tag = "0.7.103";
+    hash = "sha256-Ajl55Dc9dADw5Tl+0zpKXGuSe+rf/TXWHCq6wnSXMT4=";
+  };
+
+  v0_7_102 = fetchQmkFirmware {
+    tag = "0.7.102";
+    hash = "sha256-J8cbWFyzdWb5aygXXikRIYuA90Y6GSCov+L0HEBXtbI=";
+  };
+
+  v0_7_101 = fetchQmkFirmware {
+    tag = "0.7.101";
+    hash = "sha256-PX0UgfXkerP5JoXiw+m9gIKr3HK/l8NLiEdDRu8Kjds=";
+  };
+
+  v0_7_100 = fetchQmkFirmware {
+    tag = "0.7.100";
+    hash = "sha256-SK9WsjzLv30DYErpTYYk72WUANIsLyVTG+N3BFK6o0A=";
+  };
+
+  v0_7_99 = fetchQmkFirmware {
+    tag = "0.7.99";
+    hash = "sha256-U6xIspH3SqjzwlRp5IiO+nxRpdaxshYQZ+bZDMYaDjc=";
+  };
+
+  v0_7_98 = fetchQmkFirmware {
+    tag = "0.7.98";
+    hash = "sha256-k3D0+kFsXWCvJtJxR9jy9hHK0GNpLaU+8TJyWFIpElk=";
+  };
+
+  v0_7_97 = fetchQmkFirmware {
+    tag = "0.7.97";
+    hash = "sha256-Qn6d1hMkmSRMLWz11EEdD3e3/GSwKiZcwR4HbVb4rMw=";
+  };
+
+  v0_7_96 = fetchQmkFirmware {
+    tag = "0.7.96";
+    hash = "sha256-vTlT0+U2rMIK4jvaKhH4HikyS+cHtPknlrXnPlkrQ5k=";
+  };
+
+  v0_7_95 = fetchQmkFirmware {
+    tag = "0.7.95";
+    hash = "sha256-K6AzdJQYmcXiDktAfbvxX7pAi27GgReSD5Ee3OufS6U=";
+  };
+
+  v0_7_94 = fetchQmkFirmware {
+    tag = "0.7.94";
+    hash = "sha256-g4P6GbX6/6RzdmzprsAAO29Qn7P3JhUb6CcnRxpSqow=";
+  };
+
+  v0_7_93 = fetchQmkFirmware {
+    tag = "0.7.93";
+    hash = "sha256-1BQUaHw00uLgk6RNHI1TNH4UjAk23ROkWE/4fHk05+4=";
+  };
+
+  v0_7_92 = fetchQmkFirmware {
+    tag = "0.7.92";
+    hash = "sha256-7f2kvFOK1Wrvnpb0iTq1j+mcz9mtGDroR+u5jwmaAMQ=";
+  };
+
+  v0_7_91 = fetchQmkFirmware {
+    tag = "0.7.91";
+    hash = "sha256-qM8VjGlumfQvL+OiY5kRPs1EINgCCIkdlCT0t4idHLA=";
+  };
+
+  v0_7_90 = fetchQmkFirmware {
+    tag = "0.7.90";
+    hash = "sha256-kWHB2lQb7uzEnndB+lErBkZ+cAb8o10IXa+zbdG9tOg=";
+  };
+
+  v0_7_89 = fetchQmkFirmware {
+    tag = "0.7.89";
+    hash = "sha256-t3GFNKJJLiuiNs1kl185xIhfJiBDkRcVLGPOHb/ve/s=";
+  };
+
+  v0_7_88 = fetchQmkFirmware {
+    tag = "0.7.88";
+    hash = "sha256-GbPFVWi7g2bOoxR8+qOeKfxCFOPAPXVUW86azXy+aG4=";
+  };
+
+  v0_7_87 = fetchQmkFirmware {
+    tag = "0.7.87";
+    hash = "sha256-pGcc51Ew0cyBXBAygj8OZvENXWm3yJWWWgggubvHpj8=";
+  };
+
+  v0_7_86 = fetchQmkFirmware {
+    tag = "0.7.86";
+    hash = "sha256-REPPRb6aXr9CxnVVwDvbhVXogD5YNRM7jrkbz2aPDBA=";
+  };
+
+  v0_7_85 = fetchQmkFirmware {
+    tag = "0.7.85";
+    hash = "sha256-nNVP7fsxpKfYYSD+IbbgcoeiOSehY4N7Kt2iOddqSLM=";
+  };
+
+  v0_7_84 = fetchQmkFirmware {
+    tag = "0.7.84";
+    hash = "sha256-AablDC988nrJBPXbRw7BWPaeiVC74A2rkdECwOOiPHw=";
+  };
+
+  v0_7_83 = fetchQmkFirmware {
+    tag = "0.7.83";
+    hash = "sha256-WBxHrM3snW9TZTyFUPKvUBT1/MU7UWwzR0G0TqEFyGY=";
+  };
+
+  v0_7_82 = fetchQmkFirmware {
+    tag = "0.7.82";
+    hash = "sha256-/4dTolV3E/rSl8YfKr7T4VCVlyro7E83WnnUHzJzkWE=";
+  };
+
+  v0_7_81 = fetchQmkFirmware {
+    tag = "0.7.81";
+    hash = "sha256-BAxwrFMS2kEnfhyEY3rA3XCKlhGiHlrieMmNyJO14wA=";
+  };
+
+  v0_7_80 = fetchQmkFirmware {
+    tag = "0.7.80";
+    hash = "sha256-gSChj5x8nBcKTi1INP/se3NlNIqfSJivOL6gn+t43fU=";
+  };
+
+  v0_7_79 = fetchQmkFirmware {
+    tag = "0.7.79";
+    hash = "sha256-GTmgIXcaQWZqIUVRS6dapiyCNiys4tElKODMU6g+B9o=";
+  };
+
+  v0_7_78 = fetchQmkFirmware {
+    tag = "0.7.78";
+    hash = "sha256-8Zfz6ZZQ01AMor+iryiPSMEgidjPFxkkRGdmq8h1o2c=";
+  };
+
+  v0_7_77 = fetchQmkFirmware {
+    tag = "0.7.77";
+    hash = "sha256-yE41lDEHcDhxo/ZgRTozmg9AV8z9XFHlvwErRY6+fTM=";
+  };
+
+  v0_7_76 = fetchQmkFirmware {
+    tag = "0.7.76";
+    hash = "sha256-sjRcaKGXFeQS8S0xwL/ewoF/tYwsTQYtDPrxRNKAJjE=";
+  };
+
+  v0_7_75 = fetchQmkFirmware {
+    tag = "0.7.75";
+    hash = "sha256-sjRcaKGXFeQS8S0xwL/ewoF/tYwsTQYtDPrxRNKAJjE=";
+  };
+
+  v0_7_74 = fetchQmkFirmware {
+    tag = "0.7.74";
+    hash = "sha256-GqYPf+JRvAmif9dqiF3a7kxXoicbcBipnP0EdcWZymA=";
+  };
+
+  v0_7_73 = fetchQmkFirmware {
+    tag = "0.7.73";
+    hash = "sha256-wZ2IEi7e+CQ/T+PDaUR4kl2OcZ5hRcKF8cmX7AP7UY4=";
+  };
+
+  v0_7_72 = fetchQmkFirmware {
+    tag = "0.7.72";
+    hash = "sha256-wDZ+Z+t3NcWErLRuv0FfHck6GLCqm2NokGnA9ZwgK/g=";
+  };
+
+  v0_7_71 = fetchQmkFirmware {
+    tag = "0.7.71";
+    hash = "sha256-+sZRhLhoj1+E69dwJoSRyYNtRrHWTJJ+Xqx3kd9IISs=";
+  };
+
+  v0_7_70 = fetchQmkFirmware {
+    tag = "0.7.70";
+    hash = "sha256-CHupLOmN9WLnb1wEOxGOplSaP3MieyeYKHEzyvOygN4=";
+  };
+
+  v0_7_69 = fetchQmkFirmware {
+    tag = "0.7.69";
+    hash = "sha256-04PhVMPaonghgeYpP2ff9CBbLifYQyfqhk3hhz+7MnU=";
+  };
+
+  v0_7_68 = fetchQmkFirmware {
+    tag = "0.7.68";
+    hash = "sha256-04PhVMPaonghgeYpP2ff9CBbLifYQyfqhk3hhz+7MnU=";
+  };
+
+  v0_7_67 = fetchQmkFirmware {
+    tag = "0.7.67";
+    hash = "sha256-k5BaZs/U4nzQmzBUfC5kO0a2wmNwxkc2tWKRNQADq/U=";
+  };
+
+  v0_7_66 = fetchQmkFirmware {
+    tag = "0.7.66";
+    hash = "sha256-zm8qmgv0Co+T5yWwDzZJWGhuKUvq1be52HkH+DSSkAA=";
+  };
+
+  v0_7_65 = fetchQmkFirmware {
+    tag = "0.7.65";
+    hash = "sha256-ZlZbAs77RH/Zk53/4Uqsv79HfyQ+7YTVUbdp/yfFU1I=";
+  };
+
+  v0_7_64 = fetchQmkFirmware {
+    tag = "0.7.64";
+    hash = "sha256-/5J9htFi1224RsniovC65K65CR/xmcnOg2jBM5YipZw=";
+  };
+
+  v0_7_63 = fetchQmkFirmware {
+    tag = "0.7.63";
+    hash = "sha256-84Be5ZdmlFxNOUN3USvUK/4+ZZ5a+eGAvk+zyRvmhFY=";
+  };
+
+  v0_7_62 = fetchQmkFirmware {
+    tag = "0.7.62";
+    hash = "sha256-nDc46Fk6Em4CLtzdw7HtqAWiCy4Ko3X5HliWRHG96qU=";
+  };
+
+  v0_7_61 = fetchQmkFirmware {
+    tag = "0.7.61";
+    hash = "sha256-Lj6/Pgb0r5iw/PA4F+HKWbT62Fz+MOfJVy7qx8ujeAI=";
+  };
+
+  v0_7_60 = fetchQmkFirmware {
+    tag = "0.7.60";
+    hash = "sha256-Z6nzyHW9h2IqSzXFmgvPxtvHubgKsACtiuHhtdSAZhY=";
+  };
+
+  v0_7_59 = fetchQmkFirmware {
+    tag = "0.7.59";
+    hash = "sha256-BHUwY4oHMprgjZ1QTKHj+tkjkiLyGkd6AQRiPDjbIzc=";
+  };
+
+  v0_7_58 = fetchQmkFirmware {
+    tag = "0.7.58";
+    hash = "sha256-CKW/JSZqwwWwFYwF7vpeNRQMlQngdZpAvKVBWAZriMA=";
+  };
+
+  v0_7_57 = fetchQmkFirmware {
+    tag = "0.7.57";
+    hash = "sha256-CKW/JSZqwwWwFYwF7vpeNRQMlQngdZpAvKVBWAZriMA=";
+  };
+
+  v0_7_56 = fetchQmkFirmware {
+    tag = "0.7.56";
+    hash = "sha256-fmg4hHPiV2lJ7ez/7i+lUEp1+kjYjwasQJvSK5wwAWU=";
+  };
+
+  v0_7_55 = fetchQmkFirmware {
+    tag = "0.7.55";
+    hash = "sha256-RT/FhcTodJFyit9uOtCjI2n5TfFh/Ozo3e4qYLIohWk=";
+  };
+
+  v0_7_54 = fetchQmkFirmware {
+    tag = "0.7.54";
+    hash = "sha256-RT/FhcTodJFyit9uOtCjI2n5TfFh/Ozo3e4qYLIohWk=";
+  };
+
+  v0_7_53 = fetchQmkFirmware {
+    tag = "0.7.53";
+    hash = "sha256-Bs2aAUZEzQ2Ni3B9gshxkozvdv8P94UvGZ6lk790uNI=";
+  };
+
+  v0_7_52 = fetchQmkFirmware {
+    tag = "0.7.52";
+    hash = "sha256-a5kZtD9VLbxE6D5AyegHjcgeKukTktRIfNPtSQbZjkQ=";
+  };
+
+  v0_7_51 = fetchQmkFirmware {
+    tag = "0.7.51";
+    hash = "sha256-nw2bcEwYpyXwPHA0cyh66wSrv1c2jwjlJovRaGOlx2Q=";
+  };
+
+  v0_7_50 = fetchQmkFirmware {
+    tag = "0.7.50";
+    hash = "sha256-N9MraHaZUjQVGgM7wbo1UTZFDoMgkqHWaPmo/S9sENM=";
+  };
+
+  v0_7_49 = fetchQmkFirmware {
+    tag = "0.7.49";
+    hash = "sha256-rM24M25+ASI1Cx9xeWryyOa8Z8wVa7E+JcZXnzDCsNs=";
+  };
+
+  v0_7_48 = fetchQmkFirmware {
+    tag = "0.7.48";
+    hash = "sha256-y3/bdu0meGoGE0WuZyJHUnet7qX3vkd9Y3jhfNSXBj8=";
+  };
+
+  v0_7_47 = fetchQmkFirmware {
+    tag = "0.7.47";
+    hash = "sha256-1bkanYphXDyq4++YHm6UGlciZ0H5+lAYj6SPqrcaenU=";
+  };
+
+  v0_7_46 = fetchQmkFirmware {
+    tag = "0.7.46";
+    hash = "sha256-NVmOVFwsHARohcDzJaqyhLj6U7zhKDiZlLMhQkQafkY=";
+  };
+
+  v0_7_45 = fetchQmkFirmware {
+    tag = "0.7.45";
+    hash = "sha256-dxWGv8hkiQrnj3zZOWeAiF4m8zXiobDj6oUGQIjvKPA=";
+  };
+
+  v0_7_44 = fetchQmkFirmware {
+    tag = "0.7.44";
+    hash = "sha256-2Yn8I4td1AjozEZrlii9WeJhcUiFqi/W/i51ferZocw=";
+  };
+
+  v0_7_43 = fetchQmkFirmware {
+    tag = "0.7.43";
+    hash = "sha256-brrbPdjOCMv0nJBYxmBBO3Kvo0CvBJTo3JEqWssg8HM=";
+  };
+
+  v0_7_42 = fetchQmkFirmware {
+    tag = "0.7.42";
+    hash = "sha256-b7ZTIRM/bjB8cEoEp3iQ2nAqJuGTpOvZQfRlFT3F1k0=";
+  };
+
+  v0_7_41 = fetchQmkFirmware {
+    tag = "0.7.41";
+    hash = "sha256-5e7MKMtFN4RK9/TXaOrwE9+TnNa1wXxK/va5mUz9yQ4=";
+  };
+
+  v0_7_40 = fetchQmkFirmware {
+    tag = "0.7.40";
+    hash = "sha256-Iv6lHJxuN2zVIYCIAkhVVYksPEq0IDAnOR1uaVTG4QI=";
+  };
+
+  v0_7_39 = fetchQmkFirmware {
+    tag = "0.7.39";
+    hash = "sha256-+C3fVtD2/KlCO7W0Pv3YiTUAd1+Af6yu7M5kVAJKTVE=";
+  };
+
+  v0_7_38 = fetchQmkFirmware {
+    tag = "0.7.38";
+    hash = "sha256-iDXyQUjnqSSnYSziohmndjE3Lxmsa8nHYskl2QP3bkQ=";
+  };
+
+  v0_7_37 = fetchQmkFirmware {
+    tag = "0.7.37";
+    hash = "sha256-bQYGkZ954nrJvdrosHYuWiE6XBB3XzI3rjvCZS3V7ks=";
+  };
+
+  v0_7_36 = fetchQmkFirmware {
+    tag = "0.7.36";
+    hash = "sha256-eWDoje3zNjNsSNKHrLKMNVtEolHa7lZcJVLZ9ZTKgPE=";
+  };
+
+  v0_7_35 = fetchQmkFirmware {
+    tag = "0.7.35";
+    hash = "sha256-yH/7WOe9qqllsVHuMSBWeo2wRDZjHnKgG7BVHC8JU2I=";
+  };
+
+  v0_7_34 = fetchQmkFirmware {
+    tag = "0.7.34";
+    hash = "sha256-EYIzj01cb6Hf/q1/+ZVkQXPaYycWfnHx3qb01Lpxtjw=";
+  };
+
+  v0_7_33 = fetchQmkFirmware {
+    tag = "0.7.33";
+    hash = "sha256-V0Aqn74sRTb8rGKhwXgEHiefHYs1t0PZn632uzk4gxY=";
+  };
+
+  v0_7_32 = fetchQmkFirmware {
+    tag = "0.7.32";
+    hash = "sha256-Gm4p8ZGGrd5rT5Vrn9E911yimMXlnVh/ar5SAjbTRGw=";
+  };
+
+  v0_7_31 = fetchQmkFirmware {
+    tag = "0.7.31";
+    hash = "sha256-/2sFbQS7neHhynzHaQ8SaFzKszDVd3rENZ5nwy5hrlg=";
+  };
+
+  v0_7_30 = fetchQmkFirmware {
+    tag = "0.7.30";
+    hash = "sha256-eMVvW1f1nETGtHD/PxbUKqnvd5z8G0kjLbZfVKnlMak=";
+  };
+
+  v0_7_29 = fetchQmkFirmware {
+    tag = "0.7.29";
+    hash = "sha256-FI+8+K03wZN8eMMd5+cvgHWdF63hgzNCiwiXRY5RXXc=";
+  };
+
+  v0_7_28 = fetchQmkFirmware {
+    tag = "0.7.28";
+    hash = "sha256-wBHqC+b3A/VkJMEk1Z8t3870najpfFW1n9lWuKrOYoA=";
+  };
+
+  v0_7_27 = fetchQmkFirmware {
+    tag = "0.7.27";
+    hash = "sha256-3Epczrk6+XTFZPOtSdTcAVJDtmFsp+F+fFZuKGAJER8=";
+  };
+
+  v0_7_26 = fetchQmkFirmware {
+    tag = "0.7.26";
+    hash = "sha256-i+d0CrXll7LQ/Am/rO4u1fA8nIqjst8kXcgJVdNJOHQ=";
+  };
+
+  v0_7_25 = fetchQmkFirmware {
+    tag = "0.7.25";
+    hash = "sha256-Aapvb7TFMQDHW/ZdAKH4BoTSRetnzCgoYkom9iP7JOM=";
+  };
+
+  v0_7_24 = fetchQmkFirmware {
+    tag = "0.7.24";
+    hash = "sha256-EI65MvV6Ztau/wMvdCApY0D16dDOmvAvapTp8it+sKs=";
+  };
+
+  v0_7_23 = fetchQmkFirmware {
+    tag = "0.7.23";
+    hash = "sha256-l67PQfgY8rg6Qk9XmIqheRWcPbDq97sNH0wH5mL3eGQ=";
+  };
+
+  v0_7_22 = fetchQmkFirmware {
+    tag = "0.7.22";
+    hash = "sha256-k/KZp4vidqug9Arly4ee6w+yEleixtZ5snLPIlvNnDc=";
+  };
+
+  v0_7_21 = fetchQmkFirmware {
+    tag = "0.7.21";
+    hash = "sha256-4u4EMHYvK4FFfBw30QxtVzWcNX6jGqu+2KHU8JzSzXI=";
+  };
+
+  v0_7_20 = fetchQmkFirmware {
+    tag = "0.7.20";
+    hash = "sha256-FWDCMYHfxg3el0uwknj4r3a/bei6G2WaTFdOkgIhmNw=";
+  };
+
+  v0_7_19 = fetchQmkFirmware {
+    tag = "0.7.19";
+    hash = "sha256-RkmkaJaUM9MFyAqW2m36qISRq74JGvz14N1jwDIZObs=";
+  };
+
+  v0_7_18 = fetchQmkFirmware {
+    tag = "0.7.18";
+    hash = "sha256-cVZA8voEsorX1Bd9kFkQ8oKGnesKhvE97j+ZptMFsoE=";
+  };
+
+  v0_7_17 = fetchQmkFirmware {
+    tag = "0.7.17";
+    hash = "sha256-yuLat4G8LWR8GVvsyA3BHMfoGJzvh1Q6EKxASXXjttw=";
+  };
+
+  v0_7_16 = fetchQmkFirmware {
+    tag = "0.7.16";
+    hash = "sha256-mgVomEfpbUtR3FqllK8eU8ujRkXhxp48bQENO/cm7DM=";
+  };
+
+  v0_7_15 = fetchQmkFirmware {
+    tag = "0.7.15";
+    hash = "sha256-p80AxBLf7HXq9h4L0xfRiImtabb/1+WvHmA6WEHkNP8=";
+  };
+
+  v0_7_14 = fetchQmkFirmware {
+    tag = "0.7.14";
+    hash = "sha256-vfCW2VO9LKASVQZoclmDy9txjiW2pn+33F7g2d4k+kE=";
+  };
+
+  v0_7_13 = fetchQmkFirmware {
+    tag = "0.7.13";
+    hash = "sha256-WB7cEcozIA5DkWKWKcQ9wr1Tfrdp66bzQwE4hZ7TlyY=";
+  };
+
+  v0_7_12 = fetchQmkFirmware {
+    tag = "0.7.12";
+    hash = "sha256-blsCTACj8WwLg3IWvbgZ3kv2hzQRble4Yd1KYWQYCqM=";
+  };
+
+  v0_7_11 = fetchQmkFirmware {
+    tag = "0.7.11";
+    hash = "sha256-vfplGHbiwvuMQ4ZX3kJkPbh4cran2JOYkXTFW/Su4o4=";
+  };
+
+  v0_7_10 = fetchQmkFirmware {
+    tag = "0.7.10";
+    hash = "sha256-AeaNzVt6a0ApDuT0uTzi9uXKH2+Bedqxolpgr2Av4wA=";
+  };
+
+  v0_7_9 = fetchQmkFirmware {
+    tag = "0.7.9";
+    hash = "sha256-DuXrC835NvVyBiBQnVKWEoCct0U3jB7BJ3XAIhsZQhk=";
+  };
+
+  v0_7_8 = fetchQmkFirmware {
+    tag = "0.7.8";
+    hash = "sha256-PfPDJwuzKdlftyIw2EsLexbWYHJcwDM/Fia3Hsq0a4g=";
+  };
+
+  v0_7_7 = fetchQmkFirmware {
+    tag = "0.7.7";
+    hash = "sha256-ua2X7vFiT5qgCX6aKkjfulKGzGUv1JZv18eIUH8S/+w=";
+  };
+
+  v0_7_6 = fetchQmkFirmware {
+    tag = "0.7.6";
+    hash = "sha256-mSwWqB8oMrcZJEDHuOg8rp9I3lJxOKnLTyV1mE7eqRo=";
+  };
+
+  v0_7_5 = fetchQmkFirmware {
+    tag = "0.7.5";
+    hash = "sha256-a9qTxuQeMViZptYrXxVklzgRzY8bFm57es0JFPtFKuM=";
+  };
+
+  v0_7_4 = fetchQmkFirmware {
+    tag = "0.7.4";
+    hash = "sha256-SyLD+oLHKXaElx8dBsO3/SdY5VruN+arTWBmYTomxDQ=";
+  };
+
+  v0_7_3 = fetchQmkFirmware {
+    tag = "0.7.3";
+    hash = "sha256-w8GZCeZ+6sobHu+aH5dEVzJeLuMkaEI/UIZyMEx57mY=";
+  };
+
+  v0_7_2 = fetchQmkFirmware {
+    tag = "0.7.2";
+    hash = "sha256-s0sYjuMtAD65oYDP6FsRyuTXS1Ft/MDI9K36GiFcks0=";
+  };
+
+  v0_7_1 = fetchQmkFirmware {
+    tag = "0.7.1";
+    hash = "sha256-brK7LxaWdLHkJzLpe5BDeeuJXohqlrMbIhCOjCEPXPw=";
+  };
+
+  v0_7_0 = fetchQmkFirmware {
+    tag = "0.7.0";
+    hash = "sha256-qUkI8p5HzyaxFkNen5QXr1N/lsbabebg/IL8s9ucZOQ=";
+  };
+
+  v0_6_464 = fetchQmkFirmware {
+    tag = "0.6.464";
+    hash = "sha256-qUkI8p5HzyaxFkNen5QXr1N/lsbabebg/IL8s9ucZOQ=";
+  };
+
+  v0_6_463 = fetchQmkFirmware {
+    tag = "0.6.463";
+    hash = "sha256-ejVUgmPbYwxjerXgmN78cgJmgtMEA9HlmiiSg6fGhhk=";
+  };
+
+  v0_6_462 = fetchQmkFirmware {
+    tag = "0.6.462";
+    hash = "sha256-E/Y7CtZ1NSW3xSuJDHAlibLzYUST8k6zdySNmPQFa6w=";
+  };
+
+  v0_6_461 = fetchQmkFirmware {
+    tag = "0.6.461";
+    hash = "sha256-182kkgcXzn6rUc2V1nQRPaqid70XFzn1DKavbr+dwTw=";
+  };
+
+  v0_6_460 = fetchQmkFirmware {
+    tag = "0.6.460";
+    hash = "sha256-d7GSSfCb49KMLCyZ4dyVeNiCqo4xWrJ7gjQ2uNilWN4=";
+  };
+
+  v0_6_459 = fetchQmkFirmware {
+    tag = "0.6.459";
+    hash = "sha256-i9BaBu3gtt6DtV9RheFangZI8UvZuuc2NXbSNMYiqGU=";
+  };
+
+  v0_6_458 = fetchQmkFirmware {
+    tag = "0.6.458";
+    hash = "sha256-NP+n5OUgnQgfoVzO0/zsaCnEL21QF3w/jdNakAetI8U=";
+  };
+
+  v0_6_457 = fetchQmkFirmware {
+    tag = "0.6.457";
+    hash = "sha256-kCjz0nSWaL6MMA/NnpJs1lJQoz2ZZyeuS+hapuqOPAI=";
+  };
+
+  v0_6_456 = fetchQmkFirmware {
+    tag = "0.6.456";
+    hash = "sha256-FZQFYaDwmYe/y8TVt4Aewi/lhl0tjLysnVkMF3QCD88=";
+  };
+
+  v0_6_455 = fetchQmkFirmware {
+    tag = "0.6.455";
+    hash = "sha256-AFoYgwjjFm6+iQ6hDHZbuScBof13+4XP7CNSbq4Q3i0=";
+  };
+
+  v0_6_454 = fetchQmkFirmware {
+    tag = "0.6.454";
+    hash = "sha256-RwVs35434FkFxgckKtJbF0He+C2gHzaDGihGbUYRPLE=";
+  };
+
+  v0_6_453 = fetchQmkFirmware {
+    tag = "0.6.453";
+    hash = "sha256-dtpseGxv/f3ZrI3sfQ9x9ELP7dnuIfhsKyOCLYBG3DY=";
+  };
+
+  v0_6_452 = fetchQmkFirmware {
+    tag = "0.6.452";
+    hash = "sha256-SH/mWJisDa89r7WZKePGKoKvT/ekOPoJKECcw4bvKME=";
+  };
+
+  v0_6_451 = fetchQmkFirmware {
+    tag = "0.6.451";
+    hash = "sha256-Znq0lon11zWWydBMYERsUEADnylZvIvU2q2fYk7H+9g=";
+  };
+
+  v0_6_450 = fetchQmkFirmware {
+    tag = "0.6.450";
+    hash = "sha256-pVwWVVYWPlXMfDyjKe5t9Aec/WEwS7ZPWmik42jdB1o=";
+  };
+
+  v0_6_449 = fetchQmkFirmware {
+    tag = "0.6.449";
+    hash = "sha256-XAFkV7OcGENsF+M+/yB8NzdypN2Foioxlq7QvRB09XA=";
+  };
+
+  v0_6_448 = fetchQmkFirmware {
+    tag = "0.6.448";
+    hash = "sha256-1xhs38r2svW4jRcNt5V0zLuaPEk0xZUEk1aOCSLXhZ4=";
+  };
+
+  v0_6_447 = fetchQmkFirmware {
+    tag = "0.6.447";
+    hash = "sha256-jjxHQ5opO1pxFaqIVMHWnb5rh3mrmW32V+lwQEAAUqU=";
+  };
+
+  v0_6_446 = fetchQmkFirmware {
+    tag = "0.6.446";
+    hash = "sha256-ZhTSWPfAzxtWsv3GtyybDPA7sbn+ri9GaUkjVvS7QJ4=";
+  };
+
+  v0_6_445 = fetchQmkFirmware {
+    tag = "0.6.445";
+    hash = "sha256-AX6TFb8xmYBPyoibDb0Fi1RMZmUeJhE95AjS7bSy8N0=";
+  };
+
+  v0_6_444 = fetchQmkFirmware {
+    tag = "0.6.444";
+    hash = "sha256-sZkW5DaP//dSU81RmZXKbgDv+he5HQvpEgqQPYSTJNU=";
+  };
+
+  v0_6_443 = fetchQmkFirmware {
+    tag = "0.6.443";
+    hash = "sha256-FvGP9a2k7OnxLE0mQkuwckdAm3sAlGfJlCLand9/fFE=";
+  };
+
+  v0_6_442 = fetchQmkFirmware {
+    tag = "0.6.442";
+    hash = "sha256-bt7n4ouqWsAmAmq73PpxdApGYaR7/27SeMeiIeEuxEw=";
+  };
+
+  v0_6_441 = fetchQmkFirmware {
+    tag = "0.6.441";
+    hash = "sha256-B+kn5S9lh2t1ZdTobt89k2N1z+W1WpRdPtM2upckV9U=";
+  };
+
+  v0_6_440 = fetchQmkFirmware {
+    tag = "0.6.440";
+    hash = "sha256-L7iyqP9UED2N453/jA28dYRctEEEynMLk/I8ogjDaP0=";
+  };
+
+  v0_6_439 = fetchQmkFirmware {
+    tag = "0.6.439";
+    hash = "sha256-Hp2AiJaifeWWwKbgyEpf/k0+IOHfZkGFDI28pKgw8dE=";
+  };
+
+  v0_6_438 = fetchQmkFirmware {
+    tag = "0.6.438";
+    hash = "sha256-7kYOIEqY6JYGgD4KfKtmGCn5pxUsUhAZfWQm/2PuVxs=";
+  };
+
+  v0_6_437 = fetchQmkFirmware {
+    tag = "0.6.437";
+    hash = "sha256-i6nxfH278HNHkF7ayOKz/t+wJLDE1TIwMf6SoNr2tjA=";
+  };
+
+  v0_6_436 = fetchQmkFirmware {
+    tag = "0.6.436";
+    hash = "sha256-bf5VaqOvHBL6A093KUX/QcMSWal28Aj5sVLCHw9RRnc=";
+  };
+
+  v0_6_435 = fetchQmkFirmware {
+    tag = "0.6.435";
+    hash = "sha256-2HFZpgOaDFmIOL4vUMB7spxqzeEeA3kYGHW0F6czVlc=";
+  };
+
+  v0_6_434 = fetchQmkFirmware {
+    tag = "0.6.434";
+    hash = "sha256-phGCoxe3cy9GrxUkqYgDmRvSwcYiLP87ECXwQW066vc=";
+  };
+
+  v0_6_433 = fetchQmkFirmware {
+    tag = "0.6.433";
+    hash = "sha256-jI33byWGMTAMr60jb9qZzFzHtMHJHeTYkIZtlTho+gU=";
+  };
+
+  v0_6_432 = fetchQmkFirmware {
+    tag = "0.6.432";
+    hash = "sha256-dW4Fb0BJ0VqfVTTsklinn1o5WOpmTpIViLG2IwJThwE=";
+  };
+
+  v0_6_431 = fetchQmkFirmware {
+    tag = "0.6.431";
+    hash = "sha256-+9eKwUS3hjjfEMnAIGe65qFri+WIoexIUit+M2x4x/w=";
+  };
+
+  v0_6_430 = fetchQmkFirmware {
+    tag = "0.6.430";
+    hash = "sha256-+DFIXnGQv4+bQ+7WRcmHpE2BCSkKaIRUGUneDJP7xcg=";
+  };
+
+  v0_6_429 = fetchQmkFirmware {
+    tag = "0.6.429";
+    hash = "sha256-Cxq5mGnW88n7j7uQaVH2DjBIuf6A2CkHKlF7H1p//yw=";
+  };
+
+  v0_6_428 = fetchQmkFirmware {
+    tag = "0.6.428";
+    hash = "sha256-Bgd+Kd0GK87Z4vRO3qeSlj+bGn2k2VQrBPrBdtZUcUo=";
+  };
+
+  v0_6_427 = fetchQmkFirmware {
+    tag = "0.6.427";
+    hash = "sha256-QreQpOPZwKsn5DaHGxfTZEr80VyqeWjHlRZ4InvEEnM=";
+  };
+
+  v0_6_426 = fetchQmkFirmware {
+    tag = "0.6.426";
+    hash = "sha256-jfJIJzHQCi6M/Mb1OTa68UW+wKLqY0AGIr4m5BYjdlc=";
+  };
+
+  v0_6_425 = fetchQmkFirmware {
+    tag = "0.6.425";
+    hash = "sha256-10rJkTsUCZHCGPGWzXFnOLkMeORDlADXgue3h3zJies=";
+  };
+
+  v0_6_424 = fetchQmkFirmware {
+    tag = "0.6.424";
+    hash = "sha256-57BWoPs5Ews1/hN4eTH5NB/2GaQGG9t8xeeVCPIHVNU=";
+  };
+
+  v0_6_423 = fetchQmkFirmware {
+    tag = "0.6.423";
+    hash = "sha256-NuD1tPuBRzibseaw2F+DNxfGjPFX78fqoa+aKrzbb6Q=";
+  };
+
+  v0_6_422 = fetchQmkFirmware {
+    tag = "0.6.422";
+    hash = "sha256-KAF3/v1aTVlqHFi0Yu0jmBszjsz/O72Dk1DmiZpA2JU=";
+  };
+
+  v0_6_421 = fetchQmkFirmware {
+    tag = "0.6.421";
+    hash = "sha256-plgmFSZ8Lz3JewXBpaUklvpXOwpErcCz2flMvrvVJak=";
+  };
+
+  v0_6_420 = fetchQmkFirmware {
+    tag = "0.6.420";
+    hash = "sha256-NknY6Uo4MaLDvH5l7e3Fqs8jnzTLnibDKX/IvahTAXk=";
+  };
+
+  v0_6_419 = fetchQmkFirmware {
+    tag = "0.6.419";
+    hash = "sha256-LF8nB4ePDDS1p64DPwkLmpBzB3VAGEIPIIA+MTwGXw4=";
+  };
+
+  v0_6_418 = fetchQmkFirmware {
+    tag = "0.6.418";
+    hash = "sha256-cLYYlzyvB7ZAQvzTWr8f1D7P/aX9Lck57r7yY9vinko=";
+  };
+
+  v0_6_417 = fetchQmkFirmware {
+    tag = "0.6.417";
+    hash = "sha256-QHWPMAnwL/fzlGI/g3N2YyK1EET/YZvpRLxE+cX2aao=";
+  };
+
+  v0_6_416 = fetchQmkFirmware {
+    tag = "0.6.416";
+    hash = "sha256-DRIcRTh7oL4tU/nLEnmgnLp2IFvzfJr6INYXtpiiMQs=";
+  };
+
+  v0_6_415 = fetchQmkFirmware {
+    tag = "0.6.415";
+    hash = "sha256-STGbZY+dgKZ/ieUD/KvgdKGX+nQKjjl7mg1x4Ca+RE0=";
+  };
+
+  v0_6_414 = fetchQmkFirmware {
+    tag = "0.6.414";
+    hash = "sha256-aqy8E0wmXVSe0RsXDJtaS8QP+ANuleg4ztcjzqKiqbs=";
+  };
+
+  v0_6_413 = fetchQmkFirmware {
+    tag = "0.6.413";
+    hash = "sha256-tURUkH0oioSRY3LIkkE12RQH7s+3oRk0ytHGKAVjl/U=";
+  };
+
+  v0_6_412 = fetchQmkFirmware {
+    tag = "0.6.412";
+    hash = "sha256-gCwzksbtJAgxgz4/a+DxiarkbZo/uyTzJcDqWj9jZYk=";
+  };
+
+  v0_6_411 = fetchQmkFirmware {
+    tag = "0.6.411";
+    hash = "sha256-0T/NivpFGPJTXezKkIU3YImbuuUgDbzy29RVDJP5yRQ=";
+  };
+
+  v0_6_410 = fetchQmkFirmware {
+    tag = "0.6.410";
+    hash = "sha256-R7sX4cqdZZXb525tAhPnsQkPCQP9lRlcIEXXObMPuIw=";
+  };
+
+  v0_6_409 = fetchQmkFirmware {
+    tag = "0.6.409";
+    hash = "sha256-/hKSIJ5jvKLeb1lrSocFWclUlGeKhfMUrgop/Ri2Wzg=";
+  };
+
+  v0_6_408 = fetchQmkFirmware {
+    tag = "0.6.408";
+    hash = "sha256-8hhWcoFbp6jB1/MDzjpYJ26pi7DPX1e02XnOck9zMZ8=";
+  };
+
+  v0_6_407 = fetchQmkFirmware {
+    tag = "0.6.407";
+    hash = "sha256-jQqFgOl1UiBOgqMDCi3g3E/pmi7Lwl/55TDqM5vFpAE=";
+  };
+
+  v0_6_406 = fetchQmkFirmware {
+    tag = "0.6.406";
+    hash = "sha256-Mv6ZG3jgeq2R0SpFV7+0SY+M2JxY50+F+vlgEyJBg4s=";
+  };
+
+  v0_6_405 = fetchQmkFirmware {
+    tag = "0.6.405";
+    hash = "sha256-8qKbODNDBP7YngORucyqYCAxAJ0IQg3Ymasmei3Y+RI=";
+  };
+
+  v0_6_404 = fetchQmkFirmware {
+    tag = "0.6.404";
+    hash = "sha256-siYZvWCA256fb43J1JJjTwRBbokoVELY4zmvag8yFOM=";
+  };
+
+  v0_6_403 = fetchQmkFirmware {
+    tag = "0.6.403";
+    hash = "sha256-q8Hbz46aYzf9JQ2VooRPQGdKYr4OKWhNaUEchLmQl3c=";
+  };
+
+  v0_6_402 = fetchQmkFirmware {
+    tag = "0.6.402";
+    hash = "sha256-YB7LF4YVUBtOwJpTBXH0xSqHoezq+BwuFjIzj6CNY7w=";
+  };
+
+  v0_6_401 = fetchQmkFirmware {
+    tag = "0.6.401";
+    hash = "sha256-WZcokJAR1RKzY/NljenHDiirtdzci3dIM7UOxdscQp0=";
+  };
+
+  v0_6_400 = fetchQmkFirmware {
+    tag = "0.6.400";
+    hash = "sha256-+vYoKtYn0RRXRcyiUzTcaOB+B/LhKNdQ9meY4S0jWcQ=";
+  };
+
+  v0_6_399 = fetchQmkFirmware {
+    tag = "0.6.399";
+    hash = "sha256-lTP2JtU6fEoendTTxy6/+OyswGy/On+m160QhB6qLcE=";
+  };
+
+  v0_6_398 = fetchQmkFirmware {
+    tag = "0.6.398";
+    hash = "sha256-1skqftLrw7nKa5DUzlxCQsi3hi2Za+k6VzDXciqeYIM=";
+  };
+
+  v0_6_397 = fetchQmkFirmware {
+    tag = "0.6.397";
+    hash = "sha256-n0qwyAeHusikNF2mAVKKCf0dHZ25tXRnvomjRzN7fCw=";
+  };
+
+  v0_6_396 = fetchQmkFirmware {
+    tag = "0.6.396";
+    hash = "sha256-f67mytqAPEV0NuR4lAevNzfEcob4fOxB66la6+7eShQ=";
+  };
+
+  v0_6_395 = fetchQmkFirmware {
+    tag = "0.6.395";
+    hash = "sha256-ESZuk89qUTDQusDJzCcxl1gBHjJThIRDcwa+GNDnbw0=";
+  };
+
+  v0_6_394 = fetchQmkFirmware {
+    tag = "0.6.394";
+    hash = "sha256-kevKAdmGOB9M+qLSIj7gmQ2AmDptoBLB0l+80WDV0EQ=";
+  };
+
+  v0_6_393 = fetchQmkFirmware {
+    tag = "0.6.393";
+    hash = "sha256-qVr4+RI2VOlhfnhgswWg1JYo1w4QxahXhJNXyWrPMms=";
+  };
+
+  v0_6_392 = fetchQmkFirmware {
+    tag = "0.6.392";
+    hash = "sha256-v9p0nGhEZzgz9XPIt1m0xbXOojih4EEadUUC1d53YrA=";
+  };
+
+  v0_6_391 = fetchQmkFirmware {
+    tag = "0.6.391";
+    hash = "sha256-2JEupC2jWM+RBcbDi2pmcXxJ9wV7Alz6CcfT4IVbfSQ=";
+  };
+
+  v0_6_390 = fetchQmkFirmware {
+    tag = "0.6.390";
+    hash = "sha256-J4Se2MWPhkB7LRruv1tXydqsRVNYpWGkXvjXUZKLc5c=";
+  };
+
+  v0_6_389 = fetchQmkFirmware {
+    tag = "0.6.389";
+    hash = "sha256-uhrUwk+XlEYDezOPnYKoELregnmH4JSOgkCcMvHMjho=";
+  };
+
+  v0_6_388 = fetchQmkFirmware {
+    tag = "0.6.388";
+    hash = "sha256-yTT/tqmhV1Q6f37fVlhpFBLJ2QI21j73yDm86DFUfN0=";
+  };
+
+  v0_6_387 = fetchQmkFirmware {
+    tag = "0.6.387";
+    hash = "sha256-eo+ejk/IWo2q3rrPTBo2SrLNFe759EoTP8gW1nRL5IY=";
+  };
+
+  v0_6_386 = fetchQmkFirmware {
+    tag = "0.6.386";
+    hash = "sha256-QOvGYaZcWFrntAehhgTu9JbQCwIcn9JTO/GZUlK4nBU=";
+  };
+
+  v0_6_385 = fetchQmkFirmware {
+    tag = "0.6.385";
+    hash = "sha256-uX3k8WcFc+f0s8wgBen0W3VzBj1mvDpkG6wS7aU3zo0=";
+  };
+
+  v0_6_384 = fetchQmkFirmware {
+    tag = "0.6.384";
+    hash = "sha256-nRaswQ+y7sUbE1MsDror3vMMlrwNUY7ErCRAYDi4VUE=";
+  };
+
+  v0_6_383 = fetchQmkFirmware {
+    tag = "0.6.383";
+    hash = "sha256-RSVz4almZWIqyfpzVmEQa8Dy9KSD+Own+4BjAh1CSV0=";
+  };
+
+  v0_6_382 = fetchQmkFirmware {
+    tag = "0.6.382";
+    hash = "sha256-4WRl+jreU73Nr27lX6prcV4FIUm447FU/NYpl448vDA=";
+  };
+
+  v0_6_381 = fetchQmkFirmware {
+    tag = "0.6.381";
+    hash = "sha256-JdYUsKONiECykiOA//NA8bF59QogQojcnWwbMMrV5CQ=";
+  };
+
+  v0_6_380 = fetchQmkFirmware {
+    tag = "0.6.380";
+    hash = "sha256-JdYUsKONiECykiOA//NA8bF59QogQojcnWwbMMrV5CQ=";
+  };
+
+  v0_6_379 = fetchQmkFirmware {
+    tag = "0.6.379";
+    hash = "sha256-cWepGA4RjkNfZUmGxcVE8yhPnsW0ASD4HGDDk0a3WWQ=";
+  };
+
+  v0_6_378 = fetchQmkFirmware {
+    tag = "0.6.378";
+    hash = "sha256-z3Cs54I61/phjpkgZG+3hE9C0gxjr42nliFZ82vz4Yg=";
+  };
+
+  v0_6_377 = fetchQmkFirmware {
+    tag = "0.6.377";
+    hash = "sha256-z3Cs54I61/phjpkgZG+3hE9C0gxjr42nliFZ82vz4Yg=";
+  };
+
+  v0_6_376 = fetchQmkFirmware {
+    tag = "0.6.376";
+    hash = "sha256-rRUuNrk5/FHsuWkkwP8m/hOEY6aEvGOLjsVXwYw26Kw=";
+  };
+
+  v0_6_375 = fetchQmkFirmware {
+    tag = "0.6.375";
+    hash = "sha256-4xBvcEfDJtG6MB8ajVkJuhMy6+w7lP7p5LcibKe6r2k=";
+  };
+
+  v0_6_374 = fetchQmkFirmware {
+    tag = "0.6.374";
+    hash = "sha256-xJqmx3N9np+G+A/jN7EQZcxPmZZOpmkFXMEo8TPCWQg=";
+  };
+
+  v0_6_373 = fetchQmkFirmware {
+    tag = "0.6.373";
+    hash = "sha256-5WUUT2gl0NWl1t28WQBDsq6CesqVc/Mb/SSI3pcxT7o=";
+  };
+
+  v0_6_372 = fetchQmkFirmware {
+    tag = "0.6.372";
+    hash = "sha256-fRUYSoPxZjTyY6J7tweqyk5b7eNoW4vi/ypQjAfc+d4=";
+  };
+
+  v0_6_371 = fetchQmkFirmware {
+    tag = "0.6.371";
+    hash = "sha256-cXTfjF5b2d41OLGvTRk5EZXmQUfLcPnGToHSN7S3qGw=";
+  };
+
+  v0_6_370 = fetchQmkFirmware {
+    tag = "0.6.370";
+    hash = "sha256-+sIAMruzAPIJjLQVwzpRqKDwrDzrNh3zc1d67scUCx4=";
+  };
+
+  v0_6_369 = fetchQmkFirmware {
+    tag = "0.6.369";
+    hash = "sha256-4tRuJt8+VZwYrWr3JXbk3hX2rnk9l8PEEPIuHX4Rjm0=";
+  };
+
+  v0_6_368 = fetchQmkFirmware {
+    tag = "0.6.368";
+    hash = "sha256-CqsFfC+a8nEiuHHJDaacVee62LPZgHa/Ob44GApeitA=";
+  };
+
+  v0_6_367 = fetchQmkFirmware {
+    tag = "0.6.367";
+    hash = "sha256-PudFzM+/fNas57sM1zdsYK97XKc47xWgREDPJTcaBJc=";
+  };
+
+  v0_6_366 = fetchQmkFirmware {
+    tag = "0.6.366";
+    hash = "sha256-zZZl7hldUO8Mrx41cs3Q6uqHro4GRhwL6c+GBSSadY0=";
+  };
+
+  v0_6_365 = fetchQmkFirmware {
+    tag = "0.6.365";
+    hash = "sha256-En+emCzVT6mup+erW11fORlAkrhwKzwaYwLg81TrjCk=";
+  };
+
+  v0_6_364 = fetchQmkFirmware {
+    tag = "0.6.364";
+    hash = "sha256-cL252102iLlczhLE6ieR3EZbzickdyRvI916oc+zJTQ=";
+  };
+
+  v0_6_363 = fetchQmkFirmware {
+    tag = "0.6.363";
+    hash = "sha256-ZEVrtC5J6YOjUULDTrbmPRnm6vnMqzBI7LOdaviuKGc=";
+  };
+
+  v0_6_362 = fetchQmkFirmware {
+    tag = "0.6.362";
+    hash = "sha256-EQbswqdMSDxuttmw7oJuVsQREcr3gXaJ3pXycuIJtGs=";
+  };
+
+  v0_6_361 = fetchQmkFirmware {
+    tag = "0.6.361";
+    hash = "sha256-JwFIyQSdOIrzW7W7NiKGMk3NjAlQB2hAR34KuK50yCA=";
+  };
+
+  v0_6_360 = fetchQmkFirmware {
+    tag = "0.6.360";
+    hash = "sha256-AVwkS+lVdMvHaSr4frPkWNP0bYTmc8biH6mBUJ+VrCE=";
+  };
+
+  v0_6_359 = fetchQmkFirmware {
+    tag = "0.6.359";
+    hash = "sha256-zEPB9PjE7Pg9BweHI/NszeE5C1cY4QXB2qFoJM2fT8I=";
+  };
+
+  v0_6_358 = fetchQmkFirmware {
+    tag = "0.6.358";
+    hash = "sha256-WVDctu5T+bL/nLB8TweujezC+W2OnUjVgh1gkIpEySE=";
+  };
+
+  v0_6_357 = fetchQmkFirmware {
+    tag = "0.6.357";
+    hash = "sha256-vd/YLFGm59hke2lY+uDl51qyHtWEK/snR+8565QxnqA=";
+  };
+
+  v0_6_356 = fetchQmkFirmware {
+    tag = "0.6.356";
+    hash = "sha256-XaGkD0AnodsjKnAEUJp4SsoUDVBMlVLUfhFWopeZXs0=";
+  };
+
+  v0_6_355 = fetchQmkFirmware {
+    tag = "0.6.355";
+    hash = "sha256-mZ7eoXUvIV/HDTcW+oUp0wDYBUsGDadofVBGkKk0qLo=";
+  };
+
+  v0_6_354 = fetchQmkFirmware {
+    tag = "0.6.354";
+    hash = "sha256-vEzJT5ApTJV+mLscYEKpF8aMgRhK9CZRrWbVI5l9yXc=";
+  };
+
+  v0_6_353 = fetchQmkFirmware {
+    tag = "0.6.353";
+    hash = "sha256-wekpXJkUBbEUrItoeAiXdBU0BvUCalLTRPCDGFvmcXQ=";
+  };
+
+  v0_6_352 = fetchQmkFirmware {
+    tag = "0.6.352";
+    hash = "sha256-4Y5ZJK2QbhIVh1A1nwx+2VJO/2z2XZP1getnZwqgr0s=";
+  };
+
+  v0_6_351 = fetchQmkFirmware {
+    tag = "0.6.351";
+    hash = "sha256-W6DjyxEaPhJ+F65mZaTrjAAl3O8drS3ihvUBSlayDQQ=";
+  };
+
+  v0_6_350 = fetchQmkFirmware {
+    tag = "0.6.350";
+    hash = "sha256-b2Ebf+bjyjhVnRD9mo/aGveZzScRcZV2bzWQt67NGc0=";
+  };
+
+  v0_6_349 = fetchQmkFirmware {
+    tag = "0.6.349";
+    hash = "sha256-oTGD38rlM1xEvu+6rxfcUVlfheNEZyoxE4EadEbs1Bo=";
+  };
+
+  v0_6_348 = fetchQmkFirmware {
+    tag = "0.6.348";
+    hash = "sha256-LCQIabGc/unFoXwmr9KRWs4Y2XR1lRBLFgfU3d03QPk=";
+  };
+
+  v0_6_347 = fetchQmkFirmware {
+    tag = "0.6.347";
+    hash = "sha256-c6lptRzx3abMuZj5wGNr7HsZurE5aUDj53pMrJm4YaQ=";
+  };
+
+  v0_6_346 = fetchQmkFirmware {
+    tag = "0.6.346";
+    hash = "sha256-4cRCD0KQrFhTvo/iiI2sRCj214o1tw8AnoPlOcWTuwE=";
+  };
+
+  v0_6_345 = fetchQmkFirmware {
+    tag = "0.6.345";
+    hash = "sha256-F3NVuzv72DWSIgNMo+tnbHAhNOlgLZ9BEUKHG9WkC3Y=";
+  };
+
+  v0_6_344 = fetchQmkFirmware {
+    tag = "0.6.344";
+    hash = "sha256-oFwtGTLVeE3tUalExn3QPiALeSGmSq1V3otkXjkN64E=";
+  };
+
+  v0_6_343 = fetchQmkFirmware {
+    tag = "0.6.343";
+    hash = "sha256-oFwtGTLVeE3tUalExn3QPiALeSGmSq1V3otkXjkN64E=";
+  };
+
+  v0_6_342 = fetchQmkFirmware {
+    tag = "0.6.342";
+    hash = "sha256-1kX5KbtFE67DjI7TjaERKFZfMi0Cf9ppoXm+5dCjKwk=";
+  };
+
+  v0_6_341 = fetchQmkFirmware {
+    tag = "0.6.341";
+    hash = "sha256-l+oZMchF9K0eWLBP0rQ45Bkpkq7/MoZuMTWHnm2vOPU=";
+  };
+
+  v0_6_340 = fetchQmkFirmware {
+    tag = "0.6.340";
+    hash = "sha256-Bh0LFGnmv0friobqC4ugug0xNGlbQOKvoh+z/5qFF5Q=";
+  };
+
+  v0_6_339 = fetchQmkFirmware {
+    tag = "0.6.339";
+    hash = "sha256-1ltF31eQV3VQdQagy6v+hZCTClWLWTQPs94LpaK8ylo=";
+  };
+
+  v0_6_338 = fetchQmkFirmware {
+    tag = "0.6.338";
+    hash = "sha256-apIisCxvjaE5KN2vZkrJSs65AbbufFlBQMBaa/wLrmA=";
+  };
+
+  v0_6_337 = fetchQmkFirmware {
+    tag = "0.6.337";
+    hash = "sha256-C7a2QDTg2iOqGVNSTlqujtt41GGZhs2xt3Jeks+G6OE=";
+  };
+
+  v0_6_336 = fetchQmkFirmware {
+    tag = "0.6.336";
+    hash = "sha256-brGTyZrUlFWgS765e6UWuxV6TVT9E2w4oNDjsNiLYXU=";
+  };
+
+  v0_6_335 = fetchQmkFirmware {
+    tag = "0.6.335";
+    hash = "sha256-em4yLD7VnlViPYNmdGcbzjwPVzSKIjwURjqEg7S7wOQ=";
+  };
+
+  v0_6_334 = fetchQmkFirmware {
+    tag = "0.6.334";
+    hash = "sha256-DdyplYovhbo0eA5iWVxMMPVVlWtS6E+0MnB1ssGvRkc=";
+  };
+
+  v0_6_333 = fetchQmkFirmware {
+    tag = "0.6.333";
+    hash = "sha256-CVPdX3HCktabHqHBmW96AOic3Xo7EcTqNckelH+ANFQ=";
+  };
+
+  v0_6_332 = fetchQmkFirmware {
+    tag = "0.6.332";
+    hash = "sha256-tcJ3p9v5CANYS7VMYZ0dM5iJVXiCMAeTuecmXo4l59c=";
+  };
+
+  v0_6_331 = fetchQmkFirmware {
+    tag = "0.6.331";
+    hash = "sha256-wq9cP8g8tcWDJjwVMoBFOy+UN+B7Jl3tG2ngVPXvC4Y=";
+  };
+
+  v0_6_330 = fetchQmkFirmware {
+    tag = "0.6.330";
+    hash = "sha256-wo1f2OJSDQtazBGoDcaP2PA5TwDTzZXIGczo6glka6Y=";
+  };
+
+  v0_6_329 = fetchQmkFirmware {
+    tag = "0.6.329";
+    hash = "sha256-1fCRAE8+eflOKxt9dSmER8Non6iqxBMhML1J98KVgMs=";
+  };
+
+  v0_6_328 = fetchQmkFirmware {
+    tag = "0.6.328";
+    hash = "sha256-fOhiV/fekNxlkoJHGkTTEluu7oRq6Q723HwsazzA6/A=";
+  };
+
+  v0_6_327 = fetchQmkFirmware {
+    tag = "0.6.327";
+    hash = "sha256-DaFmeGTmNemBx0HSscPihAbf5nVFUCozAUYJwdLnGTg=";
+  };
+
+  v0_6_326 = fetchQmkFirmware {
+    tag = "0.6.326";
+    hash = "sha256-DVbAmBoWY/5b/npixmXK71koXPpcIsspaJTIQWLDOxs=";
+  };
+
+  v0_6_325 = fetchQmkFirmware {
+    tag = "0.6.325";
+    hash = "sha256-lJq7ufHXBYVMaJ93gxIa8lg6l7BrvEIPE9VK+KVkxuk=";
+  };
+
+  v0_6_324 = fetchQmkFirmware {
+    tag = "0.6.324";
+    hash = "sha256-hjO4YF1aqPoC7rZYukYltOEaxBzYE4U1cy8xirxbcpI=";
+  };
+
+  v0_6_323 = fetchQmkFirmware {
+    tag = "0.6.323";
+    hash = "sha256-NnxMHI9rNilKGbu8Fd/Z6Fp2/MqU9E4x4fLKo/OMzS0=";
+  };
+
+  v0_6_322 = fetchQmkFirmware {
+    tag = "0.6.322";
+    hash = "sha256-8Z7SQFQd7yqo7gmv1uzNvn9lr84bttn4sfOaCvtqu8o=";
+  };
+
+  v0_6_321 = fetchQmkFirmware {
+    tag = "0.6.321";
+    hash = "sha256-tPKH3A+91CdbkuooDKEz1xnKpzM7VRpsWuAJueY4MeI=";
+  };
+
+  v0_6_320 = fetchQmkFirmware {
+    tag = "0.6.320";
+    hash = "sha256-EiQR+b9bIb091S8S8wGqqm4EWmP3Sbe4KqUxIIkmpr0=";
+  };
+
+  v0_6_319 = fetchQmkFirmware {
+    tag = "0.6.319";
+    hash = "sha256-gIL4IH7lLsi8/gjs2wPuyqN0a/RZxpjiRanffSCOtiA=";
+  };
+
+  v0_6_318 = fetchQmkFirmware {
+    tag = "0.6.318";
+    hash = "sha256-94HLLX5U1W6meiP1MdIpfrt/JCIVyMGPNv94Ukvpf5k=";
+  };
+
+  v0_6_317 = fetchQmkFirmware {
+    tag = "0.6.317";
+    hash = "sha256-10Z/LEAAiJjYM+wEAGFKlKp9eERq4bkVBUbT3cfxJ1o=";
+  };
+
+  v0_6_316 = fetchQmkFirmware {
+    tag = "0.6.316";
+    hash = "sha256-OBnREN7ppgmPQh01cnp9M9Ar3nnI3RY9z3dZfGeRjpo=";
+  };
+
+  v0_6_315 = fetchQmkFirmware {
+    tag = "0.6.315";
+    hash = "sha256-W56bLM+Mzylo0b5xXQtH1j+Dy98+c6iYnwlm4i4AbZU=";
+  };
+
+  v0_6_314 = fetchQmkFirmware {
+    tag = "0.6.314";
+    hash = "sha256-XyKmRnlOxMSLP3s/fzo4FSqh9/0j8f9E1a8KsxlH22s=";
+  };
+
+  v0_6_313 = fetchQmkFirmware {
+    tag = "0.6.313";
+    hash = "sha256-peTeeFqWPR7k+FcZmXqQFc7n/1foQyQ7E9eQYMrbQ9s=";
+  };
+
+  v0_6_312 = fetchQmkFirmware {
+    tag = "0.6.312";
+    hash = "sha256-ZedNMqppImIKTqivT6+uD/dTRkp8/eJnh2SwlF4pfzU=";
+  };
+
+  v0_6_311 = fetchQmkFirmware {
+    tag = "0.6.311";
+    hash = "sha256-a+j/I//ld1OdazO7Ljagpi9rAX5Wfdk6DqxcEUAQDeI=";
+  };
+
+  v0_6_310 = fetchQmkFirmware {
+    tag = "0.6.310";
+    hash = "sha256-xqQ4jrU5pmLao8Xd9cW0Xnijb68CHlsPJhvs0jaErI4=";
+  };
+
+  v0_6_309 = fetchQmkFirmware {
+    tag = "0.6.309";
+    hash = "sha256-9avI8+RBlfuj7g3v2D8vsIAcb/UJgkU9OMZlnheg8iI=";
+  };
+
+  v0_6_308 = fetchQmkFirmware {
+    tag = "0.6.308";
+    hash = "sha256-IHOyf57TQjFPwUd6vdprDMloLn/C4WMGVJQ1BV4vmME=";
+  };
+
+  v0_6_307 = fetchQmkFirmware {
+    tag = "0.6.307";
+    hash = "sha256-LHrAh2jRsM97fmwSr/Yqi6Jz7bGGfLubGHkmRYvuVU4=";
+  };
+
+  v0_6_306 = fetchQmkFirmware {
+    tag = "0.6.306";
+    hash = "sha256-+nMdUBsLFT2Q/5bexxPPBupRp23Fv1s6zUgorWEcGEY=";
+  };
+
+  v0_6_305 = fetchQmkFirmware {
+    tag = "0.6.305";
+    hash = "sha256-PqArDhNLYVOQxmIDc6R03fxpdvkQ55VyNpHzhIQFHL0=";
+  };
+
+  v0_6_304 = fetchQmkFirmware {
+    tag = "0.6.304";
+    hash = "sha256-g0NBrulv8bv119w5zoWPqS9pkZCxkyfRaAA7Rab662s=";
+  };
+
+  v0_6_303 = fetchQmkFirmware {
+    tag = "0.6.303";
+    hash = "sha256-78nPIaM/2rClN1zTlo9ED1pHav0DVERJMDibVY9TFAE=";
+  };
+
+  v0_6_302 = fetchQmkFirmware {
+    tag = "0.6.302";
+    hash = "sha256-TPUHOMHJC5GD91r/aeoXOmsoXODVuV8QENNcYV3l1Os=";
+  };
+
+  v0_6_301 = fetchQmkFirmware {
+    tag = "0.6.301";
+    hash = "sha256-IeOFWxxl0mmVl6v7qEB9ST5dTiKYYxio9ESuIDnK9PY=";
+  };
+
+  v0_6_300 = fetchQmkFirmware {
+    tag = "0.6.300";
+    hash = "sha256-s5AG68FYKpX4yyPdCRftaVffVmcDTLejnPN/U8DL7zE=";
+  };
+
+  v0_6_299 = fetchQmkFirmware {
+    tag = "0.6.299";
+    hash = "sha256-0FisOmtKLi3F282wUcZgAv3c4pcngzc4V/Uqq4b8lFo=";
+  };
+
+  v0_6_298 = fetchQmkFirmware {
+    tag = "0.6.298";
+    hash = "sha256-tpIrpUwoNz3hQTAIY4qNbwvDB1xgCvI1OurqRFG2c+k=";
+  };
+
+  v0_6_297 = fetchQmkFirmware {
+    tag = "0.6.297";
+    hash = "sha256-kKL7WH2wupMVP6eZ094TuGOC4lRCXeo84UYrPw0g0bg=";
+  };
+
+  v0_6_296 = fetchQmkFirmware {
+    tag = "0.6.296";
+    hash = "sha256-Y0GT9ogVrf/Zl5ltql1ltyA7cdDKl/K0VJp24xd6Eaw=";
+  };
+
+  v0_6_295 = fetchQmkFirmware {
+    tag = "0.6.295";
+    hash = "sha256-MwgMZQAYjEC+L23rxkrffB2tjJA7J52J+reaSOKBAsk=";
+  };
+
+  v0_6_294 = fetchQmkFirmware {
+    tag = "0.6.294";
+    hash = "sha256-4E26wc5ql/AbJk/xy8Oq1bQoW64KkfFMrGxRGOCDtQY=";
+  };
+
+  v0_6_293 = fetchQmkFirmware {
+    tag = "0.6.293";
+    hash = "sha256-Hrl9otNFsZWL6kUUQN71frEGZLhjtdx47kuhuMsNpuk=";
+  };
+
+  v0_6_292 = fetchQmkFirmware {
+    tag = "0.6.292";
+    hash = "sha256-GfzG8s+XeENm69o5VbXuS0x/v/YtbJKUbsZqXtMLSKk=";
+  };
+
+  v0_6_291 = fetchQmkFirmware {
+    tag = "0.6.291";
+    hash = "sha256-i/iB0ATnp5Mwa8vPcUekmW6k/DdxPEz5p0/eThy0mFc=";
+  };
+
+  v0_6_290 = fetchQmkFirmware {
+    tag = "0.6.290";
+    hash = "sha256-0Td8rahuAMdXz5mDYGPpemSiky5YcVB4EAI0ES1kht4=";
+  };
+
+  v0_6_289 = fetchQmkFirmware {
+    tag = "0.6.289";
+    hash = "sha256-q5SW+gRsRdTA98tparrjWaVT58ZbqlgCVtuwxCwKMWk=";
+  };
+
+  v0_6_288 = fetchQmkFirmware {
+    tag = "0.6.288";
+    hash = "sha256-8iZwfD35iBZ96wuqj8Z1xf2nhtKKQm9o+NjqRXXTOF8=";
+  };
+
+  v0_6_287 = fetchQmkFirmware {
+    tag = "0.6.287";
+    hash = "sha256-aVYkEa4LoG5UCH9nNol6I4zlXpBEmDP6+skWf6HoNpI=";
+  };
+
+  v0_6_286 = fetchQmkFirmware {
+    tag = "0.6.286";
+    hash = "sha256-zj+R0ub3G/0Bz4mZ8iKwXE22KW6Pgr6o+YTEmqgF8lw=";
+  };
+
+  v0_6_285 = fetchQmkFirmware {
+    tag = "0.6.285";
+    hash = "sha256-RI/92aoSBgqa1v9VvwZ2g92iSliWbUZp71OEEQtrYcU=";
+  };
+
+  v0_6_284 = fetchQmkFirmware {
+    tag = "0.6.284";
+    hash = "sha256-BK8F1IPHoUsYAwR7HZG0F/i//eb4aPN3HXDjjWo3fb8=";
+  };
+
+  v0_6_283 = fetchQmkFirmware {
+    tag = "0.6.283";
+    hash = "sha256-/fWBL0ssp+zUTDAEzw+2gM/XVPpqmJ9SKSIb/0t01Gg=";
+  };
+
+  v0_6_282 = fetchQmkFirmware {
+    tag = "0.6.282";
+    hash = "sha256-qA0acOAXr9bfwj0/YGoQdYvmi0ks+fZe/4CnZd5z8ag=";
+  };
+
+  v0_6_281 = fetchQmkFirmware {
+    tag = "0.6.281";
+    hash = "sha256-hpObApRqargr/lOCTCd+7NS2ehG1+zwbP7QogWa4e10=";
+  };
+
+  v0_6_280 = fetchQmkFirmware {
+    tag = "0.6.280";
+    hash = "sha256-SrLK1IadzNjK2WPU0/pQdmD4kEkLr7vgINrm9XB5wjs=";
+  };
+
+  v0_6_279 = fetchQmkFirmware {
+    tag = "0.6.279";
+    hash = "sha256-Z0VkhW0D/0U5jFy2k9tI1HCX4wak9Lxx0QJbNCx/MN0=";
+  };
+
+  v0_6_278 = fetchQmkFirmware {
+    tag = "0.6.278";
+    hash = "sha256-rHJvJhFklOhmtjdvB2HQidRLooWB6QAEFLI9amiHq28=";
+  };
+
+  v0_6_277 = fetchQmkFirmware {
+    tag = "0.6.277";
+    hash = "sha256-iViC5nB4kieytJcTXotz0AeC4UDyDswT/X/4qTsZyxE=";
+  };
+
+  v0_6_276 = fetchQmkFirmware {
+    tag = "0.6.276";
+    hash = "sha256-X/yx07aYNqbr1iLSVqBdox4V/kDlXQqn9nmKdLdEPpA=";
+  };
+
+  v0_6_275 = fetchQmkFirmware {
+    tag = "0.6.275";
+    hash = "sha256-rOx8hyf5oQG7d04e7Js4ENRE8yWUtgDQz7vXlQisY1k=";
+  };
+
+  v0_6_274 = fetchQmkFirmware {
+    tag = "0.6.274";
+    hash = "sha256-vq/Mu5feCCBq8hYWpBxSm7jaAmUsFf25UBo3PmZNsJU=";
+  };
+
+  v0_6_273 = fetchQmkFirmware {
+    tag = "0.6.273";
+    hash = "sha256-teukt4xurEZdRw/kxclNSL1aAIl+Lz+6uAgB6cBnDBw=";
+  };
+
+  v0_6_272 = fetchQmkFirmware {
+    tag = "0.6.272";
+    hash = "sha256-r+zaCpgSqUcXip7KCgbvtTFJxBQbCwEXLO0uJB8MLFo=";
+  };
+
+  v0_6_271 = fetchQmkFirmware {
+    tag = "0.6.271";
+    hash = "sha256-qurUEX9ou7nhda8YFqzx0q5a+74L589KfEcPipvwIIY=";
+  };
+
+  v0_6_270 = fetchQmkFirmware {
+    tag = "0.6.270";
+    hash = "sha256-5HIjL01K+QEAGqCPQbC4eL3lXZmSTXhPRQZTWKV2DfQ=";
+  };
+
+  v0_6_269 = fetchQmkFirmware {
+    tag = "0.6.269";
+    hash = "sha256-2bmcZfKwN6c5nimd4wDuNKuuyI+/AYp/1Q7iGgOEPaY=";
+  };
+
+  v0_6_268 = fetchQmkFirmware {
+    tag = "0.6.268";
+    hash = "sha256-PSW9Y8lWiIKiUEbBmgGSegqsaaHD9zdMohpCxToB/xQ=";
+  };
+
+  v0_6_267 = fetchQmkFirmware {
+    tag = "0.6.267";
+    hash = "sha256-NB6EiIZlcam++GxdlmVsTKssSAWztErkFEth2SOYSIQ=";
+  };
+
+  v0_6_266 = fetchQmkFirmware {
+    tag = "0.6.266";
+    hash = "sha256-4vpSK8OS6SAA9gVoFplYTIU+oJLrDUVTkplueRaqWac=";
+  };
+
+  v0_6_265 = fetchQmkFirmware {
+    tag = "0.6.265";
+    hash = "sha256-1rPFxqtj7PQ49vkga4G9NL5Jcns4/Fj9cHNP+RzB0Hw=";
+  };
+
+  v0_6_264 = fetchQmkFirmware {
+    tag = "0.6.264";
+    hash = "sha256-E+Dh3i8LoNW9jTHz3zBBSiWoFmCz4hu4rSbH6Ix6Zh0=";
+  };
+
+  v0_6_263 = fetchQmkFirmware {
+    tag = "0.6.263";
+    hash = "sha256-N3712cSzV223JzaOF837EFqKWc5RS3PCa1TU2ho5vkk=";
+  };
+
+  v0_6_262 = fetchQmkFirmware {
+    tag = "0.6.262";
+    hash = "sha256-4T1YTju4XwenSj0ZSk0y33h6CCqo+ep6/ItSzWMdppA=";
+  };
+
+  v0_6_261 = fetchQmkFirmware {
+    tag = "0.6.261";
+    hash = "sha256-GBZC9wlaMxYvsnvWUZXpGRxB7pL7/qPJP/1y5I7Eh8Y=";
+  };
+
+  v0_6_260 = fetchQmkFirmware {
+    tag = "0.6.260";
+    hash = "sha256-aE/xqXjmTXqOWyL4uvwWhhovOtz/coeJNycxkkDZ6PI=";
+  };
+
+  v0_6_259 = fetchQmkFirmware {
+    tag = "0.6.259";
+    hash = "sha256-ELiExbdGWpxK4LR7N9eb6BzqTij2fP9CrRSltaiVhVo=";
+  };
+
+  v0_6_258 = fetchQmkFirmware {
+    tag = "0.6.258";
+    hash = "sha256-SUEkNhAGWZ7J5mbn++zfoJLO4ToiiqtizI4QRaCUOF0=";
+  };
+
+  v0_6_257 = fetchQmkFirmware {
+    tag = "0.6.257";
+    hash = "sha256-/mear8Mn+cGPhkaC/87GbzIfFhgrwPtswqYzLNizwUE=";
+  };
+
+  v0_6_256 = fetchQmkFirmware {
+    tag = "0.6.256";
+    hash = "sha256-YkbepQRN6oJ2eCbf+J0EVKuKVgWgt2DXpGEpzmFsob0=";
+  };
+
+  v0_6_255 = fetchQmkFirmware {
+    tag = "0.6.255";
+    hash = "sha256-3uX2GLm7ZvtGHO3awbzFt/8wen5SaPlwaSIkvsyMVY4=";
+  };
+
+  v0_6_254 = fetchQmkFirmware {
+    tag = "0.6.254";
+    hash = "sha256-BOKLIuYGLoKxjjz7qVMZ18ap1WtJ4eZ7BNK6auShVAE=";
+  };
+
+  v0_6_253 = fetchQmkFirmware {
+    tag = "0.6.253";
+    hash = "sha256-bdUP+NLmZ4Uuu87+F6VQ50E/LDwBdeSFmqJRddjTwyw=";
+  };
+
+  v0_6_252 = fetchQmkFirmware {
+    tag = "0.6.252";
+    hash = "sha256-dk2NGw8rIitr2cy2+f0N0ANC33u4vnvYNRPprV+MmJk=";
+  };
+
+  v0_6_251 = fetchQmkFirmware {
+    tag = "0.6.251";
+    hash = "sha256-zhbKYcUTVcQRRtxf7Dr218w4u7T/xBU5CHxSizRhUYY=";
+  };
+
+  v0_6_250 = fetchQmkFirmware {
+    tag = "0.6.250";
+    hash = "sha256-n3W4VszEl11lohPdf6uH97Pc6ZyBzg6FaKIo927PJfQ=";
+  };
+
+  v0_6_249 = fetchQmkFirmware {
+    tag = "0.6.249";
+    hash = "sha256-EH9sToYF6GSgDa/tzJZ/HjV9tjJJPm0fRkJ7MYb71Yo=";
+  };
+
+  v0_6_248 = fetchQmkFirmware {
+    tag = "0.6.248";
+    hash = "sha256-9PVShtgyE5uufRXT6oyee/5ZB2r+bTZAo3I4L2RAmRs=";
+  };
+
+  v0_6_247 = fetchQmkFirmware {
+    tag = "0.6.247";
+    hash = "sha256-jpTuC7NQaOpavZTeuudWsJSb1c++vtQq51gR0IIGIb0=";
+  };
+
+  v0_6_246 = fetchQmkFirmware {
+    tag = "0.6.246";
+    hash = "sha256-H54nHtU7K7epoAzdfwPk36hEfnKxH+ikbDl+5HXEuLg=";
+  };
+
+  v0_6_245 = fetchQmkFirmware {
+    tag = "0.6.245";
+    hash = "sha256-LMVDLAK84kJjxg7X8OXVilejaw3XIk7WuceY9kE6Bdk=";
+  };
+
+  v0_6_244 = fetchQmkFirmware {
+    tag = "0.6.244";
+    hash = "sha256-uPnc6jFxnapUOJImNc447+q94HHOt2UgWaSnszqtyFA=";
+  };
+
+  v0_6_243 = fetchQmkFirmware {
+    tag = "0.6.243";
+    hash = "sha256-1OWvAiN6MBfDHMm/uMKSEASgU6Z7whAkiUv+UtjsSNs=";
+  };
+
+  v0_6_242 = fetchQmkFirmware {
+    tag = "0.6.242";
+    hash = "sha256-F6ngRxLtCQ+f2L3B2iLTYTp51KDRPLFUs3LytB+36qU=";
+  };
+
+  v0_6_241 = fetchQmkFirmware {
+    tag = "0.6.241";
+    hash = "sha256-3sM4RHZK2/p++jOBaUqRex0Ky22X1pPma1DcrHGf0XU=";
+  };
+
+  v0_6_240 = fetchQmkFirmware {
+    tag = "0.6.240";
+    hash = "sha256-DfiUGg4iXrr3iS3OTn64VV67OVslZ4FJtZvpFE13Hvg=";
+  };
+
+  v0_6_239 = fetchQmkFirmware {
+    tag = "0.6.239";
+    hash = "sha256-ugo9XE/rBLToR/cuKpKRd7h/2MH612Xx3V6z+6Of4rc=";
+  };
+
+  v0_6_238 = fetchQmkFirmware {
+    tag = "0.6.238";
+    hash = "sha256-LwGmz7TU/Grm+FgH/1qtH/ddQlTcFq4fbqJFeS2a1vk=";
+  };
+
+  v0_6_237 = fetchQmkFirmware {
+    tag = "0.6.237";
+    hash = "sha256-2dxDggm8c5f7grS8VYId5dbu+poYscFnOzvamHdulsY=";
+  };
+
+  v0_6_236 = fetchQmkFirmware {
+    tag = "0.6.236";
+    hash = "sha256-yQhIxEUS0FDMdEcMw0WagTl5OjeUaWhDM3wLLU9mGEo=";
+  };
+
+  v0_6_235 = fetchQmkFirmware {
+    tag = "0.6.235";
+    hash = "sha256-2OtxvSpUvgKnd3VyYldILjIQ11z3y6f3a9USaS/rk6I=";
+  };
+
+  v0_6_234 = fetchQmkFirmware {
+    tag = "0.6.234";
+    hash = "sha256-tX/XaB7ts3ZtwG/NkX/cv8lvSy1zDxsshqWkeLfk1fM=";
+  };
+
+  v0_6_233 = fetchQmkFirmware {
+    tag = "0.6.233";
+    hash = "sha256-BUHx1cdjeKauZlk1tm+tpVMGX8m8mjrgm9vBH7AQ4Vk=";
+  };
+
+  v0_6_232 = fetchQmkFirmware {
+    tag = "0.6.232";
+    hash = "sha256-erVf8Zz0k8wVdJzKwFhF8u7qTtajUDsoEcOZT/skkFU=";
+  };
+
+  v0_6_231 = fetchQmkFirmware {
+    tag = "0.6.231";
+    hash = "sha256-963pNaAuI/kKF20YnpZziH86NH+JP+GDaNL168jijvw=";
+  };
+
+  v0_6_230 = fetchQmkFirmware {
+    tag = "0.6.230";
+    hash = "sha256-EKJ2VZh5tiV+U3pbV419rTDhG08PAW2LOWSc4SCCEAQ=";
+  };
+
+  v0_6_229 = fetchQmkFirmware {
+    tag = "0.6.229";
+    hash = "sha256-MXNikBCFoWtHuexqFdFO5hSF0Uwt4WjeAIAoV8JDKaA=";
+  };
+
+  v0_6_228 = fetchQmkFirmware {
+    tag = "0.6.228";
+    hash = "sha256-tdtYm3zOJ2+lRPX7qzUky2hFkaeFRCTvPoVJP3Su744=";
+  };
+
+  v0_6_227 = fetchQmkFirmware {
+    tag = "0.6.227";
+    hash = "sha256-uGhTelavoKzhQCLp5PcRVa+VNqGHIgF3vLdsYjBmS70=";
+  };
+
+  v0_6_226 = fetchQmkFirmware {
+    tag = "0.6.226";
+    hash = "sha256-xHCo3k9/V+0SqQyFyzPP5iQVGVOl/pxBM6AutRf6fEc=";
+  };
+
+  v0_6_225 = fetchQmkFirmware {
+    tag = "0.6.225";
+    hash = "sha256-rLcsW+PJFvjBBCCztNGBrjjMocx3Joi+PWQ0LvwcFlQ=";
+  };
+
+  v0_6_224 = fetchQmkFirmware {
+    tag = "0.6.224";
+    hash = "sha256-XX5+5TnuzN8EPGo9XDR+AxMI8bz621WUtPAAFqrBYPI=";
+  };
+
+  v0_6_223 = fetchQmkFirmware {
+    tag = "0.6.223";
+    hash = "sha256-DPYUbjWDOR6BtQiFyqKYU5lvv9AL9ty1ClptErydkXQ=";
+  };
+
+  v0_6_222 = fetchQmkFirmware {
+    tag = "0.6.222";
+    hash = "sha256-Rk3wxqgsxGBbmBX5sUopyE6KO/MjtDmh4Uix9Vn0ywM=";
+  };
+
+  v0_6_221 = fetchQmkFirmware {
+    tag = "0.6.221";
+    hash = "sha256-o0MDtnBqZdm2YnofL5gqAUP+iCwVKmdWZVGVOn5xw6s=";
+  };
+
+  v0_6_220 = fetchQmkFirmware {
+    tag = "0.6.220";
+    hash = "sha256-25QiEK8MRJdG4Ta5mHczUnSvit+FxRhwktgC8P9Tpws=";
+  };
+
+  v0_6_219 = fetchQmkFirmware {
+    tag = "0.6.219";
+    hash = "sha256-YEMiRagW+F3SwqNYM8C+Nz4QvKp3izN+BtKwraAPqYI=";
+  };
+
+  v0_6_218 = fetchQmkFirmware {
+    tag = "0.6.218";
+    hash = "sha256-Q6wr250MMbqHhPxqtd/hmYSB7J126QJ347hj8/YWvTw=";
+  };
+
+  v0_6_217 = fetchQmkFirmware {
+    tag = "0.6.217";
+    hash = "sha256-K7961+OtJoAgjyHqhbh8Sy2AsPFT4nU6Jc+8VNerS+Y=";
+  };
+
+  v0_6_216 = fetchQmkFirmware {
+    tag = "0.6.216";
+    hash = "sha256-C+VtshWyw1c4ryH4zuGhgAY5bhqifsOUGUQAZ3XhEc4=";
+  };
+
+  v0_6_215 = fetchQmkFirmware {
+    tag = "0.6.215";
+    hash = "sha256-hQjQTO8WaPKJNQddCYLiFd0E5hO9JCJ245s2diOhWTw=";
+  };
+
+  v0_6_214 = fetchQmkFirmware {
+    tag = "0.6.214";
+    hash = "sha256-gkYrgA0BCVGh6yFjA71EVFzj9BsOxidnngNSBvalxDk=";
+  };
+
+  v0_6_213 = fetchQmkFirmware {
+    tag = "0.6.213";
+    hash = "sha256-qvqUaxh1YcGbvxbOPlimfOczDWABSXoE1+YnhHU4CMQ=";
+  };
+
+  v0_6_212 = fetchQmkFirmware {
+    tag = "0.6.212";
+    hash = "sha256-7cde2kf4UqD+FbN/SLm16szi1RU81Nmb6YqpFH8fC+g=";
+  };
+
+  v0_6_211 = fetchQmkFirmware {
+    tag = "0.6.211";
+    hash = "sha256-9jdP1brd+wU8RJgjknBtHtYY5xFdpsWVyd0LeX0NTiA=";
+  };
+
+  v0_6_210 = fetchQmkFirmware {
+    tag = "0.6.210";
+    hash = "sha256-U7SRm4pEQQO8hBCREHIkooyWTi3fL7c13LIVI2KjvCs=";
+  };
+
+  v0_6_209 = fetchQmkFirmware {
+    tag = "0.6.209";
+    hash = "sha256-WXTy2nGM44jKJbHBTcl7zUmIjqWAuaEd4ybhP0CNheI=";
+  };
+
+  v0_6_208 = fetchQmkFirmware {
+    tag = "0.6.208";
+    hash = "sha256-zJl2rfH9iIDGMI2un6x0bb/ISMDlhqAB4/j/OOR7jQY=";
+  };
+
+  v0_6_207 = fetchQmkFirmware {
+    tag = "0.6.207";
+    hash = "sha256-zJl2rfH9iIDGMI2un6x0bb/ISMDlhqAB4/j/OOR7jQY=";
+  };
+
+  v0_6_206 = fetchQmkFirmware {
+    tag = "0.6.206";
+    hash = "sha256-7vPz2gJwpsoVE9g/rgO7IunX+gFZEzy2lIM5t9XJvME=";
+  };
+
+  v0_6_205 = fetchQmkFirmware {
+    tag = "0.6.205";
+    hash = "sha256-443240/md2XYRbJ2CMQXwR/EI43wAAquDYsRw2jsEEk=";
+  };
+
+  v0_6_204 = fetchQmkFirmware {
+    tag = "0.6.204";
+    hash = "sha256-hRJOood48k0N1wPGvZXzCjcA8ovWiMiAIM5nKfnMSQU=";
+  };
+
+  v0_6_203 = fetchQmkFirmware {
+    tag = "0.6.203";
+    hash = "sha256-8pPZv06dp2OjF77KUOQCtbnGhAs99EWCxpnUnO2Gk4U=";
+  };
+
+  v0_6_202 = fetchQmkFirmware {
+    tag = "0.6.202";
+    hash = "sha256-cyKU6H8Dy0gUxUM5nHc85jxaoO4lGzy8CnbksCdLPog=";
+  };
+
+  v0_6_201 = fetchQmkFirmware {
+    tag = "0.6.201";
+    hash = "sha256-l0rOZWWZ3/eDT6Egqkb5Hwz5Yvp/Hu/ZPLrDF+gob1U=";
+  };
+
+  v0_6_200 = fetchQmkFirmware {
+    tag = "0.6.200";
+    hash = "sha256-3h7K2lCnO//b8CBvOVaPn9R3+TbaUF8jJD3AnCFwo1k=";
+  };
+
+  v0_6_199 = fetchQmkFirmware {
+    tag = "0.6.199";
+    hash = "sha256-3M6q1SolQuaOI21RRpIe0UuPAgqLufU3LSqAeO31mTQ=";
+  };
+
+  v0_6_198 = fetchQmkFirmware {
+    tag = "0.6.198";
+    hash = "sha256-VT5TQ3Bra/1KPnlb0QU1nyYfXGowjdBZaLPCQaf0Cnw=";
+  };
+
+  v0_6_197 = fetchQmkFirmware {
+    tag = "0.6.197";
+    hash = "sha256-nYXP9jUaF7eALGPrA8cx5i7recEWzDVYG9YWphU644E=";
+  };
+
+  v0_6_196 = fetchQmkFirmware {
+    tag = "0.6.196";
+    hash = "sha256-/D+OyaXv+yqaBFuYecRzDtR2ycme3X64b03STTAeAZ4=";
+  };
+
+  v0_6_195 = fetchQmkFirmware {
+    tag = "0.6.195";
+    hash = "sha256-/VpHMzkJfuioMUJzZlG2JMIhOrqpQ3+hc1gmXNKTtF8=";
+  };
+
+  v0_6_194 = fetchQmkFirmware {
+    tag = "0.6.194";
+    hash = "sha256-+c02nQussFd7TsP/8NJv87qGOvV0xCgbavg9+6YxwK8=";
+  };
+
+  v0_6_193 = fetchQmkFirmware {
+    tag = "0.6.193";
+    hash = "sha256-PFcChVN9tlD/eRoRCcQ9HrzH4kPsPns1jwmDERW1Ru8=";
+  };
+
+  v0_6_192 = fetchQmkFirmware {
+    tag = "0.6.192";
+    hash = "sha256-arZE+CIOdwDV6oOTuXSIe5QUoNou6GI/bo1RbeJluz0=";
+  };
+
+  v0_6_191 = fetchQmkFirmware {
+    tag = "0.6.191";
+    hash = "sha256-M3Aixc3AQjnJW4Pzaksyq0xU0djaxc5X5HTn1HzSqlI=";
+  };
+
+  v0_6_190 = fetchQmkFirmware {
+    tag = "0.6.190";
+    hash = "sha256-c8+SBaMeptGY9tY15PN72mj7aTzNo160Np8C2kn5w1g=";
+  };
+
+  v0_6_189 = fetchQmkFirmware {
+    tag = "0.6.189";
+    hash = "sha256-tHra2NC6LnuDsWcPc/TQIYCz4QmtkVRsb56iPTPwduo=";
+  };
+
+  v0_6_188 = fetchQmkFirmware {
+    tag = "0.6.188";
+    hash = "sha256-O87kVtfJcIYPRhC4ZoVxrbGaH9RVQghX0fSiLNSAjOE=";
+  };
+
+  v0_6_187 = fetchQmkFirmware {
+    tag = "0.6.187";
+    hash = "sha256-u7oR7K11cp6Q2vD5U1UV8NU1AIg6uP98tupDMmJpaCE=";
+  };
+
+  v0_6_186 = fetchQmkFirmware {
+    tag = "0.6.186";
+    hash = "sha256-fI9qfoMyaJQso59QCTi66NT5wVEo0Y+7ABgwVGtex1w=";
+  };
+
+  v0_6_185 = fetchQmkFirmware {
+    tag = "0.6.185";
+    hash = "sha256-fLpWFHEa7VQher7XACt166DDt8KqeBB+VYs2WscHZMQ=";
+  };
+
+  v0_6_184 = fetchQmkFirmware {
+    tag = "0.6.184";
+    hash = "sha256-hNTGf5JBw4RgcZbXDRGrtfhHifnL/qJuJpiBP3SPnyU=";
+  };
+
+  v0_6_183 = fetchQmkFirmware {
+    tag = "0.6.183";
+    hash = "sha256-ZIip6GliRF37E8JcmJW+h+ElYmj2n5KrFjXyvU0vdvg=";
+  };
+
+  v0_6_182 = fetchQmkFirmware {
+    tag = "0.6.182";
+    hash = "sha256-tKCvSQXpE/FLZ/z34S3Mb1r3sQ9HVBDu/hpt8kznMw0=";
+  };
+
+  v0_6_181 = fetchQmkFirmware {
+    tag = "0.6.181";
+    hash = "sha256-pi4cniNqmbZfORRLZ5vINoTPo8tnOJtO6gBD1o1rUvs=";
+  };
+
+  v0_6_180 = fetchQmkFirmware {
+    tag = "0.6.180";
+    hash = "sha256-UYFapVnb8ZEtDjncH6wF+M/p7MoAuElHKtG7HhJ10yc=";
+  };
+
+  v0_6_179 = fetchQmkFirmware {
+    tag = "0.6.179";
+    hash = "sha256-UE9qQuiqCPt1WLEEM4w1mIiZPQ3DRV7RLUuGHLq8L2A=";
+  };
+
+  v0_6_178 = fetchQmkFirmware {
+    tag = "0.6.178";
+    hash = "sha256-T/rJsHS2aM+6sLQtVxAdLcT2VwK3D8vnsSZFdT6OsMM=";
+  };
+
+  v0_6_177 = fetchQmkFirmware {
+    tag = "0.6.177";
+    hash = "sha256-KPKWHja26bZUXcg+HJTWvpjksmNLpAe3vVHVUFrZZvU=";
+  };
+
+  v0_6_176 = fetchQmkFirmware {
+    tag = "0.6.176";
+    hash = "sha256-KPKWHja26bZUXcg+HJTWvpjksmNLpAe3vVHVUFrZZvU=";
+  };
+
+  v0_6_175 = fetchQmkFirmware {
+    tag = "0.6.175";
+    hash = "sha256-avCnTxXkRPzNt6RefL0o8SwKwXe9e4fXA1wq8kWDsZc=";
+  };
+
+  v0_6_174 = fetchQmkFirmware {
+    tag = "0.6.174";
+    hash = "sha256-zl84lBGzROlBuba5o6sluS0GGy49t6ZmiLnyAfad5hs=";
+  };
+
+  v0_6_173 = fetchQmkFirmware {
+    tag = "0.6.173";
+    hash = "sha256-/lhXpE3cJO+/6p8hPfBfVeITOGDrlrRdeQ8uHY+xBbU=";
+  };
+
+  v0_6_172 = fetchQmkFirmware {
+    tag = "0.6.172";
+    hash = "sha256-JRC/UKKLaDms8374L/UyqBat2SvEXwHpX/alVT0fvZM=";
+  };
+
+  v0_6_171 = fetchQmkFirmware {
+    tag = "0.6.171";
+    hash = "sha256-FR6ylR2HJNWM20BqYeQPhOpXVzkW1bH7bfBWO6e1WF8=";
+  };
+
+  v0_6_170 = fetchQmkFirmware {
+    tag = "0.6.170";
+    hash = "sha256-B3EtN9X+x+8inkB5SS/+yQkOXvZ+CE4xelt63XJlYtE=";
+  };
+
+  v0_6_169 = fetchQmkFirmware {
+    tag = "0.6.169";
+    hash = "sha256-Set8L/XraPciSoGgOFGMkKibXh8K8UJJ/xC6lZx+mvk=";
+  };
+
+  v0_6_168 = fetchQmkFirmware {
+    tag = "0.6.168";
+    hash = "sha256-jVZWDoDWPSijVG2rMGFYSq/g5+74Xu7UruQDBb3rQD8=";
+  };
+
+  v0_6_167 = fetchQmkFirmware {
+    tag = "0.6.167";
+    hash = "sha256-24zUOuih64smFQzsyb8VWZkGHvh95STyOVh5TzV1gY4=";
+  };
+
+  v0_6_166 = fetchQmkFirmware {
+    tag = "0.6.166";
+    hash = "sha256-ZVZu1s1Y1Dg9sAta6tSSYfgRb4g/QY9uzOKwGeLDO20=";
+  };
+
+  v0_6_165 = fetchQmkFirmware {
+    tag = "0.6.165";
+    hash = "sha256-TKOy9p/C4zVN3z/5n64XkZjCTsUuuhJsUBHqNxCIAxM=";
+  };
+
+  v0_6_164 = fetchQmkFirmware {
+    tag = "0.6.164";
+    hash = "sha256-rjfuBe5lvbQzb7+QDT1TSiQbwT2wq/6rMShRIgpm5go=";
+  };
+
+  v0_6_163 = fetchQmkFirmware {
+    tag = "0.6.163";
+    hash = "sha256-P4h54BoYWeqsmGaeXMFHniBO48WUGsWVX1TqK9/4psw=";
+  };
+
+  v0_6_162 = fetchQmkFirmware {
+    tag = "0.6.162";
+    hash = "sha256-oBbahY7JrZ9KMwqokKiuYXVkNNWlrsIROr/WS1mGQUg=";
+  };
+
+  v0_6_161 = fetchQmkFirmware {
+    tag = "0.6.161";
+    hash = "sha256-CUzKXCpiLuNjhMXj3no6ugn2h3ufbJA7+y9Cy/l8Vzw=";
+  };
+
+  v0_6_160 = fetchQmkFirmware {
+    tag = "0.6.160";
+    hash = "sha256-7V3lmToB5foEoRUKnS1fc4Q0WbvaCUB/XBHC4PqmCBU=";
+  };
+
+  v0_6_159 = fetchQmkFirmware {
+    tag = "0.6.159";
+    hash = "sha256-dlPwQBIfhxIWlEgT0LFmaxHvANOnxfRbqrffHUiTbxI=";
+  };
+
+  v0_6_158 = fetchQmkFirmware {
+    tag = "0.6.158";
+    hash = "sha256-cS7JOZsNyWH9CyGjBXbVc15bxuzHfz94tWQ1SXYv5cs=";
+  };
+
+  v0_6_157 = fetchQmkFirmware {
+    tag = "0.6.157";
+    hash = "sha256-b4NoWu/ILgD4LXZpKMkVb5en2Zz1WuksA4CwuEESkT8=";
+  };
+
+  v0_6_156 = fetchQmkFirmware {
+    tag = "0.6.156";
+    hash = "sha256-wQRNMqE4QRK8M0dgGQkGvjRgkn3/SzDnFAAwzopKK0k=";
+  };
+
+  v0_6_155 = fetchQmkFirmware {
+    tag = "0.6.155";
+    hash = "sha256-q3Lr8PO7bKThJHKc69zRT03VCwTvXcMIo3/f9PQm0PI=";
+  };
+
+  v0_6_154 = fetchQmkFirmware {
+    tag = "0.6.154";
+    hash = "sha256-NIIsFiORzvMWGgGekvBFF17GNQzNi4x8J24Xtjc/KgE=";
+  };
+
+  v0_6_153 = fetchQmkFirmware {
+    tag = "0.6.153";
+    hash = "sha256-KbewkrLYfT4GP2De+y0G7BU4OZLTFTRXviFHRGzOa/g=";
+  };
+
+  v0_6_152 = fetchQmkFirmware {
+    tag = "0.6.152";
+    hash = "sha256-VsHE8kbvbFINH2bNDzLMAWLY3vVYdrjiFrE4PNP96vs=";
+  };
+
+  v0_6_151 = fetchQmkFirmware {
+    tag = "0.6.151";
+    hash = "sha256-hVl3iQDJzZVvNLCmHnyJtiH3I7W8OTbfrk3LF57Mobc=";
+  };
+
+  v0_6_150 = fetchQmkFirmware {
+    tag = "0.6.150";
+    hash = "sha256-YqmbC7ZCyfFHrDXi5UZ2t00l9qIElr/jjR3F5p8d3FQ=";
+  };
+
+  v0_6_149 = fetchQmkFirmware {
+    tag = "0.6.149";
+    hash = "sha256-vjmELBw3uPgecLGYxLktlkyOhE8ODsMW9RLDIJKSnIk=";
+  };
+
+  v0_6_148 = fetchQmkFirmware {
+    tag = "0.6.148";
+    hash = "sha256-kPLL+l/u4169nV/kAF/Dqi0pLqUFFF3XHIMwkfhiNVw=";
+  };
+
+  v0_6_147 = fetchQmkFirmware {
+    tag = "0.6.147";
+    hash = "sha256-xa3Z1epMt+LC/emevYISOZiHvWwdNv5xsyiH63WghlM=";
+  };
+
+  v0_6_146 = fetchQmkFirmware {
+    tag = "0.6.146";
+    hash = "sha256-L5KqQ6E8par0l4i0reNvfqAwKI7w8Libk8bZfIVL9ys=";
+  };
+
+  v0_6_145 = fetchQmkFirmware {
+    tag = "0.6.145";
+    hash = "sha256-W2r8+pJ7disO7aB46KIfKzE4so9RoxwcPKWI5ymH6Ws=";
+  };
+
+  v0_6_144 = fetchQmkFirmware {
+    tag = "0.6.144";
+    hash = "sha256-VmZoI2ixTKBnWl7CuNDId+yCycmQY8jzlFhPMXhy4VQ=";
+  };
+
+  v0_6_143 = fetchQmkFirmware {
+    tag = "0.6.143";
+    hash = "sha256-TC3lpusOWtFB4vXTWX0qJ3e7QCcowPkicJjZr38oK+M=";
+  };
+
+  v0_6_142 = fetchQmkFirmware {
+    tag = "0.6.142";
+    hash = "sha256-d1Sui0YpHRpEi84vlRXzKv6IJQ2+qer7NtklDKxX2pc=";
+  };
+
+  v0_6_141 = fetchQmkFirmware {
+    tag = "0.6.141";
+    hash = "sha256-w1U1QrjF6i8wqBtFp3UX+dXnXa7jGq3LXP05DrezSmI=";
+  };
+
+  v0_6_140 = fetchQmkFirmware {
+    tag = "0.6.140";
+    hash = "sha256-rdJT3cuiTkK9pi6UsJK9H+NMc1S7A+AgKnePd+gVDX0=";
+  };
+
+  v0_6_139 = fetchQmkFirmware {
+    tag = "0.6.139";
+    hash = "sha256-rwAaBcjw759fgKgCtvnlZmQ1OYT7ZUbu+yNkICt6gPw=";
+  };
+
+  v0_6_138 = fetchQmkFirmware {
+    tag = "0.6.138";
+    hash = "sha256-h8gxlbDlWZV8RWTP5igeNkjohU80YTIPk0gE0k4FU/c=";
+  };
+
+  v0_6_137 = fetchQmkFirmware {
+    tag = "0.6.137";
+    hash = "sha256-qrraPG7hBaW9k9hl1K30OLGnaUDRK0rqmDnDBCTvAvY=";
+  };
+
+  v0_6_136 = fetchQmkFirmware {
+    tag = "0.6.136";
+    hash = "sha256-j0nvH9w7AQbBhh8A0LH1kHNDUonnpRNmfmzTy2221h4=";
+  };
+
+  v0_6_135 = fetchQmkFirmware {
+    tag = "0.6.135";
+    hash = "sha256-ZNuelYKH1l7GtGVnUuXRE6ufK0KX/RoslgyivqkdwSM=";
+  };
+
+  v0_6_134 = fetchQmkFirmware {
+    tag = "0.6.134";
+    hash = "sha256-bJiqVKNzYh1dt2wNx7JLh2kCu8gfrhfs35eorm6bFIE=";
+  };
+
+  v0_6_133 = fetchQmkFirmware {
+    tag = "0.6.133";
+    hash = "sha256-qCLK+wtReXuaXijR5XyRwvGsGS1mVmIsT+bo5AKE3+c=";
+  };
+
+  v0_6_132 = fetchQmkFirmware {
+    tag = "0.6.132";
+    hash = "sha256-7TMHY6OuPxamt9kiGwkz+Z1jlIH2R386OUzH2Zr04e8=";
+  };
+
+  v0_6_131 = fetchQmkFirmware {
+    tag = "0.6.131";
+    hash = "sha256-lQlcc4ixrzMoMK8k1MussdsiOVW49vA3qwCe8v1DiEI=";
+  };
+
+  v0_6_130 = fetchQmkFirmware {
+    tag = "0.6.130";
+    hash = "sha256-geMs+2k3JsEnu+7HtDyfvHptRw+7AZGnektl+Uef5hw=";
+  };
+
+  v0_6_129 = fetchQmkFirmware {
+    tag = "0.6.129";
+    hash = "sha256-xRoCWPfG+zt+5CwEf6fPNuiTeEltpk62kQpBcnbvZnw=";
+  };
+
+  v0_6_128 = fetchQmkFirmware {
+    tag = "0.6.128";
+    hash = "sha256-VFbzxIHP0D6woXaTHgChLG6n8b8S8t0orVivhboVAbc=";
+  };
+
+  v0_6_127 = fetchQmkFirmware {
+    tag = "0.6.127";
+    hash = "sha256-fOnLPXAv7rTQMMVTsro0UEVQM54DkwZ3UWlR8LzfZXk=";
+  };
+
+  v0_6_126 = fetchQmkFirmware {
+    tag = "0.6.126";
+    hash = "sha256-fOnLPXAv7rTQMMVTsro0UEVQM54DkwZ3UWlR8LzfZXk=";
+  };
+
+  v0_6_125 = fetchQmkFirmware {
+    tag = "0.6.125";
+    hash = "sha256-KYvFPXFwARCEddWcMQ1TV9SfXWEuqoyM8b12BDtTw3c=";
+  };
+
+  v0_6_124 = fetchQmkFirmware {
+    tag = "0.6.124";
+    hash = "sha256-XBiNpWXSJykORo9S+YHIH4UvOts+RBMYOpzn8WgkmqM=";
+  };
+
+  v0_6_123 = fetchQmkFirmware {
+    tag = "0.6.123";
+    hash = "sha256-ZThQ+0pQtIhosAoPrKYym8BF8dee7rIA0dhymI5YZsA=";
+  };
+
+  v0_6_122 = fetchQmkFirmware {
+    tag = "0.6.122";
+    hash = "sha256-0RGRn/vSmBO4WBLtamapPe4kfTB4CTZObmtv8AyncuE=";
+  };
+
+  v0_6_121 = fetchQmkFirmware {
+    tag = "0.6.121";
+    hash = "sha256-UAS0Ss2cztlA3/ZFNlyfDl/hEtIKFYxvOgPUg7kKeEc=";
+  };
+
+  v0_6_120 = fetchQmkFirmware {
+    tag = "0.6.120";
+    hash = "sha256-w48oyNK8eUk4QODwfhZymUKebO1cXr+yHBuA11PRsmY=";
+  };
+
+  v0_6_119 = fetchQmkFirmware {
+    tag = "0.6.119";
+    hash = "sha256-RGU6To+MrQy0i3CxMXCMrS7ZoH9kidWM8Sl6QPnr14Y=";
+  };
+
+  v0_6_118 = fetchQmkFirmware {
+    tag = "0.6.118";
+    hash = "sha256-7bGFQFK4t/bj56AEjWABfCB0mb7YcFWb8ag5LQaf46Q=";
+  };
+
+  v0_6_117 = fetchQmkFirmware {
+    tag = "0.6.117";
+    hash = "sha256-TBJKpsQhk4sCKE0QJaZOto2aJuW7SguCbLFtx1lQ4mQ=";
+  };
+
+  v0_6_116 = fetchQmkFirmware {
+    tag = "0.6.116";
+    hash = "sha256-TkyPupDjHFLhBHu5adotOlh/1T5nBQMITJiGBb1QWZo=";
+  };
+
+  v0_6_115 = fetchQmkFirmware {
+    tag = "0.6.115";
+    hash = "sha256-dUS00osxnkt+BHq19g73ozmg7ynowdHBX6ziTD38hFE=";
+  };
+
+  v0_6_114 = fetchQmkFirmware {
+    tag = "0.6.114";
+    hash = "sha256-Tk/18f7MvFiFppD2UMuJ+UOS68Oj7MoPVdcv14KGrxU=";
+  };
+
+  v0_6_113 = fetchQmkFirmware {
+    tag = "0.6.113";
+    hash = "sha256-A4lW61XnZEDvs9NU1RcoBz46O6uy5VUL3kIU/w7hYrs=";
+  };
+
+  v0_6_112 = fetchQmkFirmware {
+    tag = "0.6.112";
+    hash = "sha256-9J2sJYKgsxEBg/r5w/7N7Kw/2L3GpepS8XMM5OMsloI=";
+  };
+
+  v0_6_111 = fetchQmkFirmware {
+    tag = "0.6.111";
+    hash = "sha256-NBwNFTAUdAFndLU7IhXeHK1X0BJqNsielLliXag2fp4=";
+  };
+
+  v0_6_110 = fetchQmkFirmware {
+    tag = "0.6.110";
+    hash = "sha256-UtDM7SrYN4ED7dzE/tYoLl7QbszPJI5Zy4sFkbKWsSo=";
+  };
+
+  v0_6_109 = fetchQmkFirmware {
+    tag = "0.6.109";
+    hash = "sha256-9dCDBkqvKLJcLK3rxvdhW/HZ9Io8wv2y71z82fZ1hfo=";
+  };
+
+  v0_6_108 = fetchQmkFirmware {
+    tag = "0.6.108";
+    hash = "sha256-hHTSaliTkgK6bYhAPAA8earCC79z6I/Lhy7FCcy43ls=";
+  };
+
+  v0_6_107 = fetchQmkFirmware {
+    tag = "0.6.107";
+    hash = "sha256-Tu/tFAxlAATCLG0XYHA2hReHnejliRT8oWat809daTc=";
+  };
+
+  v0_6_106 = fetchQmkFirmware {
+    tag = "0.6.106";
+    hash = "sha256-uEABIBqYEiONhvgPtyhk83d0Fw0mcD6e68aYkREOy4Q=";
+  };
+
+  v0_6_105 = fetchQmkFirmware {
+    tag = "0.6.105";
+    hash = "sha256-3PkLxw5A4Sd6YvrGMM3hBGktMC44skMBJ5HiInjuhOg=";
+  };
+
+  v0_6_104 = fetchQmkFirmware {
+    tag = "0.6.104";
+    hash = "sha256-ChcsrUlg+XHx8Xsxhe9U5Yv72KXZIclPYOUGmJ+0b1Q=";
+  };
+
+  v0_6_103 = fetchQmkFirmware {
+    tag = "0.6.103";
+    hash = "sha256-p3xrlmPnOKs/uNkQy27ulvLrXcs9/y/QxQb3Ja3aLT4=";
+  };
+
+  v0_6_102 = fetchQmkFirmware {
+    tag = "0.6.102";
+    hash = "sha256-jdQ8+LWvKNcqhzfh0tTS6UUD7RYzxNMVyZn8xYN4nQY=";
+  };
+
+  v0_6_101 = fetchQmkFirmware {
+    tag = "0.6.101";
+    hash = "sha256-sHPNO6dJ0GuSwF/w//1KN0dEuAlNC6VqzYIKIo5UJys=";
+  };
+
+  v0_6_100 = fetchQmkFirmware {
+    tag = "0.6.100";
+    hash = "sha256-Kvrz+4dnQivqBtIskJ4KvfMLo+P7z2DA1vuqu5vfFVw=";
+  };
+
+  v0_6_99 = fetchQmkFirmware {
+    tag = "0.6.99";
+    hash = "sha256-o+ga58mrtWkZTFnA8r6oh0I/cawQ6V2iMlotVoE/yrk=";
+  };
+
+  v0_6_98 = fetchQmkFirmware {
+    tag = "0.6.98";
+    hash = "sha256-JuZ7Z1dHr+D38GoxJEBIvOZlVAlftPJBEVj4iYWvaf8=";
+  };
+
+  v0_6_97 = fetchQmkFirmware {
+    tag = "0.6.97";
+    hash = "sha256-3j8husVNNR90RMohSLD3BRCkBHWjTZd/v2FZftepHNI=";
+  };
+
+  v0_6_96 = fetchQmkFirmware {
+    tag = "0.6.96";
+    hash = "sha256-dyUZRVu3GoINFa2/A/fmI6/We0Fao/faem/hyxYXKAk=";
+  };
+
+  v0_6_95 = fetchQmkFirmware {
+    tag = "0.6.95";
+    hash = "sha256-pu1hmJlpO9o0VDoM98a56rOcNPtu99jcSXO62nmcEJM=";
+  };
+
+  v0_6_94 = fetchQmkFirmware {
+    tag = "0.6.94";
+    hash = "sha256-NPwgIG4zy4vc4BMRf3ORzMzDxb1F6jCLrwurt5ZVWyk=";
+  };
+
+  v0_6_93 = fetchQmkFirmware {
+    tag = "0.6.93";
+    hash = "sha256-x7ae1u4zmWJU5ZoVpvNDkDNj/vYOsQqGomIH8v9NoGY=";
+  };
+
+  v0_6_92 = fetchQmkFirmware {
+    tag = "0.6.92";
+    hash = "sha256-FeaVURIPnVbCCyx5meue6SWG32t7CPwpYmXzfpSsvRQ=";
+  };
+
+  v0_6_91 = fetchQmkFirmware {
+    tag = "0.6.91";
+    hash = "sha256-R0Ko9eULoUWr0LeW070b70yTe4NKw+cKbL23R1rqqKs=";
+  };
+
+  v0_6_90 = fetchQmkFirmware {
+    tag = "0.6.90";
+    hash = "sha256-B4f/JwJqm3LgBBUGGLW3WcNZOIzngZI7Jns672EtXyk=";
+  };
+
+  v0_6_89 = fetchQmkFirmware {
+    tag = "0.6.89";
+    hash = "sha256-pj+vU6E3GuXLmJoqK6aUdXgOm7GRXIkl9MRGA7Kae90=";
+  };
+
+  v0_6_88 = fetchQmkFirmware {
+    tag = "0.6.88";
+    hash = "sha256-PAqduwIHK/7M3Hn9go1gU4yr5eXswR3gCQAHVkvC+9k=";
+  };
+
+  v0_6_87 = fetchQmkFirmware {
+    tag = "0.6.87";
+    hash = "sha256-PAqduwIHK/7M3Hn9go1gU4yr5eXswR3gCQAHVkvC+9k=";
+  };
+
+  v0_6_86 = fetchQmkFirmware {
+    tag = "0.6.86";
+    hash = "sha256-EbsxJBgb0BQCRznbw84SS/oFtkrxomAiXrjEWiBHKlo=";
+  };
+
+  v0_6_85 = fetchQmkFirmware {
+    tag = "0.6.85";
+    hash = "sha256-xoRwMhDn5S5iZwowqgIBfLatuHKEUaY0tVUk2JShzvA=";
+  };
+
+  v0_6_84 = fetchQmkFirmware {
+    tag = "0.6.84";
+    hash = "sha256-1v/KkI8K0XCQ0OuXtwoSUf94Z42+DVWdr4yVz5wDBOM=";
+  };
+
+  v0_6_83 = fetchQmkFirmware {
+    tag = "0.6.83";
+    hash = "sha256-mxGHqIlBdY+ZqneDXNyHIWC4bjBGA2YksqtAIL6CaKs=";
+  };
+
+  v0_6_82 = fetchQmkFirmware {
+    tag = "0.6.82";
+    hash = "sha256-saFLg0MrHZ8YNcv+maXHlwmC0b+tnm/ba1xua2s/L1Q=";
+  };
+
+  v0_6_81 = fetchQmkFirmware {
+    tag = "0.6.81";
+    hash = "sha256-KX6BRWTqmH9u49wj/GBKwx1zHD/Vylm6pDztE4+7N+0=";
+  };
+
+  v0_6_80 = fetchQmkFirmware {
+    tag = "0.6.80";
+    hash = "sha256-hu9+GvkCISV8PH+8iF0C1OlLyT/axvBh/A3sbFyDW+8=";
+  };
+
+  v0_6_79 = fetchQmkFirmware {
+    tag = "0.6.79";
+    hash = "sha256-YQhkOkWyUPsAdEY7toAK6EyS1sFjpHSw9Bd5L37iBu4=";
+  };
+
+  v0_6_78 = fetchQmkFirmware {
+    tag = "0.6.78";
+    hash = "sha256-Vjo1L/cMnTHN3PZKdhGXMp5X2IFU4MN8cdiRulLDhKw=";
+  };
+
+  v0_6_77 = fetchQmkFirmware {
+    tag = "0.6.77";
+    hash = "sha256-Mbwdqc/8GdvkSmarQwfps+1+tjOiP301QyA8fvHbAKY=";
+  };
+
+  v0_6_76 = fetchQmkFirmware {
+    tag = "0.6.76";
+    hash = "sha256-XKku9i85zw/2WOGUK+Ihp6LrmwJ5QhHheWuqKu5LhWs=";
+  };
+
+  v0_6_75 = fetchQmkFirmware {
+    tag = "0.6.75";
+    hash = "sha256-gNZXQqRkO6XFrjPRA6CxmLQouNUYi4GNtV0w6HltLz8=";
+  };
+
+  v0_6_74 = fetchQmkFirmware {
+    tag = "0.6.74";
+    hash = "sha256-B/ur1MKW4wWNSstplAzfmOc3jTwvNGQ/S4m25heCe58=";
+  };
+
+  v0_6_73 = fetchQmkFirmware {
+    tag = "0.6.73";
+    hash = "sha256-2l8beV6BofhpyDvsWtUYqaGENmabcu1SxDUuwUoVC1g=";
+  };
+
+  v0_6_72 = fetchQmkFirmware {
+    tag = "0.6.72";
+    hash = "sha256-WjXAvn6f42Sd5bMn0oK/Wz8Ry5nPIfrhNaeWyEEPXiw=";
+  };
+
+  v0_6_71 = fetchQmkFirmware {
+    tag = "0.6.71";
+    hash = "sha256-socDZMfqtOMF+G6H6mnZTDiyE5GMFExmT/hpNWRmpqo=";
+  };
+
+  v0_6_70 = fetchQmkFirmware {
+    tag = "0.6.70";
+    hash = "sha256-N7vz9Wpaxw1Wp00AXM3Z0tCWJOwxxkpQuXw/5we8gVY=";
+  };
+
+  v0_6_69 = fetchQmkFirmware {
+    tag = "0.6.69";
+    hash = "sha256-ZHAdBtXFbf3b+5c0ZFLJKahHNZw0F9hGM3O34rranw4=";
+  };
+
+  v0_6_68 = fetchQmkFirmware {
+    tag = "0.6.68";
+    hash = "sha256-yP3I9lcjVhuIq0nl/MbZrhhbruFFs25dD7XEGLqKOtg=";
+  };
+
+  v0_6_67 = fetchQmkFirmware {
+    tag = "0.6.67";
+    hash = "sha256-N1voWehHtc4rHWUtqNtLFb+TGg2dle3+C5GtbqbM1FU=";
+  };
+
+  v0_6_66 = fetchQmkFirmware {
+    tag = "0.6.66";
+    hash = "sha256-xSAlb+LAjmFfX8Dx42fD7KfPZhxWJ6uUQGFHSlmlHs0=";
+  };
+
+  v0_6_65 = fetchQmkFirmware {
+    tag = "0.6.65";
+    hash = "sha256-qMRcBHQPjkC4hTWUvH0WbQiOWUpeCrfwxV16UOk/cos=";
+  };
+
+  v0_6_64 = fetchQmkFirmware {
+    tag = "0.6.64";
+    hash = "sha256-YKa4PpeHM64subsk699O0JJwkvbyjiVk5jfcTQjK5Ng=";
+  };
+
+  v0_6_63 = fetchQmkFirmware {
+    tag = "0.6.63";
+    hash = "sha256-/kewegECRQcXa1iL/SVXlBfKEaYaBFlN1Zg/iAzpn3A=";
+  };
+
+  v0_6_62 = fetchQmkFirmware {
+    tag = "0.6.62";
+    hash = "sha256-9Tx1F7mYs41NkcXrRg3HEZ8MamPi7SFh692gF9IaajQ=";
+  };
+
+  v0_6_61 = fetchQmkFirmware {
+    tag = "0.6.61";
+    hash = "sha256-IDJweTzPPj3CJ3ZDoY2/aKFOkyzEBodx5ED9/vkUz/0=";
+  };
+
+  v0_6_60 = fetchQmkFirmware {
+    tag = "0.6.60";
+    hash = "sha256-GmsPHN6O4DNuu3bOlYucMAbPjirjjw8meIMuwN9Vqgs=";
+  };
+
+  v0_6_59 = fetchQmkFirmware {
+    tag = "0.6.59";
+    hash = "sha256-TRjqd9cCQpQaETY3CxJiYHawpz5CiGMOvWjbw2eBH5g=";
+  };
+
+  v0_6_58 = fetchQmkFirmware {
+    tag = "0.6.58";
+    hash = "sha256-zGKA8nj7oeZfQH7Bp1TMmY66C7xZSOsbRhLiePj1kfU=";
+  };
+
+  v0_6_57 = fetchQmkFirmware {
+    tag = "0.6.57";
+    hash = "sha256-xPggQVRzPYp/I2L1NG/+jCQehN+o83u/HfHWmUKXK1U=";
+  };
+
+  v0_6_56 = fetchQmkFirmware {
+    tag = "0.6.56";
+    hash = "sha256-JUSZu6pzFxFgCCOL3UHaZjMAEBO0dV2gAy8E3XRoKMM=";
+  };
+
+  v0_6_55 = fetchQmkFirmware {
+    tag = "0.6.55";
+    hash = "sha256-3/6h+1H9zbaqAeN3zziSaZfj1U2cIkBaTRR8wDxlNqE=";
+  };
+
+  v0_6_54 = fetchQmkFirmware {
+    tag = "0.6.54";
+    hash = "sha256-3/6h+1H9zbaqAeN3zziSaZfj1U2cIkBaTRR8wDxlNqE=";
+  };
+
+  v0_6_53 = fetchQmkFirmware {
+    tag = "0.6.53";
+    hash = "sha256-NQOVNN6N/BDlhnpbm9nQYgeoKQK8G8YaTFj1owEYb8A=";
+  };
+
+  v0_6_52 = fetchQmkFirmware {
+    tag = "0.6.52";
+    hash = "sha256-Df6SME+ceSOqw3J/jvrkJIGj26Ar6LTjg9VdTChTWHs=";
+  };
+
+  v0_6_51 = fetchQmkFirmware {
+    tag = "0.6.51";
+    hash = "sha256-8LFSExNaiozsoU6MRvVYLaxr1qQgNPsPB5kn2Qo/NM0=";
+  };
+
+  v0_6_50 = fetchQmkFirmware {
+    tag = "0.6.50";
+    hash = "sha256-8LFSExNaiozsoU6MRvVYLaxr1qQgNPsPB5kn2Qo/NM0=";
+  };
+
+  v0_6_49 = fetchQmkFirmware {
+    tag = "0.6.49";
+    hash = "sha256-tRtdlgmCJtuV7x/KBdmriHi8/5F23rpO0oOFamIUXr4=";
+  };
+
+  v0_6_48 = fetchQmkFirmware {
+    tag = "0.6.48";
+    hash = "sha256-eTmRNUme8grNlL3Jh/gz1kBGKrjaMS8dJYrUitQifH4=";
+  };
+
+  v0_6_47 = fetchQmkFirmware {
+    tag = "0.6.47";
+    hash = "sha256-5uoxHrC9XtLWc/QDz+6+obIEvHUZqkWfJ8pdCFrCPMo=";
+  };
+
+  v0_6_46 = fetchQmkFirmware {
+    tag = "0.6.46";
+    hash = "sha256-O9K9cdKwO5nlOUvltlEK16v2pHvv2u04krDEsjdH080=";
+  };
+
+  v0_6_45 = fetchQmkFirmware {
+    tag = "0.6.45";
+    hash = "sha256-foI4BGQ87l/C2l9xGttebXqyZ4wVrtHJsWmnQjrLA/0=";
+  };
+
+  v0_6_44 = fetchQmkFirmware {
+    tag = "0.6.44";
+    hash = "sha256-bwNIzURMLfB/yiOGUN2g5LZX990lini5qvx5y9US0h8=";
+  };
+
+  v0_6_43 = fetchQmkFirmware {
+    tag = "0.6.43";
+    hash = "sha256-0iYPhuMT+B/sio+sqlBg+dPIaUD4eQ1CrnnrQYjY6Ag=";
+  };
+
+  v0_6_42 = fetchQmkFirmware {
+    tag = "0.6.42";
+    hash = "sha256-xA6Sc3v0fqAKyRmGL6azvkNwc1Ddo8rNWciwGKYm3j8=";
+  };
+
+  v0_6_41 = fetchQmkFirmware {
+    tag = "0.6.41";
+    hash = "sha256-Oz0SjLnCgs55xt+BEZpgpriNe6+JMS4hNOuOItixCc0=";
+  };
+
+  v0_6_40 = fetchQmkFirmware {
+    tag = "0.6.40";
+    hash = "sha256-4GTvJAMJLWcLvIEaSsG0U9L6iFTOV/GGmeMqlWNt3n4=";
+  };
+
+  v0_6_39 = fetchQmkFirmware {
+    tag = "0.6.39";
+    hash = "sha256-rx1g7VsJSvDdu0JNxGntYkHjKGTDZRHkq0PRX/iw8Os=";
+  };
+
+  v0_6_38 = fetchQmkFirmware {
+    tag = "0.6.38";
+    hash = "sha256-P0IvnKJUmyz7eqy+9ywjT3OW2FVar2vc0fBrN7H4JvE=";
+  };
+
+  v0_6_37 = fetchQmkFirmware {
+    tag = "0.6.37";
+    hash = "sha256-idrtDyc8DWhx1uBf5h0iIAnA1XDMysF/wnDEcclYk5I=";
+  };
+
+  v0_6_36 = fetchQmkFirmware {
+    tag = "0.6.36";
+    hash = "sha256-tk/Koxh53NfVS0YS/1Rtd0quKuMgKvboWeIfdS8a+vQ=";
+  };
+
+  v0_6_35 = fetchQmkFirmware {
+    tag = "0.6.35";
+    hash = "sha256-QmALfERqAweZUb+R/BwN/TEBfs4bOLYzxc2YIyYSwXU=";
+  };
+
+  v0_6_34 = fetchQmkFirmware {
+    tag = "0.6.34";
+    hash = "sha256-AyEKcsyrmckZE9Uos5LW6uT8+qMZJAHWIF6X7YYvakU=";
+  };
+
+  v0_6_33 = fetchQmkFirmware {
+    tag = "0.6.33";
+    hash = "sha256-2qf13FWTvfeyAe8JUyukU6ckIEJ0qJXXA5/ZXBcfjzQ=";
+  };
+
+  v0_6_32 = fetchQmkFirmware {
+    tag = "0.6.32";
+    hash = "sha256-ecwxyhIhvrene98hmUn2Yd6AzNJ2kN81+ldV+4jlADo=";
+  };
+
+  v0_6_31 = fetchQmkFirmware {
+    tag = "0.6.31";
+    hash = "sha256-m+1Zxgr/YX7/VKn8seRoauAa4DRBP7vjMLqVJkdO4VQ=";
+  };
+
+  v0_6_30 = fetchQmkFirmware {
+    tag = "0.6.30";
+    hash = "sha256-g4g4Ky3XtQKN6Vag6autaz2Y4rROpOFYCx30P254BP4=";
+  };
+
+  v0_6_29 = fetchQmkFirmware {
+    tag = "0.6.29";
+    hash = "sha256-dkib6n+f6MdOpovij/HGz6YfN4BdhOO/GbCMLiQtr6s=";
+  };
+
+  v0_6_28 = fetchQmkFirmware {
+    tag = "0.6.28";
+    hash = "sha256-RtRKVPjC7gr4bhPQKWE1j24nrw/O1QXt5Al14eXeyQw=";
+  };
+
+  v0_6_27 = fetchQmkFirmware {
+    tag = "0.6.27";
+    hash = "sha256-rfzlqyXvm1EokHmjZ322WPdiTVnyvqbhWnMRfYUi66E=";
+  };
+
+  v0_6_26 = fetchQmkFirmware {
+    tag = "0.6.26";
+    hash = "sha256-IXjv2czD+cELuy6NEKvBEsohXFUj94osE3Vn6nRjFh4=";
+  };
+
+  v0_6_25 = fetchQmkFirmware {
+    tag = "0.6.25";
+    hash = "sha256-KCfGdtEz/Ef/AgQxewct5qop9+90bj9GvZtTa994svY=";
+  };
+
+  v0_6_24 = fetchQmkFirmware {
+    tag = "0.6.24";
+    hash = "sha256-J27LgD06xo4/GztfpH+W2VEfk/fMAb3h0F1yVMDY+H0=";
+  };
+
+  v0_6_23 = fetchQmkFirmware {
+    tag = "0.6.23";
+    hash = "sha256-vDKXnHMdEJpmTHTDAZ15eyb6aeK8f6zi34F2N7NZH1k=";
+  };
+
+  v0_6_22 = fetchQmkFirmware {
+    tag = "0.6.22";
+    hash = "sha256-rABrJ0KvTWAUpAqJY26sgVAs+tl684w3WekYbBuazlU=";
+  };
+
+  v0_6_21 = fetchQmkFirmware {
+    tag = "0.6.21";
+    hash = "sha256-Vajz8uuUWEZGz11gzY3gPuKnrKL9+ao2lkCggPw8mK0=";
+  };
+
+  v0_6_20 = fetchQmkFirmware {
+    tag = "0.6.20";
+    hash = "sha256-EgIxjHsgmpt4L4gffWpjXhSL94v5RbeLUlK9blM1SAA=";
+  };
+
+  v0_6_19 = fetchQmkFirmware {
+    tag = "0.6.19";
+    hash = "sha256-H7qkhRbhbOhIxb/Cu0N34Jvm5TLyo8ICRHHE1kA4n2U=";
+  };
+
+  v0_6_18 = fetchQmkFirmware {
+    tag = "0.6.18";
+    hash = "sha256-H4KFTFUjWxxjy/1XMEQHVH3zK9ycEnycQdM1+njl9Bw=";
+  };
+
+  v0_6_17 = fetchQmkFirmware {
+    tag = "0.6.17";
+    hash = "sha256-ZfCXsAgG36FgDqzgS1Py4PBw1dj3tWAcWtxXT5a1HBw=";
+  };
+
+  v0_6_16 = fetchQmkFirmware {
+    tag = "0.6.16";
+    hash = "sha256-wa/JuIX2rCgrYpToOw5l0HZd15T+1A0tr0kBAwWcxRk=";
+  };
+
+  v0_6_15 = fetchQmkFirmware {
+    tag = "0.6.15";
+    hash = "sha256-W2YEk4ynpKDJkUoufn8IcCsFKo5HM4FdzAb4Ozhi394=";
+  };
+
+  v0_6_14 = fetchQmkFirmware {
+    tag = "0.6.14";
+    hash = "sha256-YO2jBjY/Syz1eeC3dBCn5Q36ubaekAp5UJD8CXxuSzc=";
+  };
+
+  v0_6_13 = fetchQmkFirmware {
+    tag = "0.6.13";
+    hash = "sha256-f+wIY5yXNpcURyH2Hm8ggzFmmMarhTBs+rfWaLnmJ/w=";
+  };
+
+  v0_6_12 = fetchQmkFirmware {
+    tag = "0.6.12";
+    hash = "sha256-g/kEFAbaeDoSjLqGvroADIgY2xO5yxYZd0jW8Oq6J0E=";
+  };
+
+  v0_6_11 = fetchQmkFirmware {
+    tag = "0.6.11";
+    hash = "sha256-2FeuTxjc9bKih9MO0cks4Pz7rMcNa8L9BJS/zN0wxk8=";
+  };
+
+  v0_6_10 = fetchQmkFirmware {
+    tag = "0.6.10";
+    hash = "sha256-RZw973+peCcB91X0N24p1sHHRjhmYC50zQ9nktsRJic=";
+  };
+
+  v0_6_9 = fetchQmkFirmware {
+    tag = "0.6.9";
+    hash = "sha256-StJ26+FxQ1jt2I+TMhgh8PNyZcOfmfE4XqIWxB1GsKQ=";
+  };
+
+  v0_6_8 = fetchQmkFirmware {
+    tag = "0.6.8";
+    hash = "sha256-SY/Sq+HbSzjj7VGEtTpDaWQw/6HaqTqDqv0Nt1EUlpc=";
+  };
+
+  v0_6_7 = fetchQmkFirmware {
+    tag = "0.6.7";
+    hash = "sha256-uhrdT3Xk/8C1DqbWv7D6tGmj0WL05H9TlxYbNWqLjGA=";
+  };
+
+  v0_6_6 = fetchQmkFirmware {
+    tag = "0.6.6";
+    hash = "sha256-lbdSOdPOwXQVHSkLlbES/4I/fhbeO557dgPUR69+3bo=";
+  };
+
+  v0_6_5 = fetchQmkFirmware {
+    tag = "0.6.5";
+    hash = "sha256-2l9sYJt0iLCsQ90Sf9uKNF1Ps36ZCO2yXT4EQB6E8S4=";
+  };
+
+  v0_6_4 = fetchQmkFirmware {
+    tag = "0.6.4";
+    hash = "sha256-CZN8cg2e8BVFX57NEvNlUQUMy8YfL9jEu7sWapA1fps=";
+  };
+
+  v0_6_3 = fetchQmkFirmware {
+    tag = "0.6.3";
+    hash = "sha256-hfiRmkIB18kwPbylTVUrCEZdMzkhpIyhnG9UyTWrpaY=";
+  };
+
+  v0_6_2 = fetchQmkFirmware {
+    tag = "0.6.2";
+    hash = "sha256-mJzKsjUUBX0wuAXiH3K24/SgKyVuVn74aSnUPvmPZfE=";
+  };
+
+  v0_6_1 = fetchQmkFirmware {
+    tag = "0.6.1";
+    hash = "sha256-o4MT4ez1s+RK3GN/ifH0sr+YtJStpxIuOUJ+uOoxna8=";
+  };
+
+  v0_6_0 = fetchQmkFirmware {
+    tag = "0.6.0";
+    hash = "sha256-O9405JTK7sof91L0+nzUi6E1+YzenS6l7hKN1Jd/ovE=";
+  };
+
+  v0_5_264 = fetchQmkFirmware {
+    tag = "0.5.264";
+    hash = "sha256-0hb7SW9X9g6UPKvifK1c9sMLmCoKPAzRM/3hmSqq5Kw=";
+  };
+
+  v0_5_263 = fetchQmkFirmware {
+    tag = "0.5.263";
+    hash = "sha256-gWP+vxBWjeCpzpg1umB8uNk3TujfuP0JnVIMcRZy9bU=";
+  };
+
+  v0_5_262 = fetchQmkFirmware {
+    tag = "0.5.262";
+    hash = "sha256-wRBAWTtL6wr1+8Lv9lGvTnk/QoCEzeXS3+Xy2E3mscI=";
+  };
+
+  v0_5_261 = fetchQmkFirmware {
+    tag = "0.5.261";
+    hash = "sha256-yND+3cDshlzOvI0ZweGzghtWA7fYWnSuYOtXWhoFQJY=";
+  };
+
+  v0_5_260 = fetchQmkFirmware {
+    tag = "0.5.260";
+    hash = "sha256-kJtcNP3dzs/ee24aFZniMmzZCQxNJ4yf9pxNEDBufJ4=";
+  };
+
+  v0_5_259 = fetchQmkFirmware {
+    tag = "0.5.259";
+    hash = "sha256-aX9tz8XMdTQU0hq2JpjRlQ6VwBtmu8V6snyc62IHShI=";
+  };
+
+  v0_5_258 = fetchQmkFirmware {
+    tag = "0.5.258";
+    hash = "sha256-aX9tz8XMdTQU0hq2JpjRlQ6VwBtmu8V6snyc62IHShI=";
+  };
+
+  v0_5_257 = fetchQmkFirmware {
+    tag = "0.5.257";
+    hash = "sha256-aX9tz8XMdTQU0hq2JpjRlQ6VwBtmu8V6snyc62IHShI=";
+  };
+
+  v0_5_256 = fetchQmkFirmware {
+    tag = "0.5.256";
+    hash = "sha256-aX9tz8XMdTQU0hq2JpjRlQ6VwBtmu8V6snyc62IHShI=";
+  };
+
+  v0_5_255 = fetchQmkFirmware {
+    tag = "0.5.255";
+    hash = "sha256-AhxRjxQjOWUJF7ttjlPUxn16qMhu0iZcgJUPgeQ2Ph8=";
+  };
+
+  v0_5_254 = fetchQmkFirmware {
+    tag = "0.5.254";
+    hash = "sha256-AhxRjxQjOWUJF7ttjlPUxn16qMhu0iZcgJUPgeQ2Ph8=";
+  };
+
+  v0_5_253 = fetchQmkFirmware {
+    tag = "0.5.253";
+    hash = "sha256-SzK2/f225HEA2Fbv7hjIJ/YYTQuKxz1q2sWBK3KWvWc=";
+  };
+
+  v0_5_252 = fetchQmkFirmware {
+    tag = "0.5.252";
+    hash = "sha256-zKtDkJ2P5t+MKNoFSduyiwN21gQFv8UVj4Tj9RxavtQ=";
+  };
+
+  v0_5_251 = fetchQmkFirmware {
+    tag = "0.5.251";
+    hash = "sha256-gmvQ1BoLYf1U1KnYgmsZRZYfDw1/pjlfcrDEc57u0o4=";
+  };
+
+  v0_5_250 = fetchQmkFirmware {
+    tag = "0.5.250";
+    hash = "sha256-5e+IzGwW8wERLjb+9S8/KO5m8PH8PwqnQNbNmrVCHM8=";
+  };
+
+  v0_5_249 = fetchQmkFirmware {
+    tag = "0.5.249";
+    hash = "sha256-dJkyW3liz1Xt8SXXdzL5xLzElYFxvZF0vIwahLqJEvg=";
+  };
+
+  v0_5_248 = fetchQmkFirmware {
+    tag = "0.5.248";
+    hash = "sha256-4nO6bAZBnZ10u4idq4ryAqDlJ4uknlsCgAJHsz3bm7Q=";
+  };
+
+  v0_5_247 = fetchQmkFirmware {
+    tag = "0.5.247";
+    hash = "sha256-kcJQ3+GVjzs27w6iTXnKCS0ohm7bfBC0lYP9LbK2aVQ=";
+  };
+
+  v0_5_246 = fetchQmkFirmware {
+    tag = "0.5.246";
+    hash = "sha256-PLSGYc0K4OpsbD63NCv5eR7vPNv32C3WbWkK5mrEVO0=";
+  };
+
+  v0_5_245 = fetchQmkFirmware {
+    tag = "0.5.245";
+    hash = "sha256-r5iqU9pYTXQYA2nTS1TUEkbKuN09vMBZxBUVlObb6ks=";
+  };
+
+  v0_5_244 = fetchQmkFirmware {
+    tag = "0.5.244";
+    hash = "sha256-Mup9nJytdz+VsdnQqQ1LRcONmWm9LAzRqhZaP5Yw2tE=";
+  };
+
+  v0_5_243 = fetchQmkFirmware {
+    tag = "0.5.243";
+    hash = "sha256-0JLYl55DjTICMIdnENs0hkiwJTu8RnkxJ8bsCQPiCLU=";
+  };
+
+  v0_5_242 = fetchQmkFirmware {
+    tag = "0.5.242";
+    hash = "sha256-vtfFkMqw7HPd00/eS0C8kwhnHTk5hnV6tppnvmVu0CM=";
+  };
+
+  v0_5_241 = fetchQmkFirmware {
+    tag = "0.5.241";
+    hash = "sha256-EAX33TIQ2usBHrWhhBVkcIq+nufpwr47vPgrm7CEvoQ=";
+  };
+
+  v0_5_240 = fetchQmkFirmware {
+    tag = "0.5.240";
+    hash = "sha256-UqoNef4+uavQyuudB8gZe70Nr5bXTGAeQeE4cebL5XA=";
+  };
+
+  v0_5_239 = fetchQmkFirmware {
+    tag = "0.5.239";
+    hash = "sha256-zuG4Eq0F2lCE3lpWCi17vApo/gFxXoPWFWk1KP1gF2c=";
+  };
+
+  v0_5_238 = fetchQmkFirmware {
+    tag = "0.5.238";
+    hash = "sha256-khG5dQ72voYe8BdguBeqtC2JSeJMxAb5lxKJLkotY9c=";
+  };
+
+  v0_5_237 = fetchQmkFirmware {
+    tag = "0.5.237";
+    hash = "sha256-inrmLj8DxziIs3phferv8CV7KmTxns9oCWPVLG5w0Tg=";
+  };
+
+  v0_5_236 = fetchQmkFirmware {
+    tag = "0.5.236";
+    hash = "sha256-S7cwXtpQOZ9DGap3ohehRQdVOCStSgwcnh92WgoVMCI=";
+  };
+
+  v0_5_235 = fetchQmkFirmware {
+    tag = "0.5.235";
+    hash = "sha256-yljiC/A/D/V65RFRCaetrb/ande7Mpf4OlUDPfeBm7k=";
+  };
+
+  v0_5_234 = fetchQmkFirmware {
+    tag = "0.5.234";
+    hash = "sha256-B2uZG1JfXJL4YoqKrEr0ZQ0hMyhyQ8o/aEUQCFI7ap0=";
+  };
+
+  v0_5_233 = fetchQmkFirmware {
+    tag = "0.5.233";
+    hash = "sha256-ZhlAMplXcNONYFgt+ct6dSmxqQ7DReSuqDlqahfe/XA=";
+  };
+
+  v0_5_232 = fetchQmkFirmware {
+    tag = "0.5.232";
+    hash = "sha256-RFeHecNgRwnjVSwN+fI3fa2zhOZ3Xlav+oUnMFaXM18=";
+  };
+
+  v0_5_231 = fetchQmkFirmware {
+    tag = "0.5.231";
+    hash = "sha256-+x12JMFS6ioqN90VQGzdX4b7UCawCoXAwe2VFy4NqQg=";
+  };
+
+  v0_5_230 = fetchQmkFirmware {
+    tag = "0.5.230";
+    hash = "sha256-EEv2R93yS099QdZqRqvwXzOKG8P8RaNPOR23ztSWGqE=";
+  };
+
+  v0_5_229 = fetchQmkFirmware {
+    tag = "0.5.229";
+    hash = "sha256-q48Be7BYjN/9I1oEXaw8JqcrdIbXiqQGkC5YtwDtTGE=";
+  };
+
+  v0_5_228 = fetchQmkFirmware {
+    tag = "0.5.228";
+    hash = "sha256-9RcXFqydNAZtR9dhmLP3+3MwtUUaNGXyTzyDpmgWYZM=";
+  };
+
+  v0_5_227 = fetchQmkFirmware {
+    tag = "0.5.227";
+    hash = "sha256-QR4yHjUgzpOU2oBvaAKfJf1vrkhTktSU10zNuaQw4io=";
+  };
+
+  v0_5_226 = fetchQmkFirmware {
+    tag = "0.5.226";
+    hash = "sha256-QeHz1FoOJKSiyzzboDqxCulP4AP+vULjdQdJMRzkQhk=";
+  };
+
+  v0_5_225 = fetchQmkFirmware {
+    tag = "0.5.225";
+    hash = "sha256-sUNd+iFbUJvy6Gtq74aeYs8IVq3h1JIhdWSvGW0oiyw=";
+  };
+
+  v0_5_224 = fetchQmkFirmware {
+    tag = "0.5.224";
+    hash = "sha256-J7o2bp8WxucfiCa4ci7nzfKW7H/kDzeJw0MDcCOYZDk=";
+  };
+
+  v0_5_223 = fetchQmkFirmware {
+    tag = "0.5.223";
+    hash = "sha256-JpOu7yPkvRcaKfKNt1r35Bhlt/tV11Pwl/oONTKhLtI=";
+  };
+
+  v0_5_222 = fetchQmkFirmware {
+    tag = "0.5.222";
+    hash = "sha256-T+ow/uDXXtVfoL6YiCeNT2xKkKyeT6dsHPLavfnMYIA=";
+  };
+
+  v0_5_221 = fetchQmkFirmware {
+    tag = "0.5.221";
+    hash = "sha256-/pW16jutrlA8AYKhWO6hO89Vl+MrTckzBfqhMOPuOQo=";
+  };
+
+  v0_5_220 = fetchQmkFirmware {
+    tag = "0.5.220";
+    hash = "sha256-5un3EjcVY6VK/cKT8XrBxxPCRAgpukF6BPHA/IitOSc=";
+  };
+
+  v0_5_219 = fetchQmkFirmware {
+    tag = "0.5.219";
+    hash = "sha256-U9pt5WOOj6+9XL4yomhm0jk2w5CFT7JUvaXPn2UYDsc=";
+  };
+
+  v0_5_218 = fetchQmkFirmware {
+    tag = "0.5.218";
+    hash = "sha256-/FPGEanWv3V9d1fIMKAv+hWVEgT5BQP4kpAMPMGyyVs=";
+  };
+
+  v0_5_217 = fetchQmkFirmware {
+    tag = "0.5.217";
+    hash = "sha256-G5SCXFPefoWOChnZDh/jXf9KiXg3GqLug0kkkUK3TSI=";
+  };
+
+  v0_5_216 = fetchQmkFirmware {
+    tag = "0.5.216";
+    hash = "sha256-pnyOEQjH0WiiWFif+JMZDA+rYDWE0RDgU5AEX65jU8g=";
+  };
+
+  v0_5_215 = fetchQmkFirmware {
+    tag = "0.5.215";
+    hash = "sha256-GMG5OwAYkwIrMg6bN8WbKcf33O37pGnu+vwlPJSwAGU=";
+  };
+
+  v0_5_214 = fetchQmkFirmware {
+    tag = "0.5.214";
+    hash = "sha256-GrhhqkUEj3lpkXeCHYv+dxCgCgcsMVAz+FjRCw1KqdQ=";
+  };
+
+  v0_5_213 = fetchQmkFirmware {
+    tag = "0.5.213";
+    hash = "sha256-bkbeiKPH1bTprUh/YG2e2KoOcINADd+g0+GUXYXeCbk=";
+  };
+
+  v0_5_212 = fetchQmkFirmware {
+    tag = "0.5.212";
+    hash = "sha256-3NBpcVouDqlrgoUGnkqz59H923rShks1obzSiVrxMeI=";
+  };
+
+  v0_5_211 = fetchQmkFirmware {
+    tag = "0.5.211";
+    hash = "sha256-rdhbN994M1Z/bH4lUO6ZJcKkCFWEQDMsFwSsQ2WxzOo=";
+  };
+
+  v0_5_210 = fetchQmkFirmware {
+    tag = "0.5.210";
+    hash = "sha256-1MelD2I3DtneycqoDKfj4mw5ZFeyaeKXudB3p3A9b3w=";
+  };
+
+  v0_5_209 = fetchQmkFirmware {
+    tag = "0.5.209";
+    hash = "sha256-a52TLMmWtmuJEh83UNebC82n50VqPGR+dNHsN9qzAxA=";
+  };
+
+  v0_5_208 = fetchQmkFirmware {
+    tag = "0.5.208";
+    hash = "sha256-V9l9/VDkUH3tZ+7UqLcOMN7aclj3Rx5no3lIWKsxCBI=";
+  };
+
+  v0_5_207 = fetchQmkFirmware {
+    tag = "0.5.207";
+    hash = "sha256-GnRwYQjil9fj2tVynOvKZyFKLw61pKaZ8ifHcuV1RtY=";
+  };
+
+  v0_5_206 = fetchQmkFirmware {
+    tag = "0.5.206";
+    hash = "sha256-s1Tbv77Jcd+anbRWHeHK5MoDtlrTCTmOBnKjxjWMRtU=";
+  };
+
+  v0_5_205 = fetchQmkFirmware {
+    tag = "0.5.205";
+    hash = "sha256-Fum/uJ1NUBehLJMCch1toTLeqrCth/03dpUI3HHUpUU=";
+  };
+
+  v0_5_204 = fetchQmkFirmware {
+    tag = "0.5.204";
+    hash = "sha256-7W7J5CzEM9x1wAocZnRb6tJHciKWVH5ar/aRgww5I88=";
+  };
+
+  v0_5_203 = fetchQmkFirmware {
+    tag = "0.5.203";
+    hash = "sha256-KRGe323tbqEmWbW2TeqqEXXTgfdaHKn/ItfFqP24Cxo=";
+  };
+
+  v0_5_202 = fetchQmkFirmware {
+    tag = "0.5.202";
+    hash = "sha256-i1KOQBRO1gEj1kXvkZyHiA94bfj/AXMbDts7lErF+Aw=";
+  };
+
+  v0_5_201 = fetchQmkFirmware {
+    tag = "0.5.201";
+    hash = "sha256-i1KOQBRO1gEj1kXvkZyHiA94bfj/AXMbDts7lErF+Aw=";
+  };
+
+  v0_5_200 = fetchQmkFirmware {
+    tag = "0.5.200";
+    hash = "sha256-Cu4zYPfanm9ofKeCd3zZHWC5JtSPN3ZXWNUuN6151YU=";
+  };
+
+  v0_5_199 = fetchQmkFirmware {
+    tag = "0.5.199";
+    hash = "sha256-xGl5J2BAdHEnyAFFtqHczYTlMMhSCOq2Xhafwiu5zWA=";
+  };
+
+  v0_5_198 = fetchQmkFirmware {
+    tag = "0.5.198";
+    hash = "sha256-qPYdTEDeMvXUfz1GWPv4oDK4KtkRqADQHqrKByIe69E=";
+  };
+
+  v0_5_197 = fetchQmkFirmware {
+    tag = "0.5.197";
+    hash = "sha256-PXsGu7SfU7aH9mT2lCLIIWEkWLbHQT4XuF+7mpM5onY=";
+  };
+
+  v0_5_196 = fetchQmkFirmware {
+    tag = "0.5.196";
+    hash = "sha256-It6kwiFCLtAPoFJwy09hzCmaQ/V3Y9N6qxQbKM0nZGo=";
+  };
+
+  v0_5_195 = fetchQmkFirmware {
+    tag = "0.5.195";
+    hash = "sha256-1U0Iv7e27GLdqZaKFXamfe5GsL94KibuotljgpVDRnM=";
+  };
+
+  v0_5_194 = fetchQmkFirmware {
+    tag = "0.5.194";
+    hash = "sha256-M8VbeoxmzRIjRCeTyBETEYaXBcD3JBidIPMhi1KY/5Y=";
+  };
+
+  v0_5_193 = fetchQmkFirmware {
+    tag = "0.5.193";
+    hash = "sha256-M8VbeoxmzRIjRCeTyBETEYaXBcD3JBidIPMhi1KY/5Y=";
+  };
+
+  v0_5_192 = fetchQmkFirmware {
+    tag = "0.5.192";
+    hash = "sha256-iAoxpAzYY/GWLFBZDEFmbXlVWKMOVYOJbYuR4xiBRIk=";
+  };
+
+  v0_5_191 = fetchQmkFirmware {
+    tag = "0.5.191";
+    hash = "sha256-qhUrvzsmtYyjZ81u9hm96V4E4GigJ4oLOCEjcLltzjw=";
+  };
+
+  v0_5_190 = fetchQmkFirmware {
+    tag = "0.5.190";
+    hash = "sha256-o5e8fn52afMWLr/+rqpm6e1rCyuTnK30J/jxL8cBTpY=";
+  };
+
+  v0_5_189 = fetchQmkFirmware {
+    tag = "0.5.189";
+    hash = "sha256-Xz51rTnXbFUNSTaTNPNpRXFmCSpnNa0AIl4QuNv1Taw=";
+  };
+
+  v0_5_188 = fetchQmkFirmware {
+    tag = "0.5.188";
+    hash = "sha256-rL0tVxDNQBuxu6K6+Qee/MdyMBxy3OtE9/gafqz2wc0=";
+  };
+
+  v0_5_187 = fetchQmkFirmware {
+    tag = "0.5.187";
+    hash = "sha256-q+tC0JIxwuwQX19EvJhWiodhbwWOdIepPpNX7V8hRmQ=";
+  };
+
+  v0_5_186 = fetchQmkFirmware {
+    tag = "0.5.186";
+    hash = "sha256-UWISpAuTe82cdXdjVfKMZw54YQlPlhzEIx6gRr5Pmu0=";
+  };
+
+  v0_5_185 = fetchQmkFirmware {
+    tag = "0.5.185";
+    hash = "sha256-UWISpAuTe82cdXdjVfKMZw54YQlPlhzEIx6gRr5Pmu0=";
+  };
+
+  v0_5_184 = fetchQmkFirmware {
+    tag = "0.5.184";
+    hash = "sha256-Wr6+24bQhAS/XFK4vz8S4VWlkRFfVUs6X/igK6a0LbY=";
+  };
+
+  v0_5_183 = fetchQmkFirmware {
+    tag = "0.5.183";
+    hash = "sha256-sjYWkQpBmyXOdXmuOnypAgxqUvNEU1tQQv8dxzyQ/fk=";
+  };
+
+  v0_5_182 = fetchQmkFirmware {
+    tag = "0.5.182";
+    hash = "sha256-9d6ey1Ni7rnm7PloA8kPRW7yeVtai5umRONBFghakrc=";
+  };
+
+  v0_5_181 = fetchQmkFirmware {
+    tag = "0.5.181";
+    hash = "sha256-Rjlfz9F2NLwJROtscwCt7re7ead0M9PIo6GGZ7+0f0Y=";
+  };
+
+  v0_5_180 = fetchQmkFirmware {
+    tag = "0.5.180";
+    hash = "sha256-ed7tIcaxHAaadEhcMp0ixPd4rCAqtDwf9r04rM4aQ+A=";
+  };
+
+  v0_5_179 = fetchQmkFirmware {
+    tag = "0.5.179";
+    hash = "sha256-G3+C7S8uZkA2kBAPyrsjtx0dLtE4146bJxDcAByoV2E=";
+  };
+
+  v0_5_178 = fetchQmkFirmware {
+    tag = "0.5.178";
+    hash = "sha256-5a7ouIjmF5RJ7SB/77ypJQ9OUoQbmr86qgnMoF++v/Q=";
+  };
+
+  v0_5_177 = fetchQmkFirmware {
+    tag = "0.5.177";
+    hash = "sha256-fAUbmEyXgdXi9Jr3pRf1dFH+mToVb78uTtld2K3JGfs=";
+  };
+
+  v0_5_176 = fetchQmkFirmware {
+    tag = "0.5.176";
+    hash = "sha256-KKaDGYh/wjfj7JDibE5Ik0neHYmf6ODBtmve6ot+z7g=";
+  };
+
+  v0_5_175 = fetchQmkFirmware {
+    tag = "0.5.175";
+    hash = "sha256-DW2fSxIsDQxw1odZpx1s3/Pyaw/z5xrRVtvYFF73Zc0=";
+  };
+
+  v0_5_174 = fetchQmkFirmware {
+    tag = "0.5.174";
+    hash = "sha256-xPMa3LAkyeVgJmO7kqeYEOrSfaAYMbMWDJ4YCF447Dw=";
+  };
+
+  v0_5_173 = fetchQmkFirmware {
+    tag = "0.5.173";
+    hash = "sha256-JJjlQdUTl6pUFh5wil0WkLou9W/7dx7j5aZOYlVhW08=";
+  };
+
+  v0_5_172 = fetchQmkFirmware {
+    tag = "0.5.172";
+    hash = "sha256-x6xLeQjJn3ayBEGE1uoA34WfXoDhVYEdeWkVLcNnSJc=";
+  };
+
+  v0_5_171 = fetchQmkFirmware {
+    tag = "0.5.171";
+    hash = "sha256-ReJ207zXuQKrhN1o2akipmvN0kQlQVl0wsiaEh9T+Zg=";
+  };
+
+  v0_5_170 = fetchQmkFirmware {
+    tag = "0.5.170";
+    hash = "sha256-AFNXgyazwMMiaKdKwZ9CQdBFy/tnnaCUdIVwVGm7fxo=";
+  };
+
+  v0_5_169 = fetchQmkFirmware {
+    tag = "0.5.169";
+    hash = "sha256-SicHquOv6bmKU/4UYwU6dxAqOPmzGpq/u4U+B2JM1BY=";
+  };
+
+  v0_5_168 = fetchQmkFirmware {
+    tag = "0.5.168";
+    hash = "sha256-Gyk5QWoYuV/QVsxKPVh0qCP5Ygg0xSyI02+W6//rNH4=";
+  };
+
+  v0_5_167 = fetchQmkFirmware {
+    tag = "0.5.167";
+    hash = "sha256-SPI4EIgYPufUI2tjRBXtzXqHOHCoBikWy6CD5WVUSkg=";
+  };
+
+  v0_5_166 = fetchQmkFirmware {
+    tag = "0.5.166";
+    hash = "sha256-h3HcDRMEAQ4HYzx5WmWNHyLsm0jBx2omzbqf5CoWN64=";
+  };
+
+  v0_5_165 = fetchQmkFirmware {
+    tag = "0.5.165";
+    hash = "sha256-h3HcDRMEAQ4HYzx5WmWNHyLsm0jBx2omzbqf5CoWN64=";
+  };
+
+  v0_5_164 = fetchQmkFirmware {
+    tag = "0.5.164";
+    hash = "sha256-d81FzDHRkpOo44X1d3CGGI3ztm4lnU/KyN1XR1gJbsQ=";
+  };
+
+  v0_5_163 = fetchQmkFirmware {
+    tag = "0.5.163";
+    hash = "sha256-1FkQnn7hTARhcS4PUEoeWTIWZDbCBzAUuDZohnPE9N8=";
+  };
+
+  v0_5_162 = fetchQmkFirmware {
+    tag = "0.5.162";
+    hash = "sha256-B/vMacmrUtwRXpnDOCvv1nt3TDMcUti1a+dUueJNKSU=";
+  };
+
+  v0_5_161 = fetchQmkFirmware {
+    tag = "0.5.161";
+    hash = "sha256-VnrsK9VaR4TUhbrONImcUpsX+8JV/z1phuDnkVKFUSE=";
+  };
+
+  v0_5_160 = fetchQmkFirmware {
+    tag = "0.5.160";
+    hash = "sha256-CBnjn0vqVJCV/SoTQ3guGd8SSEGBlvCtUacT3/ThqC4=";
+  };
+
+  v0_5_159 = fetchQmkFirmware {
+    tag = "0.5.159";
+    hash = "sha256-pQd0wO15V+xUu8g2TXgVh+qrqFsqIyqUTJeP4z24X+8=";
+  };
+
+  v0_5_158 = fetchQmkFirmware {
+    tag = "0.5.158";
+    hash = "sha256-+QlatzA/6EDTXBh/1mm9c/HX6oaBGkrkrerew8MuVpk=";
+  };
+
+  v0_5_157 = fetchQmkFirmware {
+    tag = "0.5.157";
+    hash = "sha256-+QlatzA/6EDTXBh/1mm9c/HX6oaBGkrkrerew8MuVpk=";
+  };
+
+  v0_5_156 = fetchQmkFirmware {
+    tag = "0.5.156";
+    hash = "sha256-+QlatzA/6EDTXBh/1mm9c/HX6oaBGkrkrerew8MuVpk=";
+  };
+
+  v0_5_155 = fetchQmkFirmware {
+    tag = "0.5.155";
+    hash = "sha256-TF43yy8VmHlIztU6FhQF1m1XEeB/4d5uheDIXY3WyMw=";
+  };
+
+  v0_5_154 = fetchQmkFirmware {
+    tag = "0.5.154";
+    hash = "sha256-huJvt4tmX7JiM1vOvHdH1EFf7trgnB7ZEkxRv9jV5RM=";
+  };
+
+  v0_5_153 = fetchQmkFirmware {
+    tag = "0.5.153";
+    hash = "sha256-xBNwwu/QMCdA2Ri21/nOvLUBle56EPKm1vaI89n9BHo=";
+  };
+
+  v0_5_152 = fetchQmkFirmware {
+    tag = "0.5.152";
+    hash = "sha256-LK8qG3/c5S+EzLVH9rdU1l2MtT+J+PWx/TValtAaOgQ=";
+  };
+
+  v0_5_151 = fetchQmkFirmware {
+    tag = "0.5.151";
+    hash = "sha256-0e3CPGpiIw42ug37RXQ/tIsUqGeQwiHsWYwyW7soHgI=";
+  };
+
+  v0_5_150 = fetchQmkFirmware {
+    tag = "0.5.150";
+    hash = "sha256-7hlHDAV/BvAA6Mt7aqoqMYlGry1V2UnZNv9EnHKWEi0=";
+  };
+
+  v0_5_149 = fetchQmkFirmware {
+    tag = "0.5.149";
+    hash = "sha256-InXebga1Gi5vB00m0MaK6UaxXk4nPi0jZW5sXCYtccU=";
+  };
+
+  v0_5_148 = fetchQmkFirmware {
+    tag = "0.5.148";
+    hash = "sha256-9+IESM5VntR0bI28qXFBnC44eRKOmy1VoK6exBk1XCk=";
+  };
+
+  v0_5_147 = fetchQmkFirmware {
+    tag = "0.5.147";
+    hash = "sha256-ea3DglK3JWJhXLFB4V503P30IWKOPaTWosBL3+QENfQ=";
+  };
+
+  v0_5_146 = fetchQmkFirmware {
+    tag = "0.5.146";
+    hash = "sha256-l86i3QsC4I8WlBzWV62Jt970sRXyzoslOFT6lHxANpc=";
+  };
+
+  v0_5_145 = fetchQmkFirmware {
+    tag = "0.5.145";
+    hash = "sha256-l86i3QsC4I8WlBzWV62Jt970sRXyzoslOFT6lHxANpc=";
+  };
+
+  v0_5_144 = fetchQmkFirmware {
+    tag = "0.5.144";
+    hash = "sha256-bk6Pou7Yuo99HpnMl81ZT1o+C1PJgdZ4xfkN/qy+asc=";
+  };
+
+  v0_5_143 = fetchQmkFirmware {
+    tag = "0.5.143";
+    hash = "sha256-PKrRUemRFeOapflxcvhGKFAp+NBWYuh3YgfmoGDjrhs=";
+  };
+
+  v0_5_142 = fetchQmkFirmware {
+    tag = "0.5.142";
+    hash = "sha256-LhD+voxKERStZqg850P+O0rEMPi9O/z48OfWZOX6ZC0=";
+  };
+
+  v0_5_141 = fetchQmkFirmware {
+    tag = "0.5.141";
+    hash = "sha256-Ayu1T8kpLoel+Lg55O5vLDqyzJf8qQybY9Wj2ABkUFA=";
+  };
+
+  v0_5_140 = fetchQmkFirmware {
+    tag = "0.5.140";
+    hash = "sha256-N+wx9nyuwfOSjbFUM9Eclhbyb8Sjjm5RjGwojF3bLoA=";
+  };
+
+  v0_5_139 = fetchQmkFirmware {
+    tag = "0.5.139";
+    hash = "sha256-xe4lDXo/3ttv0mFEaTZi2fpE0of0YGTVaMkeA4pVzuA=";
+  };
+
+  v0_5_138 = fetchQmkFirmware {
+    tag = "0.5.138";
+    hash = "sha256-//tb2U+mSmDGY7EXg5dsaJO49aPtV7Jh5ZRqqoOpWdE=";
+  };
+
+  v0_5_137 = fetchQmkFirmware {
+    tag = "0.5.137";
+    hash = "sha256-AyvPbMeptrkDfa+nbPNnFSX/74ShY/qvTxC6Ah6VEVk=";
+  };
+
+  v0_5_136 = fetchQmkFirmware {
+    tag = "0.5.136";
+    hash = "sha256-MYFutydMyNVjZJPLQ08eKMC/DPCcBUgWod5A6cLHZuQ=";
+  };
+
+  v0_5_135 = fetchQmkFirmware {
+    tag = "0.5.135";
+    hash = "sha256-BobyAzHCkIqmCpRoqHwUdbRelfNeYZ1vUPKbxLEG15E=";
+  };
+
+  v0_5_134 = fetchQmkFirmware {
+    tag = "0.5.134";
+    hash = "sha256-g02ijuwQvvScinWO7dJdjU3mbjJM1HDwjmywdR6rH+E=";
+  };
+
+  v0_5_133 = fetchQmkFirmware {
+    tag = "0.5.133";
+    hash = "sha256-JLQ/ARyKq4DAI0RUwV3mQnpRr6dsg8uevpdPNWYBK+o=";
+  };
+
+  v0_5_132 = fetchQmkFirmware {
+    tag = "0.5.132";
+    hash = "sha256-CxZJGqZlalk8iWZizSlOmnt0pZIR2XSqwS9y4zcd37M=";
+  };
+
+  v0_5_131 = fetchQmkFirmware {
+    tag = "0.5.131";
+    hash = "sha256-rZ/FlaupF2fz2oi8CLUFQ0VpTK3ZGqWmMdwGKsJx4Wc=";
+  };
+
+  v0_5_130 = fetchQmkFirmware {
+    tag = "0.5.130";
+    hash = "sha256-uU3YKVvkc5T6vhsGM+mXM/3l6gi/pVtXvt9RfRyigH4=";
+  };
+
+  v0_5_129 = fetchQmkFirmware {
+    tag = "0.5.129";
+    hash = "sha256-LVIsjFeTm6B0FJXzk2zTPyDp1V+cRRLmeELdGicgKLU=";
+  };
+
+  v0_5_128 = fetchQmkFirmware {
+    tag = "0.5.128";
+    hash = "sha256-AmP0JAREqn4FfrooXzc8xLaBvCAAL2l+F6aDGzhzxvA=";
+  };
+
+  v0_5_127 = fetchQmkFirmware {
+    tag = "0.5.127";
+    hash = "sha256-5YjEn7qe1rl0bGItUWf3q2x8M+AvuKCzsI6rsKZyZvc=";
+  };
+
+  v0_5_126 = fetchQmkFirmware {
+    tag = "0.5.126";
+    hash = "sha256-sAOWf2ya9H8Jc5kV6BGGpfAgQRUU1GU8w19PZPaEScE=";
+  };
+
+  v0_5_125 = fetchQmkFirmware {
+    tag = "0.5.125";
+    hash = "sha256-Pr63FySjFWwS2GNkeJHCRhm5qMkUEKHTHikjDmQlyTY=";
+  };
+
+  v0_5_124 = fetchQmkFirmware {
+    tag = "0.5.124";
+    hash = "sha256-lQC+XwxU0ZcXTqm4MCX/pX2DPHuRbl4XcY6cOg3PGVY=";
+  };
+
+  v0_5_123 = fetchQmkFirmware {
+    tag = "0.5.123";
+    hash = "sha256-S94MSDhRD52T+Fm1GUUlQ1xaABEy14Izp+BsCxZ/cxc=";
+  };
+
+  v0_5_122 = fetchQmkFirmware {
+    tag = "0.5.122";
+    hash = "sha256-AgFsj2XzqqPBmxXl8ODDFTg+qVswJkDIkdNkE+/tg9Q=";
+  };
+
+  v0_5_121 = fetchQmkFirmware {
+    tag = "0.5.121";
+    hash = "sha256-3d9HihRejVoKOradJSXcSIQX2etc8+S0mwQ42bDu8hE=";
+  };
+
+  v0_5_120 = fetchQmkFirmware {
+    tag = "0.5.120";
+    hash = "sha256-zoalNfmDw6f0YXryoaHxqOqhEl8Lr1X8qThdxy+PLs4=";
+  };
+
+  v0_5_119 = fetchQmkFirmware {
+    tag = "0.5.119";
+    hash = "sha256-j7Edy9SkcdBsaibCTMOvsJDaVsBdXameOQHE7AJsH/E=";
+  };
+
+  v0_5_118 = fetchQmkFirmware {
+    tag = "0.5.118";
+    hash = "sha256-NWplEkg9TaHukGc58J86KfknkNe3c9QTaHNPQgjOuS4=";
+  };
+
+  v0_5_117 = fetchQmkFirmware {
+    tag = "0.5.117";
+    hash = "sha256-EmzdODj4okAul4ysruweJT0vVwlAQ96hAKqZ4GR4vI4=";
+  };
+
+  v0_5_116 = fetchQmkFirmware {
+    tag = "0.5.116";
+    hash = "sha256-5Vb0IdZIxvNW35GZ8dtGN2W4KNpw2j6u9CrseqrqH84=";
+  };
+
+  v0_5_115 = fetchQmkFirmware {
+    tag = "0.5.115";
+    hash = "sha256-aqgsgjIlTsT17Gt1eOxDEqDamLEjdwuzAKsv/tqiSAE=";
+  };
+
+  v0_5_114 = fetchQmkFirmware {
+    tag = "0.5.114";
+    hash = "sha256-X7E7gKfdbw1kQdW4AebmZu5U75jGYRBamuTwMcW99mE=";
+  };
+
+  v0_5_113 = fetchQmkFirmware {
+    tag = "0.5.113";
+    hash = "sha256-BwJrxROPQ1QMVWM1AONK7Ba7/y6Y4XAiYPAFLWKXRiA=";
+  };
+
+  v0_5_112 = fetchQmkFirmware {
+    tag = "0.5.112";
+    hash = "sha256-S3Kv/JPEIGe6I9BRRqSD2eAMlUFZ17Rn4/HaY3uQFo4=";
+  };
+
+  v0_5_111 = fetchQmkFirmware {
+    tag = "0.5.111";
+    hash = "sha256-qj2c1wEul84S7vLbAVQf7XaxWBdaHCV3aKxiGw4zJf4=";
+  };
+
+  v0_5_110 = fetchQmkFirmware {
+    tag = "0.5.110";
+    hash = "sha256-d5dqbXCaZJlw+uRyTftQzK2OoV6Jn5uEPjlzBozLXRs=";
+  };
+
+  v0_5_109 = fetchQmkFirmware {
+    tag = "0.5.109";
+    hash = "sha256-1YIMekLJZKY/jtLeg7DUafRhVR6tmj2c6qcyTTeZwVs=";
+  };
+
+  v0_5_108 = fetchQmkFirmware {
+    tag = "0.5.108";
+    hash = "sha256-lCKNlEU0nLy92eQA+UIc+r3tHPDeHgx4oC7VNoPld5Y=";
+  };
+
+  v0_5_107 = fetchQmkFirmware {
+    tag = "0.5.107";
+    hash = "sha256-Lf4AaLhJuGnWzF4PCshhRumsVM0i4H4j1h7FMv1W8zk=";
+  };
+
+  v0_5_106 = fetchQmkFirmware {
+    tag = "0.5.106";
+    hash = "sha256-8OVOs5jqtWwlXSbecfdMLe43Qc9VjGL8FROy2Ac2cnA=";
+  };
+
+  v0_5_105 = fetchQmkFirmware {
+    tag = "0.5.105";
+    hash = "sha256-iS0KMcEGM2B0ddbvYYPgIFQAMaRwzF3b/pc/bQVix1M=";
+  };
+
+  v0_5_104 = fetchQmkFirmware {
+    tag = "0.5.104";
+    hash = "sha256-6JR4I5RX7x0Lhsd5vexXX6DpRN8rWyAOWwqILdcA+NU=";
+  };
+
+  v0_5_103 = fetchQmkFirmware {
+    tag = "0.5.103";
+    hash = "sha256-YmHvewLCE/Hp4otkdWlCv8fy123UWQnQe6/UivyENWk=";
+  };
+
+  v0_5_102 = fetchQmkFirmware {
+    tag = "0.5.102";
+    hash = "sha256-pw1DpJqa/SB8yJMj6++eQ1tAV4fLOVEyImb9wxAW/GA=";
+  };
+
+  v0_5_101 = fetchQmkFirmware {
+    tag = "0.5.101";
+    hash = "sha256-8gjNxrMk5+gxFMCc473tax0FgbnSu39ddaCjRy7raAE=";
+  };
+
+  v0_5_100 = fetchQmkFirmware {
+    tag = "0.5.100";
+    hash = "sha256-lnpf0Gc7jzrBUgRM3Y24mKs3KtEEPYHfNTWaN/SmbME=";
+  };
+
+  v0_5_99 = fetchQmkFirmware {
+    tag = "0.5.99";
+    hash = "sha256-8RWiMP++xCMhMRIvd0u267jwThSIjXfzMzPaqwLQXj4=";
+  };
+
+  v0_5_98 = fetchQmkFirmware {
+    tag = "0.5.98";
+    hash = "sha256-uQj9OO7joEMSa1KfBcTANaTCtAV3pNVcdHjfW4nxI24=";
+  };
+
+  v0_5_97 = fetchQmkFirmware {
+    tag = "0.5.97";
+    hash = "sha256-Px+ITO7ltKuWMepHKX5GEften8I8wLdBrLXM3B/Vu+c=";
+  };
+
+  v0_5_96 = fetchQmkFirmware {
+    tag = "0.5.96";
+    hash = "sha256-xtlLsjSU87ZoqEVrwFRZlgJhmckp/KtDyKImERT4ujI=";
+  };
+
+  v0_5_95 = fetchQmkFirmware {
+    tag = "0.5.95";
+    hash = "sha256-4B/WvKNuV1NJbzbQj+f33JEEFrstUd8HRcgVgzNEZgc=";
+  };
+
+  v0_5_94 = fetchQmkFirmware {
+    tag = "0.5.94";
+    hash = "sha256-E6DnSvswZFDFndLOk2+1FRNHhlakxW7YhLBEbCLMavQ=";
+  };
+
+  v0_5_93 = fetchQmkFirmware {
+    tag = "0.5.93";
+    hash = "sha256-zp8wm/q3EGHBX2cPk3ngdLX4znLt/2+8IFfjJ08kl3g=";
+  };
+
+  v0_5_92 = fetchQmkFirmware {
+    tag = "0.5.92";
+    hash = "sha256-KUKaGGw+LtSCHRY8oIu/d5FX2ofEUotPKlWK8fssCEQ=";
+  };
+
+  v0_5_91 = fetchQmkFirmware {
+    tag = "0.5.91";
+    hash = "sha256-OFjrmaCsLzGoqVdXFcF+lG/TaqjLqqwMk6R9bvGHNDw=";
+  };
+
+  v0_5_90 = fetchQmkFirmware {
+    tag = "0.5.90";
+    hash = "sha256-f6f60kyXCVbm+gIpBC4lbfmKubBLT8QHyhYTRNClDto=";
+  };
+
+  v0_5_89 = fetchQmkFirmware {
+    tag = "0.5.89";
+    hash = "sha256-w+ZpqQvuzNY3Zg2nfzR1SeSy0OyQ6TvFTKfvQEFgNzQ=";
+  };
+
+  v0_5_88 = fetchQmkFirmware {
+    tag = "0.5.88";
+    hash = "sha256-UcUp9fOTHd/CL/bD+C3HT1B12ZhrRTmyn+6t9xs41Ww=";
+  };
+
+  v0_5_87 = fetchQmkFirmware {
+    tag = "0.5.87";
+    hash = "sha256-mZV2nAIbbJBdgSh3J2Us31Cn9W6gKsJ5WR293Dx4m+8=";
+  };
+
+  v0_5_86 = fetchQmkFirmware {
+    tag = "0.5.86";
+    hash = "sha256-ouvuoo6FweNyRbSYnTetfaWJ0vnNWsViB+GYn2pmyQA=";
+  };
+
+  v0_5_85 = fetchQmkFirmware {
+    tag = "0.5.85";
+    hash = "sha256-um9C16j6Ee3N4lR3SD4h0x3vYrQgLbK3R0gtDDhiKuw=";
+  };
+
+  v0_5_84 = fetchQmkFirmware {
+    tag = "0.5.84";
+    hash = "sha256-cOhfdb8uavL1UZ0cCmkD+Jxltr2ctQ8z4V2C5A8Bruk=";
+  };
+
+  v0_5_83 = fetchQmkFirmware {
+    tag = "0.5.83";
+    hash = "sha256-jRJ/ZOPJmSDVLqud305CQHuQVih2DfG0RZ6VLuCVfR0=";
+  };
+
+  v0_5_82 = fetchQmkFirmware {
+    tag = "0.5.82";
+    hash = "sha256-PdtDDvOY0spa/Xi/LD2b/2WgoA+LnSeCZiQb4DqNQXw=";
+  };
+
+  v0_5_81 = fetchQmkFirmware {
+    tag = "0.5.81";
+    hash = "sha256-b5byIUw013X8scBj0Tl+9BxhWNwgbGUHlXRRMEDlkv8=";
+  };
+
+  v0_5_80 = fetchQmkFirmware {
+    tag = "0.5.80";
+    hash = "sha256-vc+JItM9TSLsfLBhhKQQlREmQXGcnvPND6EZUX1zui0=";
+  };
+
+  v0_5_79 = fetchQmkFirmware {
+    tag = "0.5.79";
+    hash = "sha256-AVCHK6c27a2VNQNSOeEOOD8ZxIvE4iRWeA0NZ6REv9M=";
+  };
+
+  v0_5_78 = fetchQmkFirmware {
+    tag = "0.5.78";
+    hash = "sha256-qaXzwd/amhBpZgyoJZGHIrztAjOJl1kHG4gZm+fqNFQ=";
+  };
+
+  v0_5_77 = fetchQmkFirmware {
+    tag = "0.5.77";
+    hash = "sha256-5l+Bes3RRp4o0/favjZKy74rkScKbGXpkbr8AtR1t9c=";
+  };
+
+  v0_5_76 = fetchQmkFirmware {
+    tag = "0.5.76";
+    hash = "sha256-7VmdgqIbPzlTGoBh9Z6EzEn4TkKdM7IZdlWHei0s3Fg=";
+  };
+
+  v0_5_75 = fetchQmkFirmware {
+    tag = "0.5.75";
+    hash = "sha256-NAt+K7ob0QpTyQzK2q79vVG0vAWGikGZp+NiOpBjedo=";
+  };
+
+  v0_5_74 = fetchQmkFirmware {
+    tag = "0.5.74";
+    hash = "sha256-JlrLlAWtojKz4KaUvnQaoJn6504n9oeNri6ZW+14pTs=";
+  };
+
+  v0_5_73 = fetchQmkFirmware {
+    tag = "0.5.73";
+    hash = "sha256-kZvAhiuEI5190hoHPXvjpXVy+XJ3J69FvOvAEOyfKrc=";
+  };
+
+  v0_5_72 = fetchQmkFirmware {
+    tag = "0.5.72";
+    hash = "sha256-Gywn2Ki9x7377nrcoZ6nE0aCR1BZTnefTYMfXtU6/a4=";
+  };
+
+  v0_5_71 = fetchQmkFirmware {
+    tag = "0.5.71";
+    hash = "sha256-1EVbbEqaobbfaN59RxxPVxlfyzPOf4S1MwhicHIzmSU=";
+  };
+
+  v0_5_70 = fetchQmkFirmware {
+    tag = "0.5.70";
+    hash = "sha256-byuNOyuzrP0TyT6mx1BoSmA8TIBKLvQb5JOlAZIPzB8=";
+  };
+
+  v0_5_69 = fetchQmkFirmware {
+    tag = "0.5.69";
+    hash = "sha256-FwOUEoD0+HPvclEzt0hoLxLCMUicbOPNTJO5sNYm0yY=";
+  };
+
+  v0_5_68 = fetchQmkFirmware {
+    tag = "0.5.68";
+    hash = "sha256-5zaRN2damDivI7XhhuxxKIiwC1gionhyPKpcA8hUgAo=";
+  };
+
+  v0_5_67 = fetchQmkFirmware {
+    tag = "0.5.67";
+    hash = "sha256-D3/3aPADypU2CLE2oIcxM9f/KvCi2fDU7R8RwSYE3v8=";
+  };
+
+  v0_5_66 = fetchQmkFirmware {
+    tag = "0.5.66";
+    hash = "sha256-hZL2ymRDpvrkKLDAiN6YYCwKSAaWVQ1dOKVLFYLuP8U=";
+  };
+
+  v0_5_65 = fetchQmkFirmware {
+    tag = "0.5.65";
+    hash = "sha256-snRD48+YQKGfEp4LkAlj6yKaKIctFuBJwUux0jIzCTI=";
+  };
+
+  v0_5_64 = fetchQmkFirmware {
+    tag = "0.5.64";
+    hash = "sha256-blZHP4rWyh3ez7oJzas9N39flP03IMttoF1+2NlxsFE=";
+  };
+
+  v0_5_63 = fetchQmkFirmware {
+    tag = "0.5.63";
+    hash = "sha256-dGZuXMHYSdRP20tBsOEvWrpEE6yDhmiAThpHvRFUV7g=";
+  };
+
+  v0_5_62 = fetchQmkFirmware {
+    tag = "0.5.62";
+    hash = "sha256-V6FiELBW0ygW+rwTXyhDcupQ/tY2nWVrhfnGU3688J8=";
+  };
+
+  v0_5_61 = fetchQmkFirmware {
+    tag = "0.5.61";
+    hash = "sha256-Z37saRlehhh8EMYUb1Mp/8/HsXU+nrPnm2gd6KWqdqU=";
+  };
+
+  v0_5_60 = fetchQmkFirmware {
+    tag = "0.5.60";
+    hash = "sha256-3LlqoJuBHyQWCSAjFThw2PdkY+kpFSNfKHcJtpY37NM=";
+  };
+
+  v0_5_59 = fetchQmkFirmware {
+    tag = "0.5.59";
+    hash = "sha256-axFRn0lPC4aSLzut6j5cLBeQ+AGTYf+IBgvpY37YW2Q=";
+  };
+
+  v0_5_58 = fetchQmkFirmware {
+    tag = "0.5.58";
+    hash = "sha256-ZIhM0eHEPberr8BH9aoeQu5orxTutIyn9tKVrUPm29Q=";
+  };
+
+  v0_5_57 = fetchQmkFirmware {
+    tag = "0.5.57";
+    hash = "sha256-nVG0A8XiFkowNRNwKHfZWEbuViAyTDEhFBLwKRzR2W4=";
+  };
+
+  v0_5_56 = fetchQmkFirmware {
+    tag = "0.5.56";
+    hash = "sha256-13ZQ+pJu49NnSlCFE5DR0w4bLWr7YDkb0txDtJ9ldgU=";
+  };
+
+  v0_5_55 = fetchQmkFirmware {
+    tag = "0.5.55";
+    hash = "sha256-jRXn82AaWVXuT4CcGhZgyUahgTdYKvw7kuvzFIyR3zM=";
+  };
+
+  v0_5_54 = fetchQmkFirmware {
+    tag = "0.5.54";
+    hash = "sha256-JcnlP31WsQSugQ/W3zEaoBd98l7CsDlZjQ5cr2sowB8=";
+  };
+
+  v0_5_53 = fetchQmkFirmware {
+    tag = "0.5.53";
+    hash = "sha256-DPcUVY9pGTRkKx632aDnlSr1/b3kOhkCQbvrZSL23Fg=";
+  };
+
+  v0_5_52 = fetchQmkFirmware {
+    tag = "0.5.52";
+    hash = "sha256-eufMb3uFiEukUdo7s2SbPRa+GekzXhdA/663aKsEPLo=";
+  };
+
+  v0_5_51 = fetchQmkFirmware {
+    tag = "0.5.51";
+    hash = "sha256-MYKeW9Gdx+YrVRR+/B1fgrHwNoVeFlBWhGp4EARQFWo=";
+  };
+
+  v0_5_50 = fetchQmkFirmware {
+    tag = "0.5.50";
+    hash = "sha256-+JJoqU9FL7jVJ/eJWZXvqaPLwHD9f5IRIXL4FmclQVo=";
+  };
+
+  v0_5_49 = fetchQmkFirmware {
+    tag = "0.5.49";
+    hash = "sha256-fPhJf5obhPko/TAPKl9W2apP3oXHJm7dlRY/e1RGCEI=";
+  };
+
+  v0_5_48 = fetchQmkFirmware {
+    tag = "0.5.48";
+    hash = "sha256-aV1b9c3iSmiHyvEVm4PhK9sZ4BkywneI43VuUrU+h9o=";
+  };
+
+  v0_5_47 = fetchQmkFirmware {
+    tag = "0.5.47";
+    hash = "sha256-Uj86fkIG9LQsUWEw++x+90I1ywEfURHcsEBxUDWWun0=";
+  };
+
+  v0_5_46 = fetchQmkFirmware {
+    tag = "0.5.46";
+    hash = "sha256-VzjzD1DCSIQXyS8a94maBAqnosI5RXEO01brIYWVHCU=";
+  };
+
+  v0_5_45 = fetchQmkFirmware {
+    tag = "0.5.45";
+    hash = "sha256-ownTNFyJ0jjYzNKyAEjr7YayhzwjNBN58fowPNF/Cnw=";
+  };
+
+  v0_5_44 = fetchQmkFirmware {
+    tag = "0.5.44";
+    hash = "sha256-41paFGsj7092/Z90g14xNfXVjZSfi2zAHiO9qzubark=";
+  };
+
+  v0_5_43 = fetchQmkFirmware {
+    tag = "0.5.43";
+    hash = "sha256-Ma7A0bSymACRaG7NbtmlQCYYeLTABafURlpX2poOOQw=";
+  };
+
+  v0_5_42 = fetchQmkFirmware {
+    tag = "0.5.42";
+    hash = "sha256-bpsu4l9gCJEkn1TNH2WJo7ALfRFJ5KQ5MpGG9PX90v0=";
+  };
+
+  v0_5_41 = fetchQmkFirmware {
+    tag = "0.5.41";
+    hash = "sha256-3oa4W0JEREmRuxPNZIsw6QvVDOwqtRRhnAzsRxzUHFU=";
+  };
+
+  v0_5_40 = fetchQmkFirmware {
+    tag = "0.5.40";
+    hash = "sha256-8enTTDm7w2Z9CgIBR/QdMDtpGWcvEBTSEgpqTqYenj0=";
+  };
+
+  v0_5_39 = fetchQmkFirmware {
+    tag = "0.5.39";
+    hash = "sha256-d1u+BIMvkmeJex4XUiLTKrGn3dq5e6yVqw2nPKPTzAo=";
+  };
+
+  v0_5_38 = fetchQmkFirmware {
+    tag = "0.5.38";
+    hash = "sha256-CQSMN722r+hgRucWaKFtTgLWJvn4ma2XkasOaeNmctc=";
+  };
+
+  v0_5_37 = fetchQmkFirmware {
+    tag = "0.5.37";
+    hash = "sha256-fmA575DDmJ6Mla9eOfSdB6RYMtxOA18RMWI2E3MUNkw=";
+  };
+
+  v0_5_36 = fetchQmkFirmware {
+    tag = "0.5.36";
+    hash = "sha256-lRDShp8+mhk13a3vQeBFX/sBtF7+d8VrHBSGAI+p9XM=";
+  };
+
+  v0_5_35 = fetchQmkFirmware {
+    tag = "0.5.35";
+    hash = "sha256-FKTePKfbLutPAwvrGLo6QaOQ0FOZHndIxSSgPpX4ZFg=";
+  };
+
+  v0_5_34 = fetchQmkFirmware {
+    tag = "0.5.34";
+    hash = "sha256-+G5Sd1wTbcc//JYXc+vQH3Er6bZtlK4ahJbhyQZruXw=";
+  };
+
+  v0_5_33 = fetchQmkFirmware {
+    tag = "0.5.33";
+    hash = "sha256-9vs+JQrMdPEmNAiFeYILQjEBj8DF193OHasOQSf7cuo=";
+  };
+
+  v0_5_32 = fetchQmkFirmware {
+    tag = "0.5.32";
+    hash = "sha256-B4dU1liInp7n0Uw6JNEznF+5e+raT90eRu5Kcoa0QT4=";
+  };
+
+  v0_5_31 = fetchQmkFirmware {
+    tag = "0.5.31";
+    hash = "sha256-tlyckwE6iy9EEpSMoyzEmSdIGFP1zho53xFR0g9sOq8=";
+  };
+
+  v0_5_30 = fetchQmkFirmware {
+    tag = "0.5.30";
+    hash = "sha256-2bhx/iOdPyOW8JYu8rgeVaiaJx8rc2s117eVe9yyQG8=";
+  };
+
+  v0_5_29 = fetchQmkFirmware {
+    tag = "0.5.29";
+    hash = "sha256-X7SBffP4HNaSwcyOKS/nnDtzfe4pYheOdAogbLNnF58=";
+  };
+
+  v0_5_28 = fetchQmkFirmware {
+    tag = "0.5.28";
+    hash = "sha256-hYj9nba6mYFY769osHNY92hBkOBXrY5JMxX0sV8/Xrs=";
+  };
+
+  v0_5_27 = fetchQmkFirmware {
+    tag = "0.5.27";
+    hash = "sha256-qDqU5gZ3eIEaYiuKyC3vzwBi8q5t63f0FIC0PW19OQM=";
+  };
+
+  v0_5_26 = fetchQmkFirmware {
+    tag = "0.5.26";
+    hash = "sha256-oD2X6sDMP7hyvfwthBiAWjEFIpUC/Namba8haYLKLFo=";
+  };
+
+  v0_5_25 = fetchQmkFirmware {
+    tag = "0.5.25";
+    hash = "sha256-dyxDBGqCj69k41SOGtZzS4xIFpXFM+B6VytHhLsn/c4=";
+  };
+
+  v0_5_24 = fetchQmkFirmware {
+    tag = "0.5.24";
+    hash = "sha256-Kbt1nEw3D/FJkGv//Gx/6naqnlgB1hb0oYgsckxm7u4=";
+  };
+
+  v0_5_23 = fetchQmkFirmware {
+    tag = "0.5.23";
+    hash = "sha256-V5CCcBv+vGvcs5jNvgaIT+1vGwCHhhtBLYLWrfFuExU=";
+  };
+
+  v0_5_22 = fetchQmkFirmware {
+    tag = "0.5.22";
+    hash = "sha256-g7jM8taYzxS8pK/De6zhg53TZ0iAhwKjOSW8OgF1qvs=";
+  };
+
+  v0_5_21 = fetchQmkFirmware {
+    tag = "0.5.21";
+    hash = "sha256-fLFlre391mx8yiQbfCA5/GkckzpPsAKWo5G8xSUtIYU=";
+  };
+
+  v0_5_20 = fetchQmkFirmware {
+    tag = "0.5.20";
+    hash = "sha256-oQyMQT+lNpM5dPuI8ET65iaLJxhNXGmARZEWl+rpaUc=";
+  };
+
+  v0_5_17 = fetchQmkFirmware {
+    tag = "0.5.17";
+    hash = "sha256-fE/zpEwMCyZGSmFsI2CM5pPVB9vTYk1LtWmW9pbAtpY=";
+  };
+
+  v0_5_16 = fetchQmkFirmware {
+    tag = "0.5.16";
+    hash = "sha256-95w6/iGpyef/Gv3oVUN9z19zc5AIdTaMn2ibMA9I078=";
+  };
+
+  v0_5_15 = fetchQmkFirmware {
+    tag = "0.5.15";
+    hash = "sha256-TGxcVA7eAWZqVamF5KNm2sJQZAgNFdJyxGdLldBYdM0=";
+  };
+
+  v0_5_14 = fetchQmkFirmware {
+    tag = "0.5.14";
+    hash = "sha256-tcs797PvAj0jdM/aoRegwVZude+7BFtM5poxyhY47wY=";
+  };
+
+  v0_5_13 = fetchQmkFirmware {
+    tag = "0.5.13";
+    hash = "sha256-mELPQVqvDNGY+pleOoVFYngH1qrd/oHwmmXIJANgf/0=";
+  };
+
+  v0_5_12 = fetchQmkFirmware {
+    tag = "0.5.12";
+    hash = "sha256-v7gE4+WeN473IPzYt7yRMypnBOkuOCH6AH2iqwRV1vw=";
+  };
+
+  v0_5_11 = fetchQmkFirmware {
+    tag = "0.5.11";
+    hash = "sha256-jyDtb0+FcZQbCefZcjVfGBeomIb9kt5PGyM8p12H18Y=";
+  };
+
+  v0_5_10 = fetchQmkFirmware {
+    tag = "0.5.10";
+    hash = "sha256-0+Zb6kmPhHVJAjx9HmeFJ9T6jnFcXmjsONCWilvtWPg=";
+  };
+
+  v0_5_9 = fetchQmkFirmware {
+    tag = "0.5.9";
+    hash = "sha256-v4B74Tzl/HyHrM83Tkn/b0WSn0NWKf2/bsE6nrLIL1M=";
+  };
+
+  v0_5_8 = fetchQmkFirmware {
+    tag = "0.5.8";
+    hash = "sha256-b8k6CiiN471D6sAv8YIGzlOt6XPe+jW2INzaG8OoTog=";
+  };
+
+  v0_5_7 = fetchQmkFirmware {
+    tag = "0.5.7";
+    hash = "sha256-qXU5JtWObfIrblRUg8fJCt4vFXNbUVKb5pBDVtiJ87g=";
+  };
+
+  v0_5_6 = fetchQmkFirmware {
+    tag = "0.5.6";
+    hash = "sha256-cIrVb5FcE35KrobdW6rQLtWNXq9sgXXS+i5SGnmuiHo=";
+  };
+
+  v0_5_5 = fetchQmkFirmware {
+    tag = "0.5.5";
+    hash = "sha256-RCV4Fc0doBU9RgDAam09DTWYBLL63OfQDzO1dlFh2H0=";
+  };
+
+  v0_5_4 = fetchQmkFirmware {
+    tag = "0.5.4";
+    hash = "sha256-V5HtdQjqYCAzYekCH6rRXOF5uxaoCNOVYdIX61VWpGo=";
+  };
+
+  v0_5_3 = fetchQmkFirmware {
+    tag = "0.5.3";
+    hash = "sha256-JbW2GZC6HF9uHcVZtUeIPaCFMxvu+dI9Lvz69yboMGE=";
+  };
+
+  v0_5_2 = fetchQmkFirmware {
+    tag = "0.5.2";
+    hash = "sha256-tnHeZrI9J/QvfkD7gaBlL6IkFjZ/UySXSRXeiXWEHvk=";
+  };
+
+  v0_5_1 = fetchQmkFirmware {
+    tag = "0.5.1";
+    hash = "sha256-KioeFX8cXHKAhqwHDXhVCbSHR4AZwZHonl47zCMd+G4=";
+  };
+
+  v0_5_0 = fetchQmkFirmware {
+    tag = "0.5.0";
+    hash = "sha256-lQaFRi2YuceIlSUhUyFMnwxnrrtuMnthfhX+g5mEpSw=";
+  };
+
 }

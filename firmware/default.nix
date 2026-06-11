@@ -28,9 +28,8 @@
         };
       };
 
-      config.firmware = import ./package-set.nix {
+      config.firmware = import ./versions.nix {
         inherit fetchQmkFirmware;
-        inherit lib;
       };
 
       config.apps.update-versions = with pkgs; rec {
