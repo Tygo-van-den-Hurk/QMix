@@ -8,7 +8,10 @@
         "edolstra",
         "elif",
         "fetchgit",
+        "foldl",
         "gitlint",
+        "gnugrep",
+        "gnused",
         "Hurk",
         "keymap",
         "mdformat",
@@ -23,6 +26,7 @@
         "shfmt",
         "statix",
         "stdenv",
+        "toplevel",
         "treefmt",
         "Tygo"
     ]

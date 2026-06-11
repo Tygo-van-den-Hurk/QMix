@@ -1,65 +1,48 @@
-{ pkgs, fetchQmkFirmware }:
+{ lib, fetchQmkFirmware }:
 
 let
-  inherit (pkgs) lib;
-
   versions = import ./versions.nix;
 
-  mkQmkFirmware =
-    {
-      version,
-      hash ? versions.${version},
-    }:
+  sortedVersions =
+    lib.sort lib.versionOlder (builtins.attrNames versions);
+
+  mkName = version:
+    "v${builtins.replaceStrings [ "." ] [ "_" ] version}";
+
+  mkPackage = version:
     fetchQmkFirmware {
-      inherit hash;
       tag = version;
+      hash = versions.${version};
     };
 
-  validVersions = lib.filterAttrs (_: hash: hash != null) versions;
-
-  generated = lib.mapAttrs' (
-    version: hash:
-    lib.nameValuePair version (mkQmkFirmware {
-      inherit version hash;
-    })
-  ) validVersions;
-
-  versionNames = builtins.attrNames validVersions;
-
-  sortedVersions = builtins.sort lib.versionOlder versionNames;
-
-  latest = lib.last sortedVersions;
-
-  aliases =
-    let
-      grouped = builtins.foldl' (
-        acc: version:
-        let
-          parts = lib.splitString "." version;
-
-          major = builtins.elemAt parts 0;
-
-          majorMinor = "${major}.${builtins.elemAt parts 1}";
-        in
-        acc
-        // {
-          ${major} = (acc.${major} or [ ]) ++ [ version ];
-
-          ${majorMinor} = (acc.${majorMinor} or [ ]) ++ [ version ];
-        }
-      ) { } sortedVersions;
-    in
-    lib.mapAttrs' (
-      alias: versions:
+  result =
+    builtins.foldl' (
+      acc: version:
       let
-        newest = lib.last (builtins.sort lib.versionOlder versions);
+        parts = lib.splitString "." version;
+
+        major = "v${builtins.elemAt parts 0}";
+        minor =
+          if builtins.length parts >= 2 then
+            "${major}_${builtins.elemAt parts 1}"
+          else
+            major;
+
+        full = mkName version;
+        pkg = mkPackage version;
       in
-      lib.nameValuePair alias generated.${newest}
-    ) grouped;
+      acc // {
+        ${full} = pkg;
+
+        # Since versions are processed oldest → newest,
+        # these aliases will always point to the latest version.
+        ${major} = pkg;
+        ${minor} = pkg;
+        latest = pkg;
+      }
+    )
+    {}
+    sortedVersions;
 
 in
-generated
-// aliases
-// {
-  latest = generated.${latest};
-}
+result
