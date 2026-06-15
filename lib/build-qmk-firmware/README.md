@@ -29,7 +29,7 @@ The new way using Userspaces requires an extra argument, namely your userspace:
 {
   firmware = pkgs.buildQmkFirmware rec {
     ...
-    userspace = ./some/path;
+    qmkUserspace = ./some/path;
   };
 }
 ```
