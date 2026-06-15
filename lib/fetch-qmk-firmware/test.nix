@@ -49,7 +49,7 @@ runCommand "test-fetch-qmk-firmware"
     + /* SHELL */ ''
 
       ### src1 ###
-      
+
       # assert src1 is a valid QMK git repository
       echo "src1 = $src1"
       [ -d "$src1/.git" ] || {

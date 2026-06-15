@@ -12,7 +12,9 @@
   tag ? null,
   rev ? null,
   hash ? null,
+  meta ? { },
 }:
+
 let
   error = "either the argument `tag' or the argument `rev' is required, but neither was provided";
   revspec =
@@ -23,6 +25,7 @@ let
     else
       throw error;
 in
+
 runCommand "qmk-firmware-${revspec}"
   {
     nativeBuildInputs = [ git ];
@@ -39,7 +42,10 @@ runCommand "qmk-firmware-${revspec}"
       inherit leaveDotGit;
     };
 
-    meta.description = "QMK firmware for building a keyboard.";
+    meta = {
+      description = "QMK firmware for building a keyboard.";
+    }
+    // meta;
   }
   /* SHELL */ ''
     cp "$src" -r "$out"

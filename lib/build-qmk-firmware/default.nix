@@ -2,20 +2,27 @@
   # Checks the `buildQmkFirmware` function.
   config.perSystem = { pkgs, self', ... }: {
     checks = with pkgs; {
-      buildQmkFirmware = 
-        let 
-          test = path: callPackage path { 
-            qmkFirmware = self'.firmware;
-          };
+      buildQmkFirmware =
+        let
+          test =
+            path:
+            callPackage path {
+              qmkFirmware = self'.firmware;
+              package = ./package.nix;
+            };
         in
-          symlinkJoin {
-            name = "all-tests-for-buildQmkFirmware";
-            paths = map test [
-              ./coercing.test.nix
-              ./general.test.nix
-              ./split.test.nix
+        runCommand "all-tests-for-buildQmkFirmware"
+          {
+            buildInputs = map test [
+              # ./tests/build-userspace.test.nix
+              ./tests/coercing.test.nix
+              ./tests/general.test.nix
+              ./tests/split.test.nix
             ];
-          };
+          }
+          /* SHELL */ ''
+            echo "$0" > $out
+          '';
     };
   };
 }

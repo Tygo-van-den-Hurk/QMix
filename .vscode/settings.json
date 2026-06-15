@@ -21,6 +21,7 @@
         "nixpkgs",
         "numtide",
         "pkgs",
+        "preonic",
         "qmix",
         "revspec",
         "shellcheck",
@@ -29,6 +30,8 @@
         "stdenv",
         "toplevel",
         "treefmt",
-        "Tygo"
+        "Tygo",
+        "userspace",
+        "userspaces"
     ]
 }

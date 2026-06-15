@@ -12,29 +12,84 @@ let # making sure that the variables aren't shadowed:
   qmkFirmwarePkgs = qmkFirmware;
 in
 
+assert lib.isDerivation qmkPkgs;
+assert lib.isDerivation qmkFirmwarePkgs."latest" or false;
+
 # arguments to `buildQmkFirmware`:
 {
   keyboard,
   keymap ? "default",
-  srcMount ? "keyboards/${toString keyboard}", # the destination in respect to `$QMK_HOME`.
-  qmkFirmware ? qmkFirmwarePkgs."latest",
+
+  qmkUserspace ? null,
   version ? null,
   split ? false,
-  qmk ? qmkPkgs,
+
   src ? null,
+  srcMount ? "keyboards/${toString keyboard}", # the destination in respect to `$QMK_HOME`.
+
+  qmkFirmware ? qmkFirmwarePkgs."latest",
+  qmk ? qmkPkgs,
+
+  meta ? { },
 }:
 
-assert builtins.typeOf keyboard == "string";
-assert builtins.typeOf srcMount == "string";
+# asserting types to ensure correct usage of the function.
+assert
+  if builtins.typeOf keyboard != "string" then
+    throw ''expected argument "keyboard" to be of type "string", but got: "${builtins.typeOf keyboard}"''
+  else
+    true;
+assert
+  if builtins.typeOf keymap != "string" then
+    throw ''expected argument "keymap" to be of type "string", but got: "${builtins.typeOf keymap}"''
+  else
+    true;
+assert
+  if src != null && builtins.typeOf src != "string" && builtins.typeOf src != "path" then
+    throw ''expected argument "src" to be of type "null", "string", or "path", but got: "${builtins.typeOf srcMount}"''
+  else
+    true;
+assert
+  if builtins.typeOf srcMount != "string" then
+    throw ''expected argument "srcMount" to be of type "string", but got: "${builtins.typeOf srcMount}"''
+  else
+    true;
+assert
+  if !lib.isDerivation qmk then
+    throw ''expected argument "qmk" to be of type "derivation", but got: "${builtins.typeOf qmk}"''
+  else
+    true;
+assert
+  let
+    inherit (builtins) typeOf;
+  in
+  if
+    !lib.isDerivation qmkFirmware && typeOf qmkFirmware != "string" && typeOf qmkFirmware != "int"
+  then
+    throw ''expected argument "qmkFirmware" to be of type "derivation", or "string", but got: "${builtins.typeOf qmkFirmware}"''
+  else
+    true;
+assert
+  if meta != null && builtins.typeOf meta != "set" then
+    throw ''expected argument "meta" to be of type "null", or "set", but got: "${builtins.typeOf meta}"''
+  else
+    true;
 
 let # Coercing a string, or number into a QMK firmware package:
-  getVersion = version: if qmkFirmwarePkgs ? "${toString version}" then
-      qmkFirmwarePkgs."${toString version}"
+  getVersion =
+    version:
+    let
+      noV = lib.removePrefix "v" (toString version);
+      noDots = lib.replaceStrings [ "." ] [ "_" ] noV;
+    in
+    if version == "latest" then
+      qmkFirmwarePkgs."latest"
     else
-      throw "No such version: '${toString version}'.";
-  
+      qmkFirmwarePkgs."v${noDots}" or (throw "No such version: '${toString version}'.");
+
   error = "qmkFirmware argument is no as expected: ${toString qmkFirmware}";
-  firmware = if lib.isDerivation qmkFirmware then
+  firmware =
+    if lib.isDerivation qmkFirmware || builtins.isPath qmkFirmware then
       qmkFirmware
     else if builtins.isString qmkFirmware then
       getVersion qmkFirmware
@@ -44,41 +99,53 @@ let # Coercing a string, or number into a QMK firmware package:
       throw error;
 in
 
-stdenv.mkDerivation rec {
+assert lib.isDerivation firmware || builtins.isPath firmware;
+
+stdenv.mkDerivation {
   name = "qmk-firmware";
   inherit version;
-
-  nativeBuildInputs = [ git qmk ];
-
-  dontUnpack = true;
-
-  env.QMK_INTERACTIVE = "False";
-  env.QMK_VERBOSE = "True";
-  env.null = toString null;
 
   inherit src;
   inherit keyboard;
   inherit keymap;
   inherit srcMount;
-
+  inherit split;
+  inherit qmkUserspace;
   qmkFirmware = firmware;
 
-  configurePhase = /* SHELL */ ''
-    runHook preConfigure
+  nativeBuildInputs = [
+    git
+    qmk
+  ];
 
-    # Patching the environment for QMK
+  env = {
+    QMK_INTERACTIVE = "False";
+    QMK_VERBOSE = "True";
+    null = toString null;
+    false = toString false;
+  };
+
+  unpackPhase = /* SHELL */ ''
+    runHook preUnpack
+
+    # Patching the environment
     export HOME="$PWD"
+    export XDG_CONFIG_HOME="$HOME/.config"
+    mkdir --parents "$XDG_CONFIG_HOME"
+
+    # Unpacking QMK firmware repository
     export QMK_HOME="$HOME/qmk_firmware"
     export QMK_FIRMWARE="$QMK_HOME"
-
-    # Setting up QMK firmware repository
     if [ "$qmkFirmware" == "$null" ]; then
-      echo "WARNING: firmware is null"
+      echo "ERROR: firmware is null"
+      exit 1
+    elif [ ! -e "$qmkFirmware" ]; then
+      echo "ERROR: firmware path does not exist."
+      exit 1
     else # mounting firmware
       echo "using qmkFirmware: $qmkFirmware"
-      cp "$qmkFirmware" --recursive "$QMK_HOME"
+      cp "$qmkFirmware" --recursive "$QMK_FIRMWARE"
       chmod 777 "$QMK_FIRMWARE" --recursive
-      cd "$QMK_FIRMWARE"
     fi
 
     # moving in the $src to $keyboardMount
@@ -88,14 +155,37 @@ stdenv.mkDerivation rec {
       echo "that is already in the main QMK repository."
     else # mounting src somewhere
       mkdir --parents "$QMK_HOME/$srcMount"
-      cp $src/* --recursive "$QMK_HOME/$srcMount"
+      cp "$src"/* --recursive "$QMK_HOME/$srcMount"
     fi
 
-    # if both are null
-    if [ "$qmkFirmware" == "$null" ] && [ "$src" == "$null" ]; then
-      echo "ERROR: both src and firmware were null"
-      exit 1
+    # Unpacking QMK userspace repository
+    if [ "$qmkUserspace" != "$null" ]; then
+      echo "using qmkUserspace: $qmkUserspace"
+      export QMK_USERSPACE="$HOME/qmk_userspace"
+      cp "$qmkUserspace" --recursive "$QMK_USERSPACE"
+      chmod 777 "$QMK_USERSPACE" --recursive
     fi
+
+    runHook postUnpack
+  '';
+
+  configurePhase = /* SHELL */ ''
+    runHook preConfigure
+
+    # Configuring QMK to behave the way thats desired
+    qmk config general.interactive="$QMK_INTERACTIVE"
+    qmk config general.verbose="$QMK_VERBOSE"
+
+    # Configuring QMK to use userspace if available.
+    if [ -n "$QMK_USERSPACE" ]; then
+      qmk config user.overlay_dir="$QMK_USERSPACE"
+      cd "$QMK_USERSPACE"
+    else # fall back to the old method
+      cd "$QMK_FIRMWARE"
+    fi
+
+    export QMIX_OUT="$HOME/._out"
+    mkdir --parents "$QMIX_OUT"
 
     runHook postConfigure
   '';
@@ -103,43 +193,33 @@ stdenv.mkDerivation rec {
   buildPhase = /* SHELL */ ''
     runHook preBuild         
 
-    # checking if the keyboard exists
-    if [ "$keyboard" == "$null" ]; then
-      echo "ERROR: No keyboard provided!"
-      exit 1
-    elif [ ! -d "$QMK_HOME/keyboards/$keyboard" ]; then
-      echo "ERROR: No such keyboard: $keyboard"
-      exit 1
-    fi
-
-    if [ "$split" == "${toString false}" ]; then
-      echo 'building non-split keyboard'
-      
+    compile() {
       qmk compile --clean \
+        --parallel "$(nproc)" \
         --keyboard "$keyboard" \
-        --keymap "$keymap"
-      mkdir --parents "$PWD/.out"
-      cp ./*.{hex,bin,uf2,eep} ./.out
+        --keymap "$keymap" "$@"
+    }
+
+    if [ "$split" == "$false" ]; then
+      echo 'building non-split keyboard'
+      compile
+      cp "$QMK_HOME/.build"/*.{hex,bin,uf2,eep} "$QMIX_OUT"
     else
       echo 'building split keyboard'
-      
       echo 'building left side'
-      qmk compile --clean \
-        --keyboard "$keyboard" \
-        --keymap "$keymap" \
+      mkdir --parents "$QMIX_OUT/left"
+      compile \
         --env handedness=left \
-        --env SIDE=left
-      mkdir --parents "$PWD/.out/left"
-      cp ./*.{hex,bin,uf2,eep} "$PWD/.out/left"
-
+        --env SIDE=left \
+        --env SPLIT=left
+      cp "$QMK_HOME/.build"/*.{hex,bin,uf2,eep} "$QMIX_OUT/left"
       echo 'building right side'
-      qmk compile --clean \
-        --keyboard "$keyboard" \
-        --keymap "$keymap" \
+      mkdir --parents "$QMIX_OUT/right"
+      compile \
         --env handedness=right \
-        --env SIDE=right
-      mkdir --parents "$PWD/.out/right"
-      cp ./*.{hex,bin,uf2,eep} "$PWD/.out/right"
+        --env SIDE=right \
+        --env SPLIT=right
+      cp "$QMK_HOME/.build"/*.{hex,bin,uf2,eep} "$QMIX_OUT/right"
     fi
 
     runHook postBuild
@@ -148,18 +228,23 @@ stdenv.mkDerivation rec {
   installPhase = /* SHELL */ ''
     runHook preInstall
 
+    echo 'ls "$QMIX_OUT"' && ls "$QMIX_OUT" -all
+
     # Copy results to the output
     mkdir --parents "$out/share/qmk/firmware"
-    cp ./.out/* --recursive "$out/share/qmk/firmware"
+    cp "$QMIX_OUT"/* --recursive "$out/share/qmk/firmware"
 
     # add version metadata to the output
     echo "$(qmk --version)" > "$out/share/qmk/version"
-    if [ "$version" != "${toString null}" ]; then
+    if [ "$version" != "$null" ]; then
       echo "$version" > "$out/share/qmk/firmware-version"
     fi
 
     runHook postInstall
   '';
 
-  meta.description = "Build QMK firmware for a specific keyboard.";
+  meta = {
+    description = "Build QMK firmware for ${keyboard}";
+  }
+  // meta;
 }
