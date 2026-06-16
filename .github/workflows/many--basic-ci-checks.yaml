@@ -1,0 +1,28 @@
+name: Checks
+# Updates the firmware cache once every week.
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main, master, release, development]
+    paths: [.github/workflows/many--basic-ci-checks.yaml.yaml, '**/*.nix', flake.lock]
+  pull_request:
+    branches: [main, master, release, development]
+    types: [opened, synchronize, reopened]
+    paths: [.github/workflows/many--basic-ci-checks.yaml.yaml, '**/*.nix', flake.lock]
+
+jobs:
+  update-firmware:
+    name: Check ${{ github.event_name == 'pull_request' && 'your Pull Request' || 'Latest Changes' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6.0.3
+      - name: Install Nix using cachix
+        uses: cachix/install-nix-action@v31.7.0
+      - name: Check `overlays` tests
+        run: nix build '.#checks.x86_64-linux.overlays' --print-build-logs
+      - name: Check `fetchQmkFirmware` tests
+        run: nix build '.#checks.x86_64-linux.fetchQmkFirmware' --print-build-logs
+      - name: Check `buildQmkFirmware` tests
+        run: nix build '.#checks.x86_64-linux.buildQmkFirmware' --print-build-logs
