@@ -21,7 +21,7 @@ runCommand "test-fetch-qmk-firmware"
 
     src2 = fetchQmkFirmware {
       hash = "sha256-a4BHtrI9il42WzSPWFaG5uH0iz6tjmdVKtbUhZacrOw=";
-      tag = "c53dd0fbb6eefa3f45085bae44dd35ddafa6045b"; # 0.33.2
+      rev = "c53dd0fbb6eefa3f45085bae44dd35ddafa6045b"; # 0.33.2
       clearKeyboards = true;
     };
 
@@ -62,7 +62,7 @@ runCommand "test-fetch-qmk-firmware"
         exit 1
       }
 
-      [ -z "$(ls -A "$src1/keyboards" 2>/dev/null)" ] || {
+      [ -n "$(ls -A "$src1/keyboards" 2>/dev/null)" ] || {
         echo "ERROR: src1 cleared keyboards directory"
         exit 1
       }
@@ -85,7 +85,7 @@ runCommand "test-fetch-qmk-firmware"
       }
 
       # Check clearKeyboards=true
-      [ -n "$(ls -A "$src2/keyboards" 2>/dev/null)" ] || {
+      [ -z "$(ls -A "$src2/keyboards" 2>/dev/null)" ] || {
         echo "ERROR: src2 did not clear keyboards directory"
         ls $src2/keyboards
         exit 1
