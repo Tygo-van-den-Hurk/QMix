@@ -1,0 +1,34 @@
+name: Update Firmware Repository
+# Updates the firmware cache once every week.
+
+on:
+  schedule: [cron: '0 0 */7 * *']
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/cron--update-firmware.yaml
+
+jobs:
+  update-firmware:
+    name: Update and Check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6.0.3
+      - name: Install Nix using cachix
+        uses: cachix/install-nix-action@v31.7.0
+      - name: Update Firmware Repository
+        run: nix run .#update-versions
+      - name: Check `overlays` tests
+        run: nix build '.#checks.x86_64-linux.overlays' --print-build-logs
+      - name: Check `fetchQmkFirmware` tests
+        run: nix build '.#checks.x86_64-linux.fetchQmkFirmware' --print-build-logs
+      - name: Check `buildQmkFirmware` tests
+        run: nix build '.#checks.x86_64-linux.buildQmkFirmware' --print-build-logs
+      - name: Git Stage, Commit, and Push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add . && git commit --message="chore: update versions" \
+            --message="Automated weekly ci run."
+          git push
