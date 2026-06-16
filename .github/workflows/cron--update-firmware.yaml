@@ -12,6 +12,8 @@ jobs:
   update-firmware:
     name: Update and Check
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6.0.3
@@ -27,8 +29,8 @@ jobs:
         run: nix build '.#checks.x86_64-linux.buildQmkFirmware' --print-build-logs
       - name: Git Stage, Commit, and Push
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
           git add . && git commit --message="chore: update versions" \
             --message="Automated weekly ci run."
           git push
