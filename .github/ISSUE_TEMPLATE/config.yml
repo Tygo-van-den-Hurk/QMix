@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    about: Read QMix' Documentation
+    url: https://tygo-van-den-hurk.github.io/QMix/
+  - name: Ask Questions
+    about: Ask questions to the community.
+    url: https://github.com/Tygo-van-den-Hurk/QMix/discussions/new?category=q-a
