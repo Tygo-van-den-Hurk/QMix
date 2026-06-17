@@ -68,6 +68,8 @@ Build [QMK firmware][qmk] with [Nix] using these helper functions!
 
 ## Setup
 
+### Flakes
+
 Add this flake to your flake's inputs:
 
 ```Nix
@@ -83,6 +85,34 @@ Add this flake to your flake's inputs:
 ```
 
 After adding it to your flake's inputs, make sure to run `nix flake lock` to update the lock file.
+
+### Non-Flakes
+
+If you're not using flakes, you can fetch QMix:
+
+```Nix
+let 
+  qmix = import (builtins.fetchGit {
+    url = "git@github.com:Tygo-van-den-Hurk/QMix";
+    ref = "main";
+  });
+in
+  ...
+```
+
+The resulting set `qmix` should be the same as if it was a flake. So kind of like this:
+
+```Nix
+{
+  formatter = { ... };
+  packages = { ... };
+  devShells = { ... };
+  firmware = { ... };
+  lib = { ... };
+}
+```
+
+Doing exactly this is not recommended as it is not reproducible. To make it reproducible again, pin the version you're fetching, and add a hash.
 
 ## Usage
 
