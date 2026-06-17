@@ -4,11 +4,11 @@
 
 <!-- Please check what applies. Note that these are not hard requirements but merely serve as information for reviewers. -->
 
-- [ ] Made sure my pull request fits [CONTRIBUTING.md][contributing.md].
+- [ ] Made sure my pull request fits [CONTRIBUTING.md].
 - [ ] Marked commits with `!` if they were breaking changes.
 - [ ] Updated the docs when needed.
 - [ ] Added tests for all new code.
-- [ ] This pull request does not fix a security issue. (See [SECURITY.md][security.md])
+- [ ] This pull request does not fix a security issue. (See [SECURITY.md])
 
 ## Meta data
 
@@ -22,7 +22,7 @@ Built on platform (select all applicable):
 
 ______________________________________________________________________
 
-Add a :+1: [reaction][reaction] to [pull requests you find important][pr].
+Add a :+1: [reaction] to [pull requests you find important][pr].
 
 [contributing.md]: https://github.com/Tygo-van-den-Hurk/QMix/blob/master/CONTRIBUTING.md
 [pr]: https://github.com/Tygo-van-den-Hurk/QMix/pulls?q=is%3Aopen+sort%3Areactions-%2B1-desc

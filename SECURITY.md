@@ -15,7 +15,7 @@ To report a security vulnerability, please provide the following information:
 
 ## Confidentiality
 
-We kindly ask you to keep the report confidential until a public announcement is made. Please sent me an email instead. You can find the email and GPG key [on my GitHub profile](http://redirects.tygo.van.den.hurk.dev/github/personal). 
+We kindly ask you to keep the report confidential until a public announcement is made. Please sent me an email instead. You can find the email and GPG key [on my GitHub profile][gh].
 
 ## Notes
 
@@ -25,3 +25,5 @@ We kindly ask you to keep the report confidential until a public announcement is
 - We will respond within a few weeks to confirm whether your report has been accepted or rejected.
 
 Thank you for helping to improve the security of QMix :D
+
+[gh]: http://redirects.tygo.van.den.hurk.dev/github/personal

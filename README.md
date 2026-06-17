@@ -49,7 +49,7 @@
   <a href="https://github.com/Tygo-van-den-Hurk/QMix/actions/workflows/cron--update-firmware.yaml">
     <picture>
       <source srcset="https://img.shields.io/github/actions/workflow/status/Tygo-van-den-Hurk/QMix/cron--update-firmware.yaml?style=flat&labelColor=FFFFFF&color=5277c3&logo=GitHub%20Actions&logoColor=000000&branch=main&label=QMK%20Up-to-date" media="(prefers-color-scheme: light)" />
-      <img src="https://img.shields.io/github/actions/workflow/status/Tygo-van-den-Hurk/QMix/cron--update-firmware.yaml?style=flat&labelColor=2F363D&color=415e9a&logo=GitHub%20Actions&logoColor=FFFFFF&branch=main&label=QMK%20Up-to-date" alt="the status of wether or not the current QMK firmware version is up to date" />
+      <img src="https://img.shields.io/github/actions/workflow/status/Tygo-van-den-Hurk/QMix/cron--update-firmware.yaml?style=flat&labelColor=2F363D&color=415e9a&logo=GitHub%20Actions&logoColor=FFFFFF&branch=main&label=QMK%20Up-to-date" alt="the status of whether or not the current QMK firmware version is up to date" />
     </picture>
   </a>
   <a href="https://github.com/Tygo-van-den-Hurk/QMix/actions/workflows/push--deploy-github-pages.yaml">

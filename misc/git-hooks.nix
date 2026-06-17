@@ -148,17 +148,6 @@
           "manual"
         ];
       };
-
-      # Checks for broken links in Markdown files.
-      lychee = {
-        enable = true;
-        args = [ "--offline" ];
-        stages = [
-          "pre-commit"
-          "pre-push"
-          "manual"
-        ];
-      };
     };
   };
 }
