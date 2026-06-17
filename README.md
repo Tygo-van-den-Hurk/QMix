@@ -132,7 +132,14 @@ in
 
 Then you can freely use the helper functions [`fetchQmkFirmware`][fetchqmkfirmware], and [`buildQmkFirmware`][buildqmkfirmware] to build [QMK] firmware using [Nix]. See their respective documentation pages for more information.
 
+## Examples
+
+I've collected a couple of [examples] for you if the [docs] where not clear enough. (in which case please do [open an issue][new-issue]!) These should help you use QMix. If you still cannot figure it out, let me know.
+
 [buildqmkfirmware]: ./lib/build-qmk-firmware/README.md
+[docs]: https://tygo-van-den-hurk.github.io/QMix/
+[examples]: ./examples/README.md
 [fetchqmkfirmware]: ./lib/fetch-qmk-firmware/README.md
+[new-issue]: https://github.com/Tygo-van-den-Hurk/QMix/issues/new/choose
 [nix]: http://nixos.org/
 [qmk]: http://qmk.fm/

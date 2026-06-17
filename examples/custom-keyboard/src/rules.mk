@@ -1,0 +1,6 @@
+MCU = atmega32u4
+
+BOOTLOADER = qmk-dfu
+
+MATRIX_ROWS = 4
+MATRIX_COLS = 12

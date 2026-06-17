@@ -154,8 +154,12 @@ stdenv.mkDerivation {
       echo "this is fine if you're building a keyboard"
       echo "that is already in the main QMK repository."
     else # mounting src somewhere
-      mkdir --parents "$QMK_HOME/$srcMount"
-      cp "$src"/* --recursive "$QMK_HOME/$srcMount"
+      export QMIX_SRC_MNT="$QMK_HOME/$srcMount"
+      echo "Copying src '$src' into '$QMIX_SRC_MNT'."
+      mkdir --parents "$QMIX_SRC_MNT"
+      cp "$src"/* --recursive "$QMIX_SRC_MNT"
+      echo "Contents of '$QMIX_SRC_MNT' of afterwards:"
+      ls "$QMIX_SRC_MNT" -all
     fi
 
     # Unpacking QMK userspace repository
@@ -175,6 +179,7 @@ stdenv.mkDerivation {
     # Configuring QMK to behave the way thats desired
     qmk config general.interactive="$QMK_INTERACTIVE"
     qmk config general.verbose="$QMK_VERBOSE"
+    qmk config user.qmk_home="$QMK_HOME"
 
     # Configuring QMK to use userspace if available.
     if [ -n "$QMK_USERSPACE" ]; then

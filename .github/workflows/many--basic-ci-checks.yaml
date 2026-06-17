@@ -26,3 +26,5 @@ jobs:
         run: nix build '.#checks.x86_64-linux.fetchQmkFirmware' --print-build-logs
       - name: Check `buildQmkFirmware` tests
         run: nix build '.#checks.x86_64-linux.buildQmkFirmware' --print-build-logs
+      - name: Build `examples` to guarantee they're up to date
+        run: nix build '.#checks.x86_64-linux.examples' --print-build-logs
