@@ -152,7 +152,7 @@
       # Checks for broken links in Markdown files.
       lychee = {
         enable = true;
-        flags = [ "--offline" ];
+        args = [ "--offline" ];
         stages = [
           "pre-commit"
           "pre-push"
