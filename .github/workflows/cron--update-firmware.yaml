@@ -15,24 +15,47 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Checkout repository
+
+      # Setup repository and workflow:
+      - name: Checkout repository.
         uses: actions/checkout@v6.0.3
-      - name: Install Nix using cachix
+      - name: Install Nix using cachix.
         uses: cachix/install-nix-action@v31.7.0
-      - name: Update Firmware Repository
+      - name: Configure git username.
+        run: git config --global user.name "github-actions"
+      - name: Configure git email address.
+        run: git config --global user.email "github-actions@github.com"
+      
+      # Update nix flake dependencies:
+      - name: Update nix flake dependencies.
+        run: nix flake update
+      - name: Commit new `flake.lock` file.
+        run: git add . && git commit --message="$title" --message="$body"
+        env:
+          title: 'chore(deps): update versions'
+          body: 'Automated weekly ci run to update flake dependencies.'
+      
+      # Update firmware outputs:
+      - name: Update firmware cache and outputs.
         run: nix run .#update-versions
-      - name: Check `overlays` tests
+      - name: Commit new
+        run: git add . && git commit --message="$title" --message="$body"
+        env:
+          title: 'chore(cron): add firmware versions'
+          body: 'Automated weekly ci run to add new QMK firmware versions.'
+      
+      # Check for possible regressions:
+      - name: Check `overlays` functionality.
         run: nix build '.#checks.x86_64-linux.overlays' --print-build-logs
-      - name: Check `fetchQmkFirmware` tests
+      - name: Check `fetchQmkFirmware` tests.
         run: nix build '.#checks.x86_64-linux.fetchQmkFirmware' --print-build-logs
-      - name: Check `buildQmkFirmware` tests
+      - name: Check `buildQmkFirmware` tests.
         run: nix build '.#checks.x86_64-linux.buildQmkFirmware' --print-build-logs
       - name: Build `examples` to guarantee they're up to date
         run: nix build '.#checks.x86_64-linux.examples' --print-build-logs
-      - name: Git Stage, Commit, and Push
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-          git add . && git commit --message="chore: update versions" \
-            --message="Automated weekly ci run."
-          git push
+      - name: Check `history` to guarantee compatibility with older versions of qmk
+        run: nix build '.#checks.x86_64-linux.history' --print-build-logs
+      
+      # Accept changes:
+      - name: Push changes now that checks have passed.
+        run: git push

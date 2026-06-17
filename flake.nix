@@ -37,6 +37,7 @@
         ./misc
         ./overlays
         ./shells
+        ./tests
       ];
     };
 }

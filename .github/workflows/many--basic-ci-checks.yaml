@@ -28,3 +28,5 @@ jobs:
         run: nix build '.#checks.x86_64-linux.buildQmkFirmware' --print-build-logs
       - name: Build `examples` to guarantee they're up to date
         run: nix build '.#checks.x86_64-linux.examples' --print-build-logs
+      - name: Check `history` to guarantee compatibility with older versions of qmk
+        run: nix build '.#checks.x86_64-linux.history' --print-build-logs

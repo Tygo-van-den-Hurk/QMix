@@ -4,6 +4,7 @@
   git,
   stdenv,
   qmkFirmware,
+  python3Packages,
   lib,
 }:
 
@@ -112,6 +113,10 @@ stdenv.mkDerivation {
   inherit split;
   inherit qmkUserspace;
   qmkFirmware = firmware;
+
+  propagatedBuildInputs = with python3Packages; [
+    appdirs # required for qmk cli when building QMK firmware < v0.26.0
+  ];
 
   nativeBuildInputs = [
     git

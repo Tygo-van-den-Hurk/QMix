@@ -136,6 +136,14 @@ Then you can freely use the helper functions [`fetchQmkFirmware`][fetchqmkfirmwa
 
 I've collected a couple of [examples] for you if the [docs] where not clear enough. (in which case please do [open an issue][new-issue]!) These should help you use QMix. If you still cannot figure it out, let me know.
 
+## Limitations
+
+The [`buildQmkFirmware`][buildqmkfirmware] function works officially **only** with the `latest` [QMK firmware][qmk_firmware] version in combination with the latest [qmk cli][qmk.cli] from unstable nixpkgs.
+
+This has to do with the build process for [QMK][qmk_firmware] evolving over the years, and the [qmk cli][qmk.cli] evolving along side it. This sometimes results in weird [QMK cli][qmk.cli] errors. Also supporting over 1700 versions is simply too much to all support.
+
+That being said, I've tested it, and if your version of the [QMK cli][qmk.cli] packaged in nixpkgs is recent, it should work at least a couple years back. Your results may vary though. If you need to support an older version, you can use the [`buildQmkFirmware`][buildqmkfirmware] derivation as inspiration and rely on `make` for your custom derivation, or upgrade to a new version of [qmk_firmware].
+
 [buildqmkfirmware]: ./lib/build-qmk-firmware/README.md
 [docs]: https://tygo-van-den-hurk.github.io/QMix/
 [examples]: ./examples/README.md
@@ -143,3 +151,5 @@ I've collected a couple of [examples] for you if the [docs] where not clear enou
 [new-issue]: https://github.com/Tygo-van-den-Hurk/QMix/issues/new/choose
 [nix]: http://nixos.org/
 [qmk]: http://qmk.fm/
+[qmk.cli]: https://search.nixos.org/packages?query=qmk
+[qmk_firmware]: https://github.com/qmk/qmk_firmware/
