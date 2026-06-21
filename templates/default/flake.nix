@@ -1,6 +1,4 @@
 {
-  description = "Helper functions to build QMK firmware using nix";
-
   # A collection of packages for the Nix package manager
   inputs.nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
 
@@ -13,32 +11,19 @@
     flake = false;
   };
 
-  # treefmt nix configuration modules
-  inputs.treefmt-nix = {
-    url = "github:numtide/treefmt-nix";
+  # The library to build QMK firmware with using Nix.
+  inputs.qmix = {
+    url = "github:Tygo-van-den-Hurk/QMix";
     inputs.nixpkgs.follows = "nixpkgs";
-  };
-
-  # Seamless integration of https://pre-commit.com git hooks with Nix.
-  inputs.git-hooks-nix = {
-    url = "github:cachix/git-hooks.nix";
+    inputs.flake-parts.follows = "flake-parts";
     inputs.flake-compat.follows = "flake-compat";
-    inputs.nixpkgs.follows = "nixpkgs";
   };
 
+  # For more information on how to configure read: https://flake.parts/
   outputs =
     inputs:
     inputs.flake-parts.lib.mkFlake { inherit inputs; } {
       systems = inputs.nixpkgs.lib.systems.flakeExposed;
-      imports = [
-        ./examples
-        ./firmware
-        ./lib
-        ./misc
-        ./overlays
-        ./shells
-        ./templates
-        ./tests
-      ];
+      imports = [ ./nix ];
     };
 }

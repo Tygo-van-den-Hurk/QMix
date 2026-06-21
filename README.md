@@ -68,6 +68,22 @@ Build [QMK firmware][qmk] with [Nix] using these helper functions!
 
 ## Setup
 
+There are 3 ways to get started:
+
+- Using [the template](#templates): if you're starting from a blank slate.
+- Using [flakes](#flakes): if you've got an existing flake and want to use QMix.
+- Using [non-flakes](#non-flakes): if you've got an existing repository and really don't want to use flakes or nix command, but do want to use QMix.
+
+### Templates
+
+If you want to speed up your setup, just generate the boilerplate from the template!
+
+```Shell
+nix flake new --template github:Tygo-van-den-Hurk/QMix my-keyboard
+```
+
+The you're done and can get right to [building](#usage)!
+
 ### Flakes
 
 Add this flake to your flake's inputs:
@@ -84,7 +100,7 @@ Add this flake to your flake's inputs:
 }
 ```
 
-After adding it to your flake's inputs, make sure to run `nix flake lock` to update the lock file.
+After adding it to your flake's inputs, make sure to run `nix flake lock` to update the lock file. Now you're ready [to build](#usage).
 
 ### Non-Flakes
 
@@ -113,6 +129,8 @@ The resulting set `qmix` should be the same as if it was a flake. So kind of lik
 ```
 
 Doing exactly this is not recommended as it is not reproducible. To make it reproducible again, pin the version you're fetching, and add a hash.
+
+Now that that is done, you're ready [to build](#usage).
 
 ## Usage
 
