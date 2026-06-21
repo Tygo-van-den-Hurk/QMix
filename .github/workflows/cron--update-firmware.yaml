@@ -16,46 +16,74 @@ jobs:
       contents: write
     steps:
 
+      # Clean unused space from Runner
+      - name: Cleanup unused space for disk
+        run: | 
+          echo "::group::Free space before cleanup" 
+          df -h 
+          echo "::endgroup::" 
+          echo "::group::Cleaned Files" 
+          sudo rm -rfv ${{ runner.os == 'Linux' && '/usr/local/lib/android' || '/Users/runner/Library/Android/sdk' }} 
+          echo "::endgroup::" 
+          echo "::group::Free space after cleanup" 
+          df -h 
+          echo "::endgroup::" 
+
       # Setup repository and workflow:
       - name: Checkout repository.
         uses: actions/checkout@v6.0.3
-      - name: Install Nix using cachix.
-        uses: cachix/install-nix-action@v31.7.0
       - name: Configure git username.
         run: git config --global user.name "github-actions"
       - name: Configure git email address.
         run: git config --global user.email "github-actions@github.com"
+      - name: Install Nix using cachix
+        uses: cachix/install-nix-action@v31.7.0
+        with:
+          nix_conf: |
+            keep-env-derivations = true
+            keep-outputs = true
+      - name: Restore and save Nix store
+        uses: nix-community/cache-nix-action@v7.0.2
+        with:
+          primary-key: nix-${{ runner.os }}-${{ hashFiles('**/*.nix', '**/flake.lock') }}
+          restore-prefixes-first-match: nix-${{ runner.os }}-
+          gc-max-store-size-linux: 10G
+          purge: true
+      
+      # Update firmware outputs:
+      - name: Update firmware cache and outputs.
+        run: nix run .#update-versions
+      - name: Exit early if there are no changes
+        id: changes
+        run: |
+          git add .
+          echo "has_changes=$([ -n "$(git diff --cached --name-only)" ] \
+            && echo true || echo false
+          )" >> "$GITHUB_OUTPUT"
+      - name: Commit changes
+        run: git commit --message="$title" --message="$body"
+        if: steps.changes.outputs.has_changes == 'true'
+        env:
+          title: 'chore(cron): add firmware versions'
+          body: 'Automated weekly ci run to add new QMK firmware versions.'
       
       # Update nix flake dependencies:
       - name: Update nix flake dependencies.
+        if: steps.changes.outputs.has_changes == 'true'
         run: nix flake update
       - name: Commit new `flake.lock` file.
+        if: steps.changes.outputs.has_changes == 'true'
         run: git add . && git commit --message="$title" --message="$body"
         env:
           title: 'chore(deps): update versions'
           body: 'Automated weekly ci run to update flake dependencies.'
       
-      # Update firmware outputs:
-      - name: Update firmware cache and outputs.
-        run: nix run .#update-versions
-      - name: Commit new
-        run: git add . && git commit --message="$title" --message="$body"
-        env:
-          title: 'chore(cron): add firmware versions'
-          body: 'Automated weekly ci run to add new QMK firmware versions.'
-      
       # Check for possible regressions:
-      - name: Check `overlays` functionality.
-        run: nix build '.#checks.x86_64-linux.overlays' --print-build-logs
-      - name: Check `fetchQmkFirmware` tests.
-        run: nix build '.#checks.x86_64-linux.fetchQmkFirmware' --print-build-logs
-      - name: Check `buildQmkFirmware` tests.
-        run: nix build '.#checks.x86_64-linux.buildQmkFirmware' --print-build-logs
-      - name: Build `examples` to guarantee they're up to date
-        run: nix build '.#checks.x86_64-linux.examples' --print-build-logs
-      - name: Check `history` to guarantee compatibility with older versions of qmk
-        run: nix build '.#checks.x86_64-linux.history' --print-build-logs
-      
+      - name: Check tests in parallel
+        if: steps.changes.outputs.has_changes == 'true'
+        run: nix flake check --print-build-logs --show-trace
+        
       # Accept changes:
       - name: Push changes now that checks have passed.
+        if: steps.changes.outputs.has_changes == 'true'
         run: git push

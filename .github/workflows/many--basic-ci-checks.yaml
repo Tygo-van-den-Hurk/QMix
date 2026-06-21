@@ -16,17 +16,31 @@ jobs:
     name: Check ${{ github.event_name == 'pull_request' && 'your Pull Request' || 'Latest Changes' }}
     runs-on: ubuntu-latest
     steps:
+      - name: Cleanup unused space for disk
+        run: | 
+          echo "::group::Free space before cleanup" 
+          df -h 
+          echo "::endgroup::" 
+          echo "::group::Cleaned Files" 
+          sudo rm -rfv ${{ runner.os == 'Linux' && '/usr/local/lib/android' || '/Users/runner/Library/Android/sdk' }} 
+          echo "::endgroup::" 
+          echo "::group::Free space after cleanup" 
+          df -h 
+          echo "::endgroup::" 
       - name: Checkout repository
         uses: actions/checkout@v6.0.3
       - name: Install Nix using cachix
         uses: cachix/install-nix-action@v31.7.0
-      - name: Check `overlays` tests
-        run: nix build '.#checks.x86_64-linux.overlays' --print-build-logs
-      - name: Check `fetchQmkFirmware` tests
-        run: nix build '.#checks.x86_64-linux.fetchQmkFirmware' --print-build-logs
-      - name: Check `buildQmkFirmware` tests
-        run: nix build '.#checks.x86_64-linux.buildQmkFirmware' --print-build-logs
-      - name: Build `examples` to guarantee they're up to date
-        run: nix build '.#checks.x86_64-linux.examples' --print-build-logs
-      - name: Check `history` to guarantee compatibility with older versions of qmk
-        run: nix build '.#checks.x86_64-linux.history' --print-build-logs
+        with:
+          nix_conf: |
+            keep-env-derivations = true
+            keep-outputs = true
+      - name: Restore and save Nix store
+        uses: nix-community/cache-nix-action@v7.0.2
+        with:
+          primary-key: nix-${{ runner.os }}-${{ hashFiles('**/*.nix', '**/flake.lock') }}
+          restore-prefixes-first-match: nix-${{ runner.os }}-
+          gc-max-store-size-linux: 10G
+          purge: true
+      - name: Check tests in parallel
+        run: nix flake check --print-build-logs --show-trace
