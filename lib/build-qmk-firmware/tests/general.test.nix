@@ -65,7 +65,7 @@ runCommand "test-build-qmk-firmware-general"
 
       ### src1 ###
 
-      if [ ! -d "$src1/share/qmk" ]; then
+      if [ ! -d "$src1/share/qmk-firmware" ]; then
         echo ERROR: src1 is not a QMK firmware result.
         exit 1
       fi
@@ -80,7 +80,7 @@ runCommand "test-build-qmk-firmware-general"
 
       ### src2 ###
 
-      if [ ! -d "$src2/share/qmk" ]; then
+      if [ ! -d "$src2/share/qmk-firmware" ]; then
         echo ERROR: src2 is not a QMK firmware result.
         exit 1
       fi

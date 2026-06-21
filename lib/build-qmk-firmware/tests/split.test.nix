@@ -62,12 +62,12 @@ runCommand "test-build-qmk-firmware-split"
 
       ### src1 ###
 
-      if [ ! -d "$src1/share/qmk" ]; then
+      if [ ! -d "$src1/share/qmk-firmware" ]; then
         echo ERROR: src1 is not a QMK firmware result.
         exit 1
       fi
 
-      if [ -d "$src1/share/qmk/firmware/left" ]; then
+      if [ -d "$src1/share/qmk-firmware/left" ]; then
         echo "ERROR: src1 has a 'left' directory"
         echo "src1 is not a split keyboard but it contains"
         echo "the left directory which is for split keyboards"
@@ -80,12 +80,12 @@ runCommand "test-build-qmk-firmware-split"
 
       ### src2 ###
 
-      if [ ! -d "$src2/share/qmk" ]; then
+      if [ ! -d "$src2/share/qmk-firmware" ]; then
         echo ERROR: src2 is not a QMK firmware result.
         exit 1
       fi
 
-      if [ ! -d "$src2/share/qmk/firmware/left" ]; then
+      if [ ! -d "$src2/share/qmk-firmware/left" ]; then
         echo "ERROR: src2 does not have a 'left' directory"
         echo "src2 is a split keyboard so it should contain"
         echo "a left directory. It did not, thus something"

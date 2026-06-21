@@ -34,7 +34,6 @@ rec {
 
             fetched = pkgs'.fetchQmkFirmware {
               hash = "sha256-3otHYlL7IYS3VFd5/S/mBFUcZkT3Fvxo87l3VTDxbL0=";
-              clearKeyboards = false;
               tag = "0.33.3";
             };
 
