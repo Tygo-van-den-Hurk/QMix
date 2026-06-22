@@ -1,0 +1,37 @@
+name: CI
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main, master, release, development]
+    paths: ['**/*.c', '**/*.h', '**/*.mk', '**/*.nix', flake.lock]
+  pull_request:
+    branches: [main, master, release, development]
+    types: [opened, synchronize, reopened]
+    paths: ['**/*.c', '**/*.h', '**/*.mk', '**/*.nix', flake.lock]
+
+jobs:
+  build:
+    name: Build QMK Firmware
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository.
+        uses: actions/checkout@v6.0.3
+      - name: Install Nix using cachix
+        uses: cachix/install-nix-action@v31.7.0
+      - name: Build QMK firmware using Nix and QMix
+        run: nix build --print-build-logs
+      - name: Find firmware files
+        run: |
+          shopt -s globstar nullglob
+          { echo 'files<<EOF'
+            printf '%s\n' result/**/*.{bin,hex}
+            echo 'EOF'
+          } >> "$GITHUB_OUTPUT"
+        id: find
+      - name: Upload workflow artifact
+        uses: actions/upload-artifact@v7.0.1
+        with:
+          if-no-files-found: error
+          name: QMK firmware build using Nix and QMix
+          path: ${{ steps.find.outputs.files }}
