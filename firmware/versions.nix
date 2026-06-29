@@ -7,9 +7,9 @@
 }:
 
 rec {
-  latest = v0_33_7;
+  latest = v0_33_8;
 
-  v0 = v0_33_7;
+  v0 = v0_33_8;
 
   v0_10 = v0_10_54;
   v0_11 = v0_11_70;
@@ -34,12 +34,17 @@ rec {
   v0_30 = v0_30_15;
   v0_31 = v0_31_12;
   v0_32 = v0_32_16;
-  v0_33 = v0_33_7;
+  v0_33 = v0_33_8;
   v0_5 = v0_5_264;
   v0_6 = v0_6_464;
   v0_7 = v0_7_172;
   v0_8 = v0_8_192;
   v0_9 = v0_9_59;
+
+  v0_33_8 = fetchQmkFirmware {
+    tag = "0.33.8";
+    hash = "sha256-i2dLCDqYCXRMec/VsCUUGDjx2E/16ywuWU/FBfn9hqc=";
+  };
 
   v0_33_7 = fetchQmkFirmware {
     tag = "0.33.7";
