@@ -1,4 +1,12 @@
 <div align="center">
+  <a href="https://github.com/Tygo-van-den-Hurk/QMix/">
+    <picture>
+      <source srcset="./assets/qmk-logo-light-mode.svg" media="(prefers-color-scheme: light)" />
+      <img src="./assets/qmk-logo-dark-mode.svg" alt="open bug reports" width="128rem" />
+    </picture>
+  </a>
+  <br>
+  <br>
   <!--~###################################~-->
   <!--~####    Open issues and PRs    ####~-->
   <!--~###################################~-->
