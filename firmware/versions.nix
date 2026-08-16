@@ -7,9 +7,9 @@
 }:
 
 rec {
-  latest = v0_33_8;
+  latest = v0_33_13;
 
-  v0 = v0_33_8;
+  v0 = v0_33_13;
 
   v0_10 = v0_10_54;
   v0_11 = v0_11_70;
@@ -34,12 +34,37 @@ rec {
   v0_30 = v0_30_15;
   v0_31 = v0_31_12;
   v0_32 = v0_32_16;
-  v0_33 = v0_33_8;
+  v0_33 = v0_33_13;
   v0_5 = v0_5_264;
   v0_6 = v0_6_464;
   v0_7 = v0_7_172;
   v0_8 = v0_8_192;
   v0_9 = v0_9_59;
+
+  v0_33_13 = fetchQmkFirmware {
+    tag = "0.33.13";
+    hash = "sha256-FDN+pQrgdKqleku5L6xViajY1jEkjZZX5ZGx46N8dkw=";
+  };
+
+  v0_33_12 = fetchQmkFirmware {
+    tag = "0.33.12";
+    hash = "sha256-f+6sAPkSYRWyuBmbzYcsU25KyXl2vnnKsP38wmvxuls=";
+  };
+
+  v0_33_11 = fetchQmkFirmware {
+    tag = "0.33.11";
+    hash = "sha256-crxxkDDzkwja6Qnw07teRdpjexySZbG4E3ir2XLr3tE=";
+  };
+
+  v0_33_10 = fetchQmkFirmware {
+    tag = "0.33.10";
+    hash = "sha256-6rTwvZnEjSQm0/elXBFBEZl2xIUk71r8QQ2SJxvIWUU=";
+  };
+
+  v0_33_9 = fetchQmkFirmware {
+    tag = "0.33.9";
+    hash = "sha256-4XkKPUE62ijvp6oxn+ABurvpNN9OlRx4U13JZJV6Kmc=";
+  };
 
   v0_33_8 = fetchQmkFirmware {
     tag = "0.33.8";
