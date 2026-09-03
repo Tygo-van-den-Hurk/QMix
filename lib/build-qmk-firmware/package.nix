@@ -1,6 +1,5 @@
 # Call package arguments:
 {
-  python3Packages,
   qmkFirmware,
   stdenv,
   qmk,
@@ -43,10 +42,6 @@ stdenv.mkDerivation {
   inherit (args.config) meta;
   inherit (args.config) qmk;
   inherit (args.config) src;
-
-  propagatedBuildInputs = with python3Packages; [
-    appdirs # required for qmk cli when building QMK firmware < v0.26.0
-  ];
 
   env = {
     QMK_INTERACTIVE = "False";

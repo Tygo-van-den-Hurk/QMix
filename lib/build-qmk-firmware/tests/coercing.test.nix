@@ -3,6 +3,7 @@
   callPackage,
   runCommand,
   package,
+  qmk,
   git,
   lib,
   jq,
@@ -11,6 +12,7 @@
 let
   buildQmkFirmware = callPackage package {
     inherit qmkFirmware;
+    inherit qmk;
   };
 in
 

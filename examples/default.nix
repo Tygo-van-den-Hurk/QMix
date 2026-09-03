@@ -16,10 +16,12 @@ in
     }:
     let
       inherit (pkgs) callPackage;
+      inherit (self'.packages) qmk;
       qmkFirmware = self'.firmware;
       fetchQmkFirmware = callPackage fetchQmkFirmwareHelperPath { };
       buildQmkFirmware = callPackage buildQmkFirmwareHelperPath {
         inherit qmkFirmware;
+        inherit qmk;
       };
 
       entries = builtins.readDir ./.;
@@ -32,6 +34,7 @@ in
           inherit qmkFirmware;
           inherit fetchQmkFirmware;
           inherit buildQmkFirmware;
+          inherit qmk;
         };
     in
     {

@@ -19,6 +19,7 @@ in
       qmkFirmware = self'.firmware;
       fetchQmkFirmware = callPackage fetchQmkFirmwareHelperPath { };
       buildQmkFirmware = callPackage buildQmkFirmwareHelperPath {
+        inherit (self'.packages) qmk;
         inherit qmkFirmware;
       };
 

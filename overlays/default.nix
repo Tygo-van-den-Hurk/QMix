@@ -10,7 +10,10 @@ rec {
   flake.overlays.default = final: previous: rec {
     qmkFirmware = inputs.self.firmware.${final.stdenv.system};
     fetchQmkFirmware = previous.callPackage fetchHelper { };
-    buildQmkFirmware = previous.callPackage buildHelper { };
+    buildQmkFirmware = previous.callPackage buildHelper {
+      inherit (inputs.self.packages.${final.stdenv.system}) qmk;
+      inherit qmkFirmware;
+    };
   };
 
   perSystem =

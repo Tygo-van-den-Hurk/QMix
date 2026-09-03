@@ -7,6 +7,7 @@
           test =
             path:
             callPackage path {
+              inherit (self'.packages) qmk;
               qmkFirmware = self'.firmware;
               package = ./package.nix;
             };

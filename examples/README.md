@@ -4,6 +4,7 @@ Sometimes all you need is an example to get you started. I've made a couple of e
 
 - [custom-keyboard](./custom-keyboard/README.md): When building your own keyboard not in the main QMK repository.
 - [custom-keymap](./custom-keymap/README.md): When you want a custom keymap to suit your needs.
+- [custom-qmk-package](./custom-qmk-package/README.md): When you want to use a custom package for QMK.
 - [diff-qmk-firm-version](./diff-qmk-firm-version/README.md): When you want to use an older version of the QMK firmware repository.
 - [nested-keyboard](./nested-keyboard/README.md): When your keyboard is keep in the QMK repository.
 - [non-split-keyboard](./non-split-keyboard/README.md): When you're building a "normal" keyboard.

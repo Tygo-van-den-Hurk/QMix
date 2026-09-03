@@ -36,6 +36,7 @@
         ./lib
         ./misc
         ./overlays
+        ./packages
         ./shells
         ./templates
         ./tests
