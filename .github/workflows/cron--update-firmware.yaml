@@ -24,6 +24,13 @@ jobs:
         run: git config --global user.email "github-actions@github.com"
       - name: Install Nix using cachix
         uses: cachix/install-nix-action@v31.7.0
+      - name: Restore and save Nix store
+        uses: nix-community/cache-nix-action@v7.0.2
+        with:
+          primary-key: nix-${{ runner.os }}-${{ hashFiles('**/*.nix', '**/flake.lock') }}
+          restore-prefixes-first-match: nix-${{ runner.os }}-
+          gc-max-store-size-linux: 10G
+          purge: true
       # Update firmware outputs:
       - name: Update firmware cache and outputs.
         run: nix run "$PWD#update-versions"
