@@ -37,7 +37,7 @@ jobs:
       - name: Stage changes to firmware in git
         run: git add firmware
       - name: Commit changes
-        run: git commit --message="$title" --message="$body"
+        run: git diff --cached --quiet || git commit --message="$title" --message="$body"
         env:
           title: 'chore(cron): add firmware versions'
           body: 'Automated weekly ci run to add new QMK firmware versions.'
@@ -47,7 +47,7 @@ jobs:
       - name: Stage changes to flake.lock file in git
         run: git add flake.lock
       - name: Commit changes
-        run: git commit --message="$title" --message="$body"
+        run: git diff --cached --quiet || git commit --message="$title" --message="$body"
         env:
           title: 'chore(deps): update versions'
           body: 'Automated weekly ci run to update flake dependencies.'
