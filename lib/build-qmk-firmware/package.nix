@@ -47,8 +47,12 @@ stdenv.mkDerivation {
     QMK_INTERACTIVE = "False";
     QMK_VERBOSE = "True";
     SKIP_GIT = "1";
+
     null = toString null;
     false = toString false;
+
+    CFLAGS = "-Wno-error=unused-but-set-variable";
+    CPPFLAGS = "-Wno-error=unused-but-set-variable";
   };
 
   unpackPhase = /* SHELL */ ''
